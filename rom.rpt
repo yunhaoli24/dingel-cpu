@@ -1,0 +1,801 @@
+Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\rom.rpt
+
+MAX+plus II Compiler Report File
+Version 10.0 9/14/2000
+Compiled: 08/28/2020 17:02:17
+
+Copyright (C) 1988-2000 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+ROM
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input Output Bidir  Memory  Memory  			 LCs
+POF       Device          Pins  Pins   Pins   Bits % Utilized  LCs  % Utilized
+
+rom       EP1K10TC100-1    9      8      0    0         0  %    44       7  %
+
+User Pins:                 9      8      0  
+
+
+
+Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\rom.rpt
+
+** PROJECT TIMING MESSAGES **
+
+Warning: Timing characteristics of device EP1K10TC100-1 are preliminary
+
+
+Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\rom.rpt
+rom
+
+***** Logic for device 'rom' compiled without errors.
+
+
+
+
+Device: EP1K10TC100-1
+
+ACEX 1K Configuration Scheme: Passive Serial
+
+Device Options:
+    User-Supplied Start-Up Clock               = OFF
+    Auto-Restart Configuration on Frame Error  = OFF
+    Release Clears Before Tri-States           = OFF
+    Enable Chip_Wide Reset                     = OFF
+    Enable Chip-Wide Output Enable             = OFF
+    Enable INIT_DONE Output                    = OFF
+    JTAG User Code                             = 7f
+    MultiVolt I/O                              = OFF
+    Enable Lock Output                         = OFF
+
+                                                                   
+                                                                   
+                  R R R R   R R           R R R R   R R R   R R    
+                  E E E E   E E           E E E E   E E E   E E    
+                  S S S S   S S V         S S S S   S S S   S S ^  
+                  E E E E   E E C A A     E E E E V E E E D E E D  
+                # R R R R   R R C D D     R R R R C R R R O R R A  
+                T V V V V G V V I D D   G V V V V C V V V U V V T  
+                C E E E E N E E N R R C N E E E E I E E E T E E A  
+                K D D D D D D D T 4 6 S D D D D D O D D D 6 D D 0  
+              ----------------------------------------------------_ 
+             / 100  98  96  94  92  90  88  86  84  82  80  78  76   |_ 
+            /     99  97  95  93  91  89  87  85  83  81  79  77    | 
+^CONF_DONE |  1                                                    75 | ^DCLK 
+     ^nCEO |  2                                                    74 | ^nCE 
+      #TDO |  3                                                    73 | #TDI 
+     VCCIO |  4                                                    72 | VCCINT 
+  RESERVED |  5                                                    71 | RESERVED 
+  RESERVED |  6                                                    70 | RESERVED 
+  RESERVED |  7                                                    69 | RESERVED 
+  RESERVED |  8                                                    68 | RESERVED 
+  RESERVED |  9                                                    67 | VCCIO 
+  RESERVED | 10                                                    66 | GND 
+       GND | 11                                                    65 | RESERVED 
+    VCCINT | 12                                                    64 | RESERVED 
+  RESERVED | 13                   EP1K10TC100-1                    63 | RESERVED 
+  RESERVED | 14                                                    62 | RESERVED 
+  RESERVED | 15                                                    61 | RESERVED 
+  RESERVED | 16                                                    60 | VCCINT 
+     VCCIO | 17                                                    59 | GND 
+       GND | 18                                                    58 | DOUT0 
+     ADDR1 | 19                                                    57 | DOUT3 
+     DOUT7 | 20                                                    56 | DOUT1 
+     DOUT4 | 21                                                    55 | DOUT5 
+     ADDR7 | 22                                                    54 | ^MSEL0 
+     ADDR0 | 23                                                    53 | ^MSEL1 
+      #TMS | 24                                                    52 | VCCINT 
+  ^nSTATUS | 25                                                    51 | ^nCONFIG 
+           |      27  29  31  33  35  37  39  41  43  45  47  49  _| 
+            \   26  28  30  32  34  36  38  40  42  44  46  48  50   | 
+             \----------------------------------------------------- 
+                R R R R R R R R R V G V A A A G G R V R R D R R R  
+                E E E E E E E E E C N C D D D N N E C E E O E E E  
+                S S S S S S S S S C D C D D D D D S C S S U S S S  
+                E E E E E E E E E I   _ R R R _   E I E E T E E E  
+                R R R R R R R R R N   C 2 5 3 C   R O R R 2 R R R  
+                V V V V V V V V V T   K       K   V   V V   V V V  
+                E E E E E E E E E     L       L   E   E E   E E E  
+                D D D D D D D D D     K       K   D   D D   D D D  
+                                                                   
+                                                                   
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+^ = Dedicated configuration pin.
++ = Reserved configuration pin, which is tri-stated during user mode.
+* = Reserved configuration pin, which drives out in user mode.
+PDn = Power Down pin. 
+@ = Special-purpose pin. 
+# = JTAG Boundary-Scan Testing/In-System Programming or Configuration Pin. The JTAG inputs TMS and TDI should be tied to VCC and TCK should be tied to GND when not in use.
+& = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
+$ = Pin has PCI I/O option enabled. Pin is neither '5.0 V'- nor '3.3 V'-tolerant. 
+
+
+Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\rom.rpt
+rom
+
+** RESOURCE USAGE **
+
+Logic                Column       Row                                   
+Array                Interconnect Interconnect         Clears/     External  
+Block   Logic Cells  Driven       Driven       Clocks  Presets   Interconnect
+C1       8/ 8(100%)   1/ 8( 12%)   3/ 8( 37%)    0/2    0/2      10/22( 45%)   
+C2       7/ 8( 87%)   0/ 8(  0%)   7/ 8( 87%)    0/2    0/2       4/22( 18%)   
+C4       8/ 8(100%)   0/ 8(  0%)   3/ 8( 37%)    0/2    0/2      13/22( 59%)   
+C6       5/ 8( 62%)   0/ 8(  0%)   4/ 8( 50%)    0/2    0/2       7/22( 31%)   
+C9       8/ 8(100%)   1/ 8( 12%)   6/ 8( 75%)    0/2    0/2       8/22( 36%)   
+C12      8/ 8(100%)   0/ 8(  0%)   5/ 8( 62%)    0/2    0/2      11/22( 50%)   
+
+
+Embedded             Column       Row                                   
+Array     Embedded   Interconnect Interconnect         Read/      External  
+Block     Cells      Driven       Driven       Clocks  Write    Interconnect
+
+
+Total dedicated input pins used:                 6/6      (100%)
+Total I/O pins used:                            11/60     ( 18%)
+Total logic cells used:                         44/576    (  7%)
+Total embedded cells used:                       0/48     (  0%)
+Total EABs used:                                 0/3      (  0%)
+Average fan-in:                                 3.59/4    ( 89%)
+Total fan-in:                                 158/2304    (  6%)
+
+Total input pins required:                       9
+Total input I/O cell registers required:         0
+Total output pins required:                      8
+Total output I/O cell registers required:        0
+Total buried I/O cell registers required:        0
+Total bidirectional pins required:               0
+Total reserved pins required                     0
+Total logic cells required:                     44
+Total flipflops required:                        0
+Total packed registers required:                 0
+Total logic cells in carry chains:               0
+Total number of carry chains:                    0
+Total logic cells in cascade chains:             0
+Total number of cascade chains:                  0
+Total single-pin Clock Enables required:         0
+Total single-pin Output Enables required:        0
+
+Synthesized logic cells:                        14/ 576   (  2%)
+
+Logic Cell and Embedded Cell Counts
+
+Column:  01  02  03  04  05  06  07  08  09  10  11  12  EA  13  14  15  16  17  18  19  20  21  22  23  24  Total(LC/EC)
+ A:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+ B:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+ C:      8   7   0   8   0   5   0   0   8   0   0   8   0   0   0   0   0   0   0   0   0   0   0   0   0     44/0  
+
+Total:   8   7   0   8   0   5   0   0   8   0   0   8   0   0   0   0   0   0   0   0   0   0   0   0   0     44/0  
+
+
+
+Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\rom.rpt
+rom
+
+** INPUTS **
+
+                                                    Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  23      -     -    C    --      INPUT             ^    0    0    0    4  ADDR0
+  19      -     -    C    --      INPUT             ^    0    0    0    4  ADDR1
+  38      -     -    -    --      INPUT             ^    0    0    0   20  ADDR2
+  40      -     -    -    --      INPUT             ^    0    0    0   20  ADDR3
+  91      -     -    -    --      INPUT             ^    0    0    0    1  ADDR4
+  39      -     -    -    --      INPUT             ^    0    0    0    1  ADDR5
+  90      -     -    -    --      INPUT             ^    0    0    0    1  ADDR6
+  22      -     -    C    --      INPUT             ^    0    0    0    4  ADDR7
+  89      -     -    -    --      INPUT             ^    0    0    0    1  CS
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+^ = Increased input delay
+* = PCI I/O is enabled
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+
+
+Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\rom.rpt
+rom
+
+** OUTPUTS **
+
+       Fed By Fed By                                Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  58      -     -    C    --     OUTPUT                 0    1    0    0  DOUT0
+  56      -     -    C    --     OUTPUT                 0    1    0    0  DOUT1
+  47      -     -    -    09     OUTPUT                 0    1    0    0  DOUT2
+  57      -     -    C    --     OUTPUT                 0    1    0    0  DOUT3
+  21      -     -    C    --     OUTPUT                 0    1    0    0  DOUT4
+  55      -     -    C    --     OUTPUT                 0    1    0    0  DOUT5
+  79      -     -    -    02     OUTPUT                 0    1    0    0  DOUT6
+  20      -     -    C    --     OUTPUT                 0    1    0    0  DOUT7
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+^ = Increased input delay
+* = PCI I/O is enabled
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+
+
+Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\rom.rpt
+rom
+
+** BURIED LOGIC **
+
+                                                    Fan-In    Fan-Out
+ IOC     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+   -      1     -    C    02        OR2        !       2    1    0    6  :76
+   -      5     -    C    04       AND2                2    1    0    3  :87
+   -      4     -    C    04       AND2                2    1    0    3  :98
+   -      2     -    C    06       AND2    s           3    1    0    6  ~109~1
+   -      5     -    C    02        OR2        !       2    1    0    4  :109
+   -      6     -    C    06       AND2    s   !       3    1    0    8  ~120~1
+   -      8     -    C    02        OR2        !       2    1    0    3  :120
+   -      3     -    C    09       AND2                2    1    0    3  :131
+   -      3     -    C    06       AND2    s           3    1    0    4  ~142~1
+   -      4     -    C    09        OR2        !       2    1    0    3  :142
+   -      4     -    C    02       AND2                2    1    0    6  :153
+   -      6     -    C    02        OR2        !       2    1    0    2  :164
+   -      1     -    C    06       AND2    s           3    1    0    6  ~219~1
+   -      7     -    C    09       AND2                2    1    0    1  :219
+   -      4     -    C    06       AND2    s           4    0    0    4  ~230~1
+   -      7     -    C    01        OR2    s   !       2    2    0    1  ~293~1
+   -      2     -    C    01        OR2    s   !       2    2    0    2  ~293~2
+   -      7     -    C    04        OR2                0    3    0    1  :307
+   -      8     -    C    04        OR2                0    4    0    1  :323
+   -      2     -    C    04        OR2                0    4    1    0  :341
+   -      1     -    C    09        OR2                2    2    0    2  :353
+   -      5     -    C    09        OR2                2    2    0    1  :361
+   -      6     -    C    01        OR2    s   !       2    2    0    3  ~368~1
+   -      2     -    C    12       AND2    s           0    2    0    3  ~394~1
+   -      3     -    C    12       AND2    s           0    4    0    3  ~394~2
+   -      4     -    C    01        OR2                0    4    1    0  :394
+   -      8     -    C    01        OR2                2    2    0    2  :410
+   -      1     -    C    01        OR2                0    4    0    1  :428
+   -      6     -    C    12       AND2                0    4    1    0  :445
+   -      2     -    C    09        OR2                0    4    0    1  :476
+   -      7     -    C    02        OR2    s   !       2    2    0    2  ~478~1
+   -      6     -    C    04        OR2                0    4    0    1  :485
+   -      3     -    C    04        OR2                0    4    1    0  :496
+   -      5     -    C    01        OR2                2    2    0    1  :506
+   -      3     -    C    01        OR2                0    4    1    0  :547
+   -      6     -    C    09        OR2                0    4    1    0  :598
+   -      8     -    C    12        OR2                0    4    1    0  :649
+   -      3     -    C    02        OR2                2    2    0    2  :670
+   -      8     -    C    09        OR2    s           2    2    0    4  ~671~1
+   -      4     -    C    12        OR2                0    3    0    1  :679
+   -      5     -    C    12        OR2                0    4    0    1  :683
+   -      7     -    C    12       AND2    s           0    2    0    3  ~694~1
+   -      1     -    C    04        OR2    s           0    2    0    4  ~695~1
+   -      1     -    C    12        OR2                0    4    1    0  :700
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+^ = Increased input delay
+* = PCI I/O is enabled
+p = Packed register
+
+
+Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\rom.rpt
+rom
+
+** FASTTRACK INTERCONNECT UTILIZATION **
+
+Row FastTrack Interconnect:
+
+          Global         Left Half-      Right Half-
+         FastTrack       FastTrack       FastTrack 
+Row     Interconnect    Interconnect    Interconnect    Input Pins     Output Pins     Bidir Pins
+A:       0/ 96(  0%)     0/ 48(  0%)     0/ 48(  0%)    0/16(  0%)      0/16(  0%)     0/16(  0%)
+B:       0/ 96(  0%)     0/ 48(  0%)     0/ 48(  0%)    0/16(  0%)      0/16(  0%)     0/16(  0%)
+C:       9/ 96(  9%)    22/ 48( 45%)     0/ 48(  0%)    3/16( 18%)      6/16( 37%)     0/16(  0%)
+
+
+Column FastTrack Interconnect:
+
+         FastTrack                                 
+Column  Interconnect    Input Pins     Output Pins     Bidir Pins
+01:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+02:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+03:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+04:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+05:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+06:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+07:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+08:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+09:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+10:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+11:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+12:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+13:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+14:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+15:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+16:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+17:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+18:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+19:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+20:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+21:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+22:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+23:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+24:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+
+
+Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\rom.rpt
+rom
+
+** EQUATIONS **
+
+ADDR0    : INPUT;
+ADDR1    : INPUT;
+ADDR2    : INPUT;
+ADDR3    : INPUT;
+ADDR4    : INPUT;
+ADDR5    : INPUT;
+ADDR6    : INPUT;
+ADDR7    : INPUT;
+CS       : INPUT;
+
+-- Node name is 'DOUT0' 
+-- Equation name is 'DOUT0', type is output 
+DOUT0    =  _LC1_C12;
+
+-- Node name is 'DOUT1' 
+-- Equation name is 'DOUT1', type is output 
+DOUT1    =  _LC8_C12;
+
+-- Node name is 'DOUT2' 
+-- Equation name is 'DOUT2', type is output 
+DOUT2    =  _LC6_C9;
+
+-- Node name is 'DOUT3' 
+-- Equation name is 'DOUT3', type is output 
+DOUT3    =  _LC3_C1;
+
+-- Node name is 'DOUT4' 
+-- Equation name is 'DOUT4', type is output 
+DOUT4    =  _LC3_C4;
+
+-- Node name is 'DOUT5' 
+-- Equation name is 'DOUT5', type is output 
+DOUT5    =  _LC6_C12;
+
+-- Node name is 'DOUT6' 
+-- Equation name is 'DOUT6', type is output 
+DOUT6    =  _LC4_C1;
+
+-- Node name is 'DOUT7' 
+-- Equation name is 'DOUT7', type is output 
+DOUT7    =  _LC2_C4;
+
+-- Node name is ':76' 
+-- Equation name is '_LC1_C2', type is buried 
+!_LC1_C2 = _LC1_C2~NOT;
+_LC1_C2~NOT = LCELL( _EQ001);
+  _EQ001 =  ADDR3
+         #  ADDR2
+         #  _LC6_C6;
+
+-- Node name is ':87' 
+-- Equation name is '_LC5_C4', type is buried 
+_LC5_C4  = LCELL( _EQ002);
+  _EQ002 = !ADDR2 & !ADDR3 &  _LC1_C6;
+
+-- Node name is ':98' 
+-- Equation name is '_LC4_C4', type is buried 
+_LC4_C4  = LCELL( _EQ003);
+  _EQ003 = !ADDR2 & !ADDR3 &  _LC3_C6;
+
+-- Node name is '~109~1' 
+-- Equation name is '~109~1', location is LC2_C6, type is buried.
+-- synthesized logic cell 
+_LC2_C6  = LCELL( _EQ004);
+  _EQ004 =  ADDR0 &  ADDR1 & !ADDR7 &  _LC4_C6;
+
+-- Node name is ':109' 
+-- Equation name is '_LC5_C2', type is buried 
+!_LC5_C2 = _LC5_C2~NOT;
+_LC5_C2~NOT = LCELL( _EQ005);
+  _EQ005 =  ADDR3
+         #  ADDR2
+         # !_LC2_C6;
+
+-- Node name is '~120~1' 
+-- Equation name is '~120~1', location is LC6_C6, type is buried.
+-- synthesized logic cell 
+!_LC6_C6 = _LC6_C6~NOT;
+_LC6_C6~NOT = LCELL( _EQ006);
+  _EQ006 = !ADDR0 & !ADDR1 & !ADDR7 &  _LC4_C6;
+
+-- Node name is ':120' 
+-- Equation name is '_LC8_C2', type is buried 
+!_LC8_C2 = _LC8_C2~NOT;
+_LC8_C2~NOT = LCELL( _EQ007);
+  _EQ007 =  ADDR3
+         # !ADDR2
+         #  _LC6_C6;
+
+-- Node name is ':131' 
+-- Equation name is '_LC3_C9', type is buried 
+_LC3_C9  = LCELL( _EQ008);
+  _EQ008 =  ADDR2 & !ADDR3 &  _LC1_C6;
+
+-- Node name is '~142~1' 
+-- Equation name is '~142~1', location is LC3_C6, type is buried.
+-- synthesized logic cell 
+_LC3_C6  = LCELL( _EQ009);
+  _EQ009 = !ADDR0 &  ADDR1 & !ADDR7 &  _LC4_C6;
+
+-- Node name is ':142' 
+-- Equation name is '_LC4_C9', type is buried 
+!_LC4_C9 = _LC4_C9~NOT;
+_LC4_C9~NOT = LCELL( _EQ010);
+  _EQ010 =  ADDR3
+         # !ADDR2
+         # !_LC3_C6;
+
+-- Node name is ':153' 
+-- Equation name is '_LC4_C2', type is buried 
+_LC4_C2  = LCELL( _EQ011);
+  _EQ011 =  ADDR2 & !ADDR3 &  _LC2_C6;
+
+-- Node name is ':164' 
+-- Equation name is '_LC6_C2', type is buried 
+!_LC6_C2 = _LC6_C2~NOT;
+_LC6_C2~NOT = LCELL( _EQ012);
+  _EQ012 = !ADDR3
+         #  ADDR2
+         #  _LC6_C6;
+
+-- Node name is '~219~1' 
+-- Equation name is '~219~1', location is LC1_C6, type is buried.
+-- synthesized logic cell 
+_LC1_C6  = LCELL( _EQ013);
+  _EQ013 =  ADDR0 & !ADDR1 & !ADDR7 &  _LC4_C6;
+
+-- Node name is ':219' 
+-- Equation name is '_LC7_C9', type is buried 
+_LC7_C9  = LCELL( _EQ014);
+  _EQ014 =  ADDR2 &  ADDR3 &  _LC1_C6;
+
+-- Node name is '~230~1' 
+-- Equation name is '~230~1', location is LC4_C6, type is buried.
+-- synthesized logic cell 
+_LC4_C6  = LCELL( _EQ015);
+  _EQ015 = !ADDR4 & !ADDR5 & !ADDR6 & !CS;
+
+-- Node name is '~293~1' 
+-- Equation name is '~293~1', location is LC7_C1, type is buried.
+-- synthesized logic cell 
+!_LC7_C1 = _LC7_C1~NOT;
+_LC7_C1~NOT = LCELL( _EQ016);
+  _EQ016 = !ADDR3 & !_LC6_C1
+         # !ADDR2 & !_LC6_C1
+         # !_LC6_C1 &  _LC6_C6;
+
+-- Node name is '~293~2' 
+-- Equation name is '~293~2', location is LC2_C1, type is buried.
+-- synthesized logic cell 
+!_LC2_C1 = _LC2_C1~NOT;
+_LC2_C1~NOT = LCELL( _EQ017);
+  _EQ017 = !ADDR3 & !_LC7_C1
+         #  ADDR2 & !_LC7_C1
+         # !_LC2_C6 & !_LC7_C1;
+
+-- Node name is ':307' 
+-- Equation name is '_LC7_C4', type is buried 
+_LC7_C4  = LCELL( _EQ018);
+  _EQ018 =  _LC1_C9 & !_LC4_C2
+         #  _LC2_C1 & !_LC4_C2;
+
+-- Node name is ':323' 
+-- Equation name is '_LC8_C4', type is buried 
+_LC8_C4  = LCELL( _EQ019);
+  _EQ019 =  _LC7_C4 & !_LC8_C2
+         # !_LC2_C12 & !_LC8_C2
+         #  _LC5_C2;
+
+-- Node name is ':341' 
+-- Equation name is '_LC2_C4', type is buried 
+_LC2_C4  = LCELL( _EQ020);
+  _EQ020 = !_LC4_C4 &  _LC8_C4
+         #  _LC1_C2
+         #  _LC5_C4;
+
+-- Node name is ':353' 
+-- Equation name is '_LC1_C9', type is buried 
+_LC1_C9  = LCELL( _EQ021);
+  _EQ021 =  ADDR2 &  ADDR3 &  _LC3_C6
+         #  ADDR2 &  ADDR3 &  _LC1_C6;
+
+-- Node name is ':361' 
+-- Equation name is '_LC5_C9', type is buried 
+_LC5_C9  = LCELL( _EQ022);
+  _EQ022 = !ADDR3 &  _LC1_C9
+         # !ADDR2 &  _LC1_C9
+         #  _LC1_C9 &  _LC6_C6;
+
+-- Node name is '~368~1' 
+-- Equation name is '~368~1', location is LC6_C1, type is buried.
+-- synthesized logic cell 
+!_LC6_C1 = _LC6_C1~NOT;
+_LC6_C1~NOT = LCELL( _EQ023);
+  _EQ023 = !ADDR3 & !_LC8_C9
+         #  ADDR2 & !_LC8_C9
+         #  _LC6_C6 & !_LC8_C9;
+
+-- Node name is '~394~1' 
+-- Equation name is '~394~1', location is LC2_C12, type is buried.
+-- synthesized logic cell 
+_LC2_C12 = LCELL( _EQ024);
+  _EQ024 = !_LC3_C9 & !_LC4_C9;
+
+-- Node name is '~394~2' 
+-- Equation name is '~394~2', location is LC3_C12, type is buried.
+-- synthesized logic cell 
+_LC3_C12 = LCELL( _EQ025);
+  _EQ025 = !_LC1_C2 & !_LC1_C4 &  _LC2_C12 &  _LC7_C12;
+
+-- Node name is ':394' 
+-- Equation name is '_LC4_C1', type is buried 
+_LC4_C1  = LCELL( _EQ026);
+  _EQ026 =  _LC3_C12 & !_LC4_C2 &  _LC8_C1
+         #  _LC3_C12 & !_LC4_C2 &  _LC6_C1;
+
+-- Node name is ':410' 
+-- Equation name is '_LC8_C1', type is buried 
+_LC8_C1  = LCELL( _EQ027);
+  _EQ027 = !ADDR2 &  ADDR3 &  _LC2_C6
+         #  _LC5_C9;
+
+-- Node name is ':428' 
+-- Equation name is '_LC1_C1', type is buried 
+_LC1_C1  = LCELL( _EQ028);
+  _EQ028 = !_LC4_C2 & !_LC6_C1 &  _LC8_C1
+         # !_LC2_C12;
+
+-- Node name is ':445' 
+-- Equation name is '_LC6_C12', type is buried 
+_LC6_C12 = LCELL( _EQ029);
+  _EQ029 =  _LC1_C1 & !_LC1_C2 & !_LC1_C4 &  _LC7_C12;
+
+-- Node name is ':476' 
+-- Equation name is '_LC2_C9', type is buried 
+_LC2_C9  = LCELL( _EQ030);
+  _EQ030 =  _LC7_C2 &  _LC7_C9
+         #  _LC7_C2 &  _LC8_C9
+         #  _LC4_C9;
+
+-- Node name is '~478~1' 
+-- Equation name is '~478~1', location is LC7_C2, type is buried.
+-- synthesized logic cell 
+!_LC7_C2 = _LC7_C2~NOT;
+_LC7_C2~NOT = LCELL( _EQ031);
+  _EQ031 = !ADDR2 &  ADDR3 & !_LC6_C6
+         #  _LC4_C2;
+
+-- Node name is ':485' 
+-- Equation name is '_LC6_C4', type is buried 
+_LC6_C4  = LCELL( _EQ032);
+  _EQ032 =  _LC2_C9 & !_LC3_C9 & !_LC8_C2
+         #  _LC5_C2;
+
+-- Node name is ':496' 
+-- Equation name is '_LC3_C4', type is buried 
+_LC3_C4  = LCELL( _EQ033);
+  _EQ033 = !_LC1_C2 & !_LC4_C4 &  _LC6_C4
+         # !_LC1_C2 &  _LC5_C4;
+
+-- Node name is ':506' 
+-- Equation name is '_LC5_C1', type is buried 
+_LC5_C1  = LCELL( _EQ034);
+  _EQ034 =  ADDR2 &  ADDR3 &  _LC1_C6
+         #  ADDR2 &  ADDR3 &  _LC2_C6;
+
+-- Node name is ':547' 
+-- Equation name is '_LC3_C1', type is buried 
+_LC3_C1  = LCELL( _EQ035);
+  _EQ035 = !_LC2_C1 &  _LC3_C12 &  _LC5_C1
+         #  _LC3_C12 &  _LC4_C2;
+
+-- Node name is ':598' 
+-- Equation name is '_LC6_C9', type is buried 
+_LC6_C9  = LCELL( _EQ036);
+  _EQ036 =  _LC3_C12 & !_LC7_C2
+         #  _LC3_C2 &  _LC3_C12 & !_LC8_C9;
+
+-- Node name is ':649' 
+-- Equation name is '_LC8_C12', type is buried 
+_LC8_C12 = LCELL( _EQ037);
+  _EQ037 = !_LC1_C2 & !_LC1_C4 &  _LC5_C2
+         # !_LC1_C2 & !_LC1_C4 &  _LC6_C2;
+
+-- Node name is ':670' 
+-- Equation name is '_LC3_C2', type is buried 
+_LC3_C2  = LCELL( _EQ038);
+  _EQ038 =  ADDR2 &  ADDR3 & !_LC6_C6
+         #  ADDR2 &  ADDR3 &  _LC2_C6;
+
+-- Node name is '~671~1' 
+-- Equation name is '~671~1', location is LC8_C9, type is buried.
+-- synthesized logic cell 
+_LC8_C9  = LCELL( _EQ039);
+  _EQ039 = !ADDR2 &  ADDR3 &  _LC3_C6
+         # !ADDR2 &  ADDR3 &  _LC1_C6;
+
+-- Node name is ':679' 
+-- Equation name is '_LC4_C12', type is buried 
+_LC4_C12 = LCELL( _EQ040);
+  _EQ040 = !_LC6_C2 &  _LC8_C9
+         #  _LC3_C2 & !_LC6_C2;
+
+-- Node name is ':683' 
+-- Equation name is '_LC5_C12', type is buried 
+_LC5_C12 = LCELL( _EQ041);
+  _EQ041 =  _LC3_C9
+         #  _LC4_C2 & !_LC4_C9
+         # !_LC4_C9 &  _LC4_C12;
+
+-- Node name is '~694~1' 
+-- Equation name is '~694~1', location is LC7_C12, type is buried.
+-- synthesized logic cell 
+_LC7_C12 = LCELL( _EQ042);
+  _EQ042 = !_LC5_C2 & !_LC8_C2;
+
+-- Node name is '~695~1' 
+-- Equation name is '~695~1', location is LC1_C4, type is buried.
+-- synthesized logic cell 
+_LC1_C4  = LCELL( _EQ043);
+  _EQ043 =  _LC4_C4
+         #  _LC5_C4;
+
+-- Node name is ':700' 
+-- Equation name is '_LC1_C12', type is buried 
+_LC1_C12 = LCELL( _EQ044);
+  _EQ044 = !_LC1_C2 &  _LC1_C4
+         # !_LC1_C2 &  _LC5_C12 &  _LC7_C12;
+
+
+
+Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\rom.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Multi-Level
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'ACEX1K' family
+
+      CARRY_CHAIN                         = ignore
+      CARRY_CHAIN_LENGTH                  = 32
+      CASCADE_CHAIN                       = ignore
+      CASCADE_CHAIN_LENGTH                = 2
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SUBFACTOR_EXTRACTION                = on
+      IGNORE_SOFT_BUFFERS                 = on
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Use Quartus Fitter                        = on
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:01
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:01
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 17,438K

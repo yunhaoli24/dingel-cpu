@@ -1,0 +1,169 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 157
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeEA	!	12	9	:101	"s
+#	IeEA	!	12	9	:102	"t
+$	IGdW	!	:231	$9
+%	IGdW	!	:232	$:
+&	IGdW	!	:233	$;
+'	IGdW	!	:234	$<
+(	IGdW	!	:235	$=
+)	IGdW	!	:236	$>
+*	IGdW	!	:237	$?
++	IGdW	!	:238	$@
+,	IGdW	!	:239	$A
+-	IGdW	!	:240	$B
+.	IGdW	!	:241	$C
+/	IGdW	!	:242	$D
+0	IGdW	!	:243	$E
+1	IGdW	!	:244	$F
+2	IGdW	!	:245	$G
+3	Ky'E	!	1	9	:246	$H
+4	IGdW	!	:247	$I
+5	Ky'E	!	1	3	:248	$J
+6	IGdW	!	:249	$K
+7	IGdW	!	:250	$L
+8	IGdW	!	:251	$M
+9	Ky'E	!	1	"@	:252	$N
+:	IGdW	!	:253	$O
+;	IGdW	!	:254	$P
+<	IGdW	!	:255	$Q
+=	IGdW	!	:256	$R
+>	IGdW	!	:257	$S
+?	IGdW	!	:258	$T
+@	IGdW	!	:259	$U
+A	IGdW	!	:260	$V
+B	Ky'E	!	1	E	:261	$W
+C	IGdW	!	:262	$X
+D	Ky'E	!	1	B	:263	$Y
+E	Ky'E	!	1	"?	:264	$Z
+F	IGdW	!	:265	$[
+G	IGdW	!	:266	$\
+H	IGdW	!	:267	$]
+I	IGdW	!	:268	$^
+J	IGdW	!	:269	$_
+K	IGdW	!	:270	$`
+L	IGdW	!	:271	$a
+M	IGdW	!	:272	$b
+N	Ky'E	!	1	Q	:273	$c
+O	IGdW	!	:274	$d
+P	Ky'E	!	1	N	:275	$e
+Q	Ky'E	!	1	">	:276	$f
+R	IGdW	!	:277	$g
+S	IGdW	!	:278	$h
+T	IGdW	!	:279	$i
+U	IGdW	!	:280	$j
+V	IGdW	!	:281	$k
+W	IGdW	!	:282	$l
+X	IGdW	!	:283	$m
+Y	IGdW	!	:284	$n
+Z	Ky'E	!	1	]	:285	$o
+[	IGdW	!	:286	$p
+\	Ky'E	!	1	Z	:287	$q
+]	Ky'E	!	1	"=	:288	$r
+^	IGdW	!	:289	$s
+_	IGdW	!	:290	$t
+`	IGdW	!	:291	$u
+a	IGdW	!	:292	$v
+b	IGdW	!	:293	$w
+c	IGdW	!	:294	$x
+d	IGdW	!	:295	$y
+e	IGdW	!	:296	$z
+f	Ky'E	!	1	i	:297	${
+g	IGdW	!	:298	$|
+h	Ky'E	!	1	f	:299	$}
+i	Ky'E	!	1	"<	:300	$~
+j	IGdW	!	:301	%!
+k	IGdW	!	:302	%"
+l	IGdW	!	:303	%#
+m	IGdW	!	:304	%$
+n	IGdW	!	:305	%%
+o	IGdW	!	:306	%&
+p	IGdW	!	:307	%'
+q	IGdW	!	:308	%(
+r	Ky'E	!	1	u	:309	%)
+s	IGdW	!	:310	%*
+t	Ky'E	!	1	r	:311	%+
+u	Ky'E	!	1	";	:312	%,
+v	IGdW	!	:313	%-
+w	IGdW	!	:314	%.
+x	IGdW	!	:315	%/
+y	IGdW	!	:316	%0
+z	IGdW	!	:317	%1
+{	IGdW	!	:318	%2
+|	IGdW	!	:319	%3
+}	IGdW	!	:320	%4
+~	Ky'E	!	1	"#	:321	%5
+"!	IGdW	!	:322	%6
+""	Ky'E	!	1	~	:323	%7
+"#	Ky'E	!	1	":	:324	%8
+"$	IGdW	!	:325	%9
+"%	IGdW	!	:326	%:
+"&	IGdW	!	:327	%;
+"'	IGdW	!	:328	%<
+"(	IGdW	!	:329	%=
+")	IGdW	!	:330	%>
+"*	IGdW	!	:331	%?
+"+	IGdW	!	:332	%@
+",	Ky'E	!	1	"/	:333	%A
+"-	IGdW	!	:334	%B
+".	Ky'E	!	1	",	:335	%C
+"/	Ky'E	!	1	"9	:336	%D
+"0	IGdW	!	:337	%E
+"1	IGdW	!	:338	%F
+"2	IeEA	!	12	9	:91	"i
+"3	IeEA	!	12	9	:93	"k
+"4	IeEA	!	12	9	:94	"l
+"5	IeEA	!	12	9	:96	"n
+"6	IeEA	!	12	9	:98	"p
+"7	L8ef	!	5	9	24	3	5	9	B	D	E	N	P	Q	Z	\	]	f	h	i	r	t	u	~	""	"#	",	".	"/	A	m
+"8	L8ef	!	5	9	24	3	5	9	B	D	E	N	P	Q	Z	\	]	f	h	i	r	t	u	~	""	"#	",	".	"/	B	n
+"9	"<R?c	!	7	9	W0	!	W0	"8
+":	"<R?c	!	7	9	W1	!	W1	"7
+";	"<R?c	!	7	9	W2	!	W2	"6
+"<	"<R?c	!	7	9	W3	!	W3	"5
+"=	"<R?c	!	7	9	W4	!	W4	"4
+">	"<R?c	!	7	9	W5	!	W5	"3
+"?	"<R?c	!	7	9	W6	!	W6	"2
+"@	"<R?c	!	7	9	W7	!	W7	"1
+"A	"?%_n	!	6	9	1	"/	X00	!	X00	v
+"B	"?%_n	!	6	9	1	"#	X01	!	X01	u
+"C	"?%_n	!	6	9	1	u	X02	!	X02	t
+"D	"?%_n	!	6	9	1	i	X03	!	X03	s
+"E	"?%_n	!	6	9	1	]	X04	!	X04	r
+"F	"?%_n	!	6	9	1	Q	X05	!	X05	q
+"G	"?%_n	!	6	9	1	E	X06	!	X06	p
+"H	"?%_n	!	6	9	1	9	X07	!	X07	o
+"I	"?%_n	!	6	9	1	",	X10	!	X10	~
+"J	"?%_n	!	6	9	1	~	X11	!	X11	}
+"K	"?%_n	!	6	9	1	r	X12	!	X12	|
+"L	"?%_n	!	6	9	1	f	X13	!	X13	{
+"M	"?%_n	!	6	9	1	Z	X14	!	X14	z
+"N	"?%_n	!	6	9	1	N	X15	!	X15	y
+"O	"?%_n	!	6	9	1	B	X16	!	X16	x
+"P	"?%_n	!	6	9	1	3	X17	!	X17	w
+"Q	"?%_n	!	6	9	1	".	X20	!	X20	"(
+"R	"?%_n	!	6	9	1	""	X21	!	X21	"'
+"S	"?%_n	!	6	9	1	t	X22	!	X22	"&
+"T	"?%_n	!	6	9	1	h	X23	!	X23	"%
+"U	"?%_n	!	6	9	1	\	X24	!	X24	"$
+"V	"?%_n	!	6	9	1	P	X25	!	X25	"#
+"W	"?%_n	!	6	9	1	D	X26	!	X26	""
+"X	"?%_n	!	6	9	1	5	X27	!	X27	"!
+"Y	"?%_n	!	6	9	1	".	X30	!	X30	"0
+"Z	"?%_n	!	6	9	1	""	X31	!	X31	"/
+"[	"?%_n	!	6	9	1	t	X32	!	X32	".
+"\	"?%_n	!	6	9	1	h	X33	!	X33	"-
+"]	"?%_n	!	6	9	1	\	X34	!	X34	",
+"^	"?%_n	!	6	9	1	P	X35	!	X35	"+
+"_	"?%_n	!	6	9	1	D	X36	!	X36	"*
+"`	"?%_n	!	6	9	1	5	X37	!	X37	")

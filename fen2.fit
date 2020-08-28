@@ -1,0 +1,118 @@
+-- MAX+plus II Compiler Fit File      
+-- Version 10.0 9/14/2000             
+-- Compiled: 08/28/2020 17:00:24      
+
+-- Copyright (C) 1988-2000 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+CHIP "fen2"
+BEGIN
+
+    DEVICE = "EP1K10TC100-1";
+
+    "LED_B"                        : INPUT_PIN  = 38     ;
+    "X0"                           : INPUT_PIN  = 40     ;
+    "X1"                           : INPUT_PIN  = 89     ;
+    "X2"                           : INPUT_PIN  = 91     ;
+    "X3"                           : INPUT_PIN  = 39     ;
+    "X4"                           : INPUT_PIN  = 90     ;
+    "X5"                           : INPUT_PIN  = 69     ;
+    "X6"                           : INPUT_PIN  = 5      ;
+    "X7"                           : INPUT_PIN  = 68     ;
+    "W10"                          : OUTPUT_PIN = 57     ;
+    "W11"                          : OUTPUT_PIN = 21     ;
+    "W12"                          : OUTPUT_PIN = 31     ;
+    "W13"                          : OUTPUT_PIN = 30     ;
+    "W14"                          : OUTPUT_PIN = 9      ;
+    "W15"                          : OUTPUT_PIN = 96     ;
+    "W16"                          : OUTPUT_PIN = 8      ;
+    "W17"                          : OUTPUT_PIN = 62     ;
+    "W20"                          : OUTPUT_PIN = 19     ;
+    "W21"                          : OUTPUT_PIN = 56     ;
+    "W22"                          : OUTPUT_PIN = 23     ;
+    "W23"                          : OUTPUT_PIN = 20     ;
+    "W24"                          : OUTPUT_PIN = 71     ;
+    "W25"                          : OUTPUT_PIN = 27     ;
+    "W26"                          : OUTPUT_PIN = 10     ;
+    "W27"                          : OUTPUT_PIN = 7      ;
+    ":103"                         : LOCATION   = LC5_A22;
+    ":109"                         : LOCATION   = LC8_A22;
+    ":115"                         : LOCATION   = LC3_A22;
+    ":121"                         : LOCATION   = LC6_A22;
+    ":127"                         : LOCATION   = LC6_C17;
+    ":133"                         : LOCATION   = LC8_C17;
+    ":139"                         : LOCATION   = LC4_C17;
+    ":145"                         : LOCATION   = LC3_C17;
+    ":151"                         : LOCATION   = LC2_A22;
+    ":157"                         : LOCATION   = LC7_A22;
+    ":163"                         : LOCATION   = LC4_A22;
+    ":169"                         : LOCATION   = LC1_A22;
+    ":175"                         : LOCATION   = LC2_C17;
+    ":181"                         : LOCATION   = LC7_C17;
+    ":187"                         : LOCATION   = LC5_C17;
+    ":193"                         : LOCATION   = LC1_C17;
+
+END;
+
+INTERNAL_INFO "fen2"
+BEGIN
+	DEVICE = EP1K10TC100-1;
+    OD2P38  : LORAX = "1:FB2|2:FH2R0,PA6R0C21->LC5_A22,->LC8_A22,->LC3_A22,->LC6_A22,->LC2_A22,->LC7_A22,->LC4_A22,->LC1_A22|,2:FH2R2,PA6R2C16->LC6_C17,->LC8_C17,->LC4_C17,->LC3_C17,->LC2_C17,->LC7_C17,->LC5_C17,->LC1_C17||";
+    OD3P40  : LORAX = "1:FB3|2:FH3R2,PA5R2C16->LC3_C17,->LC1_C17||";
+    OD1P89  : LORAX = "1:FB1|2:FH1R2,PA20R2C16->LC4_C17,->LC5_C17||";
+    OD0P91  : LORAX = "1:FB0|2:FH0R2,PA0R2C16->LC8_C17,->LC7_C17||";
+    OD5P39  : LORAX = "1:FB5|2:CH1R2,PA7R2C16->LC6_C17,->LC2_C17||";
+    OD4P90  : LORAX = "1:FB4|2:CH0R0,PA14R0C21->LC6_A22,->LC1_A22||";
+    OH12R0P69 : LORAX = "1:G40R0,PA19R0C21->LC3_A22,->LC4_A22|";
+    OH0R0P5 : LORAX = "1:G10R0,PA10R0C21->LC8_A22,->LC7_A22|";
+    OH14R0P68 : LORAX = "1:G44R0,PA21R0C21->LC5_A22,->LC2_A22|";
+    LC5_A22 : LORAX = "1:MSW5R0C20,V15C20,G51R1->OH13R1P62|";
+    LC8_A22 : LORAX = "1:MSW4R0C20,G90R0->OH4R0P8|";
+    LC3_A22 : LORAX = "1:MSW2R0C21,V6C21->OV0C21P96|";
+    LC6_A22 : LORAX = "1:MSW6R0C20,HHR40R0->OH6R0P9|";
+    LC6_C17 : LORAX = "1:MSW5R2C17,V16C17->OV2C17P30|";
+    LC8_C17 : LORAX = "1:MSW7R2C16,V23C16->OV3C16P31|";
+    LC4_C17 : LORAX = "1:MSW3R2C16,G26R2->OH3R2P21|";
+    LC3_C17 : LORAX = "1:MSW2R2C17,G6R2->OH10R2P57|";
+    LC2_A22 : LORAX = "1:MSW2R0C20,HHR1R0->OH2R0P7|";
+    LC7_A22 : LORAX = "1:MSW7R0C20,G91R0->OH7R0P10|";
+    LC4_A22 : LORAX = "1:MSW0R0C20,V0C20->OV2C20P27|";
+    LC1_A22 : LORAX = "1:MSW0R0C21,G37R0->OH8R0P71|";
+    LC2_C17 : LORAX = "1:MSW1R2C17,HHR16R2->OH1R2P20|";
+    LC7_C17 : LORAX = "1:MSW6R2C17,HHR24R2->OH6R2P23|";
+    LC5_C17 : LORAX = "1:MSW4R2C17,G77R2->OH12R2P56|";
+    LC1_C17 : LORAX = "1:MSW0R2C17,HHR20R2->OH0R2P19|";
+	LC5_A22 : LORAX2 = "X, OH14R0P68, OD2P38, LC5_A22";
+	LC8_A22 : LORAX2 = "X, OH0R0P5, OD2P38, LC8_A22";
+	LC3_A22 : LORAX2 = "X, OH12R0P69, OD2P38, LC3_A22";
+	LC6_A22 : LORAX2 = "X, OD4P90, OD2P38, LC6_A22";
+	LC6_C17 : LORAX2 = "X, OD5P39, OD2P38, LC6_C17";
+	LC8_C17 : LORAX2 = "X, OD0P91, OD2P38, LC8_C17";
+	LC4_C17 : LORAX2 = "X, OD1P89, OD2P38, LC4_C17";
+	LC3_C17 : LORAX2 = "X, OD3P40, OD2P38, LC3_C17";
+	LC2_A22 : LORAX2 = "X, OH14R0P68, OD2P38, LC2_A22";
+	LC7_A22 : LORAX2 = "X, OH0R0P5, OD2P38, LC7_A22";
+	LC4_A22 : LORAX2 = "X, OH12R0P69, OD2P38, LC4_A22";
+	LC1_A22 : LORAX2 = "X, OD4P90, OD2P38, LC1_A22";
+	LC2_C17 : LORAX2 = "X, OD5P39, OD2P38, LC2_C17";
+	LC7_C17 : LORAX2 = "X, OD0P91, OD2P38, LC7_C17";
+	LC5_C17 : LORAX2 = "X, OD1P89, OD2P38, LC5_C17";
+	LC1_C17 : LORAX2 = "X, OD3P40, OD2P38, LC1_C17";
+END;
