@@ -1,0 +1,131 @@
+-- Copyright (C) 1988-2000 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+----------------------------------------------------------------------------
+
+CHIP "mux5" ASSIGNED TO AN EP1K10TC100-1
+CONF_DONE                        : 1
+nCEO                             : 2
+TDO                              : 3
+VCCIO                            : 4
+W1                               : 5
+RESERVED                         : 6
+RESERVED                         : 7
+RESERVED                         : 8
+RESERVED                         : 9
+RESERVED                         : 10
+GND                              : 11
+VCCINT                           : 12
+X12                              : 13
+W2                               : 14
+X06                              : 15
+X15                              : 16
+VCCIO                            : 17
+GND                              : 18
+W3                               : 19
+RESERVED                         : 20
+RESERVED                         : 21
+RESERVED                         : 22
+RESERVED                         : 23
+TMS                              : 24
+nSTATUS                          : 25
+X22                              : 26
+X21                              : 27
+X42                              : 28
+X33                              : 29
+X31                              : 30
+X43                              : 31
+X24                              : 32
+X23                              : 33
+X04                              : 34
+VCCINT                           : 35
+GND                              : 36
+VCC_CKLK                         : 37
+A                                : 38
+B                                : 39
+C                                : 40
+GND_CKLK                         : 41
+GND                              : 42
+X20                              : 43
+VCCIO                            : 44
+X00                              : 45
+X27                              : 46
+X45                              : 47
+X16                              : 48
+X05                              : 49
+X30                              : 50
+nCONFIG                          : 51
+VCCINT                           : 52
+MSEL1                            : 53
+MSEL0                            : 54
+W6                               : 55
+X14                              : 56
+W7                               : 57
+RESERVED                         : 58
+GND                              : 59
+VCCINT                           : 60
+X44                              : 61
+X07                              : 62
+W4                               : 63
+X47                              : 64
+W5                               : 65
+GND                              : 66
+VCCIO                            : 67
+RESERVED                         : 68
+W0                               : 69
+RESERVED                         : 70
+RESERVED                         : 71
+VCCINT                           : 72
+TDI                              : 73
+nCE                              : 74
+DCLK                             : 75
+DATA0                            : 76
+X37                              : 77
+X34                              : 78
+X10                              : 79
+X25                              : 80
+X36                              : 81
+X17                              : 82
+VCCIO                            : 83
+X46                              : 84
+X02                              : 85
+X35                              : 86
+X26                              : 87
+GND                              : 88
+E                                : 89
+X40                              : 90
+D                                : 91
+VCCINT                           : 92
+X13                              : 93
+X11                              : 94
+GND                              : 95
+X32                              : 96
+X41                              : 97
+X01                              : 98
+X03                              : 99
+TCK                              : 100

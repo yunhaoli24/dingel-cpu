@@ -1,0 +1,917 @@
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\mux5.rpt
+
+MAX+plus II Compiler Report File
+Version 10.0 9/14/2000
+Compiled: 08/28/2020 20:02:19
+
+Copyright (C) 1988-2000 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+MUX5
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input Output Bidir  Memory  Memory  			 LCs
+POF       Device          Pins  Pins   Pins   Bits % Utilized  LCs  % Utilized
+
+mux5      EP1K10TC100-1    45     8      0    0         0  %    45       7  %
+
+User Pins:                 45     8      0  
+
+
+
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\mux5.rpt
+
+** PROJECT COMPILATION MESSAGES **
+
+Warning: Ignored unnecessary INPUT pin 'X57'
+Warning: Ignored unnecessary INPUT pin 'X56'
+Warning: Ignored unnecessary INPUT pin 'X55'
+Warning: Ignored unnecessary INPUT pin 'X54'
+Warning: Ignored unnecessary INPUT pin 'X53'
+Warning: Ignored unnecessary INPUT pin 'X52'
+Warning: Ignored unnecessary INPUT pin 'X51'
+Warning: Ignored unnecessary INPUT pin 'X50'
+
+
+** PROJECT TIMING MESSAGES **
+
+Warning: Timing characteristics of device EP1K10TC100-1 are preliminary
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\mux5.rpt
+mux5
+
+***** Logic for device 'mux5' compiled without errors.
+
+
+
+
+Device: EP1K10TC100-1
+
+ACEX 1K Configuration Scheme: Passive Serial
+
+Device Options:
+    User-Supplied Start-Up Clock               = OFF
+    Auto-Restart Configuration on Frame Error  = OFF
+    Release Clears Before Tri-States           = OFF
+    Enable Chip_Wide Reset                     = OFF
+    Enable Chip-Wide Output Enable             = OFF
+    Enable INIT_DONE Output                    = OFF
+    JTAG User Code                             = 7f
+    MultiVolt I/O                              = OFF
+    Enable Lock Output                         = OFF
+
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\mux5.rpt
+mux5
+
+** ERROR SUMMARY **
+
+Info: Chip 'mux5' in device 'EP1K10TC100-1' has less than 20% of pins available for future logic changes -- if your project is likely to change, Altera recommends using a larger device
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                V                               ^  
+                                C                 V             D  
+                #               C                 C             A  
+                T X X X X G X X I   X   G X X X X C X X X X X X T  
+                C 0 0 4 3 N 1 1 N   4   N 2 3 0 4 I 1 3 2 1 3 3 A  
+                K 3 1 1 2 D 1 3 T D 0 E D 6 5 2 6 O 7 6 5 0 4 7 0  
+              ----------------------------------------------------_ 
+             / 100  98  96  94  92  90  88  86  84  82  80  78  76   |_ 
+            /     99  97  95  93  91  89  87  85  83  81  79  77    | 
+^CONF_DONE |  1                                                    75 | ^DCLK 
+     ^nCEO |  2                                                    74 | ^nCE 
+      #TDO |  3                                                    73 | #TDI 
+     VCCIO |  4                                                    72 | VCCINT 
+        W1 |  5                                                    71 | RESERVED 
+  RESERVED |  6                                                    70 | RESERVED 
+  RESERVED |  7                                                    69 | W0 
+  RESERVED |  8                                                    68 | RESERVED 
+  RESERVED |  9                                                    67 | VCCIO 
+  RESERVED | 10                                                    66 | GND 
+       GND | 11                                                    65 | W5 
+    VCCINT | 12                                                    64 | X47 
+       X12 | 13                   EP1K10TC100-1                    63 | W4 
+        W2 | 14                                                    62 | X07 
+       X06 | 15                                                    61 | X44 
+       X15 | 16                                                    60 | VCCINT 
+     VCCIO | 17                                                    59 | GND 
+       GND | 18                                                    58 | RESERVED 
+        W3 | 19                                                    57 | W7 
+  RESERVED | 20                                                    56 | X14 
+  RESERVED | 21                                                    55 | W6 
+  RESERVED | 22                                                    54 | ^MSEL0 
+  RESERVED | 23                                                    53 | ^MSEL1 
+      #TMS | 24                                                    52 | VCCINT 
+  ^nSTATUS | 25                                                    51 | ^nCONFIG 
+           |      27  29  31  33  35  37  39  41  43  45  47  49  _| 
+            \   26  28  30  32  34  36  38  40  42  44  46  48  50   | 
+             \----------------------------------------------------- 
+                X X X X X X X X X V G V A B C G G X V X X X X X X  
+                2 2 4 3 3 4 2 2 0 C N C       N N 2 C 0 2 4 1 0 3  
+                2 1 2 3 1 3 4 3 4 C D C       D D 0 C 0 7 5 6 5 0  
+                                  I   _       _     I              
+                                  N   C       C     O              
+                                  T   K       K                    
+                                      L       L                    
+                                      K       K                    
+                                                                   
+                                                                   
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+^ = Dedicated configuration pin.
++ = Reserved configuration pin, which is tri-stated during user mode.
+* = Reserved configuration pin, which drives out in user mode.
+PDn = Power Down pin. 
+@ = Special-purpose pin. 
+# = JTAG Boundary-Scan Testing/In-System Programming or Configuration Pin. The JTAG inputs TMS and TDI should be tied to VCC and TCK should be tied to GND when not in use.
+& = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
+$ = Pin has PCI I/O option enabled. Pin is neither '5.0 V'- nor '3.3 V'-tolerant. 
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\mux5.rpt
+mux5
+
+** RESOURCE USAGE **
+
+Logic                Column       Row                                   
+Array                Interconnect Interconnect         Clears/     External  
+Block   Logic Cells  Driven       Driven       Clocks  Presets   Interconnect
+B2       6/ 8( 75%)   0/ 8(  0%)   3/ 8( 37%)    0/2    0/2      12/22( 54%)   
+B6       8/ 8(100%)   1/ 8( 12%)   1/ 8( 12%)    0/2    0/2      17/22( 77%)   
+B7       8/ 8(100%)   1/ 8( 12%)   3/ 8( 37%)    0/2    0/2      12/22( 54%)   
+B12      8/ 8(100%)   1/ 8( 12%)   1/ 8( 12%)    0/2    0/2      17/22( 77%)   
+B18      7/ 8( 87%)   1/ 8( 12%)   1/ 8( 12%)    0/2    0/2      16/22( 72%)   
+B21      8/ 8(100%)   1/ 8( 12%)   3/ 8( 37%)    0/2    0/2      15/22( 68%)   
+
+
+Embedded             Column       Row                                   
+Array     Embedded   Interconnect Interconnect         Read/      External  
+Block     Cells      Driven       Driven       Clocks  Write    Interconnect
+
+
+Total dedicated input pins used:                 6/6      (100%)
+Total I/O pins used:                            47/60     ( 78%)
+Total logic cells used:                         45/576    (  7%)
+Total embedded cells used:                       0/48     (  0%)
+Total EABs used:                                 0/3      (  0%)
+Average fan-in:                                 4.00/4    (100%)
+Total fan-in:                                 180/2304    (  7%)
+
+Total input pins required:                      45
+Total input I/O cell registers required:         0
+Total output pins required:                      8
+Total output I/O cell registers required:        0
+Total buried I/O cell registers required:        0
+Total bidirectional pins required:               0
+Total reserved pins required                     0
+Total logic cells required:                     45
+Total flipflops required:                        0
+Total packed registers required:                 0
+Total logic cells in carry chains:               0
+Total number of carry chains:                    0
+Total logic cells in cascade chains:             0
+Total number of cascade chains:                  0
+Total single-pin Clock Enables required:         0
+Total single-pin Output Enables required:        0
+
+Synthesized logic cells:                         5/ 576   (  0%)
+
+Logic Cell and Embedded Cell Counts
+
+Column:  01  02  03  04  05  06  07  08  09  10  11  12  EA  13  14  15  16  17  18  19  20  21  22  23  24  Total(LC/EC)
+ A:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+ B:      0   6   0   0   0   8   8   0   0   0   0   8   0   0   0   0   0   0   7   0   0   8   0   0   0     45/0  
+ C:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+
+Total:   0   6   0   0   0   8   8   0   0   0   0   8   0   0   0   0   0   0   7   0   0   8   0   0   0     45/0  
+
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\mux5.rpt
+mux5
+
+** INPUTS **
+
+                                                    Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  38      -     -    -    --      INPUT             ^    0    0    0   19  A
+  39      -     -    -    --      INPUT             ^    0    0    0    5  B
+  40      -     -    -    --      INPUT             ^    0    0    0   12  C
+  91      -     -    -    --      INPUT             ^    0    0    0    5  D
+  89      -     -    -    --      INPUT             ^    0    0    0   19  E
+  45      -     -    -    11      INPUT             ^    0    0    0    1  X00
+  98      -     -    -    24      INPUT             ^    0    0    0    1  X01
+  85      -     -    -    08      INPUT             ^    0    0    0    1  X02
+  99      -     -    -    24      INPUT             ^    0    0    0    1  X03
+  34      -     -    -    14      INPUT             ^    0    0    0    1  X04
+  49      -     -    -    06      INPUT             ^    0    0    0    1  X05
+  15      -     -    B    --      INPUT             ^    0    0    0    1  X06
+  62      -     -    B    --      INPUT             ^    0    0    0    1  X07
+  79      -     -    -    02      INPUT             ^    0    0    0    1  X10
+  94      -     -    -    19      INPUT             ^    0    0    0    1  X11
+  13      -     -    B    --      INPUT             ^    0    0    0    1  X12
+  93      -     -    -    13      INPUT             ^    0    0    0    1  X13
+  56      -     -    C    --      INPUT             ^    0    0    0    1  X14
+  16      -     -    B    --      INPUT             ^    0    0    0    1  X15
+  48      -     -    -    07      INPUT             ^    0    0    0    1  X16
+  82      -     -    -    04      INPUT             ^    0    0    0    1  X17
+  43      -     -    -    12      INPUT             ^    0    0    0    1  X20
+  27      -     -    -    21      INPUT             ^    0    0    0    1  X21
+  26      -     -    -    23      INPUT             ^    0    0    0    1  X22
+  33      -     -    -    15      INPUT             ^    0    0    0    1  X23
+  32      -     -    -    16      INPUT             ^    0    0    0    1  X24
+  80      -     -    -    03      INPUT             ^    0    0    0    1  X25
+  87      -     -    -    12      INPUT             ^    0    0    0    1  X26
+  46      -     -    -    10      INPUT             ^    0    0    0    1  X27
+  50      -     -    -    02      INPUT             ^    0    0    0    1  X30
+  30      -     -    -    18      INPUT             ^    0    0    0    1  X31
+  96      -     -    -    22      INPUT             ^    0    0    0    1  X32
+  29      -     -    -    19      INPUT             ^    0    0    0    1  X33
+  78      -     -    -    01      INPUT             ^    0    0    0    1  X34
+  86      -     -    -    09      INPUT             ^    0    0    0    1  X35
+  81      -     -    -    03      INPUT             ^    0    0    0    1  X36
+  77      -     -    -    01      INPUT             ^    0    0    0    1  X37
+  90      -     -    -    --      INPUT             ^    0    0    0    1  X40
+  97      -     -    -    23      INPUT             ^    0    0    0    1  X41
+  28      -     -    -    20      INPUT             ^    0    0    0    1  X42
+  31      -     -    -    17      INPUT             ^    0    0    0    1  X43
+  61      -     -    B    --      INPUT             ^    0    0    0    1  X44
+  47      -     -    -    09      INPUT             ^    0    0    0    1  X45
+  84      -     -    -    05      INPUT             ^    0    0    0    1  X46
+  64      -     -    B    --      INPUT             ^    0    0    0    1  X47
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+^ = Increased input delay
+* = PCI I/O is enabled
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\mux5.rpt
+mux5
+
+** OUTPUTS **
+
+       Fed By Fed By                                Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  69      -     -    A    --     OUTPUT                 0    1    0    0  W0
+   5      -     -    A    --     OUTPUT                 0    1    0    0  W1
+  14      -     -    B    --     OUTPUT                 0    1    0    0  W2
+  19      -     -    C    --     OUTPUT                 0    1    0    0  W3
+  63      -     -    B    --     OUTPUT                 0    1    0    0  W4
+  65      -     -    B    --     OUTPUT                 0    1    0    0  W5
+  55      -     -    C    --     OUTPUT                 0    1    0    0  W6
+  57      -     -    C    --     OUTPUT                 0    1    0    0  W7
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+^ = Increased input delay
+* = PCI I/O is enabled
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\mux5.rpt
+mux5
+
+** BURIED LOGIC **
+
+                                                    Fan-In    Fan-Out
+ IOC     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+   -      1     -    B    07       AND2    s           4    0    0    8  ~142~1
+   -      3     -    B    21       AND2    s           4    0    0    8  ~153~1
+   -      6     -    B    21       AND2    s           4    0    0    8  ~164~1
+   -      2     -    B    07       AND2    s           4    0    0    8  ~175~1
+   -      6     -    B    07       AND2    s           4    0    0    8  ~186~1
+   -      5     -    B    06        OR2                2    2    0    1  :361
+   -      6     -    B    06        OR2                2    2    0    1  :367
+   -      7     -    B    06        OR2                2    2    0    1  :373
+   -      8     -    B    06        OR2                2    2    0    1  :379
+   -      2     -    B    06        OR2                2    2    1    1  :385
+   -      4     -    B    12        OR2                2    2    0    1  :391
+   -      5     -    B    12        OR2                2    2    0    1  :394
+   -      6     -    B    12        OR2                2    2    0    1  :397
+   -      8     -    B    12        OR2                2    2    0    1  :400
+   -      7     -    B    12        OR2                2    2    1    1  :403
+   -      3     -    B    06        OR2                2    2    0    1  :409
+   -      4     -    B    06        OR2                2    2    0    1  :412
+   -      1     -    B    06        OR2                2    2    0    1  :415
+   -      6     -    B    02        OR2                2    2    0    1  :418
+   -      1     -    B    02        OR2                2    2    1    1  :421
+   -      2     -    B    12        OR2                2    2    0    1  :427
+   -      3     -    B    12        OR2                2    2    0    1  :430
+   -      1     -    B    12        OR2                2    2    0    1  :433
+   -      5     -    B    02        OR2                2    2    0    1  :436
+   -      4     -    B    02        OR2                2    2    1    1  :439
+   -      4     -    B    18        OR2                2    2    0    1  :445
+   -      5     -    B    18        OR2                2    2    0    1  :448
+   -      6     -    B    18        OR2                2    2    0    1  :451
+   -      7     -    B    18        OR2                2    2    0    1  :454
+   -      1     -    B    18        OR2                2    2    1    1  :457
+   -      3     -    B    18        OR2                2    2    0    1  :463
+   -      2     -    B    18        OR2                2    2    0    1  :466
+   -      2     -    B    21        OR2                2    2    0    1  :469
+   -      2     -    B    02        OR2                2    2    0    1  :472
+   -      3     -    B    02        OR2                2    2    1    1  :475
+   -      4     -    B    21        OR2                2    2    0    1  :481
+   -      5     -    B    21        OR2                2    2    0    1  :484
+   -      7     -    B    21        OR2                2    2    0    1  :487
+   -      8     -    B    21        OR2                2    2    0    1  :490
+   -      1     -    B    21        OR2                2    2    1    1  :493
+   -      3     -    B    07        OR2                2    2    0    1  :499
+   -      4     -    B    07        OR2                2    2    0    1  :502
+   -      7     -    B    07        OR2                2    2    0    1  :505
+   -      8     -    B    07        OR2                2    2    0    1  :508
+   -      5     -    B    07        OR2                2    2    1    1  :511
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+^ = Increased input delay
+* = PCI I/O is enabled
+p = Packed register
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\mux5.rpt
+mux5
+
+** FASTTRACK INTERCONNECT UTILIZATION **
+
+Row FastTrack Interconnect:
+
+          Global         Left Half-      Right Half-
+         FastTrack       FastTrack       FastTrack 
+Row     Interconnect    Interconnect    Interconnect    Input Pins     Output Pins     Bidir Pins
+A:       0/ 96(  0%)     1/ 48(  2%)     1/ 48(  2%)    0/16(  0%)      2/16( 12%)     0/16(  0%)
+B:      24/ 96( 25%)    18/ 48( 37%)    10/ 48( 20%)    6/16( 37%)      3/16( 18%)     0/16(  0%)
+C:       1/ 96(  1%)     2/ 48(  4%)     1/ 48(  2%)    1/16(  6%)      3/16( 18%)     0/16(  0%)
+
+
+Column FastTrack Interconnect:
+
+         FastTrack                                 
+Column  Interconnect    Input Pins     Output Pins     Bidir Pins
+01:      2/24(  8%)     2/4( 50%)      0/4(  0%)       0/4(  0%)
+02:      2/24(  8%)     2/4( 50%)      0/4(  0%)       0/4(  0%)
+03:      2/24(  8%)     2/4( 50%)      0/4(  0%)       0/4(  0%)
+04:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+05:      2/24(  8%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+06:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+07:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+08:      2/24(  8%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+09:      2/24(  8%)     2/4( 50%)      0/4(  0%)       0/4(  0%)
+10:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+11:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+12:      3/24( 12%)     2/4( 50%)      0/4(  0%)       0/4(  0%)
+13:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+14:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+15:      2/24(  8%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+16:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+17:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+18:      2/24(  8%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+19:      2/24(  8%)     2/4( 50%)      0/4(  0%)       0/4(  0%)
+20:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+21:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+22:      2/24(  8%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+23:      2/24(  8%)     2/4( 50%)      0/4(  0%)       0/4(  0%)
+24:      2/24(  8%)     2/4( 50%)      0/4(  0%)       0/4(  0%)
+EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\mux5.rpt
+mux5
+
+** EQUATIONS **
+
+A        : INPUT;
+B        : INPUT;
+C        : INPUT;
+D        : INPUT;
+E        : INPUT;
+X00      : INPUT;
+X01      : INPUT;
+X02      : INPUT;
+X03      : INPUT;
+X04      : INPUT;
+X05      : INPUT;
+X06      : INPUT;
+X07      : INPUT;
+X10      : INPUT;
+X11      : INPUT;
+X12      : INPUT;
+X13      : INPUT;
+X14      : INPUT;
+X15      : INPUT;
+X16      : INPUT;
+X17      : INPUT;
+X20      : INPUT;
+X21      : INPUT;
+X22      : INPUT;
+X23      : INPUT;
+X24      : INPUT;
+X25      : INPUT;
+X26      : INPUT;
+X27      : INPUT;
+X30      : INPUT;
+X31      : INPUT;
+X32      : INPUT;
+X33      : INPUT;
+X34      : INPUT;
+X35      : INPUT;
+X36      : INPUT;
+X37      : INPUT;
+X40      : INPUT;
+X41      : INPUT;
+X42      : INPUT;
+X43      : INPUT;
+X44      : INPUT;
+X45      : INPUT;
+X46      : INPUT;
+X47      : INPUT;
+
+-- Node name is 'W0' 
+-- Equation name is 'W0', type is output 
+W0       =  _LC5_B7;
+
+-- Node name is 'W1' 
+-- Equation name is 'W1', type is output 
+W1       =  _LC1_B21;
+
+-- Node name is 'W2' 
+-- Equation name is 'W2', type is output 
+W2       =  _LC3_B2;
+
+-- Node name is 'W3' 
+-- Equation name is 'W3', type is output 
+W3       =  _LC1_B18;
+
+-- Node name is 'W4' 
+-- Equation name is 'W4', type is output 
+W4       =  _LC4_B2;
+
+-- Node name is 'W5' 
+-- Equation name is 'W5', type is output 
+W5       =  _LC1_B2;
+
+-- Node name is 'W6' 
+-- Equation name is 'W6', type is output 
+W6       =  _LC7_B12;
+
+-- Node name is 'W7' 
+-- Equation name is 'W7', type is output 
+W7       =  _LC2_B6;
+
+-- Node name is '~142~1' 
+-- Equation name is '~142~1', location is LC1_B7, type is buried.
+-- synthesized logic cell 
+_LC1_B7  = LCELL( _EQ001);
+  _EQ001 =  B &  C &  D &  E;
+
+-- Node name is '~153~1' 
+-- Equation name is '~153~1', location is LC3_B21, type is buried.
+-- synthesized logic cell 
+_LC3_B21 = LCELL( _EQ002);
+  _EQ002 = !B &  C &  D &  E;
+
+-- Node name is '~164~1' 
+-- Equation name is '~164~1', location is LC6_B21, type is buried.
+-- synthesized logic cell 
+_LC6_B21 = LCELL( _EQ003);
+  _EQ003 =  A &  B &  D &  E;
+
+-- Node name is '~175~1' 
+-- Equation name is '~175~1', location is LC2_B7, type is buried.
+-- synthesized logic cell 
+_LC2_B7  = LCELL( _EQ004);
+  _EQ004 =  A &  B &  C & !D;
+
+-- Node name is '~186~1' 
+-- Equation name is '~186~1', location is LC6_B7, type is buried.
+-- synthesized logic cell 
+_LC6_B7  = LCELL( _EQ005);
+  _EQ005 =  A &  B &  C &  D;
+
+-- Node name is ':361' 
+-- Equation name is '_LC5_B6', type is buried 
+_LC5_B6  = LCELL( _EQ006);
+  _EQ006 =  _LC2_B6 & !_LC6_B7
+         #  E &  _LC2_B6
+         # !E &  _LC6_B7 &  X47;
+
+-- Node name is ':367' 
+-- Equation name is '_LC6_B6', type is buried 
+_LC6_B6  = LCELL( _EQ007);
+  _EQ007 = !_LC2_B7 &  _LC5_B6
+         # !E &  _LC5_B6
+         #  E &  _LC2_B7 &  X37;
+
+-- Node name is ':373' 
+-- Equation name is '_LC7_B6', type is buried 
+_LC7_B6  = LCELL( _EQ008);
+  _EQ008 =  _LC6_B6 & !_LC6_B21
+         #  C &  _LC6_B6
+         # !C &  _LC6_B21 &  X27;
+
+-- Node name is ':379' 
+-- Equation name is '_LC8_B6', type is buried 
+_LC8_B6  = LCELL( _EQ009);
+  _EQ009 = !_LC3_B21 &  _LC7_B6
+         # !A &  _LC7_B6
+         #  A &  _LC3_B21 &  X17;
+
+-- Node name is ':385' 
+-- Equation name is '_LC2_B6', type is buried 
+_LC2_B6  = LCELL( _EQ010);
+  _EQ010 =  A &  _LC8_B6
+         # !_LC1_B7 &  _LC8_B6
+         # !A &  _LC1_B7 &  X07;
+
+-- Node name is ':391' 
+-- Equation name is '_LC4_B12', type is buried 
+_LC4_B12 = LCELL( _EQ011);
+  _EQ011 = !_LC6_B7 &  _LC7_B12
+         #  E &  _LC7_B12
+         # !E &  _LC6_B7 &  X46;
+
+-- Node name is ':394' 
+-- Equation name is '_LC5_B12', type is buried 
+_LC5_B12 = LCELL( _EQ012);
+  _EQ012 = !_LC2_B7 &  _LC4_B12
+         # !E &  _LC4_B12
+         #  E &  _LC2_B7 &  X36;
+
+-- Node name is ':397' 
+-- Equation name is '_LC6_B12', type is buried 
+_LC6_B12 = LCELL( _EQ013);
+  _EQ013 =  _LC5_B12 & !_LC6_B21
+         #  C &  _LC5_B12
+         # !C &  _LC6_B21 &  X26;
+
+-- Node name is ':400' 
+-- Equation name is '_LC8_B12', type is buried 
+_LC8_B12 = LCELL( _EQ014);
+  _EQ014 = !_LC3_B21 &  _LC6_B12
+         # !A &  _LC6_B12
+         #  A &  _LC3_B21 &  X16;
+
+-- Node name is ':403' 
+-- Equation name is '_LC7_B12', type is buried 
+_LC7_B12 = LCELL( _EQ015);
+  _EQ015 =  A &  _LC8_B12
+         # !_LC1_B7 &  _LC8_B12
+         # !A &  _LC1_B7 &  X06;
+
+-- Node name is ':409' 
+-- Equation name is '_LC3_B6', type is buried 
+_LC3_B6  = LCELL( _EQ016);
+  _EQ016 =  _LC1_B2 & !_LC6_B7
+         #  E &  _LC1_B2
+         # !E &  _LC6_B7 &  X45;
+
+-- Node name is ':412' 
+-- Equation name is '_LC4_B6', type is buried 
+_LC4_B6  = LCELL( _EQ017);
+  _EQ017 = !_LC2_B7 &  _LC3_B6
+         # !E &  _LC3_B6
+         #  E &  _LC2_B7 &  X35;
+
+-- Node name is ':415' 
+-- Equation name is '_LC1_B6', type is buried 
+_LC1_B6  = LCELL( _EQ018);
+  _EQ018 =  _LC4_B6 & !_LC6_B21
+         #  C &  _LC4_B6
+         # !C &  _LC6_B21 &  X25;
+
+-- Node name is ':418' 
+-- Equation name is '_LC6_B2', type is buried 
+_LC6_B2  = LCELL( _EQ019);
+  _EQ019 =  _LC1_B6 & !_LC3_B21
+         # !A &  _LC1_B6
+         #  A &  _LC3_B21 &  X15;
+
+-- Node name is ':421' 
+-- Equation name is '_LC1_B2', type is buried 
+_LC1_B2  = LCELL( _EQ020);
+  _EQ020 =  A &  _LC6_B2
+         # !_LC1_B7 &  _LC6_B2
+         # !A &  _LC1_B7 &  X05;
+
+-- Node name is ':427' 
+-- Equation name is '_LC2_B12', type is buried 
+_LC2_B12 = LCELL( _EQ021);
+  _EQ021 =  _LC4_B2 & !_LC6_B7
+         #  E &  _LC4_B2
+         # !E &  _LC6_B7 &  X44;
+
+-- Node name is ':430' 
+-- Equation name is '_LC3_B12', type is buried 
+_LC3_B12 = LCELL( _EQ022);
+  _EQ022 = !_LC2_B7 &  _LC2_B12
+         # !E &  _LC2_B12
+         #  E &  _LC2_B7 &  X34;
+
+-- Node name is ':433' 
+-- Equation name is '_LC1_B12', type is buried 
+_LC1_B12 = LCELL( _EQ023);
+  _EQ023 =  _LC3_B12 & !_LC6_B21
+         #  C &  _LC3_B12
+         # !C &  _LC6_B21 &  X24;
+
+-- Node name is ':436' 
+-- Equation name is '_LC5_B2', type is buried 
+_LC5_B2  = LCELL( _EQ024);
+  _EQ024 =  _LC1_B12 & !_LC3_B21
+         # !A &  _LC1_B12
+         #  A &  _LC3_B21 &  X14;
+
+-- Node name is ':439' 
+-- Equation name is '_LC4_B2', type is buried 
+_LC4_B2  = LCELL( _EQ025);
+  _EQ025 =  A &  _LC5_B2
+         # !_LC1_B7 &  _LC5_B2
+         # !A &  _LC1_B7 &  X04;
+
+-- Node name is ':445' 
+-- Equation name is '_LC4_B18', type is buried 
+_LC4_B18 = LCELL( _EQ026);
+  _EQ026 =  _LC1_B18 & !_LC6_B7
+         #  E &  _LC1_B18
+         # !E &  _LC6_B7 &  X43;
+
+-- Node name is ':448' 
+-- Equation name is '_LC5_B18', type is buried 
+_LC5_B18 = LCELL( _EQ027);
+  _EQ027 = !_LC2_B7 &  _LC4_B18
+         # !E &  _LC4_B18
+         #  E &  _LC2_B7 &  X33;
+
+-- Node name is ':451' 
+-- Equation name is '_LC6_B18', type is buried 
+_LC6_B18 = LCELL( _EQ028);
+  _EQ028 =  _LC5_B18 & !_LC6_B21
+         #  C &  _LC5_B18
+         # !C &  _LC6_B21 &  X23;
+
+-- Node name is ':454' 
+-- Equation name is '_LC7_B18', type is buried 
+_LC7_B18 = LCELL( _EQ029);
+  _EQ029 = !_LC3_B21 &  _LC6_B18
+         # !A &  _LC6_B18
+         #  A &  _LC3_B21 &  X13;
+
+-- Node name is ':457' 
+-- Equation name is '_LC1_B18', type is buried 
+_LC1_B18 = LCELL( _EQ030);
+  _EQ030 =  A &  _LC7_B18
+         # !_LC1_B7 &  _LC7_B18
+         # !A &  _LC1_B7 &  X03;
+
+-- Node name is ':463' 
+-- Equation name is '_LC3_B18', type is buried 
+_LC3_B18 = LCELL( _EQ031);
+  _EQ031 =  _LC3_B2 & !_LC6_B7
+         #  E &  _LC3_B2
+         # !E &  _LC6_B7 &  X42;
+
+-- Node name is ':466' 
+-- Equation name is '_LC2_B18', type is buried 
+_LC2_B18 = LCELL( _EQ032);
+  _EQ032 = !_LC2_B7 &  _LC3_B18
+         # !E &  _LC3_B18
+         #  E &  _LC2_B7 &  X32;
+
+-- Node name is ':469' 
+-- Equation name is '_LC2_B21', type is buried 
+_LC2_B21 = LCELL( _EQ033);
+  _EQ033 =  _LC2_B18 & !_LC6_B21
+         #  C &  _LC2_B18
+         # !C &  _LC6_B21 &  X22;
+
+-- Node name is ':472' 
+-- Equation name is '_LC2_B2', type is buried 
+_LC2_B2  = LCELL( _EQ034);
+  _EQ034 =  _LC2_B21 & !_LC3_B21
+         # !A &  _LC2_B21
+         #  A &  _LC3_B21 &  X12;
+
+-- Node name is ':475' 
+-- Equation name is '_LC3_B2', type is buried 
+_LC3_B2  = LCELL( _EQ035);
+  _EQ035 =  A &  _LC2_B2
+         # !_LC1_B7 &  _LC2_B2
+         # !A &  _LC1_B7 &  X02;
+
+-- Node name is ':481' 
+-- Equation name is '_LC4_B21', type is buried 
+_LC4_B21 = LCELL( _EQ036);
+  _EQ036 =  _LC1_B21 & !_LC6_B7
+         #  E &  _LC1_B21
+         # !E &  _LC6_B7 &  X41;
+
+-- Node name is ':484' 
+-- Equation name is '_LC5_B21', type is buried 
+_LC5_B21 = LCELL( _EQ037);
+  _EQ037 = !_LC2_B7 &  _LC4_B21
+         # !E &  _LC4_B21
+         #  E &  _LC2_B7 &  X31;
+
+-- Node name is ':487' 
+-- Equation name is '_LC7_B21', type is buried 
+_LC7_B21 = LCELL( _EQ038);
+  _EQ038 =  _LC5_B21 & !_LC6_B21
+         #  C &  _LC5_B21
+         # !C &  _LC6_B21 &  X21;
+
+-- Node name is ':490' 
+-- Equation name is '_LC8_B21', type is buried 
+_LC8_B21 = LCELL( _EQ039);
+  _EQ039 = !_LC3_B21 &  _LC7_B21
+         # !A &  _LC7_B21
+         #  A &  _LC3_B21 &  X11;
+
+-- Node name is ':493' 
+-- Equation name is '_LC1_B21', type is buried 
+_LC1_B21 = LCELL( _EQ040);
+  _EQ040 =  A &  _LC8_B21
+         # !_LC1_B7 &  _LC8_B21
+         # !A &  _LC1_B7 &  X01;
+
+-- Node name is ':499' 
+-- Equation name is '_LC3_B7', type is buried 
+_LC3_B7  = LCELL( _EQ041);
+  _EQ041 =  _LC5_B7 & !_LC6_B7
+         #  E &  _LC5_B7
+         # !E &  _LC6_B7 &  X40;
+
+-- Node name is ':502' 
+-- Equation name is '_LC4_B7', type is buried 
+_LC4_B7  = LCELL( _EQ042);
+  _EQ042 = !_LC2_B7 &  _LC3_B7
+         # !E &  _LC3_B7
+         #  E &  _LC2_B7 &  X30;
+
+-- Node name is ':505' 
+-- Equation name is '_LC7_B7', type is buried 
+_LC7_B7  = LCELL( _EQ043);
+  _EQ043 =  _LC4_B7 & !_LC6_B21
+         #  C &  _LC4_B7
+         # !C &  _LC6_B21 &  X20;
+
+-- Node name is ':508' 
+-- Equation name is '_LC8_B7', type is buried 
+_LC8_B7  = LCELL( _EQ044);
+  _EQ044 = !_LC3_B21 &  _LC7_B7
+         # !A &  _LC7_B7
+         #  A &  _LC3_B21 &  X10;
+
+-- Node name is ':511' 
+-- Equation name is '_LC5_B7', type is buried 
+_LC5_B7  = LCELL( _EQ045);
+  _EQ045 =  A &  _LC8_B7
+         # !_LC1_B7 &  _LC8_B7
+         # !A &  _LC1_B7 &  X00;
+
+
+
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\mux5.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Multi-Level
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'ACEX1K' family
+
+      CARRY_CHAIN                         = ignore
+      CARRY_CHAIN_LENGTH                  = 32
+      CASCADE_CHAIN                       = ignore
+      CASCADE_CHAIN_LENGTH                = 2
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SUBFACTOR_EXTRACTION                = on
+      IGNORE_SOFT_BUFFERS                 = on
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Use Quartus Fitter                        = on
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:01
+   Partitioner                            00:00:00
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:01
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 16,711K
