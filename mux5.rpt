@@ -2,7 +2,7 @@ Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport
 
 MAX+plus II Compiler Report File
 Version 10.0 9/14/2000
-Compiled: 08/28/2020 20:02:19
+Compiled: 08/29/2020 13:29:56
 
 Copyright (C) 1988-2000 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -44,18 +44,6 @@ User Pins:                 45     8      0
 
 
 Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\mux5.rpt
-
-** PROJECT COMPILATION MESSAGES **
-
-Warning: Ignored unnecessary INPUT pin 'X57'
-Warning: Ignored unnecessary INPUT pin 'X56'
-Warning: Ignored unnecessary INPUT pin 'X55'
-Warning: Ignored unnecessary INPUT pin 'X54'
-Warning: Ignored unnecessary INPUT pin 'X53'
-Warning: Ignored unnecessary INPUT pin 'X52'
-Warning: Ignored unnecessary INPUT pin 'X51'
-Warning: Ignored unnecessary INPUT pin 'X50'
-
 
 ** PROJECT TIMING MESSAGES **
 
@@ -325,51 +313,51 @@ mux5
 
                                                     Fan-In    Fan-Out
  IOC     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-   -      1     -    B    07       AND2    s           4    0    0    8  ~142~1
-   -      3     -    B    21       AND2    s           4    0    0    8  ~153~1
-   -      6     -    B    21       AND2    s           4    0    0    8  ~164~1
-   -      2     -    B    07       AND2    s           4    0    0    8  ~175~1
-   -      6     -    B    07       AND2    s           4    0    0    8  ~186~1
-   -      5     -    B    06        OR2                2    2    0    1  :361
-   -      6     -    B    06        OR2                2    2    0    1  :367
-   -      7     -    B    06        OR2                2    2    0    1  :373
-   -      8     -    B    06        OR2                2    2    0    1  :379
-   -      2     -    B    06        OR2                2    2    1    1  :385
-   -      4     -    B    12        OR2                2    2    0    1  :391
-   -      5     -    B    12        OR2                2    2    0    1  :394
-   -      6     -    B    12        OR2                2    2    0    1  :397
-   -      8     -    B    12        OR2                2    2    0    1  :400
-   -      7     -    B    12        OR2                2    2    1    1  :403
-   -      3     -    B    06        OR2                2    2    0    1  :409
-   -      4     -    B    06        OR2                2    2    0    1  :412
-   -      1     -    B    06        OR2                2    2    0    1  :415
-   -      6     -    B    02        OR2                2    2    0    1  :418
-   -      1     -    B    02        OR2                2    2    1    1  :421
-   -      2     -    B    12        OR2                2    2    0    1  :427
-   -      3     -    B    12        OR2                2    2    0    1  :430
-   -      1     -    B    12        OR2                2    2    0    1  :433
-   -      5     -    B    02        OR2                2    2    0    1  :436
-   -      4     -    B    02        OR2                2    2    1    1  :439
-   -      4     -    B    18        OR2                2    2    0    1  :445
-   -      5     -    B    18        OR2                2    2    0    1  :448
-   -      6     -    B    18        OR2                2    2    0    1  :451
-   -      7     -    B    18        OR2                2    2    0    1  :454
-   -      1     -    B    18        OR2                2    2    1    1  :457
-   -      3     -    B    18        OR2                2    2    0    1  :463
-   -      2     -    B    18        OR2                2    2    0    1  :466
-   -      2     -    B    21        OR2                2    2    0    1  :469
-   -      2     -    B    02        OR2                2    2    0    1  :472
-   -      3     -    B    02        OR2                2    2    1    1  :475
-   -      4     -    B    21        OR2                2    2    0    1  :481
-   -      5     -    B    21        OR2                2    2    0    1  :484
-   -      7     -    B    21        OR2                2    2    0    1  :487
-   -      8     -    B    21        OR2                2    2    0    1  :490
-   -      1     -    B    21        OR2                2    2    1    1  :493
-   -      3     -    B    07        OR2                2    2    0    1  :499
-   -      4     -    B    07        OR2                2    2    0    1  :502
-   -      7     -    B    07        OR2                2    2    0    1  :505
-   -      8     -    B    07        OR2                2    2    0    1  :508
-   -      5     -    B    07        OR2                2    2    1    1  :511
+   -      1     -    B    07       AND2    s           4    0    0    8  ~134~1
+   -      3     -    B    21       AND2    s           4    0    0    8  ~145~1
+   -      6     -    B    21       AND2    s           4    0    0    8  ~156~1
+   -      2     -    B    07       AND2    s           4    0    0    8  ~167~1
+   -      6     -    B    07       AND2    s           4    0    0    8  ~178~1
+   -      5     -    B    06        OR2                2    2    0    1  :353
+   -      6     -    B    06        OR2                2    2    0    1  :359
+   -      7     -    B    06        OR2                2    2    0    1  :365
+   -      8     -    B    06        OR2                2    2    0    1  :371
+   -      2     -    B    06        OR2                2    2    1    1  :377
+   -      4     -    B    12        OR2                2    2    0    1  :383
+   -      5     -    B    12        OR2                2    2    0    1  :386
+   -      6     -    B    12        OR2                2    2    0    1  :389
+   -      8     -    B    12        OR2                2    2    0    1  :392
+   -      7     -    B    12        OR2                2    2    1    1  :395
+   -      3     -    B    06        OR2                2    2    0    1  :401
+   -      4     -    B    06        OR2                2    2    0    1  :404
+   -      1     -    B    06        OR2                2    2    0    1  :407
+   -      6     -    B    02        OR2                2    2    0    1  :410
+   -      1     -    B    02        OR2                2    2    1    1  :413
+   -      2     -    B    12        OR2                2    2    0    1  :419
+   -      3     -    B    12        OR2                2    2    0    1  :422
+   -      1     -    B    12        OR2                2    2    0    1  :425
+   -      5     -    B    02        OR2                2    2    0    1  :428
+   -      4     -    B    02        OR2                2    2    1    1  :431
+   -      4     -    B    18        OR2                2    2    0    1  :437
+   -      5     -    B    18        OR2                2    2    0    1  :440
+   -      6     -    B    18        OR2                2    2    0    1  :443
+   -      7     -    B    18        OR2                2    2    0    1  :446
+   -      1     -    B    18        OR2                2    2    1    1  :449
+   -      3     -    B    18        OR2                2    2    0    1  :455
+   -      2     -    B    18        OR2                2    2    0    1  :458
+   -      2     -    B    21        OR2                2    2    0    1  :461
+   -      2     -    B    02        OR2                2    2    0    1  :464
+   -      3     -    B    02        OR2                2    2    1    1  :467
+   -      4     -    B    21        OR2                2    2    0    1  :473
+   -      5     -    B    21        OR2                2    2    0    1  :476
+   -      7     -    B    21        OR2                2    2    0    1  :479
+   -      8     -    B    21        OR2                2    2    0    1  :482
+   -      1     -    B    21        OR2                2    2    1    1  :485
+   -      3     -    B    07        OR2                2    2    0    1  :491
+   -      4     -    B    07        OR2                2    2    0    1  :494
+   -      7     -    B    07        OR2                2    2    0    1  :497
+   -      8     -    B    07        OR2                2    2    0    1  :500
+   -      5     -    B    07        OR2                2    2    1    1  :503
 
 
 Code:
@@ -513,310 +501,310 @@ W6       =  _LC7_B12;
 -- Equation name is 'W7', type is output 
 W7       =  _LC2_B6;
 
--- Node name is '~142~1' 
--- Equation name is '~142~1', location is LC1_B7, type is buried.
+-- Node name is '~134~1' 
+-- Equation name is '~134~1', location is LC1_B7, type is buried.
 -- synthesized logic cell 
 _LC1_B7  = LCELL( _EQ001);
   _EQ001 =  B &  C &  D &  E;
 
--- Node name is '~153~1' 
--- Equation name is '~153~1', location is LC3_B21, type is buried.
+-- Node name is '~145~1' 
+-- Equation name is '~145~1', location is LC3_B21, type is buried.
 -- synthesized logic cell 
 _LC3_B21 = LCELL( _EQ002);
   _EQ002 = !B &  C &  D &  E;
 
--- Node name is '~164~1' 
--- Equation name is '~164~1', location is LC6_B21, type is buried.
+-- Node name is '~156~1' 
+-- Equation name is '~156~1', location is LC6_B21, type is buried.
 -- synthesized logic cell 
 _LC6_B21 = LCELL( _EQ003);
   _EQ003 =  A &  B &  D &  E;
 
--- Node name is '~175~1' 
--- Equation name is '~175~1', location is LC2_B7, type is buried.
+-- Node name is '~167~1' 
+-- Equation name is '~167~1', location is LC2_B7, type is buried.
 -- synthesized logic cell 
 _LC2_B7  = LCELL( _EQ004);
   _EQ004 =  A &  B &  C & !D;
 
--- Node name is '~186~1' 
--- Equation name is '~186~1', location is LC6_B7, type is buried.
+-- Node name is '~178~1' 
+-- Equation name is '~178~1', location is LC6_B7, type is buried.
 -- synthesized logic cell 
 _LC6_B7  = LCELL( _EQ005);
   _EQ005 =  A &  B &  C &  D;
 
--- Node name is ':361' 
+-- Node name is ':353' 
 -- Equation name is '_LC5_B6', type is buried 
 _LC5_B6  = LCELL( _EQ006);
   _EQ006 =  _LC2_B6 & !_LC6_B7
          #  E &  _LC2_B6
          # !E &  _LC6_B7 &  X47;
 
--- Node name is ':367' 
+-- Node name is ':359' 
 -- Equation name is '_LC6_B6', type is buried 
 _LC6_B6  = LCELL( _EQ007);
   _EQ007 = !_LC2_B7 &  _LC5_B6
          # !E &  _LC5_B6
          #  E &  _LC2_B7 &  X37;
 
--- Node name is ':373' 
+-- Node name is ':365' 
 -- Equation name is '_LC7_B6', type is buried 
 _LC7_B6  = LCELL( _EQ008);
   _EQ008 =  _LC6_B6 & !_LC6_B21
          #  C &  _LC6_B6
          # !C &  _LC6_B21 &  X27;
 
--- Node name is ':379' 
+-- Node name is ':371' 
 -- Equation name is '_LC8_B6', type is buried 
 _LC8_B6  = LCELL( _EQ009);
   _EQ009 = !_LC3_B21 &  _LC7_B6
          # !A &  _LC7_B6
          #  A &  _LC3_B21 &  X17;
 
--- Node name is ':385' 
+-- Node name is ':377' 
 -- Equation name is '_LC2_B6', type is buried 
 _LC2_B6  = LCELL( _EQ010);
   _EQ010 =  A &  _LC8_B6
          # !_LC1_B7 &  _LC8_B6
          # !A &  _LC1_B7 &  X07;
 
--- Node name is ':391' 
+-- Node name is ':383' 
 -- Equation name is '_LC4_B12', type is buried 
 _LC4_B12 = LCELL( _EQ011);
   _EQ011 = !_LC6_B7 &  _LC7_B12
          #  E &  _LC7_B12
          # !E &  _LC6_B7 &  X46;
 
--- Node name is ':394' 
+-- Node name is ':386' 
 -- Equation name is '_LC5_B12', type is buried 
 _LC5_B12 = LCELL( _EQ012);
   _EQ012 = !_LC2_B7 &  _LC4_B12
          # !E &  _LC4_B12
          #  E &  _LC2_B7 &  X36;
 
--- Node name is ':397' 
+-- Node name is ':389' 
 -- Equation name is '_LC6_B12', type is buried 
 _LC6_B12 = LCELL( _EQ013);
   _EQ013 =  _LC5_B12 & !_LC6_B21
          #  C &  _LC5_B12
          # !C &  _LC6_B21 &  X26;
 
--- Node name is ':400' 
+-- Node name is ':392' 
 -- Equation name is '_LC8_B12', type is buried 
 _LC8_B12 = LCELL( _EQ014);
   _EQ014 = !_LC3_B21 &  _LC6_B12
          # !A &  _LC6_B12
          #  A &  _LC3_B21 &  X16;
 
--- Node name is ':403' 
+-- Node name is ':395' 
 -- Equation name is '_LC7_B12', type is buried 
 _LC7_B12 = LCELL( _EQ015);
   _EQ015 =  A &  _LC8_B12
          # !_LC1_B7 &  _LC8_B12
          # !A &  _LC1_B7 &  X06;
 
--- Node name is ':409' 
+-- Node name is ':401' 
 -- Equation name is '_LC3_B6', type is buried 
 _LC3_B6  = LCELL( _EQ016);
   _EQ016 =  _LC1_B2 & !_LC6_B7
          #  E &  _LC1_B2
          # !E &  _LC6_B7 &  X45;
 
--- Node name is ':412' 
+-- Node name is ':404' 
 -- Equation name is '_LC4_B6', type is buried 
 _LC4_B6  = LCELL( _EQ017);
   _EQ017 = !_LC2_B7 &  _LC3_B6
          # !E &  _LC3_B6
          #  E &  _LC2_B7 &  X35;
 
--- Node name is ':415' 
+-- Node name is ':407' 
 -- Equation name is '_LC1_B6', type is buried 
 _LC1_B6  = LCELL( _EQ018);
   _EQ018 =  _LC4_B6 & !_LC6_B21
          #  C &  _LC4_B6
          # !C &  _LC6_B21 &  X25;
 
--- Node name is ':418' 
+-- Node name is ':410' 
 -- Equation name is '_LC6_B2', type is buried 
 _LC6_B2  = LCELL( _EQ019);
   _EQ019 =  _LC1_B6 & !_LC3_B21
          # !A &  _LC1_B6
          #  A &  _LC3_B21 &  X15;
 
--- Node name is ':421' 
+-- Node name is ':413' 
 -- Equation name is '_LC1_B2', type is buried 
 _LC1_B2  = LCELL( _EQ020);
   _EQ020 =  A &  _LC6_B2
          # !_LC1_B7 &  _LC6_B2
          # !A &  _LC1_B7 &  X05;
 
--- Node name is ':427' 
+-- Node name is ':419' 
 -- Equation name is '_LC2_B12', type is buried 
 _LC2_B12 = LCELL( _EQ021);
   _EQ021 =  _LC4_B2 & !_LC6_B7
          #  E &  _LC4_B2
          # !E &  _LC6_B7 &  X44;
 
--- Node name is ':430' 
+-- Node name is ':422' 
 -- Equation name is '_LC3_B12', type is buried 
 _LC3_B12 = LCELL( _EQ022);
   _EQ022 = !_LC2_B7 &  _LC2_B12
          # !E &  _LC2_B12
          #  E &  _LC2_B7 &  X34;
 
--- Node name is ':433' 
+-- Node name is ':425' 
 -- Equation name is '_LC1_B12', type is buried 
 _LC1_B12 = LCELL( _EQ023);
   _EQ023 =  _LC3_B12 & !_LC6_B21
          #  C &  _LC3_B12
          # !C &  _LC6_B21 &  X24;
 
--- Node name is ':436' 
+-- Node name is ':428' 
 -- Equation name is '_LC5_B2', type is buried 
 _LC5_B2  = LCELL( _EQ024);
   _EQ024 =  _LC1_B12 & !_LC3_B21
          # !A &  _LC1_B12
          #  A &  _LC3_B21 &  X14;
 
--- Node name is ':439' 
+-- Node name is ':431' 
 -- Equation name is '_LC4_B2', type is buried 
 _LC4_B2  = LCELL( _EQ025);
   _EQ025 =  A &  _LC5_B2
          # !_LC1_B7 &  _LC5_B2
          # !A &  _LC1_B7 &  X04;
 
--- Node name is ':445' 
+-- Node name is ':437' 
 -- Equation name is '_LC4_B18', type is buried 
 _LC4_B18 = LCELL( _EQ026);
   _EQ026 =  _LC1_B18 & !_LC6_B7
          #  E &  _LC1_B18
          # !E &  _LC6_B7 &  X43;
 
--- Node name is ':448' 
+-- Node name is ':440' 
 -- Equation name is '_LC5_B18', type is buried 
 _LC5_B18 = LCELL( _EQ027);
   _EQ027 = !_LC2_B7 &  _LC4_B18
          # !E &  _LC4_B18
          #  E &  _LC2_B7 &  X33;
 
--- Node name is ':451' 
+-- Node name is ':443' 
 -- Equation name is '_LC6_B18', type is buried 
 _LC6_B18 = LCELL( _EQ028);
   _EQ028 =  _LC5_B18 & !_LC6_B21
          #  C &  _LC5_B18
          # !C &  _LC6_B21 &  X23;
 
--- Node name is ':454' 
+-- Node name is ':446' 
 -- Equation name is '_LC7_B18', type is buried 
 _LC7_B18 = LCELL( _EQ029);
   _EQ029 = !_LC3_B21 &  _LC6_B18
          # !A &  _LC6_B18
          #  A &  _LC3_B21 &  X13;
 
--- Node name is ':457' 
+-- Node name is ':449' 
 -- Equation name is '_LC1_B18', type is buried 
 _LC1_B18 = LCELL( _EQ030);
   _EQ030 =  A &  _LC7_B18
          # !_LC1_B7 &  _LC7_B18
          # !A &  _LC1_B7 &  X03;
 
--- Node name is ':463' 
+-- Node name is ':455' 
 -- Equation name is '_LC3_B18', type is buried 
 _LC3_B18 = LCELL( _EQ031);
   _EQ031 =  _LC3_B2 & !_LC6_B7
          #  E &  _LC3_B2
          # !E &  _LC6_B7 &  X42;
 
--- Node name is ':466' 
+-- Node name is ':458' 
 -- Equation name is '_LC2_B18', type is buried 
 _LC2_B18 = LCELL( _EQ032);
   _EQ032 = !_LC2_B7 &  _LC3_B18
          # !E &  _LC3_B18
          #  E &  _LC2_B7 &  X32;
 
--- Node name is ':469' 
+-- Node name is ':461' 
 -- Equation name is '_LC2_B21', type is buried 
 _LC2_B21 = LCELL( _EQ033);
   _EQ033 =  _LC2_B18 & !_LC6_B21
          #  C &  _LC2_B18
          # !C &  _LC6_B21 &  X22;
 
--- Node name is ':472' 
+-- Node name is ':464' 
 -- Equation name is '_LC2_B2', type is buried 
 _LC2_B2  = LCELL( _EQ034);
   _EQ034 =  _LC2_B21 & !_LC3_B21
          # !A &  _LC2_B21
          #  A &  _LC3_B21 &  X12;
 
--- Node name is ':475' 
+-- Node name is ':467' 
 -- Equation name is '_LC3_B2', type is buried 
 _LC3_B2  = LCELL( _EQ035);
   _EQ035 =  A &  _LC2_B2
          # !_LC1_B7 &  _LC2_B2
          # !A &  _LC1_B7 &  X02;
 
--- Node name is ':481' 
+-- Node name is ':473' 
 -- Equation name is '_LC4_B21', type is buried 
 _LC4_B21 = LCELL( _EQ036);
   _EQ036 =  _LC1_B21 & !_LC6_B7
          #  E &  _LC1_B21
          # !E &  _LC6_B7 &  X41;
 
--- Node name is ':484' 
+-- Node name is ':476' 
 -- Equation name is '_LC5_B21', type is buried 
 _LC5_B21 = LCELL( _EQ037);
   _EQ037 = !_LC2_B7 &  _LC4_B21
          # !E &  _LC4_B21
          #  E &  _LC2_B7 &  X31;
 
--- Node name is ':487' 
+-- Node name is ':479' 
 -- Equation name is '_LC7_B21', type is buried 
 _LC7_B21 = LCELL( _EQ038);
   _EQ038 =  _LC5_B21 & !_LC6_B21
          #  C &  _LC5_B21
          # !C &  _LC6_B21 &  X21;
 
--- Node name is ':490' 
+-- Node name is ':482' 
 -- Equation name is '_LC8_B21', type is buried 
 _LC8_B21 = LCELL( _EQ039);
   _EQ039 = !_LC3_B21 &  _LC7_B21
          # !A &  _LC7_B21
          #  A &  _LC3_B21 &  X11;
 
--- Node name is ':493' 
+-- Node name is ':485' 
 -- Equation name is '_LC1_B21', type is buried 
 _LC1_B21 = LCELL( _EQ040);
   _EQ040 =  A &  _LC8_B21
          # !_LC1_B7 &  _LC8_B21
          # !A &  _LC1_B7 &  X01;
 
--- Node name is ':499' 
+-- Node name is ':491' 
 -- Equation name is '_LC3_B7', type is buried 
 _LC3_B7  = LCELL( _EQ041);
   _EQ041 =  _LC5_B7 & !_LC6_B7
          #  E &  _LC5_B7
          # !E &  _LC6_B7 &  X40;
 
--- Node name is ':502' 
+-- Node name is ':494' 
 -- Equation name is '_LC4_B7', type is buried 
 _LC4_B7  = LCELL( _EQ042);
   _EQ042 = !_LC2_B7 &  _LC3_B7
          # !E &  _LC3_B7
          #  E &  _LC2_B7 &  X30;
 
--- Node name is ':505' 
+-- Node name is ':497' 
 -- Equation name is '_LC7_B7', type is buried 
 _LC7_B7  = LCELL( _EQ043);
   _EQ043 =  _LC4_B7 & !_LC6_B21
          #  C &  _LC4_B7
          # !C &  _LC6_B21 &  X20;
 
--- Node name is ':508' 
+-- Node name is ':500' 
 -- Equation name is '_LC8_B7', type is buried 
 _LC8_B7  = LCELL( _EQ044);
   _EQ044 = !_LC3_B21 &  _LC7_B7
          # !A &  _LC7_B7
          #  A &  _LC3_B21 &  X10;
 
--- Node name is ':511' 
+-- Node name is ':503' 
 -- Equation name is '_LC5_B7', type is buried 
 _LC5_B7  = LCELL( _EQ045);
   _EQ045 =  A &  _LC8_B7
@@ -902,16 +890,16 @@ Compilation Times
 
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
-   Logic Synthesizer                      00:00:01
+   Logic Synthesizer                      00:00:00
    Partitioner                            00:00:00
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:01
+   Total Time                             00:00:00
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 16,711K
+Peak memory allocated during compilation  = 22,190K

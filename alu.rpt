@@ -1,8 +1,8 @@
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\alu.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\alu.rpt
 
 MAX+plus II Compiler Report File
 Version 10.0 9/14/2000
-Compiled: 08/28/2020 17:24:54
+Compiled: 08/29/2020 13:10:18
 
 Copyright (C) 1988-2000 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -37,43 +37,56 @@ ALU
 Chip/                     Input Output Bidir  Memory  Memory  			 LCs
 POF       Device          Pins  Pins   Pins   Bits % Utilized  LCs  % Utilized
 
-alu       EP1K10TC100-1    18     10     0    0         0  %    55       9  %
+alu       EP1K10TC100-1    19     10     0    0         0  %    197      34 %
 
-User Pins:                 18     10     0  
+User Pins:                 19     10     0  
 
 
 
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\alu.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\alu.rpt
 
 ** PROJECT TIMING MESSAGES **
 
 Warning: Timing characteristics of device EP1K10TC100-1 are preliminary
 
 
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\alu.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\alu.rpt
 
 ** FILE HIERARCHY **
 
 
 
-|lpm_add_sub:336|
-|lpm_add_sub:336|addcore:adder|
-|lpm_add_sub:336|altshift:result_ext_latency_ffs|
-|lpm_add_sub:336|altshift:carry_ext_latency_ffs|
-|lpm_add_sub:336|altshift:oflow_ext_latency_ffs|
-|lpm_add_sub:548|
-|lpm_add_sub:548|addcore:adder|
-|lpm_add_sub:548|altshift:result_ext_latency_ffs|
-|lpm_add_sub:548|altshift:carry_ext_latency_ffs|
-|lpm_add_sub:548|altshift:oflow_ext_latency_ffs|
-|lpm_add_sub:789|
-|lpm_add_sub:789|addcore:adder|
-|lpm_add_sub:789|altshift:result_ext_latency_ffs|
-|lpm_add_sub:789|altshift:carry_ext_latency_ffs|
-|lpm_add_sub:789|altshift:oflow_ext_latency_ffs|
+|lpm_add_sub:413|
+|lpm_add_sub:413|addcore:adder|
+|lpm_add_sub:413|altshift:result_ext_latency_ffs|
+|lpm_add_sub:413|altshift:carry_ext_latency_ffs|
+|lpm_add_sub:413|altshift:oflow_ext_latency_ffs|
+|lpm_add_sub:721|
+|lpm_add_sub:721|addcore:adder|
+|lpm_add_sub:721|altshift:result_ext_latency_ffs|
+|lpm_add_sub:721|altshift:carry_ext_latency_ffs|
+|lpm_add_sub:721|altshift:oflow_ext_latency_ffs|
+|lpm_mult:902|
+|lpm_mult:902|multcore:mult_core|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder1|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_add:sub_csa_add|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|altshift:result_ext_latency_ffs|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|altshift:carry_ext_latency_ffs|
+|lpm_mult:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|altshift:oflow_ext_latency_ffs|
+|lpm_mult:902|altshift:external_latency_ffs|
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\alu.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\alu.rpt
 alu
 
 ***** Logic for device 'alu' compiled without errors.
@@ -98,14 +111,14 @@ Device Options:
 
                                                                    
                                                                    
-                            R R           R R R R   R R R R R R    
-                  B         E E           E E E E   E E E E E E    
-                  C         S S V         S S S S   S S S S S S ^  
-                  D         E E C         E E E E V E E E E E E D  
-                # O         R R C         R R R R C R R R R R R A  
-                T U       G V V I       G V V V V C V V V V V V T  
-                C T A B B N E E N A B A N E E E E I E E E E E E A  
-                K 7 6 4 7 D D D T 2 3 1 D D D D D O D D D D D D 0  
+                  R R R R   R             R R   R   R     R R R    
+                  E E E E   E             E E A E   E A   E E E    
+                  S S S S   S   V         S S L S   S L   S S S ^  
+                  E E E E   E   C         E E U E V E U   E E E D  
+                # R R R R   R   C         R R O R C R O   R R R A  
+                T V V V V G V   I       G V V U V C V U   V V V T  
+                C E E E E N E X N Y Y X N E E T E I E T X E E E A  
+                K D D D D D D 5 T 3 1 0 D D D 5 D O D 3 3 D D D 0  
               ----------------------------------------------------_ 
              / 100  98  96  94  92  90  88  86  84  82  80  78  76   |_ 
             /     99  97  95  93  91  89  87  85  83  81  79  77    | 
@@ -113,38 +126,38 @@ Device Options:
      ^nCEO |  2                                                    74 | ^nCE 
       #TDO |  3                                                    73 | #TDI 
      VCCIO |  4                                                    72 | VCCINT 
-  RESERVED |  5                                                    71 | RESERVED 
+  RESERVED |  5                                                    71 | ALUOUT0 
   RESERVED |  6                                                    70 | RESERVED 
-  RESERVED |  7                                                    69 | RESERVED 
-  RESERVED |  8                                                    68 | RESERVED 
+  RESERVED |  7                                                    69 | ALUOUT2 
+  RESERVED |  8                                                    68 | ALUOUT1 
   RESERVED |  9                                                    67 | VCCIO 
   RESERVED | 10                                                    66 | GND 
-       GND | 11                                                    65 | A3 
-    VCCINT | 12                                                    64 | A7 
-   BCDOUT5 | 13                   EP1K10TC100-1                    63 | B6 
-   BCDOUT1 | 14                                                    62 | A4 
-        A5 | 15                                                    61 | B1 
-   BCDOUT3 | 16                                                    60 | VCCINT 
+       GND | 11                                                    65 | RESERVED 
+    VCCINT | 12                                                    64 | RESERVED 
+        S1 | 13                   EP1K10TC100-1                    63 | RESERVED 
+  RESERVED | 14                                                    62 | S0 
+  RESERVED | 15                                                    61 | RESERVED 
+        S2 | 16                                                    60 | VCCINT 
      VCCIO | 17                                                    59 | GND 
-       GND | 18                                                    58 | RESERVED 
-  RESERVED | 19                                                    57 | RESERVED 
-  RESERVED | 20                                                    56 | RESERVED 
-  RESERVED | 21                                                    55 | RESERVED 
-  RESERVED | 22                                                    54 | ^MSEL0 
-  RESERVED | 23                                                    53 | ^MSEL1 
+       GND | 18                                                    58 | ALUOUT4 
+        X6 | 19                                                    57 | Y5 
+        X2 | 20                                                    56 | Y6 
+        Y4 | 21                                                    55 | ALUOUT7 
+        X4 | 22                                                    54 | ^MSEL0 
+        X7 | 23                                                    53 | ^MSEL1 
       #TMS | 24                                                    52 | VCCINT 
   ^nSTATUS | 25                                                    51 | ^nCONFIG 
            |      27  29  31  33  35  37  39  41  43  45  47  49  _| 
             \   26  28  30  32  34  36  38  40  42  44  46  48  50   | 
              \----------------------------------------------------- 
-                B B B Z C A B B B V G V S B S G G R V R R R R R R  
-                C 0 C F F 0 C 5 C C N C 0 2 1 N N E C E E E E E E  
-                D   D       D   D C D C       D D S C S S S S S S  
-                O   O       O   O I   _       _   E I E E E E E E  
-                U   U       U   U N   C       C   R O R R R R R R  
-                T   T       T   T T   K       K   V   V V V V V V  
-                2   4       6   0     L       L   E   E E E E E E  
-                                      K       K   D   D D D D D D  
+                R R R R R R R R R V G V Y Y X G G R V Y R C Z R A  
+                E E E E E E E E E C N C 2 0 1 N N E C 7 E F F E L  
+                S S S S S S S S S C D C       D D S C   S     S U  
+                E E E E E E E E E I   _       _   E I   E     E O  
+                R R R R R R R R R N   C       C   R O   R     R U  
+                V V V V V V V V V T   K       K   V     V     V T  
+                E E E E E E E E E     L       L   E     E     E 6  
+                D D D D D D D D D     K       K   D     D     D    
                                                                    
                                                                    
 
@@ -165,7 +178,7 @@ PDn = Power Down pin.
 $ = Pin has PCI I/O option enabled. Pin is neither '5.0 V'- nor '3.3 V'-tolerant. 
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\alu.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\alu.rpt
 alu
 
 ** RESOURCE USAGE **
@@ -173,13 +186,37 @@ alu
 Logic                Column       Row                                   
 Array                Interconnect Interconnect         Clears/     External  
 Block   Logic Cells  Driven       Driven       Clocks  Presets   Interconnect
-B14      8/ 8(100%)   1/ 8( 12%)   4/ 8( 50%)    0/2    0/2       9/22( 40%)   
-B15      8/ 8(100%)   1/ 8( 12%)   3/ 8( 37%)    0/2    0/2       8/22( 36%)   
-B17      8/ 8(100%)   1/ 8( 12%)   1/ 8( 12%)    0/2    0/2       7/22( 31%)   
-B18      8/ 8(100%)   0/ 8(  0%)   4/ 8( 50%)    0/2    0/2       9/22( 40%)   
-B19      7/ 8( 87%)   1/ 8( 12%)   6/ 8( 75%)    0/2    0/2       9/22( 40%)   
-B20      8/ 8(100%)   1/ 8( 12%)   4/ 8( 50%)    0/2    0/2       8/22( 36%)   
-B23      8/ 8(100%)   2/ 8( 25%)   4/ 8( 50%)    0/2    0/2       6/22( 27%)   
+A1       8/ 8(100%)   3/ 8( 37%)   0/ 8(  0%)    0/2    0/2      11/22( 50%)   
+A2       8/ 8(100%)   1/ 8( 12%)   2/ 8( 25%)    0/2    0/2       8/22( 36%)   
+A3       2/ 8( 25%)   1/ 8( 12%)   1/ 8( 12%)    0/2    0/2       4/22( 18%)   
+A4       8/ 8(100%)   1/ 8( 12%)   3/ 8( 37%)    0/2    0/2      10/22( 45%)   
+A6       8/ 8(100%)   1/ 8( 12%)   2/ 8( 25%)    0/2    0/2       9/22( 40%)   
+A7       8/ 8(100%)   1/ 8( 12%)   4/ 8( 50%)    0/2    0/2       8/22( 36%)   
+A10      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       2/22(  9%)   
+A12      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       3/22( 13%)   
+B10      5/ 8( 62%)   5/ 8( 62%)   0/ 8(  0%)    0/2    0/2       3/22( 13%)   
+C1       8/ 8(100%)   1/ 8( 12%)   2/ 8( 25%)    0/2    0/2      12/22( 54%)   
+C2       8/ 8(100%)   1/ 8( 12%)   5/ 8( 62%)    0/2    0/2      12/22( 54%)   
+C3       8/ 8(100%)   2/ 8( 25%)   0/ 8(  0%)    0/2    0/2      12/22( 54%)   
+C4       7/ 8( 87%)   0/ 8(  0%)   3/ 8( 37%)    0/2    0/2       7/22( 31%)   
+C5       8/ 8(100%)   0/ 8(  0%)   2/ 8( 25%)    0/2    0/2       9/22( 40%)   
+C6       8/ 8(100%)   0/ 8(  0%)   2/ 8( 25%)    0/2    0/2      11/22( 50%)   
+C7       7/ 8( 87%)   1/ 8( 12%)   0/ 8(  0%)    0/2    0/2      19/22( 86%)   
+C8       8/ 8(100%)   1/ 8( 12%)   2/ 8( 25%)    0/2    0/2      11/22( 50%)   
+C9       7/ 8( 87%)   0/ 8(  0%)   2/ 8( 25%)    0/2    0/2      12/22( 54%)   
+C10      2/ 8( 25%)   1/ 8( 12%)   0/ 8(  0%)    0/2    0/2       6/22( 27%)   
+C11      5/ 8( 62%)   0/ 8(  0%)   3/ 8( 37%)    0/2    0/2       5/22( 22%)   
+C12      7/ 8( 87%)   0/ 8(  0%)   3/ 8( 37%)    0/2    0/2      10/22( 45%)   
+C13      8/ 8(100%)   0/ 8(  0%)   2/ 8( 25%)    0/2    0/2      12/22( 54%)   
+C14      8/ 8(100%)   1/ 8( 12%)   3/ 8( 37%)    0/2    0/2       8/22( 36%)   
+C15      8/ 8(100%)   0/ 8(  0%)   4/ 8( 50%)    0/2    0/2       8/22( 36%)   
+C16      8/ 8(100%)   0/ 8(  0%)   4/ 8( 50%)    0/2    0/2      11/22( 50%)   
+C18      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       3/22( 13%)   
+C20      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+C21      8/ 8(100%)   0/ 8(  0%)   4/ 8( 50%)    0/2    0/2      11/22( 50%)   
+C22      8/ 8(100%)   0/ 8(  0%)   2/ 8( 25%)    0/2    0/2      11/22( 50%)   
+C23      7/ 8( 87%)   0/ 8(  0%)   4/ 8( 50%)    0/2    0/2      11/22( 50%)   
+C24      8/ 8(100%)   0/ 8(  0%)   3/ 8( 37%)    0/2    0/2       8/22( 36%)   
 
 
 Embedded             Column       Row                                   
@@ -188,21 +225,21 @@ Block     Cells      Driven       Driven       Clocks  Write    Interconnect
 
 
 Total dedicated input pins used:                 6/6      (100%)
-Total I/O pins used:                            22/60     ( 36%)
-Total logic cells used:                         55/576    (  9%)
+Total I/O pins used:                            23/60     ( 38%)
+Total logic cells used:                        197/576    ( 34%)
 Total embedded cells used:                       0/48     (  0%)
 Total EABs used:                                 0/3      (  0%)
-Average fan-in:                                 3.03/4    ( 75%)
-Total fan-in:                                 167/2304    (  7%)
+Average fan-in:                                 3.43/4    ( 85%)
+Total fan-in:                                 676/2304    ( 29%)
 
-Total input pins required:                      18
+Total input pins required:                      19
 Total input I/O cell registers required:         0
 Total output pins required:                     10
 Total output I/O cell registers required:        0
 Total buried I/O cell registers required:        0
 Total bidirectional pins required:               0
 Total reserved pins required                     0
-Total logic cells required:                     55
+Total logic cells required:                    197
 Total flipflops required:                        0
 Total packed registers required:                 0
 Total logic cells in carry chains:               0
@@ -212,44 +249,45 @@ Total number of cascade chains:                  0
 Total single-pin Clock Enables required:         0
 Total single-pin Output Enables required:        0
 
-Synthesized logic cells:                         3/ 576   (  0%)
+Synthesized logic cells:                        48/ 576   (  8%)
 
 Logic Cell and Embedded Cell Counts
 
 Column:  01  02  03  04  05  06  07  08  09  10  11  12  EA  13  14  15  16  17  18  19  20  21  22  23  24  Total(LC/EC)
- A:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
- B:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   8   8   0   8   8   7   8   0   0   8   0     55/0  
- C:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+ A:      8   8   2   8   0   8   8   0   0   1   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0     44/0  
+ B:      0   0   0   0   0   0   0   0   0   5   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      5/0  
+ C:      8   8   8   7   8   8   7   8   7   2   5   7   0   8   8   8   8   0   1   0   1   8   8   7   8    148/0  
 
-Total:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   8   8   0   8   8   7   8   0   0   8   0     55/0  
+Total:  16  16  10  15   8  16  15   8   7   8   5   8   0   8   8   8   8   0   1   0   1   8   8   7   8    197/0  
 
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\alu.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\alu.rpt
 alu
 
 ** INPUTS **
 
                                                     Fan-In    Fan-Out
  Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-  31      -     -    -    17      INPUT             ^    0    0    0    1  A0
-  89      -     -    -    --      INPUT             ^    0    0    0    1  A1
-  91      -     -    -    --      INPUT             ^    0    0    0    1  A2
-  65      -     -    B    --      INPUT             ^    0    0    0    1  A3
-  62      -     -    B    --      INPUT             ^    0    0    0    1  A4
-  15      -     -    B    --      INPUT             ^    0    0    0    1  A5
-  98      -     -    -    24      INPUT             ^    0    0    0    1  A6
-  64      -     -    B    --      INPUT             ^    0    0    0    1  A7
-  27      -     -    -    21      INPUT             ^    0    0    0    1  B0
-  61      -     -    B    --      INPUT             ^    0    0    0    1  B1
-  39      -     -    -    --      INPUT             ^    0    0    0    1  B2
-  90      -     -    -    --      INPUT             ^    0    0    0    1  B3
-  97      -     -    -    23      INPUT             ^    0    0    0    1  B4
-  33      -     -    -    15      INPUT             ^    0    0    0    1  B5
-  63      -     -    B    --      INPUT             ^    0    0    0    1  B6
-  96      -     -    -    22      INPUT             ^    0    0    0    1  B7
-  38      -     -    -    --      INPUT             ^    0    0    0   10  S0
-  40      -     -    -    --      INPUT             ^    0    0    0   10  S1
+  62      -     -    B    --      INPUT             ^    0    0    0    5  S0
+  13      -     -    B    --      INPUT             ^    0    0    0    5  S1
+  16      -     -    B    --      INPUT             ^    0    0    0    5  S2
+  89      -     -    -    --      INPUT             ^    0    0    0   14  X0
+  40      -     -    -    --      INPUT             ^    0    0    0   17  X1
+  20      -     -    C    --      INPUT             ^    0    0    0   16  X2
+  80      -     -    -    03      INPUT             ^    0    0    0   14  X3
+  22      -     -    C    --      INPUT             ^    0    0    0   11  X4
+  93      -     -    -    13      INPUT             ^    0    0    0    9  X5
+  19      -     -    C    --      INPUT             ^    0    0    0    6  X6
+  23      -     -    C    --      INPUT             ^    0    0    0    4  X7
+  39      -     -    -    --      INPUT             ^    0    0    0   22  Y0
+  90      -     -    -    --      INPUT             ^    0    0    0   21  Y1
+  38      -     -    -    --      INPUT             ^    0    0    0   14  Y2
+  91      -     -    -    --      INPUT             ^    0    0    0   13  Y3
+  21      -     -    C    --      INPUT             ^    0    0    0   12  Y4
+  57      -     -    C    --      INPUT             ^    0    0    0    7  Y5
+  56      -     -    C    --      INPUT             ^    0    0    0    6  Y6
+  45      -     -    -    11      INPUT             ^    0    0    0    4  Y7
 
 
 Code:
@@ -265,23 +303,23 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\alu.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\alu.rpt
 alu
 
 ** OUTPUTS **
 
        Fed By Fed By                                Fan-In    Fan-Out
  Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-  34      -     -    -    14     OUTPUT                 0    1    0    0  BCDOUT0
-  14      -     -    B    --     OUTPUT                 0    1    0    0  BCDOUT1
-  26      -     -    -    23     OUTPUT                 0    1    0    0  BCDOUT2
-  16      -     -    B    --     OUTPUT                 0    1    0    0  BCDOUT3
-  28      -     -    -    20     OUTPUT                 0    1    0    0  BCDOUT4
-  13      -     -    B    --     OUTPUT                 0    1    0    0  BCDOUT5
-  32      -     -    -    16     OUTPUT                 0    1    0    0  BCDOUT6
-  99      -     -    -    24     OUTPUT                 0    1    0    0  BCDOUT7
-  30      -     -    -    18     OUTPUT                 0    1    0    0  CF
-  29      -     -    -    19     OUTPUT                 0    1    0    0  ZF
+  71      -     -    A    --     OUTPUT                 0    1    0    0  ALUOUT0
+  68      -     -    A    --     OUTPUT                 0    1    0    0  ALUOUT1
+  69      -     -    A    --     OUTPUT                 0    1    0    0  ALUOUT2
+  81      -     -    -    03     OUTPUT                 0    1    0    0  ALUOUT3
+  58      -     -    C    --     OUTPUT                 0    1    0    0  ALUOUT4
+  85      -     -    -    08     OUTPUT                 0    1    0    0  ALUOUT5
+  50      -     -    -    02     OUTPUT                 0    1    0    0  ALUOUT6
+  55      -     -    C    --     OUTPUT                 0    1    0    0  ALUOUT7
+  47      -     -    -    09     OUTPUT                 0    1    0    0  CF
+  48      -     -    -    07     OUTPUT                 0    1    0    0  ZF
 
 
 Code:
@@ -297,68 +335,210 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\alu.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\alu.rpt
 alu
 
 ** BURIED LOGIC **
 
                                                     Fan-In    Fan-Out
  IOC     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-   -      3     -    B    14        OR2                0    4    0    2  |LPM_ADD_SUB:336|addcore:adder|pcarry1
-   -      4     -    B    23        OR2                0    3    0    2  |LPM_ADD_SUB:336|addcore:adder|pcarry2
-   -      2     -    B    18        OR2                0    3    0    2  |LPM_ADD_SUB:336|addcore:adder|pcarry3
-   -      1     -    B    20        OR2                0    3    0    2  |LPM_ADD_SUB:336|addcore:adder|pcarry4
-   -      7     -    B    15        OR2                0    3    0    2  |LPM_ADD_SUB:336|addcore:adder|pcarry5
-   -      1     -    B    15        OR2                0    3    0    2  |LPM_ADD_SUB:336|addcore:adder|pcarry6
-   -      6     -    B    17        OR2                0    3    0    1  |LPM_ADD_SUB:336|addcore:adder|pcarry7
-   -      5     -    B    14        OR2    s           0    3    0    1  |LPM_ADD_SUB:336|addcore:adder|~115~1
-   -      8     -    B    23        OR2                0    3    0    1  |LPM_ADD_SUB:336|addcore:adder|:116
-   -      6     -    B    18        OR2                0    3    0    1  |LPM_ADD_SUB:336|addcore:adder|:117
-   -      8     -    B    20        OR2                0    3    0    1  |LPM_ADD_SUB:336|addcore:adder|:118
-   -      3     -    B    15        OR2                0    3    0    1  |LPM_ADD_SUB:336|addcore:adder|:119
-   -      8     -    B    15        OR2                0    3    0    1  |LPM_ADD_SUB:336|addcore:adder|:120
-   -      1     -    B    17        OR2                0    3    0    1  |LPM_ADD_SUB:336|addcore:adder|:121
-   -      7     -    B    17        OR2                0    3    0    1  |LPM_ADD_SUB:336|addcore:adder|:122
-   -      1     -    B    23        OR2        !       2    0    0   28  :153
-   -      1     -    B    14       AND2    s           0    3    0    1  ~420~1
-   -      8     -    B    18       AND2    s           0    4    0    1  ~420~2
-   -      4     -    B    19       AND2                0    1    0    1  :939
-   -      4     -    B    17        OR2                1    1    0    2  :951
-   -      6     -    B    15        OR2                1    1    0    2  :963
-   -      2     -    B    19        OR2                1    1    0    2  :975
-   -      7     -    B    20        OR2                1    1    0    2  :987
-   -      5     -    B    18        OR2                1    1    0    2  :999
-   -      5     -    B    20        OR2                1    1    0    2  :1011
-   -      3     -    B    20        OR2                1    1    0    2  :1023
-   -      6     -    B    19        OR2                1    1    0    3  :1035
-   -      2     -    B    17       AND2                0    1    0    1  :1047
-   -      3     -    B    17        OR2                1    1    0    2  :1059
-   -      5     -    B    15        OR2                1    1    0    2  :1071
-   -      1     -    B    19        OR2                1    1    0    2  :1083
-   -      6     -    B    20        OR2                1    1    0    2  :1095
-   -      4     -    B    18        OR2                1    1    0    2  :1107
-   -      7     -    B    23        OR2                1    1    0    2  :1119
-   -      8     -    B    19        OR2                1    1    0    2  :1131
-   -      5     -    B    19        OR2                1    1    0    3  :1143
-   -      8     -    B    17        OR2                0    2    0    1  :1155
-   -      3     -    B    23        OR2                0    2    0    2  :1167
-   -      4     -    B    15        OR2                0    2    0    2  :1179
-   -      7     -    B    18        OR2                0    2    0    2  :1191
-   -      4     -    B    20        OR2                0    2    0    2  :1203
-   -      3     -    B    18        OR2                0    2    0    2  :1215
-   -      6     -    B    23        OR2                0    2    0    2  :1227
-   -      7     -    B    14        OR2                0    3    0    2  :1239
-   -      4     -    B    14        OR2                0    3    0    2  :1251
-   -      2     -    B    23       AND2                2    1    1    0  :1264
-   -      2     -    B    15       AND2                2    1    1    0  :1276
-   -      1     -    B    18       AND2                2    1    1    0  :1288
-   -      2     -    B    20       AND2                2    1    1    0  :1300
-   -      6     -    B    14       AND2                2    1    1    0  :1312
-   -      5     -    B    23       AND2                2    1    1    0  :1324
-   -      2     -    B    14       AND2                2    1    1    0  :1336
-   -      8     -    B    14       AND2                2    1    1    0  :1348
-   -      5     -    B    17       AND2                2    1    1    0  :1360
-   -      3     -    B    19       AND2                0    4    1    0  :1372
+   -      1     -    A    07        OR2                0    4    0    2  |LPM_ADD_SUB:413|addcore:adder|pcarry1
+   -      1     -    A    02        OR2                0    3    0    2  |LPM_ADD_SUB:413|addcore:adder|pcarry2
+   -      2     -    A    01        OR2                0    3    0    2  |LPM_ADD_SUB:413|addcore:adder|pcarry3
+   -      6     -    C    04        OR2                0    3    0    2  |LPM_ADD_SUB:413|addcore:adder|pcarry4
+   -      1     -    C    04        OR2                0    3    0    2  |LPM_ADD_SUB:413|addcore:adder|pcarry5
+   -      6     -    C    11        OR2                0    3    0    2  |LPM_ADD_SUB:413|addcore:adder|pcarry6
+   -      7     -    C    05        OR2                0    3    0    1  |LPM_ADD_SUB:413|addcore:adder|pcarry7
+   -      7     -    A    07        OR2    s           0    3    0    1  |LPM_ADD_SUB:413|addcore:adder|~115~1
+   -      4     -    A    02        OR2                0    3    0    1  |LPM_ADD_SUB:413|addcore:adder|:116
+   -      8     -    A    01        OR2                0    3    0    1  |LPM_ADD_SUB:413|addcore:adder|:117
+   -      7     -    C    04        OR2                0    3    0    1  |LPM_ADD_SUB:413|addcore:adder|:118
+   -      3     -    C    04        OR2                0    3    0    1  |LPM_ADD_SUB:413|addcore:adder|:119
+   -      4     -    C    11        OR2                0    3    0    1  |LPM_ADD_SUB:413|addcore:adder|:120
+   -      1     -    C    05        OR2                0    3    0    1  |LPM_ADD_SUB:413|addcore:adder|:121
+   -      8     -    C    05        OR2                0    3    0    1  |LPM_ADD_SUB:413|addcore:adder|:122
+   -      4     -    A    01        OR2                0    4    0    4  |LPM_ADD_SUB:721|addcore:adder|pcarry3
+   -      2     -    C    12        OR2                0    4    0    2  |LPM_ADD_SUB:721|addcore:adder|pcarry6
+   -      1     -    A    12        OR2                0    3    0    1  |LPM_ADD_SUB:721|addcore:adder|:108
+   -      6     -    A    01        OR2                0    4    0    1  |LPM_ADD_SUB:721|addcore:adder|:109
+   -      4     -    C    08        OR2                0    3    0    1  |LPM_ADD_SUB:721|addcore:adder|:111
+   -      4     -    C    12        OR2                0    4    0    1  |LPM_ADD_SUB:721|addcore:adder|:112
+   -      5     -    C    05        OR2                0    3    0    1  |LPM_ADD_SUB:721|addcore:adder|:114
+   -      6     -    C    23        OR2                0    4    0    3  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:127
+   -      1     -    C    06        OR2                0    2    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:128
+   -      2     -    C    09       AND2                0    4    0    3  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:164
+   -      2     -    C    23        OR2                0    4    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:165
+   -      4     -    C    16        OR2                0    4    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:121
+   -      8     -    C    22        OR2                0    3    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:141
+   -      3     -    C    09       AND2                0    3    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:156
+   -      3     -    C    16        OR2                0    4    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:157
+   -      8     -    C    23        OR2                0    4    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:302
+   -      5     -    C    22        OR2                0    3    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:303
+   -      8     -    C    24        OR2                2    2    0    3  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:132
+   -      5     -    C    23        OR2                0    4    0    3  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:134
+   -      3     -    C    22        OR2                0    3    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:135
+   -      3     -    C    03       AND2                0    2    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:148
+   -      1     -    C    16        OR2        !       0    2    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:150
+   -      1     -    C    24        OR2                2    2    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:285
+   -      6     -    C    16        OR2                0    3    0    3  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:286
+   -      1     -    C    23        OR2                0    4    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:287
+   -      7     -    C    22        OR2                0    3    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:288
+   -      4     -    C    22        OR2                2    1    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder1|:118
+   -      8     -    A    03        OR2                4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:108
+   -      2     -    C    24        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~125~1
+   -      5     -    C    24        OR2                2    1    0    4  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:125
+   -      2     -    C    14        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~126~1
+   -      7     -    C    24        OR2                2    1    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:126
+   -      5     -    C    14        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~127~1
+   -      3     -    C    14        OR2                2    1    0    4  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:127
+   -      2     -    C    02        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~128~1
+   -      6     -    C    02        OR2                2    1    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:128
+   -      5     -    C    15        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~129~1
+   -      1     -    C    22        OR2                2    1    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:129
+   -      4     -    A    03       AND2                4    0    0    4  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:140
+   -      3     -    C    24       AND2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~269~1
+   -      4     -    C    24        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~269~2
+   -      6     -    C    24        OR2                2    2    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:269
+   -      2     -    C    16        OR2    s   !       4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~270~1
+   -      5     -    C    16        OR2    s   !       4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~270~2
+   -      7     -    C    16        OR2        !       2    2    0    4  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:270
+   -      6     -    C    14       AND2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~271~1
+   -      7     -    C    14        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~271~2
+   -      1     -    C    14        OR2                2    2    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:271
+   -      4     -    C    15       AND2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~272~1
+   -      6     -    C    15        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~272~2
+   -      2     -    C    15        OR2                2    2    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:272
+   -      7     -    C    15       AND2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~273~1
+   -      8     -    C    15        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~273~2
+   -      3     -    C    15        OR2                2    2    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:273
+   -      8     -    C    16        OR2                4    0    0    3  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|:111
+   -      4     -    C    23        OR2    s           4    0    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|~128~1
+   -      2     -    C    13        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|~129~1
+   -      1     -    C    18        OR2                2    1    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|:129
+   -      3     -    C    23       AND2                4    0    0    3  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|:143
+   -      5     -    C    21       AND2    s           2    1    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|~272~1
+   -      6     -    C    21        OR2    s           2    1    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|~272~2
+   -      1     -    C    21        OR2                2    2    0    2  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|:272
+   -      6     -    C    13       AND2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|~273~1
+   -      7     -    C    13        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|~273~2
+   -      8     -    C    13        OR2                2    2    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|:273
+   -      3     -    C    01        OR2                0    4    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|pcarry6
+   -      4     -    C    01        OR2                0    4    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|:219
+   -      3     -    C    13        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~1
+   -      1     -    C    15        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~2
+   -      4     -    C    13        OR2    s           4    0    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~3
+   -      5     -    C    13        OR2    s           2    2    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~4
+   -      1     -    C    13        OR2    s           0    4    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~5
+   -      6     -    C    22        OR2    s           3    1    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~6
+   -      2     -    C    22        OR2    s           0    4    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~7
+   -      2     -    C    06        OR2                0    4    0    1  |LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|:220
+   -      3     -    C    21       AND2                2    0    0    4  |LPM_MULT:902|multcore:mult_core|decoder_node5_0
+   -      1     -    C    08        OR2    s           0    4    0    2  ~207~1
+   -      2     -    C    07       AND2    s           4    0    0    1  ~207~2
+   -      7     -    C    02       AND2    s           2    1    0    1  ~207~3
+   -      3     -    C    07       AND2    s           2    2    0    1  ~207~4
+   -      6     -    B    10        OR2        !       3    0    0   40  :207
+   -      1     -    B    10        OR2        !       3    0    0   23  :214
+   -      4     -    B    10        OR2        !       3    0    0   21  :220
+   -      2     -    B    10       AND2                3    0    0   11  :227
+   -      3     -    B    10       AND2                3    0    0    9  :233
+   -      3     -    C    06        OR2                0    4    0    1  :1198
+   -      4     -    C    06        OR2                0    3    0    2  :1204
+   -      5     -    C    01        OR2                0    2    0    1  :1222
+   -      1     -    C    01        OR2                0    3    0    1  :1240
+   -      4     -    C    09        OR2                0    3    0    1  :1258
+   -      5     -    C    03        OR2                0    3    0    1  :1276
+   -      2     -    C    03        OR2                0    3    0    1  :1294
+   -      3     -    A    04        OR2                0    2    0    1  :1312
+   -      1     -    A    04       AND2    s   !       0    4    0    7  ~1330~1
+   -      4     -    A    06        OR2                2    1    0    1  :1330
+   -      1     -    C    02        OR2    s           0    2    0   11  ~1348~1
+   -      3     -    C    05       AND2                0    2    0    2  :1348
+   -      8     -    C    21        OR2    s           1    2    0    1  ~1366~1
+   -      2     -    C    21        OR2                1    2    0    5  :1366
+   -      2     -    C    11        OR2    s           1    2    0    1  ~1384~1
+   -      8     -    C    11        OR2                1    2    0    5  :1384
+   -      7     -    C    21        OR2    s           1    2    0    1  ~1402~1
+   -      4     -    C    21        OR2                1    2    0    6  :1402
+   -      3     -    C    02        OR2    s           1    2    0    1  ~1420~1
+   -      5     -    C    02        OR2                1    2    0    7  :1420
+   -      1     -    A    01        OR2    s           1    2    0    1  ~1438~1
+   -      3     -    A    01        OR2                1    2    0    5  :1438
+   -      8     -    C    14        OR2    s           1    2    0    1  ~1456~1
+   -      4     -    C    14        OR2                1    2    0    6  :1456
+   -      4     -    A    07        OR2    s           1    2    0    1  ~1474~1
+   -      3     -    A    07        OR2                1    2    0    7  :1474
+   -      5     -    A    07        OR2    s           1    2    0    1  ~1492~1
+   -      2     -    A    07        OR2                1    2    0    9  :1492
+   -      2     -    C    20       AND2                0    1    0    1  :1510
+   -      4     -    C    05        OR2                1    1    0    2  :1528
+   -      1     -    C    11        OR2                1    1    0    2  :1546
+   -      5     -    C    04        OR2                1    1    0    2  :1564
+   -      4     -    C    04        OR2                1    1    0    2  :1582
+   -      1     -    A    10        OR2                1    1    0    2  :1600
+   -      2     -    A    02        OR2                1    1    0    2  :1618
+   -      6     -    A    07        OR2                1    1    0    2  :1636
+   -      2     -    A    06        OR2                1    1    0    3  :1654
+   -      6     -    C    05        OR2                0    4    0    1  :1669
+   -      2     -    C    05        OR2                0    3    0    3  :1672
+   -      6     -    C    12        OR2                0    4    0    1  :1684
+   -      7     -    C    12        OR2                0    3    0    1  :1687
+   -      1     -    C    12        OR2                0    3    0    5  :1690
+   -      5     -    C    12        OR2                0    4    0    1  :1705
+   -      3     -    C    12        OR2                0    3    0    4  :1708
+   -      5     -    C    08        OR2                0    4    0    1  :1723
+   -      3     -    C    08        OR2                0    3    0    4  :1726
+   -      8     -    C    02        OR2                0    4    0    1  :1738
+   -      4     -    C    02        OR2                0    3    0    1  :1741
+   -      2     -    C    04        OR2                0    3    0    5  :1744
+   -      7     -    A    01        OR2                0    4    0    1  :1759
+   -      5     -    A    01        OR2                0    3    0    4  :1762
+   -      3     -    A    02        OR2                0    4    0    1  :1777
+   -      6     -    A    02        OR2                0    3    0    4  :1780
+   -      4     -    A    04        OR2                0    4    0    1  :1792
+   -      2     -    A    04        OR2                0    3    0    1  :1795
+   -      8     -    A    07        OR2                0    4    0    5  :1798
+   -      5     -    A    06        OR2                0    4    0    1  :1813
+   -      3     -    A    06        OR2                0    4    0    4  :1816
+   -      5     -    C    06        OR2                1    3    0    1  :1825
+   -      6     -    C    06        OR2                0    3    0    1  :1828
+   -      8     -    C    06        OR2                0    3    0    1  :1831
+   -      7     -    C    06        OR2                0    3    1    1  :1834
+   -      6     -    C    01        OR2                1    3    0    1  :1843
+   -      7     -    C    01        OR2                0    3    0    1  :1846
+   -      8     -    C    01        OR2                0    3    0    1  :1849
+   -      2     -    C    01        OR2                0    3    1    1  :1852
+   -      6     -    C    08        OR2                1    3    0    1  :1861
+   -      7     -    C    08        OR2                0    3    0    1  :1864
+   -      8     -    C    08        OR2                0    3    0    1  :1867
+   -      2     -    C    08        OR2                0    3    1    1  :1870
+   -      5     -    C    09        OR2                1    3    0    1  :1879
+   -      6     -    C    09        OR2                0    3    0    1  :1882
+   -      7     -    C    09        OR2                0    3    0    1  :1885
+   -      1     -    C    09        OR2                0    3    1    1  :1888
+   -      6     -    C    03        OR2                1    3    0    1  :1897
+   -      7     -    C    03        OR2                0    3    0    1  :1900
+   -      8     -    C    03        OR2                0    3    0    1  :1903
+   -      4     -    C    03        OR2                0    3    1    1  :1906
+   -      1     -    C    03        OR2                1    3    0    1  :1915
+   -      5     -    A    02        OR2                0    3    0    1  :1918
+   -      7     -    A    02        OR2                0    3    0    1  :1921
+   -      8     -    A    02        OR2                0    3    1    1  :1924
+   -      5     -    A    04        OR2                1    3    0    1  :1933
+   -      7     -    A    04        OR2                0    3    0    1  :1936
+   -      8     -    A    04        OR2                0    3    0    1  :1939
+   -      6     -    A    04        OR2                0    3    1    1  :1942
+   -      6     -    A    06        OR2                1    3    0    1  :1951
+   -      7     -    A    06        OR2                0    3    0    1  :1954
+   -      8     -    A    06        OR2                0    3    0    1  :1957
+   -      1     -    A    06        OR2                0    3    1    1  :1960
+   -      2     -    C    10        OR2    s           1    3    0    1  ~1978~1
+   -      1     -    C    10        OR2                0    4    1    1  :1978
+   -      4     -    C    07        OR2    s           0    4    0    1  ~1996~1
+   -      5     -    C    07       AND2    s           0    4    0    1  ~1996~2
+   -      6     -    C    07       AND2    s           0    4    0    1  ~1996~3
+   -      7     -    C    07        OR2    s           0    3    0    1  ~1996~4
+   -      1     -    C    07        OR2                0    4    1    1  :1996
 
 
 Code:
@@ -373,7 +553,7 @@ r = Fitter-inserted logic cell
 p = Packed register
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\alu.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\alu.rpt
 alu
 
 ** FASTTRACK INTERCONNECT UTILIZATION **
@@ -383,453 +563,1480 @@ Row FastTrack Interconnect:
           Global         Left Half-      Right Half-
          FastTrack       FastTrack       FastTrack 
 Row     Interconnect    Interconnect    Interconnect    Input Pins     Output Pins     Bidir Pins
-A:       0/ 96(  0%)     0/ 48(  0%)     0/ 48(  0%)    0/16(  0%)      0/16(  0%)     0/16(  0%)
-B:      17/ 96( 17%)     0/ 48(  0%)    21/ 48( 43%)    6/16( 37%)      3/16( 18%)     0/16(  0%)
-C:       0/ 96(  0%)     0/ 48(  0%)     0/ 48(  0%)    0/16(  0%)      0/16(  0%)     0/16(  0%)
+A:       5/ 96(  5%)    18/ 48( 37%)     0/ 48(  0%)    0/16(  0%)      3/16( 18%)     0/16(  0%)
+B:       3/ 96(  3%)     0/ 48(  0%)     0/ 48(  0%)    3/16( 18%)      0/16(  0%)     0/16(  0%)
+C:      37/ 96( 38%)    25/ 48( 52%)    14/ 48( 29%)    7/16( 43%)      2/16( 12%)     0/16(  0%)
 
 
 Column FastTrack Interconnect:
 
          FastTrack                                 
 Column  Interconnect    Input Pins     Output Pins     Bidir Pins
-01:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-02:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-03:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+01:      1/24(  4%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+02:      5/24( 20%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+03:      5/24( 20%)     1/4( 25%)      1/4( 25%)       0/4(  0%)
 04:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 05:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-06:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-07:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-08:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-09:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-10:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-11:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+06:      1/24(  4%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+07:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+08:      2/24(  8%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+09:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+10:      5/24( 20%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+11:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
 12:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-13:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-14:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-15:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
-16:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-17:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
-18:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-19:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-20:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
-21:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
-22:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
-23:      2/24(  8%)     1/4( 25%)      1/4( 25%)       0/4(  0%)
-24:      2/24(  8%)     1/4( 25%)      1/4( 25%)       0/4(  0%)
+13:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+14:      1/24(  4%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+15:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+16:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+17:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+18:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+19:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+20:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+21:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+22:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+23:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+24:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\alu.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\alu.rpt
 alu
 
 ** EQUATIONS **
 
-A0       : INPUT;
-A1       : INPUT;
-A2       : INPUT;
-A3       : INPUT;
-A4       : INPUT;
-A5       : INPUT;
-A6       : INPUT;
-A7       : INPUT;
-B0       : INPUT;
-B1       : INPUT;
-B2       : INPUT;
-B3       : INPUT;
-B4       : INPUT;
-B5       : INPUT;
-B6       : INPUT;
-B7       : INPUT;
 S0       : INPUT;
 S1       : INPUT;
+S2       : INPUT;
+X0       : INPUT;
+X1       : INPUT;
+X2       : INPUT;
+X3       : INPUT;
+X4       : INPUT;
+X5       : INPUT;
+X6       : INPUT;
+X7       : INPUT;
+Y0       : INPUT;
+Y1       : INPUT;
+Y2       : INPUT;
+Y3       : INPUT;
+Y4       : INPUT;
+Y5       : INPUT;
+Y6       : INPUT;
+Y7       : INPUT;
 
--- Node name is 'BCDOUT0' 
--- Equation name is 'BCDOUT0', type is output 
-BCDOUT0  =  _LC8_B14;
+-- Node name is 'ALUOUT0' 
+-- Equation name is 'ALUOUT0', type is output 
+ALUOUT0  =  _LC1_A6;
 
--- Node name is 'BCDOUT1' 
--- Equation name is 'BCDOUT1', type is output 
-BCDOUT1  =  _LC2_B14;
+-- Node name is 'ALUOUT1' 
+-- Equation name is 'ALUOUT1', type is output 
+ALUOUT1  =  _LC6_A4;
 
--- Node name is 'BCDOUT2' 
--- Equation name is 'BCDOUT2', type is output 
-BCDOUT2  =  _LC5_B23;
+-- Node name is 'ALUOUT2' 
+-- Equation name is 'ALUOUT2', type is output 
+ALUOUT2  =  _LC8_A2;
 
--- Node name is 'BCDOUT3' 
--- Equation name is 'BCDOUT3', type is output 
-BCDOUT3  =  _LC6_B14;
+-- Node name is 'ALUOUT3' 
+-- Equation name is 'ALUOUT3', type is output 
+ALUOUT3  =  _LC4_C3;
 
--- Node name is 'BCDOUT4' 
--- Equation name is 'BCDOUT4', type is output 
-BCDOUT4  =  _LC2_B20;
+-- Node name is 'ALUOUT4' 
+-- Equation name is 'ALUOUT4', type is output 
+ALUOUT4  =  _LC1_C9;
 
--- Node name is 'BCDOUT5' 
--- Equation name is 'BCDOUT5', type is output 
-BCDOUT5  =  _LC1_B18;
+-- Node name is 'ALUOUT5' 
+-- Equation name is 'ALUOUT5', type is output 
+ALUOUT5  =  _LC2_C8;
 
--- Node name is 'BCDOUT6' 
--- Equation name is 'BCDOUT6', type is output 
-BCDOUT6  =  _LC2_B15;
+-- Node name is 'ALUOUT6' 
+-- Equation name is 'ALUOUT6', type is output 
+ALUOUT6  =  _LC2_C1;
 
--- Node name is 'BCDOUT7' 
--- Equation name is 'BCDOUT7', type is output 
-BCDOUT7  =  _LC2_B23;
+-- Node name is 'ALUOUT7' 
+-- Equation name is 'ALUOUT7', type is output 
+ALUOUT7  =  _LC7_C6;
 
 -- Node name is 'CF' 
 -- Equation name is 'CF', type is output 
-CF       =  _LC5_B17;
+CF       =  _LC1_C10;
 
 -- Node name is 'ZF' 
 -- Equation name is 'ZF', type is output 
-ZF       =  _LC3_B19;
+ZF       =  _LC1_C7;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|pcarry1' from file "addcore.tdf" line 312, column 40
--- Equation name is '_LC3_B14', type is buried 
-_LC3_B14 = LCELL( _EQ001);
-  _EQ001 =  _LC3_B20 &  _LC8_B19
-         #  _LC5_B19 &  _LC6_B19 &  _LC8_B19
-         #  _LC3_B20 &  _LC5_B19 &  _LC6_B19;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|pcarry1' from file "addcore.tdf" line 312, column 40
+-- Equation name is '_LC1_A7', type is buried 
+_LC1_A7  = LCELL( _EQ001);
+  _EQ001 =  _LC3_A7 &  _LC6_A7
+         #  _LC2_A6 &  _LC2_A7 &  _LC6_A7
+         #  _LC2_A6 &  _LC2_A7 &  _LC3_A7;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|pcarry2' from file "addcore.tdf" line 312, column 40
--- Equation name is '_LC4_B23', type is buried 
-_LC4_B23 = LCELL( _EQ002);
-  _EQ002 =  _LC3_B14 &  _LC7_B23
-         #  _LC3_B14 &  _LC5_B20
-         #  _LC5_B20 &  _LC7_B23;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|pcarry2' from file "addcore.tdf" line 312, column 40
+-- Equation name is '_LC1_A2', type is buried 
+_LC1_A2  = LCELL( _EQ002);
+  _EQ002 =  _LC1_A7 &  _LC2_A2
+         #  _LC1_A7 &  _LC4_C14
+         #  _LC2_A2 &  _LC4_C14;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|pcarry3' from file "addcore.tdf" line 312, column 40
--- Equation name is '_LC2_B18', type is buried 
-_LC2_B18 = LCELL( _EQ003);
-  _EQ003 =  _LC4_B23 &  _LC5_B18
-         #  _LC4_B18 &  _LC4_B23
-         #  _LC4_B18 &  _LC5_B18;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|pcarry3' from file "addcore.tdf" line 312, column 40
+-- Equation name is '_LC2_A1', type is buried 
+_LC2_A1  = LCELL( _EQ003);
+  _EQ003 =  _LC1_A2 &  _LC3_A1
+         #  _LC1_A2 &  _LC1_A10
+         #  _LC1_A10 &  _LC3_A1;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|pcarry4' from file "addcore.tdf" line 312, column 40
--- Equation name is '_LC1_B20', type is buried 
-_LC1_B20 = LCELL( _EQ004);
-  _EQ004 =  _LC2_B18 &  _LC7_B20
-         #  _LC2_B18 &  _LC6_B20
-         #  _LC6_B20 &  _LC7_B20;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|pcarry4' from file "addcore.tdf" line 312, column 40
+-- Equation name is '_LC6_C4', type is buried 
+_LC6_C4  = LCELL( _EQ004);
+  _EQ004 =  _LC2_A1 &  _LC5_C2
+         #  _LC2_A1 &  _LC4_C4
+         #  _LC4_C4 &  _LC5_C2;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|pcarry5' from file "addcore.tdf" line 312, column 40
--- Equation name is '_LC7_B15', type is buried 
-_LC7_B15 = LCELL( _EQ005);
-  _EQ005 =  _LC1_B20 &  _LC2_B19
-         #  _LC1_B19 &  _LC1_B20
-         #  _LC1_B19 &  _LC2_B19;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|pcarry5' from file "addcore.tdf" line 312, column 40
+-- Equation name is '_LC1_C4', type is buried 
+_LC1_C4  = LCELL( _EQ005);
+  _EQ005 =  _LC4_C21 &  _LC6_C4
+         #  _LC5_C4 &  _LC6_C4
+         #  _LC4_C21 &  _LC5_C4;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|pcarry6' from file "addcore.tdf" line 312, column 40
--- Equation name is '_LC1_B15', type is buried 
-_LC1_B15 = LCELL( _EQ006);
-  _EQ006 =  _LC6_B15 &  _LC7_B15
-         #  _LC5_B15 &  _LC7_B15
-         #  _LC5_B15 &  _LC6_B15;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|pcarry6' from file "addcore.tdf" line 312, column 40
+-- Equation name is '_LC6_C11', type is buried 
+_LC6_C11 = LCELL( _EQ006);
+  _EQ006 =  _LC1_C4 &  _LC8_C11
+         #  _LC1_C4 &  _LC1_C11
+         #  _LC1_C11 &  _LC8_C11;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|pcarry7' from file "addcore.tdf" line 312, column 40
--- Equation name is '_LC6_B17', type is buried 
-_LC6_B17 = LCELL( _EQ007);
-  _EQ007 =  _LC1_B15 &  _LC4_B17
-         #  _LC1_B15 &  _LC3_B17
-         #  _LC3_B17 &  _LC4_B17;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|pcarry7' from file "addcore.tdf" line 312, column 40
+-- Equation name is '_LC7_C5', type is buried 
+_LC7_C5  = LCELL( _EQ007);
+  _EQ007 =  _LC2_C21 &  _LC6_C11
+         #  _LC4_C5 &  _LC6_C11
+         #  _LC2_C21 &  _LC4_C5;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|~115~1' from file "addcore.tdf" line 316, column 67
--- Equation name is '_LC5_B14', type is buried 
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|~115~1' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC7_A7', type is buried 
 -- synthesized logic cell 
-_LC5_B14 = LCELL( _EQ008);
-  _EQ008 = !_LC3_B20 &  _LC5_B19 &  _LC6_B19
-         #  _LC3_B20 & !_LC6_B19
-         #  _LC3_B20 & !_LC5_B19;
+_LC7_A7  = LCELL( _EQ008);
+  _EQ008 =  _LC2_A6 &  _LC2_A7 & !_LC3_A7
+         # !_LC2_A7 &  _LC3_A7
+         # !_LC2_A6 &  _LC3_A7;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|:116' from file "addcore.tdf" line 316, column 67
--- Equation name is '_LC8_B23', type is buried 
-_LC8_B23 = LCELL( _EQ009);
-  _EQ009 = !_LC3_B14 & !_LC5_B20 &  _LC7_B23
-         # !_LC3_B14 &  _LC5_B20 & !_LC7_B23
-         #  _LC3_B14 &  _LC5_B20 &  _LC7_B23
-         #  _LC3_B14 & !_LC5_B20 & !_LC7_B23;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|:116' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC4_A2', type is buried 
+_LC4_A2  = LCELL( _EQ009);
+  _EQ009 = !_LC1_A7 &  _LC2_A2 & !_LC4_C14
+         # !_LC1_A7 & !_LC2_A2 &  _LC4_C14
+         #  _LC1_A7 &  _LC2_A2 &  _LC4_C14
+         #  _LC1_A7 & !_LC2_A2 & !_LC4_C14;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|:117' from file "addcore.tdf" line 316, column 67
--- Equation name is '_LC6_B18', type is buried 
-_LC6_B18 = LCELL( _EQ010);
-  _EQ010 = !_LC4_B18 & !_LC4_B23 &  _LC5_B18
-         #  _LC4_B18 & !_LC4_B23 & !_LC5_B18
-         #  _LC4_B18 &  _LC4_B23 &  _LC5_B18
-         # !_LC4_B18 &  _LC4_B23 & !_LC5_B18;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|:117' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC8_A1', type is buried 
+_LC8_A1  = LCELL( _EQ010);
+  _EQ010 = !_LC1_A2 & !_LC1_A10 &  _LC3_A1
+         # !_LC1_A2 &  _LC1_A10 & !_LC3_A1
+         #  _LC1_A2 &  _LC1_A10 &  _LC3_A1
+         #  _LC1_A2 & !_LC1_A10 & !_LC3_A1;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|:118' from file "addcore.tdf" line 316, column 67
--- Equation name is '_LC8_B20', type is buried 
-_LC8_B20 = LCELL( _EQ011);
-  _EQ011 = !_LC2_B18 & !_LC6_B20 &  _LC7_B20
-         # !_LC2_B18 &  _LC6_B20 & !_LC7_B20
-         #  _LC2_B18 &  _LC6_B20 &  _LC7_B20
-         #  _LC2_B18 & !_LC6_B20 & !_LC7_B20;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|:118' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC7_C4', type is buried 
+_LC7_C4  = LCELL( _EQ011);
+  _EQ011 = !_LC2_A1 & !_LC4_C4 &  _LC5_C2
+         # !_LC2_A1 &  _LC4_C4 & !_LC5_C2
+         #  _LC2_A1 &  _LC4_C4 &  _LC5_C2
+         #  _LC2_A1 & !_LC4_C4 & !_LC5_C2;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|:119' from file "addcore.tdf" line 316, column 67
--- Equation name is '_LC3_B15', type is buried 
-_LC3_B15 = LCELL( _EQ012);
-  _EQ012 = !_LC1_B19 & !_LC1_B20 &  _LC2_B19
-         #  _LC1_B19 & !_LC1_B20 & !_LC2_B19
-         #  _LC1_B19 &  _LC1_B20 &  _LC2_B19
-         # !_LC1_B19 &  _LC1_B20 & !_LC2_B19;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|:119' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC3_C4', type is buried 
+_LC3_C4  = LCELL( _EQ012);
+  _EQ012 =  _LC4_C21 & !_LC5_C4 & !_LC6_C4
+         # !_LC4_C21 &  _LC5_C4 & !_LC6_C4
+         #  _LC4_C21 &  _LC5_C4 &  _LC6_C4
+         # !_LC4_C21 & !_LC5_C4 &  _LC6_C4;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|:120' from file "addcore.tdf" line 316, column 67
--- Equation name is '_LC8_B15', type is buried 
-_LC8_B15 = LCELL( _EQ013);
-  _EQ013 = !_LC5_B15 &  _LC6_B15 & !_LC7_B15
-         #  _LC5_B15 & !_LC6_B15 & !_LC7_B15
-         #  _LC5_B15 &  _LC6_B15 &  _LC7_B15
-         # !_LC5_B15 & !_LC6_B15 &  _LC7_B15;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|:120' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC4_C11', type is buried 
+_LC4_C11 = LCELL( _EQ013);
+  _EQ013 = !_LC1_C4 & !_LC1_C11 &  _LC8_C11
+         # !_LC1_C4 &  _LC1_C11 & !_LC8_C11
+         #  _LC1_C4 &  _LC1_C11 &  _LC8_C11
+         #  _LC1_C4 & !_LC1_C11 & !_LC8_C11;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|:121' from file "addcore.tdf" line 316, column 67
--- Equation name is '_LC1_B17', type is buried 
-_LC1_B17 = LCELL( _EQ014);
-  _EQ014 = !_LC1_B15 & !_LC3_B17 &  _LC4_B17
-         # !_LC1_B15 &  _LC3_B17 & !_LC4_B17
-         #  _LC1_B15 &  _LC3_B17 &  _LC4_B17
-         #  _LC1_B15 & !_LC3_B17 & !_LC4_B17;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|:121' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC1_C5', type is buried 
+_LC1_C5  = LCELL( _EQ014);
+  _EQ014 =  _LC2_C21 & !_LC4_C5 & !_LC6_C11
+         # !_LC2_C21 &  _LC4_C5 & !_LC6_C11
+         #  _LC2_C21 &  _LC4_C5 &  _LC6_C11
+         # !_LC2_C21 & !_LC4_C5 &  _LC6_C11;
 
--- Node name is '|LPM_ADD_SUB:336|addcore:adder|:122' from file "addcore.tdf" line 316, column 67
--- Equation name is '_LC7_B17', type is buried 
-_LC7_B17 = LCELL( _EQ015);
-  _EQ015 =  _LC2_B17 &  _LC4_B19 &  _LC6_B17
-         # !_LC2_B17 & !_LC4_B19 &  _LC6_B17
-         # !_LC2_B17 &  _LC4_B19 & !_LC6_B17
-         #  _LC2_B17 & !_LC4_B19 & !_LC6_B17;
+-- Node name is '|LPM_ADD_SUB:413|addcore:adder|:122' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC8_C5', type is buried 
+_LC8_C5  = LCELL( _EQ015);
+  _EQ015 =  _LC2_C20 &  _LC3_C5 &  _LC7_C5
+         # !_LC2_C20 & !_LC3_C5 &  _LC7_C5
+         # !_LC2_C20 &  _LC3_C5 & !_LC7_C5
+         #  _LC2_C20 & !_LC3_C5 & !_LC7_C5;
 
--- Node name is ':153' 
--- Equation name is '_LC1_B23', type is buried 
-!_LC1_B23 = _LC1_B23~NOT;
-_LC1_B23~NOT = LCELL( _EQ016);
-  _EQ016 =  S1
+-- Node name is '|LPM_ADD_SUB:721|addcore:adder|pcarry3' from file "addcore.tdf" line 312, column 40
+-- Equation name is '_LC4_A1', type is buried 
+_LC4_A1  = LCELL( _EQ016);
+  _EQ016 =  _LC2_A7
+         #  _LC3_A7
+         #  _LC4_C14
+         #  _LC3_A1;
+
+-- Node name is '|LPM_ADD_SUB:721|addcore:adder|pcarry6' from file "addcore.tdf" line 312, column 40
+-- Equation name is '_LC2_C12', type is buried 
+_LC2_C12 = LCELL( _EQ017);
+  _EQ017 =  _LC4_A1
+         #  _LC5_C2
+         #  _LC4_C21
+         #  _LC8_C11;
+
+-- Node name is '|LPM_ADD_SUB:721|addcore:adder|:108' from file "addcore.tdf" line 316, column 45
+-- Equation name is '_LC1_A12', type is buried 
+_LC1_A12 = LCELL( _EQ018);
+  _EQ018 =  _LC2_A7 & !_LC4_C14
+         #  _LC3_A7 & !_LC4_C14
+         # !_LC2_A7 & !_LC3_A7 &  _LC4_C14;
+
+-- Node name is '|LPM_ADD_SUB:721|addcore:adder|:109' from file "addcore.tdf" line 316, column 45
+-- Equation name is '_LC6_A1', type is buried 
+_LC6_A1  = LCELL( _EQ019);
+  _EQ019 =  _LC2_A7 & !_LC3_A1
+         # !_LC3_A1 &  _LC3_A7
+         # !_LC3_A1 &  _LC4_C14
+         # !_LC2_A7 &  _LC3_A1 & !_LC3_A7 & !_LC4_C14;
+
+-- Node name is '|LPM_ADD_SUB:721|addcore:adder|:111' from file "addcore.tdf" line 316, column 45
+-- Equation name is '_LC4_C8', type is buried 
+_LC4_C8  = LCELL( _EQ020);
+  _EQ020 =  _LC4_A1 & !_LC4_C21
+         # !_LC4_C21 &  _LC5_C2
+         # !_LC4_A1 &  _LC4_C21 & !_LC5_C2;
+
+-- Node name is '|LPM_ADD_SUB:721|addcore:adder|:112' from file "addcore.tdf" line 316, column 45
+-- Equation name is '_LC4_C12', type is buried 
+_LC4_C12 = LCELL( _EQ021);
+  _EQ021 =  _LC4_A1 & !_LC8_C11
+         #  _LC5_C2 & !_LC8_C11
+         #  _LC4_C21 & !_LC8_C11
+         # !_LC4_A1 & !_LC4_C21 & !_LC5_C2 &  _LC8_C11;
+
+-- Node name is '|LPM_ADD_SUB:721|addcore:adder|:114' from file "addcore.tdf" line 316, column 45
+-- Equation name is '_LC5_C5', type is buried 
+_LC5_C5  = LCELL( _EQ022);
+  _EQ022 =  _LC2_C12 & !_LC3_C5
+         #  _LC2_C21 & !_LC3_C5
+         # !_LC2_C12 & !_LC2_C21 &  _LC3_C5;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:127' from file "csa_cell.tdf" line 22, column 26
+-- Equation name is '_LC6_C23', type is buried 
+_LC6_C23 = LCELL( _EQ023);
+  _EQ023 =  _LC3_C16 & !_LC3_C23 &  _LC5_C23 &  _LC6_C16
+         #  _LC3_C16 &  _LC3_C23 & !_LC5_C23 &  _LC6_C16
+         #  _LC3_C16 &  _LC3_C23 &  _LC5_C23 & !_LC6_C16
+         #  _LC3_C16 & !_LC3_C23 & !_LC5_C23 & !_LC6_C16
+         # !_LC3_C16 &  _LC3_C23 &  _LC5_C23 &  _LC6_C16
+         # !_LC3_C16 & !_LC3_C23 & !_LC5_C23 &  _LC6_C16
+         # !_LC3_C16 & !_LC3_C23 &  _LC5_C23 & !_LC6_C16
+         # !_LC3_C16 &  _LC3_C23 & !_LC5_C23 & !_LC6_C16;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:128' from file "csa_cell.tdf" line 22, column 26
+-- Equation name is '_LC1_C6', type is buried 
+_LC1_C6  = LCELL( _EQ024);
+  _EQ024 = !_LC8_C22 &  _LC8_C23
+         #  _LC8_C22 & !_LC8_C23;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:164' from file "csa_cell.tdf" line 23, column 27
+-- Equation name is '_LC2_C9', type is buried 
+_LC2_C9  = LCELL( _EQ025);
+  _EQ025 =  _LC4_A3 &  _LC4_C16 &  _LC5_C24 &  _LC8_C24;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:165' from file "csa_cell.tdf" line 23, column 27
+-- Equation name is '_LC2_C23', type is buried 
+_LC2_C23 = LCELL( _EQ026);
+  _EQ026 =  _LC3_C16 & !_LC3_C23 &  _LC5_C23 & !_LC6_C16
+         #  _LC3_C16 &  _LC3_C23 & !_LC5_C23 & !_LC6_C16
+         #  _LC3_C16 &  _LC3_C23 &  _LC5_C23 &  _LC6_C16
+         #  _LC3_C16 & !_LC3_C23 & !_LC5_C23 &  _LC6_C16;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:121' from file "csa_cell.tdf" line 22, column 26
+-- Equation name is '_LC4_C16', type is buried 
+_LC4_C16 = LCELL( _EQ027);
+  _EQ027 =  _LC1_C24 &  _LC3_C14 & !_LC7_C16 &  _LC8_C16
+         #  _LC1_C24 & !_LC3_C14 &  _LC7_C16 &  _LC8_C16
+         #  _LC1_C24 & !_LC3_C14 & !_LC7_C16 & !_LC8_C16
+         #  _LC1_C24 &  _LC3_C14 &  _LC7_C16 & !_LC8_C16
+         # !_LC1_C24 & !_LC3_C14 & !_LC7_C16 &  _LC8_C16
+         # !_LC1_C24 &  _LC3_C14 &  _LC7_C16 &  _LC8_C16
+         # !_LC1_C24 &  _LC3_C14 & !_LC7_C16 & !_LC8_C16
+         # !_LC1_C24 & !_LC3_C14 &  _LC7_C16 & !_LC8_C16;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:141' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC8_C22', type is buried 
+_LC8_C22 = LCELL( _EQ028);
+  _EQ028 =  _LC1_C23 &  _LC3_C22 &  _LC4_C22
+         #  _LC1_C23 & !_LC3_C22 & !_LC4_C22
+         # !_LC1_C23 & !_LC3_C22 &  _LC4_C22
+         # !_LC1_C23 &  _LC3_C22 & !_LC4_C22;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:156' from file "csa_cell.tdf" line 23, column 27
+-- Equation name is '_LC3_C9', type is buried 
+_LC3_C9  = LCELL( _EQ029);
+  _EQ029 =  _LC4_A3 &  _LC5_C24 &  _LC8_C24;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:157' from file "csa_cell.tdf" line 23, column 27
+-- Equation name is '_LC3_C16', type is buried 
+_LC3_C16 = LCELL( _EQ030);
+  _EQ030 =  _LC1_C24 &  _LC3_C14 & !_LC7_C16 & !_LC8_C16
+         #  _LC1_C24 & !_LC3_C14 &  _LC7_C16 & !_LC8_C16
+         #  _LC1_C24 & !_LC3_C14 & !_LC7_C16 &  _LC8_C16
+         #  _LC1_C24 &  _LC3_C14 &  _LC7_C16 &  _LC8_C16;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:302' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC8_C23', type is buried 
+_LC8_C23 = LCELL( _EQ031);
+  _EQ031 =  _LC5_C23 &  _LC6_C16
+         # !_LC1_C16 &  _LC3_C23 &  _LC5_C23
+         #  _LC1_C16 &  _LC3_C23 & !_LC5_C23;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_add:sub_csa_add|csa_cell:adder0|:303' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC5_C22', type is buried 
+_LC5_C22 = LCELL( _EQ032);
+  _EQ032 =  _LC1_C23 &  _LC4_C22
+         #  _LC3_C22 &  _LC4_C22
+         #  _LC1_C23 &  _LC3_C22;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:132' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC8_C24', type is buried 
+_LC8_C24 = LCELL( _EQ033);
+  _EQ033 =  _LC6_C24 &  _LC7_C24 &  X0 &  Y3
+         # !_LC6_C24 & !_LC7_C24 &  X0 &  Y3
+         #  _LC6_C24 & !_LC7_C24 & !X0
+         #  _LC6_C24 & !_LC7_C24 & !Y3
+         # !_LC6_C24 &  _LC7_C24 & !X0
+         # !_LC6_C24 &  _LC7_C24 & !Y3;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:134' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC5_C23', type is buried 
+_LC5_C23 = LCELL( _EQ034);
+  _EQ034 =  _LC1_C14 &  _LC3_C21 & !_LC4_C23 &  _LC6_C2
+         #  _LC1_C14 & !_LC3_C21 &  _LC4_C23 &  _LC6_C2
+         # !_LC1_C14 &  _LC3_C21 & !_LC4_C23 & !_LC6_C2
+         # !_LC1_C14 & !_LC3_C21 &  _LC4_C23 & !_LC6_C2
+         #  _LC1_C14 &  _LC3_C21 &  _LC4_C23 & !_LC6_C2
+         #  _LC1_C14 & !_LC3_C21 & !_LC4_C23 & !_LC6_C2
+         # !_LC1_C14 &  _LC3_C21 &  _LC4_C23 &  _LC6_C2
+         # !_LC1_C14 & !_LC3_C21 & !_LC4_C23 &  _LC6_C2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:135' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC3_C22', type is buried 
+_LC3_C22 = LCELL( _EQ035);
+  _EQ035 =  _LC1_C18 &  _LC1_C22 &  _LC2_C15
+         # !_LC1_C18 & !_LC1_C22 &  _LC2_C15
+         #  _LC1_C18 & !_LC1_C22 & !_LC2_C15
+         # !_LC1_C18 &  _LC1_C22 & !_LC2_C15;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:148' from file "csa_cell.tdf" line 23, column 27
+-- Equation name is '_LC3_C3', type is buried 
+_LC3_C3  = LCELL( _EQ036);
+  _EQ036 =  _LC4_A3 &  _LC5_C24;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:150' from file "csa_cell.tdf" line 23, column 27
+-- Equation name is '_LC1_C16', type is buried 
+!_LC1_C16 = _LC1_C16~NOT;
+_LC1_C16~NOT = LCELL( _EQ037);
+  _EQ037 = !_LC7_C16
+         # !_LC3_C14;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:285' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC1_C24', type is buried 
+_LC1_C24 = LCELL( _EQ038);
+  _EQ038 =  _LC6_C24 &  _LC7_C24
+         #  _LC6_C24 &  X0 &  Y3
+         #  _LC7_C24 &  X0 &  Y3;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:286' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC6_C16', type is buried 
+_LC6_C16 = LCELL( _EQ039);
+  _EQ039 =  _LC3_C14 &  _LC7_C16
+         #  _LC3_C14 &  _LC8_C16
+         #  _LC7_C16 &  _LC8_C16;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:287' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC1_C23', type is buried 
+_LC1_C23 = LCELL( _EQ040);
+  _EQ040 =  _LC1_C14 &  _LC6_C2
+         #  _LC1_C14 &  _LC3_C21 & !_LC4_C23
+         #  _LC1_C14 & !_LC3_C21 &  _LC4_C23
+         #  _LC3_C21 & !_LC4_C23 &  _LC6_C2
+         # !_LC3_C21 &  _LC4_C23 &  _LC6_C2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder0|:288' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC7_C22', type is buried 
+_LC7_C22 = LCELL( _EQ041);
+  _EQ041 =  _LC1_C18 &  _LC2_C15
+         #  _LC1_C18 &  _LC1_C22
+         #  _LC1_C22 &  _LC2_C15;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_add:sub_csa_add|csa_cell:adder1|:118' from file "csa_cell.tdf" line 22, column 26
+-- Equation name is '_LC4_C22', type is buried 
+_LC4_C22 = LCELL( _EQ042);
+  _EQ042 =  _LC1_C21 & !X0
+         #  _LC1_C21 & !Y6
+         # !_LC1_C21 &  X0 &  Y6;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:108' from file "csa_cell.tdf" line 22, column 26
+-- Equation name is '_LC8_A3', type is buried 
+_LC8_A3  = LCELL( _EQ043);
+  _EQ043 = !X0 &  X1 &  Y0
+         #  X1 &  Y0 & !Y1
+         #  X0 & !Y0 &  Y1
+         #  X0 & !X1 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~125~1' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC2_C24', type is buried 
+-- synthesized logic cell 
+_LC2_C24 = LCELL( _EQ044);
+  _EQ044 =  X2 &  Y0 & !Y1
+         # !X1 &  X2 &  Y0
+         #  X1 & !Y0 &  Y1
+         #  X1 & !X2 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:125' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC5_C24', type is buried 
+_LC5_C24 = LCELL( _EQ045);
+  _EQ045 = !_LC2_C24 &  X0 &  Y2
+         #  _LC2_C24 & !X0
+         #  _LC2_C24 & !Y2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~126~1' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC2_C14', type is buried 
+-- synthesized logic cell 
+_LC2_C14 = LCELL( _EQ046);
+  _EQ046 =  X3 &  Y0 & !Y1
+         # !X2 &  X3 &  Y0
+         #  X2 & !Y0 &  Y1
+         #  X2 & !X3 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:126' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC7_C24', type is buried 
+_LC7_C24 = LCELL( _EQ047);
+  _EQ047 = !_LC2_C14 &  X1 &  Y2
+         #  _LC2_C14 & !X1
+         #  _LC2_C14 & !Y2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~127~1' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC5_C14', type is buried 
+-- synthesized logic cell 
+_LC5_C14 = LCELL( _EQ048);
+  _EQ048 =  X4 &  Y0 & !Y1
+         # !X3 &  X4 &  Y0
+         #  X3 & !Y0 &  Y1
+         #  X3 & !X4 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:127' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC3_C14', type is buried 
+_LC3_C14 = LCELL( _EQ049);
+  _EQ049 = !_LC5_C14 &  X2 &  Y2
+         #  _LC5_C14 & !Y2
+         #  _LC5_C14 & !X2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~128~1' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC2_C2', type is buried 
+-- synthesized logic cell 
+_LC2_C2  = LCELL( _EQ050);
+  _EQ050 =  X5 &  Y0 & !Y1
+         # !X4 &  X5 &  Y0
+         #  X4 & !X5 &  Y1
+         #  X4 & !Y0 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:128' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC6_C2', type is buried 
+_LC6_C2  = LCELL( _EQ051);
+  _EQ051 =  _LC2_C2 & !X3
+         #  _LC2_C2 & !Y2
+         # !_LC2_C2 &  X3 &  Y2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~129~1' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC5_C15', type is buried 
+-- synthesized logic cell 
+_LC5_C15 = LCELL( _EQ052);
+  _EQ052 = !X5 &  X6 &  Y0
+         #  X6 &  Y0 & !Y1
+         #  X5 & !X6 &  Y1
+         #  X5 & !Y0 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:129' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC1_C22', type is buried 
+_LC1_C22 = LCELL( _EQ053);
+  _EQ053 =  _LC5_C15 & !X4
+         #  _LC5_C15 & !Y2
+         # !_LC5_C15 &  X4 &  Y2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:140' from file "csa_cell.tdf" line 23, column 27
+-- Equation name is '_LC4_A3', type is buried 
+_LC4_A3  = LCELL( _EQ054);
+  _EQ054 =  X0 &  X1 &  Y0 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~269~1' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC3_C24', type is buried 
+-- synthesized logic cell 
+_LC3_C24 = LCELL( _EQ055);
+  _EQ055 =  X1 &  X2 &  Y0 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~269~2' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC4_C24', type is buried 
+-- synthesized logic cell 
+_LC4_C24 = LCELL( _EQ056);
+  _EQ056 =  X2 &  Y0
+         #  X1 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:269' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC6_C24', type is buried 
+_LC6_C24 = LCELL( _EQ057);
+  _EQ057 =  _LC3_C24
+         #  _LC4_C24 &  X0 &  Y2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~270~1' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC2_C16', type is buried 
+-- synthesized logic cell 
+!_LC2_C16 = _LC2_C16~NOT;
+_LC2_C16~NOT = LCELL( _EQ058);
+  _EQ058 = !Y0 & !Y1
+         # !X3 & !Y1
+         # !X2 & !Y0
+         # !X2 & !X3;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~270~2' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC5_C16', type is buried 
+-- synthesized logic cell 
+!_LC5_C16 = _LC5_C16~NOT;
+_LC5_C16~NOT = LCELL( _EQ059);
+  _EQ059 = !Y0
+         # !X3
+         # !Y1
+         # !X2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:270' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC7_C16', type is buried 
+!_LC7_C16 = _LC7_C16~NOT;
+_LC7_C16~NOT = LCELL( _EQ060);
+  _EQ060 = !_LC2_C16 & !_LC5_C16
+         # !_LC5_C16 & !X1
+         # !_LC5_C16 & !Y2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~271~1' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC6_C14', type is buried 
+-- synthesized logic cell 
+_LC6_C14 = LCELL( _EQ061);
+  _EQ061 =  X3 &  X4 &  Y0 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~271~2' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC7_C14', type is buried 
+-- synthesized logic cell 
+_LC7_C14 = LCELL( _EQ062);
+  _EQ062 =  X4 &  Y0
+         #  X3 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:271' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC1_C14', type is buried 
+_LC1_C14 = LCELL( _EQ063);
+  _EQ063 =  _LC6_C14
+         #  _LC7_C14 &  X2 &  Y2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~272~1' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC4_C15', type is buried 
+-- synthesized logic cell 
+_LC4_C15 = LCELL( _EQ064);
+  _EQ064 =  X4 &  X5 &  Y0 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~272~2' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC6_C15', type is buried 
+-- synthesized logic cell 
+_LC6_C15 = LCELL( _EQ065);
+  _EQ065 =  X5 &  Y0
+         #  X4 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:272' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC2_C15', type is buried 
+_LC2_C15 = LCELL( _EQ066);
+  _EQ066 =  _LC4_C15
+         #  _LC6_C15 &  X3 &  Y2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~273~1' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC7_C15', type is buried 
+-- synthesized logic cell 
+_LC7_C15 = LCELL( _EQ067);
+  _EQ067 =  X5 &  X6 &  Y0 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|~273~2' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC8_C15', type is buried 
+-- synthesized logic cell 
+_LC8_C15 = LCELL( _EQ068);
+  _EQ068 =  X6 &  Y0
+         #  X5 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder0|:273' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC3_C15', type is buried 
+_LC3_C15 = LCELL( _EQ069);
+  _EQ069 =  _LC7_C15
+         #  _LC8_C15 &  X4 &  Y2;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|:111' from file "csa_cell.tdf" line 22, column 26
+-- Equation name is '_LC8_C16', type is buried 
+_LC8_C16 = LCELL( _EQ070);
+  _EQ070 = !X0 &  X1 &  Y3
+         #  X1 &  Y3 & !Y4
+         #  X0 & !X1 &  Y4
+         #  X0 & !Y3 &  Y4;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|~128~1' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC4_C23', type is buried 
+-- synthesized logic cell 
+_LC4_C23 = LCELL( _EQ071);
+  _EQ071 =  X1 & !Y3 &  Y4
+         #  X1 & !X2 &  Y4
+         # !X1 &  X2 &  Y3
+         #  X2 &  Y3 & !Y4;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|~129~1' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC2_C13', type is buried 
+-- synthesized logic cell 
+_LC2_C13 = LCELL( _EQ072);
+  _EQ072 =  X3 &  Y3 & !Y4
+         # !X2 &  X3 &  Y3
+         #  X2 & !Y3 &  Y4
+         #  X2 & !X3 &  Y4;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|:129' from file "csa_cell.tdf" line 22, column 38
+-- Equation name is '_LC1_C18', type is buried 
+_LC1_C18 = LCELL( _EQ073);
+  _EQ073 =  _LC2_C13 & !X1
+         #  _LC2_C13 & !Y5
+         # !_LC2_C13 &  X1 &  Y5;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|:143' from file "csa_cell.tdf" line 23, column 27
+-- Equation name is '_LC3_C23', type is buried 
+_LC3_C23 = LCELL( _EQ074);
+  _EQ074 =  X0 &  X1 &  Y3 &  Y4;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|~272~1' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC5_C21', type is buried 
+-- synthesized logic cell 
+_LC5_C21 = LCELL( _EQ075);
+  _EQ075 =  _LC3_C21 &  X1 &  Y4;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|~272~2' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC6_C21', type is buried 
+-- synthesized logic cell 
+_LC6_C21 = LCELL( _EQ076);
+  _EQ076 =  X1 &  Y4
+         #  _LC3_C21;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|:272' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC1_C21', type is buried 
+_LC1_C21 = LCELL( _EQ077);
+  _EQ077 =  _LC5_C21
+         #  _LC6_C21 &  X2 &  Y3;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|~273~1' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC6_C13', type is buried 
+-- synthesized logic cell 
+_LC6_C13 = LCELL( _EQ078);
+  _EQ078 =  X2 &  X3 &  Y3 &  Y4;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|~273~2' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC7_C13', type is buried 
+-- synthesized logic cell 
+_LC7_C13 = LCELL( _EQ079);
+  _EQ079 =  X3 &  Y3
+         #  X2 &  Y4;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|csa_cell:adder1|:273' from file "csa_cell.tdf" line 24, column 44
+-- Equation name is '_LC8_C13', type is buried 
+_LC8_C13 = LCELL( _EQ080);
+  _EQ080 =  _LC6_C13
+         #  _LC7_C13 &  X1 &  Y5;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|pcarry6' from file "addcore.tdf" line 312, column 40
+-- Equation name is '_LC3_C1', type is buried 
+_LC3_C1  = LCELL( _EQ081);
+  _EQ081 =  _LC1_C6 &  _LC2_C23
+         #  _LC1_C6 &  _LC2_C9 &  _LC6_C23
+         #  _LC2_C9 &  _LC2_C23 &  _LC6_C23;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|:219' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC4_C1', type is buried 
+_LC4_C1  = LCELL( _EQ082);
+  _EQ082 =  _LC1_C6 &  _LC2_C9 &  _LC2_C23 &  _LC6_C23
+         # !_LC1_C6 &  _LC2_C9 & !_LC2_C23 &  _LC6_C23
+         #  _LC1_C6 & !_LC2_C23 & !_LC6_C23
+         #  _LC1_C6 & !_LC2_C9 & !_LC2_C23
+         # !_LC1_C6 &  _LC2_C23 & !_LC6_C23
+         # !_LC1_C6 & !_LC2_C9 &  _LC2_C23;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~1' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC3_C13', type is buried 
+-- synthesized logic cell 
+_LC3_C13 = LCELL( _EQ083);
+  _EQ083 =  X3 &  Y4 & !Y5
+         # !X2 &  X3 &  Y4
+         #  X2 & !Y4 &  Y5
+         #  X2 & !X3 &  Y5;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~2' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC1_C15', type is buried 
+-- synthesized logic cell 
+_LC1_C15 = LCELL( _EQ084);
+  _EQ084 = !X6 &  X7 &  Y0
+         #  X7 &  Y0 & !Y1
+         #  X6 & !X7 &  Y1
+         #  X6 & !Y0 &  Y1;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~3' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC4_C13', type is buried 
+-- synthesized logic cell 
+_LC4_C13 = LCELL( _EQ085);
+  _EQ085 = !X4 &  X5 &  Y2
+         #  X5 &  Y2 & !Y3
+         #  X4 & !X5 &  Y3
+         #  X4 & !Y2 &  Y3;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~4' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC5_C13', type is buried 
+-- synthesized logic cell 
+_LC5_C13 = LCELL( _EQ086);
+  _EQ086 =  _LC1_C15 &  _LC4_C13 &  X1 &  Y6
+         # !_LC1_C15 &  _LC4_C13 & !X1
+         # !_LC1_C15 &  _LC4_C13 & !Y6
+         #  _LC1_C15 & !_LC4_C13 & !X1
+         #  _LC1_C15 & !_LC4_C13 & !Y6
+         # !_LC1_C15 & !_LC4_C13 &  X1 &  Y6;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~5' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC1_C13', type is buried 
+-- synthesized logic cell 
+_LC1_C13 = LCELL( _EQ087);
+  _EQ087 = !_LC3_C13 &  _LC3_C15 &  _LC5_C13 &  _LC8_C13
+         #  _LC3_C13 &  _LC3_C15 & !_LC5_C13 &  _LC8_C13
+         #  _LC3_C13 & !_LC3_C15 &  _LC5_C13 &  _LC8_C13
+         # !_LC3_C13 & !_LC3_C15 & !_LC5_C13 &  _LC8_C13
+         #  _LC3_C13 &  _LC3_C15 &  _LC5_C13 & !_LC8_C13
+         # !_LC3_C13 &  _LC3_C15 & !_LC5_C13 & !_LC8_C13
+         # !_LC3_C13 & !_LC3_C15 &  _LC5_C13 & !_LC8_C13
+         #  _LC3_C13 & !_LC3_C15 & !_LC5_C13 & !_LC8_C13;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~6' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC6_C22', type is buried 
+-- synthesized logic cell 
+_LC6_C22 = LCELL( _EQ088);
+  _EQ088 =  _LC1_C21 &  X0 &  Y6 & !Y7
+         #  X0 & !Y6 &  Y7
+         # !_LC1_C21 &  X0 &  Y7;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|~220~7' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC2_C22', type is buried 
+-- synthesized logic cell 
+_LC2_C22 = LCELL( _EQ089);
+  _EQ089 =  _LC1_C13 & !_LC5_C22 &  _LC6_C22 &  _LC7_C22
+         # !_LC1_C13 & !_LC5_C22 & !_LC6_C22 &  _LC7_C22
+         # !_LC1_C13 & !_LC5_C22 &  _LC6_C22 & !_LC7_C22
+         #  _LC1_C13 & !_LC5_C22 & !_LC6_C22 & !_LC7_C22
+         # !_LC1_C13 &  _LC5_C22 &  _LC6_C22 &  _LC7_C22
+         #  _LC1_C13 &  _LC5_C22 & !_LC6_C22 &  _LC7_C22
+         #  _LC1_C13 &  _LC5_C22 &  _LC6_C22 & !_LC7_C22
+         # !_LC1_C13 &  _LC5_C22 & !_LC6_C22 & !_LC7_C22;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|csa_add:padder|lpm_add_sub:cpa_adder|addcore:adder|:220' from file "addcore.tdf" line 316, column 67
+-- Equation name is '_LC2_C6', type is buried 
+_LC2_C6  = LCELL( _EQ090);
+  _EQ090 =  _LC2_C22 &  _LC3_C1 &  _LC8_C22 &  _LC8_C23
+         # !_LC2_C22 &  _LC3_C1 & !_LC8_C23
+         # !_LC2_C22 &  _LC3_C1 & !_LC8_C22
+         # !_LC2_C22 & !_LC3_C1 &  _LC8_C22 &  _LC8_C23
+         #  _LC2_C22 & !_LC3_C1 & !_LC8_C23
+         #  _LC2_C22 & !_LC3_C1 & !_LC8_C22;
+
+-- Node name is '|LPM_MULT:902|multcore:mult_core|decoder_node5_0' from file "multcore.tdf" line 781, column 38
+-- Equation name is '_LC3_C21', type is buried 
+_LC3_C21 = LCELL( _EQ091);
+  _EQ091 =  X0 &  Y5;
+
+-- Node name is '~207~1' 
+-- Equation name is '~207~1', location is LC1_C8, type is buried.
+-- synthesized logic cell 
+_LC1_C8  = LCELL( _EQ092);
+  _EQ092 = !_LC1_B10 &  _LC3_B10 & !_LC4_B10
+         # !_LC1_B10 &  _LC2_B10 & !_LC4_B10;
+
+-- Node name is '~207~2' 
+-- Equation name is '~207~2', location is LC2_C7, type is buried.
+-- synthesized logic cell 
+_LC2_C7  = LCELL( _EQ093);
+  _EQ093 = !X0 & !X1 & !X2 & !X3;
+
+-- Node name is '~207~3' 
+-- Equation name is '~207~3', location is LC7_C2, type is buried.
+-- synthesized logic cell 
+_LC7_C2  = LCELL( _EQ094);
+  _EQ094 =  _LC1_B10 & !X4 & !X5;
+
+-- Node name is '~207~4' 
+-- Equation name is '~207~4', location is LC3_C7, type is buried.
+-- synthesized logic cell 
+_LC3_C7  = LCELL( _EQ095);
+  _EQ095 =  _LC2_C7 &  _LC7_C2 & !X6 & !X7;
+
+-- Node name is ':207' 
+-- Equation name is '_LC6_B10', type is buried 
+!_LC6_B10 = _LC6_B10~NOT;
+_LC6_B10~NOT = LCELL( _EQ096);
+  _EQ096 =  S2
+         #  S1
          #  S0;
 
--- Node name is '~420~1' 
--- Equation name is '~420~1', location is LC1_B14, type is buried.
--- synthesized logic cell 
-_LC1_B14 = LCELL( _EQ017);
-  _EQ017 = !_LC4_B14 & !_LC6_B23 & !_LC7_B14;
+-- Node name is ':214' 
+-- Equation name is '_LC1_B10', type is buried 
+!_LC1_B10 = _LC1_B10~NOT;
+_LC1_B10~NOT = LCELL( _EQ097);
+  _EQ097 =  S1
+         #  S2
+         # !S0;
 
--- Node name is '~420~2' 
--- Equation name is '~420~2', location is LC8_B18, type is buried.
--- synthesized logic cell 
-_LC8_B18 = LCELL( _EQ018);
-  _EQ018 =  _LC1_B14 & !_LC3_B18 & !_LC4_B20 & !_LC7_B18;
+-- Node name is ':220' 
+-- Equation name is '_LC4_B10', type is buried 
+!_LC4_B10 = _LC4_B10~NOT;
+_LC4_B10~NOT = LCELL( _EQ098);
+  _EQ098 = !S1
+         #  S2
+         # !S0;
 
--- Node name is ':939' 
--- Equation name is '_LC4_B19', type is buried 
-_LC4_B19 = LCELL( _EQ019);
-  _EQ019 = !_LC1_B23 &  _LC4_B19;
+-- Node name is ':227' 
+-- Equation name is '_LC2_B10', type is buried 
+_LC2_B10 = LCELL( _EQ099);
+  _EQ099 = !S0 & !S1 &  S2;
 
--- Node name is ':951' 
--- Equation name is '_LC4_B17', type is buried 
-_LC4_B17 = LCELL( _EQ020);
-  _EQ020 = !_LC1_B23 &  _LC4_B17
-         #  A7 &  _LC1_B23;
+-- Node name is ':233' 
+-- Equation name is '_LC3_B10', type is buried 
+_LC3_B10 = LCELL( _EQ100);
+  _EQ100 = !S0 &  S1 &  S2;
 
--- Node name is ':963' 
--- Equation name is '_LC6_B15', type is buried 
-_LC6_B15 = LCELL( _EQ021);
-  _EQ021 = !_LC1_B23 &  _LC6_B15
-         #  A6 &  _LC1_B23;
+-- Node name is ':1198' 
+-- Equation name is '_LC3_C6', type is buried 
+_LC3_C6  = LCELL( _EQ101);
+  _EQ101 = !_LC2_B10 &  _LC4_C6
+         #  _LC2_B10 &  _LC2_C6 & !_LC4_B10
+         #  _LC4_B10 &  _LC4_C6;
 
--- Node name is ':975' 
--- Equation name is '_LC2_B19', type is buried 
-_LC2_B19 = LCELL( _EQ022);
-  _EQ022 = !_LC1_B23 &  _LC2_B19
-         #  A5 &  _LC1_B23;
+-- Node name is ':1204' 
+-- Equation name is '_LC4_C6', type is buried 
+_LC4_C6  = LCELL( _EQ102);
+  _EQ102 = !_LC1_B10 &  _LC3_C6 & !_LC6_B10
+         #  _LC1_B10 &  _LC4_C6
+         #  _LC4_C6 &  _LC6_B10;
 
--- Node name is ':987' 
--- Equation name is '_LC7_B20', type is buried 
-_LC7_B20 = LCELL( _EQ023);
-  _EQ023 = !_LC1_B23 &  _LC7_B20
-         #  A4 &  _LC1_B23;
+-- Node name is ':1222' 
+-- Equation name is '_LC5_C1', type is buried 
+_LC5_C1  = LCELL( _EQ103);
+  _EQ103 =  _LC1_A4 &  _LC5_C1
+         # !_LC1_A4 &  _LC4_C1;
 
--- Node name is ':999' 
--- Equation name is '_LC5_B18', type is buried 
-_LC5_B18 = LCELL( _EQ024);
-  _EQ024 = !_LC1_B23 &  _LC5_B18
-         #  A3 &  _LC1_B23;
+-- Node name is ':1240' 
+-- Equation name is '_LC1_C1', type is buried 
+_LC1_C1  = LCELL( _EQ104);
+  _EQ104 =  _LC1_A4 &  _LC1_C1
+         # !_LC1_A4 & !_LC2_C9 &  _LC6_C23
+         # !_LC1_A4 &  _LC2_C9 & !_LC6_C23;
 
--- Node name is ':1011' 
--- Equation name is '_LC5_B20', type is buried 
-_LC5_B20 = LCELL( _EQ025);
-  _EQ025 = !_LC1_B23 &  _LC5_B20
-         #  A2 &  _LC1_B23;
-
--- Node name is ':1023' 
--- Equation name is '_LC3_B20', type is buried 
-_LC3_B20 = LCELL( _EQ026);
-  _EQ026 = !_LC1_B23 &  _LC3_B20
-         #  A1 &  _LC1_B23;
-
--- Node name is ':1035' 
--- Equation name is '_LC6_B19', type is buried 
-_LC6_B19 = LCELL( _EQ027);
-  _EQ027 = !_LC1_B23 &  _LC6_B19
-         #  A0 &  _LC1_B23;
-
--- Node name is ':1047' 
--- Equation name is '_LC2_B17', type is buried 
-_LC2_B17 = LCELL( _EQ028);
-  _EQ028 = !_LC1_B23 &  _LC2_B17;
-
--- Node name is ':1059' 
--- Equation name is '_LC3_B17', type is buried 
-_LC3_B17 = LCELL( _EQ029);
-  _EQ029 = !_LC1_B23 &  _LC3_B17
-         #  B7 &  _LC1_B23;
-
--- Node name is ':1071' 
--- Equation name is '_LC5_B15', type is buried 
-_LC5_B15 = LCELL( _EQ030);
-  _EQ030 = !_LC1_B23 &  _LC5_B15
-         #  B6 &  _LC1_B23;
-
--- Node name is ':1083' 
--- Equation name is '_LC1_B19', type is buried 
-_LC1_B19 = LCELL( _EQ031);
-  _EQ031 =  _LC1_B19 & !_LC1_B23
-         #  B5 &  _LC1_B23;
-
--- Node name is ':1095' 
--- Equation name is '_LC6_B20', type is buried 
-_LC6_B20 = LCELL( _EQ032);
-  _EQ032 = !_LC1_B23 &  _LC6_B20
-         #  B4 &  _LC1_B23;
-
--- Node name is ':1107' 
--- Equation name is '_LC4_B18', type is buried 
-_LC4_B18 = LCELL( _EQ033);
-  _EQ033 = !_LC1_B23 &  _LC4_B18
-         #  B3 &  _LC1_B23;
-
--- Node name is ':1119' 
--- Equation name is '_LC7_B23', type is buried 
-_LC7_B23 = LCELL( _EQ034);
-  _EQ034 = !_LC1_B23 &  _LC7_B23
-         #  B2 &  _LC1_B23;
-
--- Node name is ':1131' 
--- Equation name is '_LC8_B19', type is buried 
-_LC8_B19 = LCELL( _EQ035);
-  _EQ035 = !_LC1_B23 &  _LC8_B19
-         #  B1 &  _LC1_B23;
-
--- Node name is ':1143' 
--- Equation name is '_LC5_B19', type is buried 
-_LC5_B19 = LCELL( _EQ036);
-  _EQ036 = !_LC1_B23 &  _LC5_B19
-         #  B0 &  _LC1_B23;
-
--- Node name is ':1155' 
--- Equation name is '_LC8_B17', type is buried 
-_LC8_B17 = LCELL( _EQ037);
-  _EQ037 = !_LC1_B23 &  _LC8_B17
-         #  _LC1_B23 &  _LC7_B17;
-
--- Node name is ':1167' 
--- Equation name is '_LC3_B23', type is buried 
-_LC3_B23 = LCELL( _EQ038);
-  _EQ038 = !_LC1_B23 &  _LC3_B23
-         #  _LC1_B17 &  _LC1_B23;
-
--- Node name is ':1179' 
--- Equation name is '_LC4_B15', type is buried 
-_LC4_B15 = LCELL( _EQ039);
-  _EQ039 = !_LC1_B23 &  _LC4_B15
-         #  _LC1_B23 &  _LC8_B15;
-
--- Node name is ':1191' 
--- Equation name is '_LC7_B18', type is buried 
-_LC7_B18 = LCELL( _EQ040);
-  _EQ040 = !_LC1_B23 &  _LC7_B18
-         #  _LC1_B23 &  _LC3_B15;
-
--- Node name is ':1203' 
--- Equation name is '_LC4_B20', type is buried 
-_LC4_B20 = LCELL( _EQ041);
-  _EQ041 = !_LC1_B23 &  _LC4_B20
-         #  _LC1_B23 &  _LC8_B20;
-
--- Node name is ':1215' 
--- Equation name is '_LC3_B18', type is buried 
-_LC3_B18 = LCELL( _EQ042);
-  _EQ042 = !_LC1_B23 &  _LC3_B18
-         #  _LC1_B23 &  _LC6_B18;
-
--- Node name is ':1227' 
--- Equation name is '_LC6_B23', type is buried 
-_LC6_B23 = LCELL( _EQ043);
-  _EQ043 = !_LC1_B23 &  _LC6_B23
-         #  _LC1_B23 &  _LC8_B23;
-
--- Node name is ':1239' 
--- Equation name is '_LC7_B14', type is buried 
-_LC7_B14 = LCELL( _EQ044);
-  _EQ044 = !_LC1_B23 &  _LC7_B14
-         #  _LC1_B23 &  _LC5_B14 & !_LC8_B19
-         #  _LC1_B23 & !_LC5_B14 &  _LC8_B19;
-
--- Node name is ':1251' 
--- Equation name is '_LC4_B14', type is buried 
-_LC4_B14 = LCELL( _EQ045);
-  _EQ045 = !_LC1_B23 &  _LC4_B14
-         #  _LC1_B23 & !_LC5_B19 &  _LC6_B19
-         #  _LC1_B23 &  _LC5_B19 & !_LC6_B19;
-
--- Node name is ':1264' 
--- Equation name is '_LC2_B23', type is buried 
-_LC2_B23 = LCELL( _EQ046);
-  _EQ046 =  _LC3_B23 & !S0 & !S1;
+-- Node name is ':1258' 
+-- Equation name is '_LC4_C9', type is buried 
+_LC4_C9  = LCELL( _EQ105);
+  _EQ105 =  _LC1_A4 &  _LC4_C9
+         # !_LC1_A4 & !_LC3_C9 &  _LC4_C16
+         # !_LC1_A4 &  _LC3_C9 & !_LC4_C16;
 
 -- Node name is ':1276' 
--- Equation name is '_LC2_B15', type is buried 
-_LC2_B15 = LCELL( _EQ047);
-  _EQ047 =  _LC4_B15 & !S0 & !S1;
+-- Equation name is '_LC5_C3', type is buried 
+_LC5_C3  = LCELL( _EQ106);
+  _EQ106 =  _LC1_A4 &  _LC5_C3
+         # !_LC1_A4 & !_LC3_C3 &  _LC8_C24
+         # !_LC1_A4 &  _LC3_C3 & !_LC8_C24;
 
--- Node name is ':1288' 
--- Equation name is '_LC1_B18', type is buried 
-_LC1_B18 = LCELL( _EQ048);
-  _EQ048 =  _LC7_B18 & !S0 & !S1;
-
--- Node name is ':1300' 
--- Equation name is '_LC2_B20', type is buried 
-_LC2_B20 = LCELL( _EQ049);
-  _EQ049 =  _LC4_B20 & !S0 & !S1;
+-- Node name is ':1294' 
+-- Equation name is '_LC2_C3', type is buried 
+_LC2_C3  = LCELL( _EQ107);
+  _EQ107 =  _LC1_A4 &  _LC2_C3
+         # !_LC1_A4 &  _LC4_A3 & !_LC5_C24
+         # !_LC1_A4 & !_LC4_A3 &  _LC5_C24;
 
 -- Node name is ':1312' 
--- Equation name is '_LC6_B14', type is buried 
-_LC6_B14 = LCELL( _EQ050);
-  _EQ050 =  _LC3_B18 & !S0 & !S1;
+-- Equation name is '_LC3_A4', type is buried 
+_LC3_A4  = LCELL( _EQ108);
+  _EQ108 =  _LC1_A4 &  _LC3_A4
+         # !_LC1_A4 &  _LC8_A3;
 
--- Node name is ':1324' 
--- Equation name is '_LC5_B23', type is buried 
-_LC5_B23 = LCELL( _EQ051);
-  _EQ051 =  _LC6_B23 & !S0 & !S1;
+-- Node name is '~1330~1' 
+-- Equation name is '~1330~1', location is LC1_A4, type is buried.
+-- synthesized logic cell 
+!_LC1_A4 = _LC1_A4~NOT;
+_LC1_A4~NOT = LCELL( _EQ109);
+  _EQ109 = !_LC1_B10 &  _LC2_B10 & !_LC4_B10 & !_LC6_B10;
 
--- Node name is ':1336' 
--- Equation name is '_LC2_B14', type is buried 
-_LC2_B14 = LCELL( _EQ052);
-  _EQ052 =  _LC7_B14 & !S0 & !S1;
+-- Node name is ':1330' 
+-- Equation name is '_LC4_A6', type is buried 
+_LC4_A6  = LCELL( _EQ110);
+  _EQ110 =  _LC1_A4 &  _LC4_A6
+         # !_LC1_A4 &  X0 &  Y0;
+
+-- Node name is '~1348~1' 
+-- Equation name is '~1348~1', location is LC1_C2, type is buried.
+-- synthesized logic cell 
+_LC1_C2  = LCELL( _EQ111);
+  _EQ111 = !_LC4_B10
+         #  _LC1_B10;
 
 -- Node name is ':1348' 
--- Equation name is '_LC8_B14', type is buried 
-_LC8_B14 = LCELL( _EQ053);
-  _EQ053 =  _LC4_B14 & !S0 & !S1;
+-- Equation name is '_LC3_C5', type is buried 
+_LC3_C5  = LCELL( _EQ112);
+  _EQ112 =  _LC1_C2 &  _LC3_C5 & !_LC6_B10;
 
--- Node name is ':1360' 
--- Equation name is '_LC5_B17', type is buried 
-_LC5_B17 = LCELL( _EQ054);
-  _EQ054 =  _LC8_B17 & !S0 & !S1;
+-- Node name is '~1366~1' 
+-- Equation name is '~1366~1', location is LC8_C21, type is buried.
+-- synthesized logic cell 
+_LC8_C21 = LCELL( _EQ113);
+  _EQ113 =  _LC1_C2 &  _LC2_C21
+         # !_LC1_C2 &  Y7;
 
--- Node name is ':1372' 
--- Equation name is '_LC3_B19', type is buried 
-_LC3_B19 = LCELL( _EQ055);
-  _EQ055 =  _LC1_B23 & !_LC3_B23 & !_LC4_B15 &  _LC8_B18;
+-- Node name is ':1366' 
+-- Equation name is '_LC2_C21', type is buried 
+_LC2_C21 = LCELL( _EQ114);
+  _EQ114 = !_LC6_B10 &  _LC8_C21
+         #  _LC6_B10 &  X7;
+
+-- Node name is '~1384~1' 
+-- Equation name is '~1384~1', location is LC2_C11, type is buried.
+-- synthesized logic cell 
+_LC2_C11 = LCELL( _EQ115);
+  _EQ115 =  _LC1_C2 &  _LC8_C11
+         # !_LC1_C2 &  Y6;
+
+-- Node name is ':1384' 
+-- Equation name is '_LC8_C11', type is buried 
+_LC8_C11 = LCELL( _EQ116);
+  _EQ116 =  _LC2_C11 & !_LC6_B10
+         #  _LC6_B10 &  X6;
+
+-- Node name is '~1402~1' 
+-- Equation name is '~1402~1', location is LC7_C21, type is buried.
+-- synthesized logic cell 
+_LC7_C21 = LCELL( _EQ117);
+  _EQ117 =  _LC1_C2 &  _LC4_C21
+         # !_LC1_C2 &  Y5;
+
+-- Node name is ':1402' 
+-- Equation name is '_LC4_C21', type is buried 
+_LC4_C21 = LCELL( _EQ118);
+  _EQ118 = !_LC6_B10 &  _LC7_C21
+         #  _LC6_B10 &  X5;
+
+-- Node name is '~1420~1' 
+-- Equation name is '~1420~1', location is LC3_C2, type is buried.
+-- synthesized logic cell 
+_LC3_C2  = LCELL( _EQ119);
+  _EQ119 =  _LC1_C2 &  _LC5_C2
+         # !_LC1_C2 &  Y4;
+
+-- Node name is ':1420' 
+-- Equation name is '_LC5_C2', type is buried 
+_LC5_C2  = LCELL( _EQ120);
+  _EQ120 =  _LC3_C2 & !_LC6_B10
+         #  _LC6_B10 &  X4;
+
+-- Node name is '~1438~1' 
+-- Equation name is '~1438~1', location is LC1_A1, type is buried.
+-- synthesized logic cell 
+_LC1_A1  = LCELL( _EQ121);
+  _EQ121 =  _LC1_C2 &  _LC3_A1
+         # !_LC1_C2 &  Y3;
+
+-- Node name is ':1438' 
+-- Equation name is '_LC3_A1', type is buried 
+_LC3_A1  = LCELL( _EQ122);
+  _EQ122 =  _LC1_A1 & !_LC6_B10
+         #  _LC6_B10 &  X3;
+
+-- Node name is '~1456~1' 
+-- Equation name is '~1456~1', location is LC8_C14, type is buried.
+-- synthesized logic cell 
+_LC8_C14 = LCELL( _EQ123);
+  _EQ123 =  _LC1_C2 &  _LC4_C14
+         # !_LC1_C2 &  Y2;
+
+-- Node name is ':1456' 
+-- Equation name is '_LC4_C14', type is buried 
+_LC4_C14 = LCELL( _EQ124);
+  _EQ124 = !_LC6_B10 &  _LC8_C14
+         #  _LC6_B10 &  X2;
+
+-- Node name is '~1474~1' 
+-- Equation name is '~1474~1', location is LC4_A7, type is buried.
+-- synthesized logic cell 
+_LC4_A7  = LCELL( _EQ125);
+  _EQ125 =  _LC1_C2 &  _LC3_A7
+         # !_LC1_C2 &  Y1;
+
+-- Node name is ':1474' 
+-- Equation name is '_LC3_A7', type is buried 
+_LC3_A7  = LCELL( _EQ126);
+  _EQ126 =  _LC4_A7 & !_LC6_B10
+         #  _LC6_B10 &  X1;
+
+-- Node name is '~1492~1' 
+-- Equation name is '~1492~1', location is LC5_A7, type is buried.
+-- synthesized logic cell 
+_LC5_A7  = LCELL( _EQ127);
+  _EQ127 =  _LC1_C2 &  _LC2_A7
+         # !_LC1_C2 &  Y0;
+
+-- Node name is ':1492' 
+-- Equation name is '_LC2_A7', type is buried 
+_LC2_A7  = LCELL( _EQ128);
+  _EQ128 =  _LC5_A7 & !_LC6_B10
+         #  _LC6_B10 &  X0;
+
+-- Node name is ':1510' 
+-- Equation name is '_LC2_C20', type is buried 
+_LC2_C20 = LCELL( _EQ129);
+  _EQ129 =  _LC2_C20 & !_LC6_B10;
+
+-- Node name is ':1528' 
+-- Equation name is '_LC4_C5', type is buried 
+_LC4_C5  = LCELL( _EQ130);
+  _EQ130 =  _LC4_C5 & !_LC6_B10
+         #  _LC6_B10 &  Y7;
+
+-- Node name is ':1546' 
+-- Equation name is '_LC1_C11', type is buried 
+_LC1_C11 = LCELL( _EQ131);
+  _EQ131 =  _LC1_C11 & !_LC6_B10
+         #  _LC6_B10 &  Y6;
+
+-- Node name is ':1564' 
+-- Equation name is '_LC5_C4', type is buried 
+_LC5_C4  = LCELL( _EQ132);
+  _EQ132 =  _LC5_C4 & !_LC6_B10
+         #  _LC6_B10 &  Y5;
+
+-- Node name is ':1582' 
+-- Equation name is '_LC4_C4', type is buried 
+_LC4_C4  = LCELL( _EQ133);
+  _EQ133 =  _LC4_C4 & !_LC6_B10
+         #  _LC6_B10 &  Y4;
+
+-- Node name is ':1600' 
+-- Equation name is '_LC1_A10', type is buried 
+_LC1_A10 = LCELL( _EQ134);
+  _EQ134 =  _LC1_A10 & !_LC6_B10
+         #  _LC6_B10 &  Y3;
+
+-- Node name is ':1618' 
+-- Equation name is '_LC2_A2', type is buried 
+_LC2_A2  = LCELL( _EQ135);
+  _EQ135 =  _LC2_A2 & !_LC6_B10
+         #  _LC6_B10 &  Y2;
+
+-- Node name is ':1636' 
+-- Equation name is '_LC6_A7', type is buried 
+_LC6_A7  = LCELL( _EQ136);
+  _EQ136 =  _LC6_A7 & !_LC6_B10
+         #  _LC6_B10 &  Y1;
+
+-- Node name is ':1654' 
+-- Equation name is '_LC2_A6', type is buried 
+_LC2_A6  = LCELL( _EQ137);
+  _EQ137 =  _LC2_A6 & !_LC6_B10
+         #  _LC6_B10 &  Y0;
+
+-- Node name is ':1669' 
+-- Equation name is '_LC6_C5', type is buried 
+_LC6_C5  = LCELL( _EQ138);
+  _EQ138 =  _LC1_B10 &  _LC2_C5
+         #  _LC2_C5 & !_LC4_B10
+         # !_LC1_B10 &  _LC4_B10 & !_LC5_C5;
+
+-- Node name is ':1672' 
+-- Equation name is '_LC2_C5', type is buried 
+_LC2_C5  = LCELL( _EQ139);
+  _EQ139 = !_LC6_B10 &  _LC6_C5
+         #  _LC6_B10 &  _LC8_C5;
+
+-- Node name is ':1684' 
+-- Equation name is '_LC6_C12', type is buried 
+_LC6_C12 = LCELL( _EQ140);
+  _EQ140 =  _LC1_C12 & !_LC4_B10
+         #  _LC2_C12 &  _LC2_C21 &  _LC4_B10
+         # !_LC2_C12 & !_LC2_C21 &  _LC4_B10;
+
+-- Node name is ':1687' 
+-- Equation name is '_LC7_C12', type is buried 
+_LC7_C12 = LCELL( _EQ141);
+  _EQ141 = !_LC1_B10 &  _LC6_C12
+         #  _LC1_B10 &  _LC1_C12;
+
+-- Node name is ':1690' 
+-- Equation name is '_LC1_C12', type is buried 
+_LC1_C12 = LCELL( _EQ142);
+  _EQ142 = !_LC6_B10 &  _LC7_C12
+         #  _LC1_C5 &  _LC6_B10;
+
+-- Node name is ':1705' 
+-- Equation name is '_LC5_C12', type is buried 
+_LC5_C12 = LCELL( _EQ143);
+  _EQ143 =  _LC1_B10 &  _LC3_C12
+         #  _LC3_C12 & !_LC4_B10
+         # !_LC1_B10 &  _LC4_B10 & !_LC4_C12;
+
+-- Node name is ':1708' 
+-- Equation name is '_LC3_C12', type is buried 
+_LC3_C12 = LCELL( _EQ144);
+  _EQ144 =  _LC5_C12 & !_LC6_B10
+         #  _LC4_C11 &  _LC6_B10;
+
+-- Node name is ':1723' 
+-- Equation name is '_LC5_C8', type is buried 
+_LC5_C8  = LCELL( _EQ145);
+  _EQ145 =  _LC1_B10 &  _LC3_C8
+         #  _LC3_C8 & !_LC4_B10
+         # !_LC1_B10 &  _LC4_B10 & !_LC4_C8;
+
+-- Node name is ':1726' 
+-- Equation name is '_LC3_C8', type is buried 
+_LC3_C8  = LCELL( _EQ146);
+  _EQ146 =  _LC5_C8 & !_LC6_B10
+         #  _LC3_C4 &  _LC6_B10;
+
+-- Node name is ':1738' 
+-- Equation name is '_LC8_C2', type is buried 
+_LC8_C2  = LCELL( _EQ147);
+  _EQ147 =  _LC2_C4 & !_LC4_B10
+         #  _LC4_A1 &  _LC4_B10 &  _LC5_C2
+         # !_LC4_A1 &  _LC4_B10 & !_LC5_C2;
+
+-- Node name is ':1741' 
+-- Equation name is '_LC4_C2', type is buried 
+_LC4_C2  = LCELL( _EQ148);
+  _EQ148 = !_LC1_B10 &  _LC8_C2
+         #  _LC1_B10 &  _LC2_C4;
+
+-- Node name is ':1744' 
+-- Equation name is '_LC2_C4', type is buried 
+_LC2_C4  = LCELL( _EQ149);
+  _EQ149 =  _LC4_C2 & !_LC6_B10
+         #  _LC6_B10 &  _LC7_C4;
+
+-- Node name is ':1759' 
+-- Equation name is '_LC7_A1', type is buried 
+_LC7_A1  = LCELL( _EQ150);
+  _EQ150 =  _LC1_B10 &  _LC5_A1
+         # !_LC4_B10 &  _LC5_A1
+         # !_LC1_B10 &  _LC4_B10 & !_LC6_A1;
+
+-- Node name is ':1762' 
+-- Equation name is '_LC5_A1', type is buried 
+_LC5_A1  = LCELL( _EQ151);
+  _EQ151 = !_LC6_B10 &  _LC7_A1
+         #  _LC6_B10 &  _LC8_A1;
+
+-- Node name is ':1777' 
+-- Equation name is '_LC3_A2', type is buried 
+_LC3_A2  = LCELL( _EQ152);
+  _EQ152 =  _LC1_B10 &  _LC6_A2
+         # !_LC4_B10 &  _LC6_A2
+         # !_LC1_A12 & !_LC1_B10 &  _LC4_B10;
+
+-- Node name is ':1780' 
+-- Equation name is '_LC6_A2', type is buried 
+_LC6_A2  = LCELL( _EQ153);
+  _EQ153 =  _LC3_A2 & !_LC6_B10
+         #  _LC4_A2 &  _LC6_B10;
+
+-- Node name is ':1792' 
+-- Equation name is '_LC4_A4', type is buried 
+_LC4_A4  = LCELL( _EQ154);
+  _EQ154 = !_LC4_B10 &  _LC8_A7
+         #  _LC2_A7 &  _LC3_A7 &  _LC4_B10
+         # !_LC2_A7 & !_LC3_A7 &  _LC4_B10;
+
+-- Node name is ':1795' 
+-- Equation name is '_LC2_A4', type is buried 
+_LC2_A4  = LCELL( _EQ155);
+  _EQ155 = !_LC1_B10 &  _LC4_A4
+         #  _LC1_B10 &  _LC8_A7;
+
+-- Node name is ':1798' 
+-- Equation name is '_LC8_A7', type is buried 
+_LC8_A7  = LCELL( _EQ156);
+  _EQ156 =  _LC2_A4 & !_LC6_B10
+         # !_LC6_A7 &  _LC6_B10 &  _LC7_A7
+         #  _LC6_A7 &  _LC6_B10 & !_LC7_A7;
+
+-- Node name is ':1813' 
+-- Equation name is '_LC5_A6', type is buried 
+_LC5_A6  = LCELL( _EQ157);
+  _EQ157 =  _LC1_B10 &  _LC3_A6
+         #  _LC3_A6 & !_LC4_B10
+         # !_LC1_B10 & !_LC2_A7 &  _LC4_B10;
+
+-- Node name is ':1816' 
+-- Equation name is '_LC3_A6', type is buried 
+_LC3_A6  = LCELL( _EQ158);
+  _EQ158 =  _LC5_A6 & !_LC6_B10
+         # !_LC2_A6 &  _LC2_A7 &  _LC6_B10
+         #  _LC2_A6 & !_LC2_A7 &  _LC6_B10;
+
+-- Node name is ':1825' 
+-- Equation name is '_LC5_C6', type is buried 
+_LC5_C6  = LCELL( _EQ159);
+  _EQ159 =  _LC2_B10 &  _LC4_C6
+         #  _LC3_B10 &  Y7;
+
+-- Node name is ':1828' 
+-- Equation name is '_LC6_C6', type is buried 
+_LC6_C6  = LCELL( _EQ160);
+  _EQ160 =  _LC1_C12 &  _LC4_B10
+         # !_LC4_B10 &  _LC5_C6;
+
+-- Node name is ':1831' 
+-- Equation name is '_LC8_C6', type is buried 
+_LC8_C6  = LCELL( _EQ161);
+  _EQ161 = !_LC1_B10 &  _LC6_C6
+         #  _LC1_B10 &  _LC7_C6;
+
+-- Node name is ':1834' 
+-- Equation name is '_LC7_C6', type is buried 
+_LC7_C6  = LCELL( _EQ162);
+  _EQ162 = !_LC6_B10 &  _LC8_C6
+         #  _LC1_C12 &  _LC6_B10;
+
+-- Node name is ':1843' 
+-- Equation name is '_LC6_C1', type is buried 
+_LC6_C1  = LCELL( _EQ163);
+  _EQ163 =  _LC2_B10 &  _LC5_C1
+         #  _LC3_B10 &  Y6;
+
+-- Node name is ':1846' 
+-- Equation name is '_LC7_C1', type is buried 
+_LC7_C1  = LCELL( _EQ164);
+  _EQ164 =  _LC3_C12 &  _LC4_B10
+         # !_LC4_B10 &  _LC6_C1;
+
+-- Node name is ':1849' 
+-- Equation name is '_LC8_C1', type is buried 
+_LC8_C1  = LCELL( _EQ165);
+  _EQ165 = !_LC1_B10 &  _LC7_C1
+         #  _LC1_B10 &  _LC2_C1;
+
+-- Node name is ':1852' 
+-- Equation name is '_LC2_C1', type is buried 
+_LC2_C1  = LCELL( _EQ166);
+  _EQ166 = !_LC6_B10 &  _LC8_C1
+         #  _LC3_C12 &  _LC6_B10;
+
+-- Node name is ':1861' 
+-- Equation name is '_LC6_C8', type is buried 
+_LC6_C8  = LCELL( _EQ167);
+  _EQ167 =  _LC1_C1 &  _LC2_B10
+         #  _LC3_B10 &  Y5;
+
+-- Node name is ':1864' 
+-- Equation name is '_LC7_C8', type is buried 
+_LC7_C8  = LCELL( _EQ168);
+  _EQ168 =  _LC3_C8 &  _LC4_B10
+         # !_LC4_B10 &  _LC6_C8;
+
+-- Node name is ':1867' 
+-- Equation name is '_LC8_C8', type is buried 
+_LC8_C8  = LCELL( _EQ169);
+  _EQ169 = !_LC1_B10 &  _LC7_C8
+         #  _LC1_B10 &  _LC2_C8;
+
+-- Node name is ':1870' 
+-- Equation name is '_LC2_C8', type is buried 
+_LC2_C8  = LCELL( _EQ170);
+  _EQ170 = !_LC6_B10 &  _LC8_C8
+         #  _LC3_C8 &  _LC6_B10;
+
+-- Node name is ':1879' 
+-- Equation name is '_LC5_C9', type is buried 
+_LC5_C9  = LCELL( _EQ171);
+  _EQ171 =  _LC2_B10 &  _LC4_C9
+         #  _LC3_B10 &  Y4;
+
+-- Node name is ':1882' 
+-- Equation name is '_LC6_C9', type is buried 
+_LC6_C9  = LCELL( _EQ172);
+  _EQ172 =  _LC2_C4 &  _LC4_B10
+         # !_LC4_B10 &  _LC5_C9;
+
+-- Node name is ':1885' 
+-- Equation name is '_LC7_C9', type is buried 
+_LC7_C9  = LCELL( _EQ173);
+  _EQ173 = !_LC1_B10 &  _LC6_C9
+         #  _LC1_B10 &  _LC1_C9;
+
+-- Node name is ':1888' 
+-- Equation name is '_LC1_C9', type is buried 
+_LC1_C9  = LCELL( _EQ174);
+  _EQ174 = !_LC6_B10 &  _LC7_C9
+         #  _LC2_C4 &  _LC6_B10;
+
+-- Node name is ':1897' 
+-- Equation name is '_LC6_C3', type is buried 
+_LC6_C3  = LCELL( _EQ175);
+  _EQ175 =  _LC2_B10 &  _LC5_C3
+         #  _LC3_B10 &  Y3;
+
+-- Node name is ':1900' 
+-- Equation name is '_LC7_C3', type is buried 
+_LC7_C3  = LCELL( _EQ176);
+  _EQ176 =  _LC4_B10 &  _LC5_A1
+         # !_LC4_B10 &  _LC6_C3;
+
+-- Node name is ':1903' 
+-- Equation name is '_LC8_C3', type is buried 
+_LC8_C3  = LCELL( _EQ177);
+  _EQ177 = !_LC1_B10 &  _LC7_C3
+         #  _LC1_B10 &  _LC4_C3;
+
+-- Node name is ':1906' 
+-- Equation name is '_LC4_C3', type is buried 
+_LC4_C3  = LCELL( _EQ178);
+  _EQ178 = !_LC6_B10 &  _LC8_C3
+         #  _LC5_A1 &  _LC6_B10;
+
+-- Node name is ':1915' 
+-- Equation name is '_LC1_C3', type is buried 
+_LC1_C3  = LCELL( _EQ179);
+  _EQ179 =  _LC2_B10 &  _LC2_C3
+         #  _LC3_B10 &  Y2;
+
+-- Node name is ':1918' 
+-- Equation name is '_LC5_A2', type is buried 
+_LC5_A2  = LCELL( _EQ180);
+  _EQ180 =  _LC4_B10 &  _LC6_A2
+         #  _LC1_C3 & !_LC4_B10;
+
+-- Node name is ':1921' 
+-- Equation name is '_LC7_A2', type is buried 
+_LC7_A2  = LCELL( _EQ181);
+  _EQ181 = !_LC1_B10 &  _LC5_A2
+         #  _LC1_B10 &  _LC8_A2;
+
+-- Node name is ':1924' 
+-- Equation name is '_LC8_A2', type is buried 
+_LC8_A2  = LCELL( _EQ182);
+  _EQ182 = !_LC6_B10 &  _LC7_A2
+         #  _LC6_A2 &  _LC6_B10;
+
+-- Node name is ':1933' 
+-- Equation name is '_LC5_A4', type is buried 
+_LC5_A4  = LCELL( _EQ183);
+  _EQ183 =  _LC2_B10 &  _LC3_A4
+         #  _LC3_B10 &  Y1;
+
+-- Node name is ':1936' 
+-- Equation name is '_LC7_A4', type is buried 
+_LC7_A4  = LCELL( _EQ184);
+  _EQ184 =  _LC4_B10 &  _LC8_A7
+         # !_LC4_B10 &  _LC5_A4;
+
+-- Node name is ':1939' 
+-- Equation name is '_LC8_A4', type is buried 
+_LC8_A4  = LCELL( _EQ185);
+  _EQ185 = !_LC1_B10 &  _LC7_A4
+         #  _LC1_B10 &  _LC6_A4;
+
+-- Node name is ':1942' 
+-- Equation name is '_LC6_A4', type is buried 
+_LC6_A4  = LCELL( _EQ186);
+  _EQ186 = !_LC6_B10 &  _LC8_A4
+         #  _LC6_B10 &  _LC8_A7;
+
+-- Node name is ':1951' 
+-- Equation name is '_LC6_A6', type is buried 
+_LC6_A6  = LCELL( _EQ187);
+  _EQ187 =  _LC2_B10 &  _LC4_A6
+         #  _LC3_B10 &  Y0;
+
+-- Node name is ':1954' 
+-- Equation name is '_LC7_A6', type is buried 
+_LC7_A6  = LCELL( _EQ188);
+  _EQ188 =  _LC3_A6 &  _LC4_B10
+         # !_LC4_B10 &  _LC6_A6;
+
+-- Node name is ':1957' 
+-- Equation name is '_LC8_A6', type is buried 
+_LC8_A6  = LCELL( _EQ189);
+  _EQ189 = !_LC1_B10 &  _LC7_A6
+         #  _LC1_A6 &  _LC1_B10;
+
+-- Node name is ':1960' 
+-- Equation name is '_LC1_A6', type is buried 
+_LC1_A6  = LCELL( _EQ190);
+  _EQ190 = !_LC6_B10 &  _LC8_A6
+         #  _LC3_A6 &  _LC6_B10;
+
+-- Node name is '~1978~1' 
+-- Equation name is '~1978~1', location is LC2_C10, type is buried.
+-- synthesized logic cell 
+_LC2_C10 = LCELL( _EQ191);
+  _EQ191 =  _LC1_C8 &  _LC1_C10
+         #  _LC1_B10 &  X7;
+
+-- Node name is ':1978' 
+-- Equation name is '_LC1_C10', type is buried 
+_LC1_C10 = LCELL( _EQ192);
+  _EQ192 = !_LC1_C2 &  _LC2_C5
+         #  _LC2_C5 &  _LC6_B10
+         #  _LC2_C10 & !_LC6_B10;
+
+-- Node name is '~1996~1' 
+-- Equation name is '~1996~1', location is LC4_C7, type is buried.
+-- synthesized logic cell 
+_LC4_C7  = LCELL( _EQ193);
+  _EQ193 =  _LC1_C7 &  _LC1_C8 & !_LC6_B10
+         #  _LC3_C7 & !_LC6_B10;
+
+-- Node name is '~1996~2' 
+-- Equation name is '~1996~2', location is LC5_C7, type is buried.
+-- synthesized logic cell 
+_LC5_C7  = LCELL( _EQ194);
+  _EQ194 = !_LC3_A6 & !_LC5_A1 & !_LC6_A2 & !_LC8_A7;
+
+-- Node name is '~1996~3' 
+-- Equation name is '~1996~3', location is LC6_C7, type is buried.
+-- synthesized logic cell 
+_LC6_C7  = LCELL( _EQ195);
+  _EQ195 = !_LC2_C4 & !_LC3_C8 & !_LC3_C12 &  _LC5_C7;
+
+-- Node name is '~1996~4' 
+-- Equation name is '~1996~4', location is LC7_C7, type is buried.
+-- synthesized logic cell 
+_LC7_C7  = LCELL( _EQ196);
+  _EQ196 = !_LC1_C2 & !_LC2_C5
+         #  _LC6_B10;
+
+-- Node name is ':1996' 
+-- Equation name is '_LC1_C7', type is buried 
+_LC1_C7  = LCELL( _EQ197);
+  _EQ197 =  _LC4_C7
+         # !_LC1_C12 &  _LC6_C7 &  _LC7_C7;
 
 
 
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\alu.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\alu.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -904,9 +2111,9 @@ VHDL Netlist Writer                       = off
 Compilation Times
 -----------------
 
-   Compiler Netlist Extractor             00:00:01
+   Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
-   Logic Synthesizer                      00:00:00
+   Logic Synthesizer                      00:00:01
    Partitioner                            00:00:00
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
@@ -918,4 +2125,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 19,295K
+Peak memory allocated during compilation  = 17,648K

@@ -66,9 +66,9 @@ RESERVED                         : 34
 VCCINT                           : 35
 GND                              : 36
 VCC_CKLK                         : 37
-ZF_IN                            : 38
+Z                                : 38
 LDPSW                            : 39
-CF_IN                            : 40
+C                                : 40
 GND_CKLK                         : 41
 GND                              : 42
 RESERVED                         : 43

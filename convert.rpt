@@ -1,8 +1,8 @@
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\convert.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\convert.rpt
 
 MAX+plus II Compiler Report File
 Version 10.0 9/14/2000
-Compiled: 08/28/2020 17:06:55
+Compiled: 08/29/2020 13:13:26
 
 Copyright (C) 1988-2000 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -37,20 +37,20 @@ CONVERT
 Chip/                     Input Output Bidir  Memory  Memory  			 LCs
 POF       Device          Pins  Pins   Pins   Bits % Utilized  LCs  % Utilized
 
-convert   EP1K10TC100-1    8      8      0    0         0  %    8        1  %
+convert   EP1K10TC100-1    16     16     0    0         0  %    16       2  %
 
-User Pins:                 8      8      0  
+User Pins:                 16     16     0  
 
 
 
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\convert.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\convert.rpt
 
 ** PROJECT TIMING MESSAGES **
 
 Warning: Timing characteristics of device EP1K10TC100-1 are preliminary
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\convert.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\convert.rpt
 convert
 
 ***** Logic for device 'convert' compiled without errors.
@@ -75,14 +75,14 @@ Device Options:
 
                                                                    
                                                                    
-                  R R R R   R R           R R R R   R R R R R R    
-                  E E E E   E E   I I I   E E E E   E E E E E E    
-                  S S S S   S S V R R R   S S S S   S S S S S S ^  
-                  E E E E   E E C C C C   E E E E V E E E E E E D  
-                # R R R R   R R C O O O   R R R R C R R R R R R A  
-                T V V V V G V V I D D D G V V V V C V V V V V V T  
+                  R R R R   R             R R R R   R R R R R R    
+                  E E E E   E I   I I I   E E E E   E E E E E E    
+                  S S S S   S R V R R R   S S S S   S S S S S S ^  
+                  E E E E   E C C C C C   E E E E V E E E E E E D  
+                # R R R R   R O C O O O   R R R R C R R R R R R A  
+                T V V V V G V D I D D D G V V V V C V V V V V V T  
                 C E E E E N E E N E E E N E E E E I E E E E E E A  
-                K D D D D D D D T 3 5 2 D D D D D O D D D D D D 0  
+                K D D D D D D 8 T 3 5 2 D D D D D O D D D D D D 0  
               ----------------------------------------------------_ 
              / 100  98  96  94  92  90  88  86  84  82  80  78  76   |_ 
             /     99  97  95  93  91  89  87  85  83  81  79  77    | 
@@ -90,25 +90,25 @@ Device Options:
      ^nCEO |  2                                                    74 | ^nCE 
       #TDO |  3                                                    73 | #TDI 
      VCCIO |  4                                                    72 | VCCINT 
-  RESERVED |  5                                                    71 | OP2 
-       OP3 |  6                                                    70 | OP0 
-   IRCODE7 |  7                                                    69 | RESERVED 
-  RESERVED |  8                                                    68 | IRCODE6 
-        I1 |  9                                                    67 | VCCIO 
+       OP0 |  5                                                    71 | A0 
+        A4 |  6                                                    70 | OP3 
+  IRCODE12 |  7                                                    69 | RESERVED 
+       OP2 |  8                                                    68 | IRCODE14 
+  IRCODE15 |  9                                                    67 | VCCIO 
   RESERVED | 10                                                    66 | GND 
-       GND | 11                                                    65 | I0 
+       GND | 11                                                    65 | IRCODE10 
     VCCINT | 12                                                    64 | RESERVED 
-  RESERVED | 13                   EP1K10TC100-1                    63 | RESERVED 
-  RESERVED | 14                                                    62 | RESERVED 
-  RESERVED | 15                                                    61 | I3 
-  RESERVED | 16                                                    60 | VCCINT 
+        A2 | 13                   EP1K10TC100-1                    63 | A5 
+        A6 | 14                                                    62 | I10 
+  IRCODE13 | 15                                                    61 | IRCODE6 
+       OP1 | 16                                                    60 | VCCINT 
      VCCIO | 17                                                    59 | GND 
-       GND | 18                                                    58 | RESERVED 
-  RESERVED | 19                                                    57 | OP1 
-        I2 | 20                                                    56 | RESERVED 
-  RESERVED | 21                                                    55 | RESERVED 
-  RESERVED | 22                                                    54 | ^MSEL0 
-  RESERVED | 23                                                    53 | ^MSEL1 
+       GND | 18                                                    58 | IRCODE11 
+   IRCODE9 | 19                                                    57 | A3 
+        I8 | 20                                                    56 | IRCODE7 
+        I9 | 21                                                    55 | I11 
+        A1 | 22                                                    54 | ^MSEL0 
+        A7 | 23                                                    53 | ^MSEL1 
       #TMS | 24                                                    52 | VCCINT 
   ^nSTATUS | 25                                                    51 | ^nCONFIG 
            |      27  29  31  33  35  37  39  41  43  45  47  49  _| 
@@ -142,7 +142,7 @@ PDn = Power Down pin.
 $ = Pin has PCI I/O option enabled. Pin is neither '5.0 V'- nor '3.3 V'-tolerant. 
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\convert.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\convert.rpt
 convert
 
 ** RESOURCE USAGE **
@@ -150,14 +150,22 @@ convert
 Logic                Column       Row                                   
 Array                Interconnect Interconnect         Clears/     External  
 Block   Logic Cells  Driven       Driven       Clocks  Presets   Interconnect
-A5       1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
-A10      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+A8       1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+A11      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+A14      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
 A17      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
-A21      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
-B11      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
-B12      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
-C4       1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
-C16      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+A22      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+B1       1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+B10      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+B18      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+B21      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+B23      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+C1       1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+C9       1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+C13      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+C17      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+C18      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
+C20      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       1/22(  4%)   
 
 
 Embedded             Column       Row                                   
@@ -166,21 +174,21 @@ Block     Cells      Driven       Driven       Clocks  Write    Interconnect
 
 
 Total dedicated input pins used:                 6/6      (100%)
-Total I/O pins used:                            10/60     ( 16%)
-Total logic cells used:                          8/576    (  1%)
+Total I/O pins used:                            26/60     ( 43%)
+Total logic cells used:                         16/576    (  2%)
 Total embedded cells used:                       0/48     (  0%)
 Total EABs used:                                 0/3      (  0%)
 Average fan-in:                                 1.00/4    ( 25%)
-Total fan-in:                                   8/2304    (  0%)
+Total fan-in:                                  16/2304    (  0%)
 
-Total input pins required:                       8
+Total input pins required:                      16
 Total input I/O cell registers required:         0
-Total output pins required:                      8
+Total output pins required:                     16
 Total output I/O cell registers required:        0
 Total buried I/O cell registers required:        0
 Total bidirectional pins required:               0
 Total reserved pins required                     0
-Total logic cells required:                      8
+Total logic cells required:                     16
 Total flipflops required:                        0
 Total packed registers required:                 0
 Total logic cells in carry chains:               0
@@ -190,20 +198,20 @@ Total number of cascade chains:                  0
 Total single-pin Clock Enables required:         0
 Total single-pin Output Enables required:        0
 
-Synthesized logic cells:                         8/ 576   (  1%)
+Synthesized logic cells:                        16/ 576   (  2%)
 
 Logic Cell and Embedded Cell Counts
 
 Column:  01  02  03  04  05  06  07  08  09  10  11  12  EA  13  14  15  16  17  18  19  20  21  22  23  24  Total(LC/EC)
- A:      0   0   0   0   1   0   0   0   0   1   0   0   0   0   0   0   0   1   0   0   0   1   0   0   0      4/0  
- B:      0   0   0   0   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   0   0   0   0   0   0      2/0  
- C:      0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0      2/0  
+ A:      0   0   0   0   0   0   0   1   0   0   1   0   0   0   1   0   0   1   0   0   0   0   1   0   0      5/0  
+ B:      1   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   1   0   0   1   0   1   0      5/0  
+ C:      1   0   0   0   0   0   0   0   1   0   0   0   0   1   0   0   0   1   1   0   1   0   0   0   0      6/0  
 
-Total:   0   0   0   1   1   0   0   0   0   1   1   1   0   0   0   0   1   1   0   0   0   1   0   0   0      8/0  
+Total:   2   0   0   0   0   0   0   1   1   1   1   0   0   1   1   0   0   2   2   0   1   1   1   1   0     16/0  
 
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\convert.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\convert.rpt
 convert
 
 ** INPUTS **
@@ -216,8 +224,16 @@ convert
   91      -     -    -    --      INPUT             ^    0    0    0    1  IRCODE3
   39      -     -    -    --      INPUT             ^    0    0    0    1  IRCODE4
   90      -     -    -    --      INPUT             ^    0    0    0    1  IRCODE5
-  68      -     -    A    --      INPUT             ^    0    0    0    1  IRCODE6
-   7      -     -    A    --      INPUT             ^    0    0    0    1  IRCODE7
+  61      -     -    B    --      INPUT             ^    0    0    0    1  IRCODE6
+  56      -     -    C    --      INPUT             ^    0    0    0    1  IRCODE7
+  93      -     -    -    13      INPUT             ^    0    0    0    1  IRCODE8
+  19      -     -    C    --      INPUT             ^    0    0    0    1  IRCODE9
+  65      -     -    B    --      INPUT             ^    0    0    0    1  IRCODE10
+  58      -     -    C    --      INPUT             ^    0    0    0    1  IRCODE11
+   7      -     -    A    --      INPUT             ^    0    0    0    1  IRCODE12
+  15      -     -    B    --      INPUT             ^    0    0    0    1  IRCODE13
+  68      -     -    A    --      INPUT             ^    0    0    0    1  IRCODE14
+   9      -     -    A    --      INPUT             ^    0    0    0    1  IRCODE15
 
 
 Code:
@@ -233,21 +249,29 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\convert.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\convert.rpt
 convert
 
 ** OUTPUTS **
 
        Fed By Fed By                                Fan-In    Fan-Out
  Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-  65      -     -    B    --     OUTPUT                 0    1    0    0  I0
-   9      -     -    A    --     OUTPUT                 0    1    0    0  I1
-  20      -     -    C    --     OUTPUT                 0    1    0    0  I2
-  61      -     -    B    --     OUTPUT                 0    1    0    0  I3
-  70      -     -    A    --     OUTPUT                 0    1    0    0  OP0
-  57      -     -    C    --     OUTPUT                 0    1    0    0  OP1
-  71      -     -    A    --     OUTPUT                 0    1    0    0  OP2
-   6      -     -    A    --     OUTPUT                 0    1    0    0  OP3
+  71      -     -    A    --     OUTPUT                 0    1    0    0  A0
+  22      -     -    C    --     OUTPUT                 0    1    0    0  A1
+  13      -     -    B    --     OUTPUT                 0    1    0    0  A2
+  57      -     -    C    --     OUTPUT                 0    1    0    0  A3
+   6      -     -    A    --     OUTPUT                 0    1    0    0  A4
+  63      -     -    B    --     OUTPUT                 0    1    0    0  A5
+  14      -     -    B    --     OUTPUT                 0    1    0    0  A6
+  23      -     -    C    --     OUTPUT                 0    1    0    0  A7
+  20      -     -    C    --     OUTPUT                 0    1    0    0  I8
+  21      -     -    C    --     OUTPUT                 0    1    0    0  I9
+  62      -     -    B    --     OUTPUT                 0    1    0    0  I10
+  55      -     -    C    --     OUTPUT                 0    1    0    0  I11
+   5      -     -    A    --     OUTPUT                 0    1    0    0  OP0
+  16      -     -    B    --     OUTPUT                 0    1    0    0  OP1
+   8      -     -    A    --     OUTPUT                 0    1    0    0  OP2
+  70      -     -    A    --     OUTPUT                 0    1    0    0  OP3
 
 
 Code:
@@ -263,21 +287,29 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\convert.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\convert.rpt
 convert
 
 ** BURIED LOGIC **
 
                                                     Fan-In    Fan-Out
  IOC     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-   -      1     -    B    11      LCELL    s           1    0    1    0  I0~1
-   -      7     -    A    21      LCELL    s           1    0    1    0  I1~1
-   -      2     -    C    16      LCELL    s           1    0    1    0  I2~1
-   -      8     -    B    12      LCELL    s           1    0    1    0  I3~1
-   -      3     -    A    05      LCELL    s           1    0    1    0  OP0~1
-   -      2     -    C    04      LCELL    s           1    0    1    0  OP1~1
-   -      1     -    A    10      LCELL    s           1    0    1    0  OP2~1
-   -      2     -    A    17      LCELL    s           1    0    1    0  OP3~1
+   -      1     -    A    08      LCELL    s           1    0    1    0  A0~1
+   -      8     -    C    20      LCELL    s           1    0    1    0  A1~1
+   -      1     -    B    18      LCELL    s           1    0    1    0  A2~1
+   -      3     -    C    01      LCELL    s           1    0    1    0  A3~1
+   -      2     -    A    22      LCELL    s           1    0    1    0  A4~1
+   -      4     -    B    01      LCELL    s           1    0    1    0  A5~1
+   -      3     -    B    21      LCELL    s           1    0    1    0  A6~1
+   -      7     -    C    17      LCELL    s           1    0    1    0  A7~1
+   -      2     -    C    13      LCELL    s           1    0    1    0  I8~1
+   -      4     -    C    18      LCELL    s           1    0    1    0  I9~1
+   -      5     -    B    10      LCELL    s           1    0    1    0  I10~1
+   -      7     -    C    09      LCELL    s           1    0    1    0  I11~1
+   -      1     -    A    17      LCELL    s           1    0    1    0  OP0~1
+   -      7     -    B    23      LCELL    s           1    0    1    0  OP1~1
+   -      8     -    A    14      LCELL    s           1    0    1    0  OP2~1
+   -      3     -    A    11      LCELL    s           1    0    1    0  OP3~1
 
 
 Code:
@@ -292,7 +324,7 @@ r = Fitter-inserted logic cell
 p = Packed register
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\convert.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\convert.rpt
 convert
 
 ** FASTTRACK INTERCONNECT UTILIZATION **
@@ -302,9 +334,9 @@ Row FastTrack Interconnect:
           Global         Left Half-      Right Half-
          FastTrack       FastTrack       FastTrack 
 Row     Interconnect    Interconnect    Interconnect    Input Pins     Output Pins     Bidir Pins
-A:       3/ 96(  3%)     2/ 48(  4%)     1/ 48(  2%)    2/16( 12%)      4/16( 25%)     0/16(  0%)
-B:       0/ 96(  0%)     2/ 48(  4%)     0/ 48(  0%)    0/16(  0%)      2/16( 12%)     0/16(  0%)
-C:       1/ 96(  1%)     1/ 48(  2%)     0/ 48(  0%)    0/16(  0%)      2/16( 12%)     0/16(  0%)
+A:       4/ 96(  4%)     2/ 48(  4%)     2/ 48(  4%)    3/16( 18%)      5/16( 31%)     0/16(  0%)
+B:       4/ 96(  4%)     2/ 48(  4%)     2/ 48(  4%)    3/16( 18%)      5/16( 31%)     0/16(  0%)
+C:       6/ 96(  6%)     0/ 48(  0%)     4/ 48(  8%)    3/16( 18%)      6/16( 37%)     0/16(  0%)
 
 
 Column FastTrack Interconnect:
@@ -323,7 +355,7 @@ Column  Interconnect    Input Pins     Output Pins     Bidir Pins
 10:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 11:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 12:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
-13:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+13:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
 14:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 15:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 16:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
@@ -338,7 +370,7 @@ Column  Interconnect    Input Pins     Output Pins     Bidir Pins
 EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\convert.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\convert.rpt
 convert
 
 ** EQUATIONS **
@@ -351,82 +383,162 @@ IRCODE4  : INPUT;
 IRCODE5  : INPUT;
 IRCODE6  : INPUT;
 IRCODE7  : INPUT;
+IRCODE8  : INPUT;
+IRCODE9  : INPUT;
+IRCODE10 : INPUT;
+IRCODE11 : INPUT;
+IRCODE12 : INPUT;
+IRCODE13 : INPUT;
+IRCODE14 : INPUT;
+IRCODE15 : INPUT;
 
--- Node name is 'I0~1' 
--- Equation name is 'I0~1', location is LC1_B11, type is buried.
+-- Node name is 'A0~1' 
+-- Equation name is 'A0~1', location is LC1_A8, type is buried.
 -- synthesized logic cell 
-_LC1_B11 = LCELL( IRCODE0);
+_LC1_A8  = LCELL( IRCODE0);
 
--- Node name is 'I0' 
--- Equation name is 'I0', type is output 
-I0       =  _LC1_B11;
+-- Node name is 'A0' 
+-- Equation name is 'A0', type is output 
+A0       =  _LC1_A8;
 
--- Node name is 'I1~1' 
--- Equation name is 'I1~1', location is LC7_A21, type is buried.
+-- Node name is 'A1~1' 
+-- Equation name is 'A1~1', location is LC8_C20, type is buried.
 -- synthesized logic cell 
-_LC7_A21 = LCELL( IRCODE1);
+_LC8_C20 = LCELL( IRCODE1);
 
--- Node name is 'I1' 
--- Equation name is 'I1', type is output 
-I1       =  _LC7_A21;
+-- Node name is 'A1' 
+-- Equation name is 'A1', type is output 
+A1       =  _LC8_C20;
 
--- Node name is 'I2~1' 
--- Equation name is 'I2~1', location is LC2_C16, type is buried.
+-- Node name is 'A2~1' 
+-- Equation name is 'A2~1', location is LC1_B18, type is buried.
 -- synthesized logic cell 
-_LC2_C16 = LCELL( IRCODE2);
+_LC1_B18 = LCELL( IRCODE2);
 
--- Node name is 'I2' 
--- Equation name is 'I2', type is output 
-I2       =  _LC2_C16;
+-- Node name is 'A2' 
+-- Equation name is 'A2', type is output 
+A2       =  _LC1_B18;
 
--- Node name is 'I3~1' 
--- Equation name is 'I3~1', location is LC8_B12, type is buried.
+-- Node name is 'A3~1' 
+-- Equation name is 'A3~1', location is LC3_C1, type is buried.
 -- synthesized logic cell 
-_LC8_B12 = LCELL( IRCODE3);
+_LC3_C1  = LCELL( IRCODE3);
 
--- Node name is 'I3' 
--- Equation name is 'I3', type is output 
-I3       =  _LC8_B12;
+-- Node name is 'A3' 
+-- Equation name is 'A3', type is output 
+A3       =  _LC3_C1;
+
+-- Node name is 'A4~1' 
+-- Equation name is 'A4~1', location is LC2_A22, type is buried.
+-- synthesized logic cell 
+_LC2_A22 = LCELL( IRCODE4);
+
+-- Node name is 'A4' 
+-- Equation name is 'A4', type is output 
+A4       =  _LC2_A22;
+
+-- Node name is 'A5~1' 
+-- Equation name is 'A5~1', location is LC4_B1, type is buried.
+-- synthesized logic cell 
+_LC4_B1  = LCELL( IRCODE5);
+
+-- Node name is 'A5' 
+-- Equation name is 'A5', type is output 
+A5       =  _LC4_B1;
+
+-- Node name is 'A6~1' 
+-- Equation name is 'A6~1', location is LC3_B21, type is buried.
+-- synthesized logic cell 
+_LC3_B21 = LCELL( IRCODE6);
+
+-- Node name is 'A6' 
+-- Equation name is 'A6', type is output 
+A6       =  _LC3_B21;
+
+-- Node name is 'A7~1' 
+-- Equation name is 'A7~1', location is LC7_C17, type is buried.
+-- synthesized logic cell 
+_LC7_C17 = LCELL( IRCODE7);
+
+-- Node name is 'A7' 
+-- Equation name is 'A7', type is output 
+A7       =  _LC7_C17;
+
+-- Node name is 'I8~1' 
+-- Equation name is 'I8~1', location is LC2_C13, type is buried.
+-- synthesized logic cell 
+_LC2_C13 = LCELL( IRCODE8);
+
+-- Node name is 'I8' 
+-- Equation name is 'I8', type is output 
+I8       =  _LC2_C13;
+
+-- Node name is 'I9~1' 
+-- Equation name is 'I9~1', location is LC4_C18, type is buried.
+-- synthesized logic cell 
+_LC4_C18 = LCELL( IRCODE9);
+
+-- Node name is 'I9' 
+-- Equation name is 'I9', type is output 
+I9       =  _LC4_C18;
+
+-- Node name is 'I10~1' 
+-- Equation name is 'I10~1', location is LC5_B10, type is buried.
+-- synthesized logic cell 
+_LC5_B10 = LCELL( IRCODE10);
+
+-- Node name is 'I10' 
+-- Equation name is 'I10', type is output 
+I10      =  _LC5_B10;
+
+-- Node name is 'I11~1' 
+-- Equation name is 'I11~1', location is LC7_C9, type is buried.
+-- synthesized logic cell 
+_LC7_C9  = LCELL( IRCODE11);
+
+-- Node name is 'I11' 
+-- Equation name is 'I11', type is output 
+I11      =  _LC7_C9;
 
 -- Node name is 'OP0~1' 
--- Equation name is 'OP0~1', location is LC3_A5, type is buried.
+-- Equation name is 'OP0~1', location is LC1_A17, type is buried.
 -- synthesized logic cell 
-_LC3_A5  = LCELL( IRCODE4);
+_LC1_A17 = LCELL( IRCODE12);
 
 -- Node name is 'OP0' 
 -- Equation name is 'OP0', type is output 
-OP0      =  _LC3_A5;
+OP0      =  _LC1_A17;
 
 -- Node name is 'OP1~1' 
--- Equation name is 'OP1~1', location is LC2_C4, type is buried.
+-- Equation name is 'OP1~1', location is LC7_B23, type is buried.
 -- synthesized logic cell 
-_LC2_C4  = LCELL( IRCODE5);
+_LC7_B23 = LCELL( IRCODE13);
 
 -- Node name is 'OP1' 
 -- Equation name is 'OP1', type is output 
-OP1      =  _LC2_C4;
+OP1      =  _LC7_B23;
 
 -- Node name is 'OP2~1' 
--- Equation name is 'OP2~1', location is LC1_A10, type is buried.
+-- Equation name is 'OP2~1', location is LC8_A14, type is buried.
 -- synthesized logic cell 
-_LC1_A10 = LCELL( IRCODE6);
+_LC8_A14 = LCELL( IRCODE14);
 
 -- Node name is 'OP2' 
 -- Equation name is 'OP2', type is output 
-OP2      =  _LC1_A10;
+OP2      =  _LC8_A14;
 
 -- Node name is 'OP3~1' 
--- Equation name is 'OP3~1', location is LC2_A17, type is buried.
+-- Equation name is 'OP3~1', location is LC3_A11, type is buried.
 -- synthesized logic cell 
-_LC2_A17 = LCELL( IRCODE7);
+_LC3_A11 = LCELL( IRCODE15);
 
 -- Node name is 'OP3' 
 -- Equation name is 'OP3', type is output 
-OP3      =  _LC2_A17;
+OP3      =  _LC3_A11;
 
 
 
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\convert.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\convert.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -505,14 +617,14 @@ Compilation Times
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
    Partitioner                            00:00:00
-   Fitter                                 00:00:01
+   Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:01
+   Total Time                             00:00:00
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 17,659K
+Peak memory allocated during compilation  = 16,838K

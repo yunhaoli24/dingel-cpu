@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 10.0 9/14/2000             
--- Compiled: 08/28/2020 16:56:55      
+-- Compiled: 08/29/2020 13:20:52      
 
 -- Copyright (C) 1988-2000 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -38,14 +38,14 @@ BEGIN
     "D7"                           : INPUT_PIN  = 71     ;
     "LDPC"                         : INPUT_PIN  = 39     ;
     "LOAD"                         : INPUT_PIN  = 40     ;
-    "O0"                           : OUTPUT_PIN = 8      ;
-    "O1"                           : OUTPUT_PIN = 6      ;
-    "O2"                           : OUTPUT_PIN = 5      ;
-    "O3"                           : OUTPUT_PIN = 32     ;
-    "O4"                           : OUTPUT_PIN = 34     ;
-    "O5"                           : OUTPUT_PIN = 9      ;
-    "O6"                           : OUTPUT_PIN = 7      ;
-    "O7"                           : OUTPUT_PIN = 10     ;
+    "Q0"                           : OUTPUT_PIN = 8      ;
+    "Q1"                           : OUTPUT_PIN = 6      ;
+    "Q2"                           : OUTPUT_PIN = 5      ;
+    "Q3"                           : OUTPUT_PIN = 32     ;
+    "Q4"                           : OUTPUT_PIN = 34     ;
+    "Q5"                           : OUTPUT_PIN = 9      ;
+    "Q6"                           : OUTPUT_PIN = 7      ;
+    "Q7"                           : OUTPUT_PIN = 10     ;
     "|LPM_ADD_SUB:132|addcore:adder|:121" : LOCATION   = LC4_A15;
     "|LPM_ADD_SUB:132|addcore:adder|:125" : LOCATION   = LC5_A15;
     "|LPM_ADD_SUB:132|addcore:adder|:129" : LOCATION   = LC6_A15;

@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 10.0 9/14/2000             
--- Compiled: 08/28/2020 20:02:19      
+-- Compiled: 08/29/2020 13:29:56      
 
 -- Copyright (C) 1988-2000 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -80,51 +80,51 @@ BEGIN
     "W5"                           : OUTPUT_PIN = 65     ;
     "W6"                           : OUTPUT_PIN = 55     ;
     "W7"                           : OUTPUT_PIN = 57     ;
-    "~142~1"                       : LOCATION   = LC1_B7 ;
-    "~153~1"                       : LOCATION   = LC3_B21;
-    "~164~1"                       : LOCATION   = LC6_B21;
-    "~175~1"                       : LOCATION   = LC2_B7 ;
-    "~186~1"                       : LOCATION   = LC6_B7 ;
-    ":361"                         : LOCATION   = LC5_B6 ;
-    ":367"                         : LOCATION   = LC6_B6 ;
-    ":373"                         : LOCATION   = LC7_B6 ;
-    ":379"                         : LOCATION   = LC8_B6 ;
-    ":385"                         : LOCATION   = LC2_B6 ;
-    ":391"                         : LOCATION   = LC4_B12;
-    ":394"                         : LOCATION   = LC5_B12;
-    ":397"                         : LOCATION   = LC6_B12;
-    ":400"                         : LOCATION   = LC8_B12;
-    ":403"                         : LOCATION   = LC7_B12;
-    ":409"                         : LOCATION   = LC3_B6 ;
-    ":412"                         : LOCATION   = LC4_B6 ;
-    ":415"                         : LOCATION   = LC1_B6 ;
-    ":418"                         : LOCATION   = LC6_B2 ;
-    ":421"                         : LOCATION   = LC1_B2 ;
-    ":427"                         : LOCATION   = LC2_B12;
-    ":430"                         : LOCATION   = LC3_B12;
-    ":433"                         : LOCATION   = LC1_B12;
-    ":436"                         : LOCATION   = LC5_B2 ;
-    ":439"                         : LOCATION   = LC4_B2 ;
-    ":445"                         : LOCATION   = LC4_B18;
-    ":448"                         : LOCATION   = LC5_B18;
-    ":451"                         : LOCATION   = LC6_B18;
-    ":454"                         : LOCATION   = LC7_B18;
-    ":457"                         : LOCATION   = LC1_B18;
-    ":463"                         : LOCATION   = LC3_B18;
-    ":466"                         : LOCATION   = LC2_B18;
-    ":469"                         : LOCATION   = LC2_B21;
-    ":472"                         : LOCATION   = LC2_B2 ;
-    ":475"                         : LOCATION   = LC3_B2 ;
-    ":481"                         : LOCATION   = LC4_B21;
-    ":484"                         : LOCATION   = LC5_B21;
-    ":487"                         : LOCATION   = LC7_B21;
-    ":490"                         : LOCATION   = LC8_B21;
-    ":493"                         : LOCATION   = LC1_B21;
-    ":499"                         : LOCATION   = LC3_B7 ;
-    ":502"                         : LOCATION   = LC4_B7 ;
-    ":505"                         : LOCATION   = LC7_B7 ;
-    ":508"                         : LOCATION   = LC8_B7 ;
-    ":511"                         : LOCATION   = LC5_B7 ;
+    "~134~1"                       : LOCATION   = LC1_B7 ;
+    "~145~1"                       : LOCATION   = LC3_B21;
+    "~156~1"                       : LOCATION   = LC6_B21;
+    "~167~1"                       : LOCATION   = LC2_B7 ;
+    "~178~1"                       : LOCATION   = LC6_B7 ;
+    ":353"                         : LOCATION   = LC5_B6 ;
+    ":359"                         : LOCATION   = LC6_B6 ;
+    ":365"                         : LOCATION   = LC7_B6 ;
+    ":371"                         : LOCATION   = LC8_B6 ;
+    ":377"                         : LOCATION   = LC2_B6 ;
+    ":383"                         : LOCATION   = LC4_B12;
+    ":386"                         : LOCATION   = LC5_B12;
+    ":389"                         : LOCATION   = LC6_B12;
+    ":392"                         : LOCATION   = LC8_B12;
+    ":395"                         : LOCATION   = LC7_B12;
+    ":401"                         : LOCATION   = LC3_B6 ;
+    ":404"                         : LOCATION   = LC4_B6 ;
+    ":407"                         : LOCATION   = LC1_B6 ;
+    ":410"                         : LOCATION   = LC6_B2 ;
+    ":413"                         : LOCATION   = LC1_B2 ;
+    ":419"                         : LOCATION   = LC2_B12;
+    ":422"                         : LOCATION   = LC3_B12;
+    ":425"                         : LOCATION   = LC1_B12;
+    ":428"                         : LOCATION   = LC5_B2 ;
+    ":431"                         : LOCATION   = LC4_B2 ;
+    ":437"                         : LOCATION   = LC4_B18;
+    ":440"                         : LOCATION   = LC5_B18;
+    ":443"                         : LOCATION   = LC6_B18;
+    ":446"                         : LOCATION   = LC7_B18;
+    ":449"                         : LOCATION   = LC1_B18;
+    ":455"                         : LOCATION   = LC3_B18;
+    ":458"                         : LOCATION   = LC2_B18;
+    ":461"                         : LOCATION   = LC2_B21;
+    ":464"                         : LOCATION   = LC2_B2 ;
+    ":467"                         : LOCATION   = LC3_B2 ;
+    ":473"                         : LOCATION   = LC4_B21;
+    ":476"                         : LOCATION   = LC5_B21;
+    ":479"                         : LOCATION   = LC7_B21;
+    ":482"                         : LOCATION   = LC8_B21;
+    ":485"                         : LOCATION   = LC1_B21;
+    ":491"                         : LOCATION   = LC3_B7 ;
+    ":494"                         : LOCATION   = LC4_B7 ;
+    ":497"                         : LOCATION   = LC7_B7 ;
+    ":500"                         : LOCATION   = LC8_B7 ;
+    ":503"                         : LOCATION   = LC5_B7 ;
 
 END;
 

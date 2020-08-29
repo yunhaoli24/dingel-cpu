@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 10.0 9/14/2000             
--- Compiled: 08/28/2020 17:30:26      
+-- Compiled: 08/29/2020 13:22:31      
 
 -- Copyright (C) 1988-2000 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -27,9 +27,9 @@ BEGIN
 
     DEVICE = "EP1K10TC100-1";
 
-    "CF_IN"                        : INPUT_PIN  = 40     ;
+    "C"                            : INPUT_PIN  = 40     ;
     "LDPSW"                        : INPUT_PIN  = 39     ;
-    "ZF_IN"                        : INPUT_PIN  = 38     ;
+    "Z"                            : INPUT_PIN  = 38     ;
     "CF"                           : OUTPUT_PIN = 6      ;
     "ZF"                           : OUTPUT_PIN = 21     ;
     ":4"                           : LOCATION   = LC2_A15;

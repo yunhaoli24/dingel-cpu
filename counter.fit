@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 10.0 9/14/2000             
--- Compiled: 08/28/2020 17:07:09      
+-- Compiled: 08/29/2020 13:14:17      
 
 -- Copyright (C) 1988-2000 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -27,34 +27,30 @@ BEGIN
 
     DEVICE = "EP1K10TC100-1";
 
+    "CLK"                          : INPUT_PIN  = 39     ;
     "CLR"                          : INPUT_PIN  = 38     ;
-    "Q"                            : INPUT_PIN  = 39     ;
-    "T1"                           : OUTPUT_PIN = 58     ;
-    "T2"                           : OUTPUT_PIN = 57     ;
-    "T3"                           : OUTPUT_PIN = 56     ;
-    "T4"                           : OUTPUT_PIN = 55     ;
-    ":3"                           : LOCATION   = LC1_C5 ;
-    ":5"                           : LOCATION   = LC3_C5 ;
-    ":7"                           : LOCATION   = LC5_C5 ;
-    ":9"                           : LOCATION   = LC7_C5 ;
-    ":11"                          : LOCATION   = LC2_C5 ;  -- X1
-    ":12"                          : LOCATION   = LC4_C5 ;  -- X0
+    "T2"                           : OUTPUT_PIN = 7      ;
+    "T3"                           : OUTPUT_PIN = 5      ;
+    "T4"                           : OUTPUT_PIN = 8      ;
+    ":3"                           : LOCATION   = LC2_A16;
+    ":5"                           : LOCATION   = LC1_A16;
+    ":7"                           : LOCATION   = LC8_A16;
+    ":9"                           : LOCATION   = LC3_A16;  -- X1
+    ":10"                          : LOCATION   = LC4_A16;  -- X0
 
 END;
 
 INTERNAL_INFO "counter"
 BEGIN
 	DEVICE = EP1K10TC100-1;
-    OD2P38  : LORAX = "1:FB2->LC1_C5,->LC3_C5,->LC5_C5,->LC7_C5,->LC2_C5,->LC4_C5|";
-    OD5P39  : LORAX = "1:FB5->LC1_C5,->LC3_C5,->LC5_C5,->LC7_C5,->LC2_C5,->LC4_C5|";
-    LC1_C5  : LORAX = "1:MSW0R2C5,HHL20R2->OH8R2P58|";
-    LC3_C5  : LORAX = "1:MSW2R2C4,HHL0R2->OH10R2P57|";
-    LC5_C5  : LORAX = "1:MSW4R2C5,G77R2->OH12R2P56|";
-    LC7_C5  : LORAX = "1:MSW6R2C4,HHL31R2->OH14R2P55|";
-	LC1_C5  : LORAX2 = "X, X, LC2_C5, LC4_C5";
-	LC3_C5  : LORAX2 = "X, X, LC2_C5, LC4_C5";
-	LC5_C5  : LORAX2 = "X, X, LC2_C5, LC4_C5";
-	LC7_C5  : LORAX2 = "X, X, LC2_C5, LC4_C5";
-	LC2_C5  : LORAX2 = "X, X, LC2_C5, LC4_C5";
-	LC4_C5  : LORAX2 = "X, X, X, LC4_C5";
+    OD5P39  : LORAX = "1:FB5->LC2_A16,->LC1_A16,->LC8_A16,->LC3_A16,->LC4_A16|";
+    OD2P38  : LORAX = "1:FB2->LC2_A16,->LC1_A16,->LC8_A16,->LC3_A16,->LC4_A16|";
+    LC2_A16 : LORAX = "1:MSW2R0C14,HHR1R0->OH2R0P7|";
+    LC1_A16 : LORAX = "1:MSW0R0C15,HHR19R0->OH0R0P5|";
+    LC8_A16 : LORAX = "1:MSW4R0C14,G69R0->OH4R0P8|";
+	LC2_A16 : LORAX2 = "X, X, LC3_A16, LC4_A16";
+	LC1_A16 : LORAX2 = "X, X, LC3_A16, LC4_A16";
+	LC8_A16 : LORAX2 = "X, X, LC3_A16, LC4_A16";
+	LC3_A16 : LORAX2 = "X, X, LC3_A16, LC4_A16";
+	LC4_A16 : LORAX2 = "X, X, X, LC4_A16";
 END;

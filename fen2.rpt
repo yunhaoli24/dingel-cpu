@@ -1,8 +1,8 @@
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\fen2.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\fen2.rpt
 
 MAX+plus II Compiler Report File
 Version 10.0 9/14/2000
-Compiled: 08/28/2020 17:00:24
+Compiled: 08/29/2020 13:15:47
 
 Copyright (C) 1988-2000 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -43,14 +43,14 @@ User Pins:                 9      16     0
 
 
 
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\fen2.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\fen2.rpt
 
 ** PROJECT TIMING MESSAGES **
 
 Warning: Timing characteristics of device EP1K10TC100-1 are preliminary
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\fen2.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\fen2.rpt
 fen2
 
 ***** Logic for device 'fen2' compiled without errors.
@@ -76,12 +76,12 @@ Device Options:
                                                                    
                                                                    
                   R R R     R R           R R R R   R R R R R R    
-                  E E E     E E           E E E E   E E E E E E    
-                  S S S     S S V         S S S S   S S S S S S ^  
-                  E E E     E E C         E E E E V E E E E E E D  
-                # R R R     R R C         R R R R C R R R R R R A  
-                T V V V W G V V I       G V V V V C V V V V V V T  
-                C E E E 1 N E E N X X X N E E E E I E E E E E E A  
+                  E E E F   E E           E E E E   E E E E E E    
+                  S S S E   S S V         S S S S   S S S S S S ^  
+                  E E E N   E E C D D D   E E E E V E E E E E E D  
+                # R R R O   R R C B B B   R R R R C R R R R R R A  
+                T V V V U G V V I U U U G V V V V C V V V V V V T  
+                C E E E T N E E N S S S N E E E E I E E E E E E A  
                 K D D D 5 D D D T 2 4 1 D D D D D O D D D D D D 0  
               ----------------------------------------------------_ 
              / 100  98  96  94  92  90  88  86  84  82  80  78  76   |_ 
@@ -90,37 +90,37 @@ Device Options:
      ^nCEO |  2                                                    74 | ^nCE 
       #TDO |  3                                                    73 | #TDI 
      VCCIO |  4                                                    72 | VCCINT 
-        X6 |  5                                                    71 | W24 
+     DBUS6 |  5                                                    71 | OUTBUS4 
   RESERVED |  6                                                    70 | RESERVED 
-       W27 |  7                                                    69 | X5 
-       W16 |  8                                                    68 | X7 
-       W14 |  9                                                    67 | VCCIO 
-       W26 | 10                                                    66 | GND 
+   OUTBUS7 |  7                                                    69 | DBUS5 
+   FENOUT6 |  8                                                    68 | DBUS7 
+   FENOUT4 |  9                                                    67 | VCCIO 
+   OUTBUS6 | 10                                                    66 | GND 
        GND | 11                                                    65 | RESERVED 
     VCCINT | 12                                                    64 | RESERVED 
   RESERVED | 13                   EP1K10TC100-1                    63 | RESERVED 
-  RESERVED | 14                                                    62 | W17 
+  RESERVED | 14                                                    62 | FENOUT7 
   RESERVED | 15                                                    61 | RESERVED 
   RESERVED | 16                                                    60 | VCCINT 
      VCCIO | 17                                                    59 | GND 
        GND | 18                                                    58 | RESERVED 
-       W20 | 19                                                    57 | W10 
-       W23 | 20                                                    56 | W21 
-       W11 | 21                                                    55 | RESERVED 
+   OUTBUS0 | 19                                                    57 | FENOUT0 
+   OUTBUS3 | 20                                                    56 | OUTBUS1 
+   FENOUT1 | 21                                                    55 | RESERVED 
   RESERVED | 22                                                    54 | ^MSEL0 
-       W22 | 23                                                    53 | ^MSEL1 
+   OUTBUS2 | 23                                                    53 | ^MSEL1 
       #TMS | 24                                                    52 | VCCINT 
   ^nSTATUS | 25                                                    51 | ^nCONFIG 
            |      27  29  31  33  35  37  39  41  43  45  47  49  _| 
             \   26  28  30  32  34  36  38  40  42  44  46  48  50   | 
              \----------------------------------------------------- 
-                R W R R W W R R R V G V L X X G G R V R R R R R R  
-                E 2 E E 1 1 E E E C N C E 3 0 N N E C E E E E E E  
-                S 5 S S 3 2 S S S C D C D     D D S C S S S S S S  
-                E   E E     E E E I   _ _     _   E I E E E E E E  
-                R   R R     R R R N   C B     C   R O R R R R R R  
-                V   V V     V V V T   K       K   V   V V V V V V  
-                E   E E     E E E     L       L   E   E E E E E E  
+                R O R R F F R R R V G V L D D G G R V R R R R R R  
+                E U E E E E E E E C N C E B B N N E C E E E E E E  
+                S T S S N N S S S C D C D U U D D S C S S S S S S  
+                E B E E O O E E E I   _ _ S S _   E I E E E E E E  
+                R U R R U U R R R N   C B 3 0 C   R O R R R R R R  
+                V S V V T T V V V T   K       K   V   V V V V V V  
+                E 5 E E 3 2 E E E     L       L   E   E E E E E E  
                 D   D D     D D D     K       K   D   D D D D D D  
                                                                    
                                                                    
@@ -142,7 +142,7 @@ PDn = Power Down pin.
 $ = Pin has PCI I/O option enabled. Pin is neither '5.0 V'- nor '3.3 V'-tolerant. 
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\fen2.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\fen2.rpt
 fen2
 
 ** RESOURCE USAGE **
@@ -197,22 +197,22 @@ Total:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   8  
 
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\fen2.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\fen2.rpt
 fen2
 
 ** INPUTS **
 
                                                     Fan-In    Fan-Out
  Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  40      -     -    -    --      INPUT             ^    0    0    0    2  DBUS0
+  89      -     -    -    --      INPUT             ^    0    0    0    2  DBUS1
+  91      -     -    -    --      INPUT             ^    0    0    0    2  DBUS2
+  39      -     -    -    --      INPUT             ^    0    0    0    2  DBUS3
+  90      -     -    -    --      INPUT             ^    0    0    0    2  DBUS4
+  69      -     -    A    --      INPUT             ^    0    0    0    2  DBUS5
+   5      -     -    A    --      INPUT             ^    0    0    0    2  DBUS6
+  68      -     -    A    --      INPUT             ^    0    0    0    2  DBUS7
   38      -     -    -    --      INPUT             ^    0    0    0   16  LED_B
-  40      -     -    -    --      INPUT             ^    0    0    0    2  X0
-  89      -     -    -    --      INPUT             ^    0    0    0    2  X1
-  91      -     -    -    --      INPUT             ^    0    0    0    2  X2
-  39      -     -    -    --      INPUT             ^    0    0    0    2  X3
-  90      -     -    -    --      INPUT             ^    0    0    0    2  X4
-  69      -     -    A    --      INPUT             ^    0    0    0    2  X5
-   5      -     -    A    --      INPUT             ^    0    0    0    2  X6
-  68      -     -    A    --      INPUT             ^    0    0    0    2  X7
 
 
 Code:
@@ -228,29 +228,29 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\fen2.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\fen2.rpt
 fen2
 
 ** OUTPUTS **
 
        Fed By Fed By                                Fan-In    Fan-Out
  Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-  57      -     -    C    --     OUTPUT                 0    1    0    0  W10
-  21      -     -    C    --     OUTPUT                 0    1    0    0  W11
-  31      -     -    -    17     OUTPUT                 0    1    0    0  W12
-  30      -     -    -    18     OUTPUT                 0    1    0    0  W13
-   9      -     -    A    --     OUTPUT                 0    1    0    0  W14
-  96      -     -    -    22     OUTPUT                 0    1    0    0  W15
-   8      -     -    A    --     OUTPUT                 0    1    0    0  W16
-  62      -     -    B    --     OUTPUT                 0    1    0    0  W17
-  19      -     -    C    --     OUTPUT                 0    1    0    0  W20
-  56      -     -    C    --     OUTPUT                 0    1    0    0  W21
-  23      -     -    C    --     OUTPUT                 0    1    0    0  W22
-  20      -     -    C    --     OUTPUT                 0    1    0    0  W23
-  71      -     -    A    --     OUTPUT                 0    1    0    0  W24
-  27      -     -    -    21     OUTPUT                 0    1    0    0  W25
-  10      -     -    A    --     OUTPUT                 0    1    0    0  W26
-   7      -     -    A    --     OUTPUT                 0    1    0    0  W27
+  57      -     -    C    --     OUTPUT                 0    1    0    0  FENOUT0
+  21      -     -    C    --     OUTPUT                 0    1    0    0  FENOUT1
+  31      -     -    -    17     OUTPUT                 0    1    0    0  FENOUT2
+  30      -     -    -    18     OUTPUT                 0    1    0    0  FENOUT3
+   9      -     -    A    --     OUTPUT                 0    1    0    0  FENOUT4
+  96      -     -    -    22     OUTPUT                 0    1    0    0  FENOUT5
+   8      -     -    A    --     OUTPUT                 0    1    0    0  FENOUT6
+  62      -     -    B    --     OUTPUT                 0    1    0    0  FENOUT7
+  19      -     -    C    --     OUTPUT                 0    1    0    0  OUTBUS0
+  56      -     -    C    --     OUTPUT                 0    1    0    0  OUTBUS1
+  23      -     -    C    --     OUTPUT                 0    1    0    0  OUTBUS2
+  20      -     -    C    --     OUTPUT                 0    1    0    0  OUTBUS3
+  71      -     -    A    --     OUTPUT                 0    1    0    0  OUTBUS4
+  27      -     -    -    21     OUTPUT                 0    1    0    0  OUTBUS5
+  10      -     -    A    --     OUTPUT                 0    1    0    0  OUTBUS6
+   7      -     -    A    --     OUTPUT                 0    1    0    0  OUTBUS7
 
 
 Code:
@@ -266,7 +266,7 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\fen2.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\fen2.rpt
 fen2
 
 ** BURIED LOGIC **
@@ -303,7 +303,7 @@ r = Fitter-inserted logic cell
 p = Packed register
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\fen2.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\fen2.rpt
 fen2
 
 ** FASTTRACK INTERCONNECT UTILIZATION **
@@ -349,184 +349,184 @@ Column  Interconnect    Input Pins     Output Pins     Bidir Pins
 EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\fen2.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\fen2.rpt
 fen2
 
 ** EQUATIONS **
 
+DBUS0    : INPUT;
+DBUS1    : INPUT;
+DBUS2    : INPUT;
+DBUS3    : INPUT;
+DBUS4    : INPUT;
+DBUS5    : INPUT;
+DBUS6    : INPUT;
+DBUS7    : INPUT;
 LED_B    : INPUT;
-X0       : INPUT;
-X1       : INPUT;
-X2       : INPUT;
-X3       : INPUT;
-X4       : INPUT;
-X5       : INPUT;
-X6       : INPUT;
-X7       : INPUT;
 
--- Node name is 'W10' 
--- Equation name is 'W10', type is output 
-W10      =  _LC3_C17;
+-- Node name is 'FENOUT0' 
+-- Equation name is 'FENOUT0', type is output 
+FENOUT0  =  _LC3_C17;
 
--- Node name is 'W11' 
--- Equation name is 'W11', type is output 
-W11      =  _LC4_C17;
+-- Node name is 'FENOUT1' 
+-- Equation name is 'FENOUT1', type is output 
+FENOUT1  =  _LC4_C17;
 
--- Node name is 'W12' 
--- Equation name is 'W12', type is output 
-W12      =  _LC8_C17;
+-- Node name is 'FENOUT2' 
+-- Equation name is 'FENOUT2', type is output 
+FENOUT2  =  _LC8_C17;
 
--- Node name is 'W13' 
--- Equation name is 'W13', type is output 
-W13      =  _LC6_C17;
+-- Node name is 'FENOUT3' 
+-- Equation name is 'FENOUT3', type is output 
+FENOUT3  =  _LC6_C17;
 
--- Node name is 'W14' 
--- Equation name is 'W14', type is output 
-W14      =  _LC6_A22;
+-- Node name is 'FENOUT4' 
+-- Equation name is 'FENOUT4', type is output 
+FENOUT4  =  _LC6_A22;
 
--- Node name is 'W15' 
--- Equation name is 'W15', type is output 
-W15      =  _LC3_A22;
+-- Node name is 'FENOUT5' 
+-- Equation name is 'FENOUT5', type is output 
+FENOUT5  =  _LC3_A22;
 
--- Node name is 'W16' 
--- Equation name is 'W16', type is output 
-W16      =  _LC8_A22;
+-- Node name is 'FENOUT6' 
+-- Equation name is 'FENOUT6', type is output 
+FENOUT6  =  _LC8_A22;
 
--- Node name is 'W17' 
--- Equation name is 'W17', type is output 
-W17      =  _LC5_A22;
+-- Node name is 'FENOUT7' 
+-- Equation name is 'FENOUT7', type is output 
+FENOUT7  =  _LC5_A22;
 
--- Node name is 'W20' 
--- Equation name is 'W20', type is output 
-W20      =  _LC1_C17;
+-- Node name is 'OUTBUS0' 
+-- Equation name is 'OUTBUS0', type is output 
+OUTBUS0  =  _LC1_C17;
 
--- Node name is 'W21' 
--- Equation name is 'W21', type is output 
-W21      =  _LC5_C17;
+-- Node name is 'OUTBUS1' 
+-- Equation name is 'OUTBUS1', type is output 
+OUTBUS1  =  _LC5_C17;
 
--- Node name is 'W22' 
--- Equation name is 'W22', type is output 
-W22      =  _LC7_C17;
+-- Node name is 'OUTBUS2' 
+-- Equation name is 'OUTBUS2', type is output 
+OUTBUS2  =  _LC7_C17;
 
--- Node name is 'W23' 
--- Equation name is 'W23', type is output 
-W23      =  _LC2_C17;
+-- Node name is 'OUTBUS3' 
+-- Equation name is 'OUTBUS3', type is output 
+OUTBUS3  =  _LC2_C17;
 
--- Node name is 'W24' 
--- Equation name is 'W24', type is output 
-W24      =  _LC1_A22;
+-- Node name is 'OUTBUS4' 
+-- Equation name is 'OUTBUS4', type is output 
+OUTBUS4  =  _LC1_A22;
 
--- Node name is 'W25' 
--- Equation name is 'W25', type is output 
-W25      =  _LC4_A22;
+-- Node name is 'OUTBUS5' 
+-- Equation name is 'OUTBUS5', type is output 
+OUTBUS5  =  _LC4_A22;
 
--- Node name is 'W26' 
--- Equation name is 'W26', type is output 
-W26      =  _LC7_A22;
+-- Node name is 'OUTBUS6' 
+-- Equation name is 'OUTBUS6', type is output 
+OUTBUS6  =  _LC7_A22;
 
--- Node name is 'W27' 
--- Equation name is 'W27', type is output 
-W27      =  _LC2_A22;
+-- Node name is 'OUTBUS7' 
+-- Equation name is 'OUTBUS7', type is output 
+OUTBUS7  =  _LC2_A22;
 
 -- Node name is ':103' 
 -- Equation name is '_LC5_A22', type is buried 
 _LC5_A22 = LCELL( _EQ001);
   _EQ001 =  _LC5_A22 & !LED_B
-         #  LED_B &  X7;
+         #  DBUS7 &  LED_B;
 
 -- Node name is ':109' 
 -- Equation name is '_LC8_A22', type is buried 
 _LC8_A22 = LCELL( _EQ002);
   _EQ002 =  _LC8_A22 & !LED_B
-         #  LED_B &  X6;
+         #  DBUS6 &  LED_B;
 
 -- Node name is ':115' 
 -- Equation name is '_LC3_A22', type is buried 
 _LC3_A22 = LCELL( _EQ003);
   _EQ003 =  _LC3_A22 & !LED_B
-         #  LED_B &  X5;
+         #  DBUS5 &  LED_B;
 
 -- Node name is ':121' 
 -- Equation name is '_LC6_A22', type is buried 
 _LC6_A22 = LCELL( _EQ004);
   _EQ004 =  _LC6_A22 & !LED_B
-         #  LED_B &  X4;
+         #  DBUS4 &  LED_B;
 
 -- Node name is ':127' 
 -- Equation name is '_LC6_C17', type is buried 
 _LC6_C17 = LCELL( _EQ005);
   _EQ005 =  _LC6_C17 & !LED_B
-         #  LED_B &  X3;
+         #  DBUS3 &  LED_B;
 
 -- Node name is ':133' 
 -- Equation name is '_LC8_C17', type is buried 
 _LC8_C17 = LCELL( _EQ006);
   _EQ006 =  _LC8_C17 & !LED_B
-         #  LED_B &  X2;
+         #  DBUS2 &  LED_B;
 
 -- Node name is ':139' 
 -- Equation name is '_LC4_C17', type is buried 
 _LC4_C17 = LCELL( _EQ007);
   _EQ007 =  _LC4_C17 & !LED_B
-         #  LED_B &  X1;
+         #  DBUS1 &  LED_B;
 
 -- Node name is ':145' 
 -- Equation name is '_LC3_C17', type is buried 
 _LC3_C17 = LCELL( _EQ008);
   _EQ008 =  _LC3_C17 & !LED_B
-         #  LED_B &  X0;
+         #  DBUS0 &  LED_B;
 
 -- Node name is ':151' 
 -- Equation name is '_LC2_A22', type is buried 
 _LC2_A22 = LCELL( _EQ009);
   _EQ009 =  _LC2_A22 &  LED_B
-         # !LED_B &  X7;
+         #  DBUS7 & !LED_B;
 
 -- Node name is ':157' 
 -- Equation name is '_LC7_A22', type is buried 
 _LC7_A22 = LCELL( _EQ010);
   _EQ010 =  _LC7_A22 &  LED_B
-         # !LED_B &  X6;
+         #  DBUS6 & !LED_B;
 
 -- Node name is ':163' 
 -- Equation name is '_LC4_A22', type is buried 
 _LC4_A22 = LCELL( _EQ011);
   _EQ011 =  _LC4_A22 &  LED_B
-         # !LED_B &  X5;
+         #  DBUS5 & !LED_B;
 
 -- Node name is ':169' 
 -- Equation name is '_LC1_A22', type is buried 
 _LC1_A22 = LCELL( _EQ012);
   _EQ012 =  _LC1_A22 &  LED_B
-         # !LED_B &  X4;
+         #  DBUS4 & !LED_B;
 
 -- Node name is ':175' 
 -- Equation name is '_LC2_C17', type is buried 
 _LC2_C17 = LCELL( _EQ013);
   _EQ013 =  _LC2_C17 &  LED_B
-         # !LED_B &  X3;
+         #  DBUS3 & !LED_B;
 
 -- Node name is ':181' 
 -- Equation name is '_LC7_C17', type is buried 
 _LC7_C17 = LCELL( _EQ014);
   _EQ014 =  _LC7_C17 &  LED_B
-         # !LED_B &  X2;
+         #  DBUS2 & !LED_B;
 
 -- Node name is ':187' 
 -- Equation name is '_LC5_C17', type is buried 
 _LC5_C17 = LCELL( _EQ015);
   _EQ015 =  _LC5_C17 &  LED_B
-         # !LED_B &  X1;
+         #  DBUS1 & !LED_B;
 
 -- Node name is ':193' 
 -- Equation name is '_LC1_C17', type is buried 
 _LC1_C17 = LCELL( _EQ016);
   _EQ016 =  _LC1_C17 &  LED_B
-         # !LED_B &  X0;
+         #  DBUS0 & !LED_B;
 
 
 
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\fen2.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\fen2.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -604,8 +604,8 @@ Compilation Times
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:00
-   Fitter                                 00:00:01
+   Partitioner                            00:00:01
+   Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
@@ -615,4 +615,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 16,198K
+Peak memory allocated during compilation  = 18,257K

@@ -33,10 +33,10 @@ CONF_DONE                        : 1
 nCEO                             : 2
 TDO                              : 3
 VCCIO                            : 4
-RESERVED                         : 5
+T3                               : 5
 RESERVED                         : 6
-RESERVED                         : 7
-RESERVED                         : 8
+T2                               : 7
+T4                               : 8
 RESERVED                         : 9
 RESERVED                         : 10
 GND                              : 11
@@ -67,7 +67,7 @@ VCCINT                           : 35
 GND                              : 36
 VCC_CKLK                         : 37
 CLR                              : 38
-Q                                : 39
+CLK                              : 39
 GND                              : 40
 GND_CKLK                         : 41
 GND                              : 42
@@ -83,10 +83,10 @@ nCONFIG                          : 51
 VCCINT                           : 52
 MSEL1                            : 53
 MSEL0                            : 54
-T4                               : 55
-T3                               : 56
-T2                               : 57
-T1                               : 58
+RESERVED                         : 55
+RESERVED                         : 56
+RESERVED                         : 57
+RESERVED                         : 58
 GND                              : 59
 VCCINT                           : 60
 RESERVED                         : 61

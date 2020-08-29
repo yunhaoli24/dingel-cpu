@@ -28,10 +28,10 @@ $	IGdW	!	:18	~
 1	IGdW	!	:31	"-
 2	IGdW	!	:32	".
 3	IGdW	!	:33	"/
-4	L8e}	!	7	9	1	6	:4	r
-5	L8e}	!	7	9	1	9	:6	s
-6	IeE[	!	7	9	CF	p
-7	L8ef	!	6	9	1	4	CF_IN	n
-8	(@\6H	!	5	9	2	4	5	LDPSW	m
-9	IeE[	!	7	9	ZF	q
-:	L8ef	!	6	9	1	5	ZF_IN	o
+4	L8e}	!	7	6	1	7	:4	r
+5	L8e}	!	7	6	1	:	:6	s
+6	L8ef	!	6	6	1	4	C	m
+7	IeE[	!	7	6	CF	p
+8	(@\6H	!	6	6	2	4	5	LDPSW	o
+9	L8ef	!	6	6	1	5	Z	n
+:	IeE[	!	7	6	ZF	q

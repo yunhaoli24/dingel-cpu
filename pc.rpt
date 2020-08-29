@@ -1,8 +1,8 @@
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 
 MAX+plus II Compiler Report File
 Version 10.0 9/14/2000
-Compiled: 08/28/2020 16:56:55
+Compiled: 08/29/2020 13:20:52
 
 Copyright (C) 1988-2000 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -43,14 +43,14 @@ User Pins:                 11     8      0
 
 
 
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 
 ** PROJECT TIMING MESSAGES **
 
 Warning: Timing characteristics of device EP1K10TC100-1 are preliminary
 
 
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 
 ** FILE HIERARCHY **
 
@@ -63,7 +63,7 @@ Project Informationd:\lesson\theory\principles of computer composition\curriculu
 |lpm_add_sub:132|altshift:oflow_ext_latency_ffs|
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 pc
 
 ***** Logic for device 'pc' compiled without errors.
@@ -103,12 +103,12 @@ Device Options:
      ^nCEO |  2                                                    74 | ^nCE 
       #TDO |  3                                                    73 | #TDI 
      VCCIO |  4                                                    72 | VCCINT 
-        O2 |  5                                                    71 | D7 
-        O1 |  6                                                    70 | D3 
-        O6 |  7                                                    69 | D6 
-        O0 |  8                                                    68 | D5 
-        O5 |  9                                                    67 | VCCIO 
-        O7 | 10                                                    66 | GND 
+        Q2 |  5                                                    71 | D7 
+        Q1 |  6                                                    70 | D3 
+        Q6 |  7                                                    69 | D6 
+        Q0 |  8                                                    68 | D5 
+        Q5 |  9                                                    67 | VCCIO 
+        Q7 | 10                                                    66 | GND 
        GND | 11                                                    65 | RESERVED 
     VCCINT | 12                                                    64 | RESERVED 
   RESERVED | 13                   EP1K10TC100-1                    63 | RESERVED 
@@ -127,7 +127,7 @@ Device Options:
            |      27  29  31  33  35  37  39  41  43  45  47  49  _| 
             \   26  28  30  32  34  36  38  40  42  44  46  48  50   | 
              \----------------------------------------------------- 
-                R R R R D R O R O V G V C L L G G R V R R R R R R  
+                R R R R D R Q R Q V G V C L L G G R V R R R R R R  
                 E E E E 4 E 3 E 4 C N C L D O N N E C E E E E E E  
                 S S S S   S   S   C D C R P A D D S C S S S S S S  
                 E E E E   E   E   I   _   C D _   E I E E E E E E  
@@ -155,7 +155,7 @@ PDn = Power Down pin.
 $ = Pin has PCI I/O option enabled. Pin is neither '5.0 V'- nor '3.3 V'-tolerant. 
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 pc
 
 ** RESOURCE USAGE **
@@ -210,7 +210,7 @@ Total:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   8   6   0   0  
 
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 pc
 
 ** INPUTS **
@@ -248,21 +248,21 @@ Sections of this Report File for information on which signals' fan-outs are used
 Clock, Clear, Preset, Output Enable, and synchronous Load signals.
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 pc
 
 ** OUTPUTS **
 
        Fed By Fed By                                Fan-In    Fan-Out
  Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-   8      -     -    A    --     OUTPUT                 0    1    0    0  O0
-   6      -     -    A    --     OUTPUT                 0    1    0    0  O1
-   5      -     -    A    --     OUTPUT                 0    1    0    0  O2
-  32      -     -    -    16     OUTPUT                 0    1    0    0  O3
-  34      -     -    -    14     OUTPUT                 0    1    0    0  O4
-   9      -     -    A    --     OUTPUT                 0    1    0    0  O5
-   7      -     -    A    --     OUTPUT                 0    1    0    0  O6
-  10      -     -    A    --     OUTPUT                 0    1    0    0  O7
+   8      -     -    A    --     OUTPUT                 0    1    0    0  Q0
+   6      -     -    A    --     OUTPUT                 0    1    0    0  Q1
+   5      -     -    A    --     OUTPUT                 0    1    0    0  Q2
+  32      -     -    -    16     OUTPUT                 0    1    0    0  Q3
+  34      -     -    -    14     OUTPUT                 0    1    0    0  Q4
+   9      -     -    A    --     OUTPUT                 0    1    0    0  Q5
+   7      -     -    A    --     OUTPUT                 0    1    0    0  Q6
+  10      -     -    A    --     OUTPUT                 0    1    0    0  Q7
 
 
 Code:
@@ -278,7 +278,7 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 pc
 
 ** BURIED LOGIC **
@@ -313,7 +313,7 @@ r = Fitter-inserted logic cell
 p = Packed register
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 pc
 
 ** FASTTRACK INTERCONNECT UTILIZATION **
@@ -359,7 +359,7 @@ Column  Interconnect    Input Pins     Output Pins     Bidir Pins
 EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 pc
 
 ** CLOCK SIGNALS **
@@ -368,7 +368,7 @@ Type     Fan-out       Name
 INPUT        8         LDPC
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 pc
 
 ** CLEAR SIGNALS **
@@ -377,7 +377,7 @@ Type     Fan-out       Name
 INPUT        8         CLR
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 pc
 
 ** EQUATIONS **
@@ -393,38 +393,6 @@ D6       : INPUT;
 D7       : INPUT;
 LDPC     : INPUT;
 LOAD     : INPUT;
-
--- Node name is 'O0' 
--- Equation name is 'O0', type is output 
-O0       =  QOUT0;
-
--- Node name is 'O1' 
--- Equation name is 'O1', type is output 
-O1       =  QOUT1;
-
--- Node name is 'O2' 
--- Equation name is 'O2', type is output 
-O2       =  QOUT2;
-
--- Node name is 'O3' 
--- Equation name is 'O3', type is output 
-O3       =  QOUT3;
-
--- Node name is 'O4' 
--- Equation name is 'O4', type is output 
-O4       =  QOUT4;
-
--- Node name is 'O5' 
--- Equation name is 'O5', type is output 
-O5       =  QOUT5;
-
--- Node name is 'O6' 
--- Equation name is 'O6', type is output 
-O6       =  QOUT6;
-
--- Node name is 'O7' 
--- Equation name is 'O7', type is output 
-O7       =  QOUT7;
 
 -- Node name is ':27' = 'QOUT0' 
 -- Equation name is 'QOUT0', location is LC8_A14, type is buried.
@@ -481,6 +449,38 @@ QOUT7    = DFFE( _EQ008, GLOBAL( LDPC), GLOBAL( CLR),  VCC,  VCC);
          #  _LC5_A14 &  LOAD & !QOUT7
          #  D7 & !LOAD;
 
+-- Node name is 'Q0' 
+-- Equation name is 'Q0', type is output 
+Q0       =  QOUT0;
+
+-- Node name is 'Q1' 
+-- Equation name is 'Q1', type is output 
+Q1       =  QOUT1;
+
+-- Node name is 'Q2' 
+-- Equation name is 'Q2', type is output 
+Q2       =  QOUT2;
+
+-- Node name is 'Q3' 
+-- Equation name is 'Q3', type is output 
+Q3       =  QOUT3;
+
+-- Node name is 'Q4' 
+-- Equation name is 'Q4', type is output 
+Q4       =  QOUT4;
+
+-- Node name is 'Q5' 
+-- Equation name is 'Q5', type is output 
+Q5       =  QOUT5;
+
+-- Node name is 'Q6' 
+-- Equation name is 'Q6', type is output 
+Q6       =  QOUT6;
+
+-- Node name is 'Q7' 
+-- Equation name is 'Q7', type is output 
+Q7       =  QOUT7;
+
 -- Node name is '|LPM_ADD_SUB:132|addcore:adder|:121' from file "addcore.tdf" line 312, column 64
 -- Equation name is '_LC4_A15', type is buried 
 _LC4_A15 = LCELL( _EQ009);
@@ -513,7 +513,7 @@ _LC5_A14 = LCELL( _EQ014);
 
 
 
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\pc.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\pc.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -591,15 +591,15 @@ Compilation Times
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:01
+   Partitioner                            00:00:00
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:01
+   Total Time                             00:00:00
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 15,693K
+Peak memory allocated during compilation  = 19,301K

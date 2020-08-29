@@ -6,31 +6,55 @@ Index Hierarchy Path
 ----- --------------
 !	&null_hpath&
 
-The number of name info structs is : 24
+The number of name info structs is : 48
 
 InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
 -------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
-"	IeE[	!	7	9	I0	|
-#	L7gU	!	7	9	1	"	I0~1	"T
-$	IeE[	!	7	9	I1	{
-%	L7gU	!	7	9	1	$	I1~1	"W
-&	IeE[	!	7	9	I2	z
-'	L7gU	!	7	9	1	&	I2~1	"Z
-(	IeE[	!	7	9	I3	y
-)	L7gU	!	7	9	1	(	I3~1	"]
-*	"?%_n	!	5	9	1	#	IRCODE0	!	IRCODE0	t
-+	"?%_n	!	5	9	1	%	IRCODE1	!	IRCODE1	s
-,	"?%_n	!	5	9	1	'	IRCODE2	!	IRCODE2	r
--	"?%_n	!	5	9	1	)	IRCODE3	!	IRCODE3	q
-.	"?%_n	!	5	9	1	3	IRCODE4	!	IRCODE4	p
-/	"?%_n	!	5	9	1	5	IRCODE5	!	IRCODE5	o
-0	"?%_n	!	5	9	1	7	IRCODE6	!	IRCODE6	n
-1	"?%_n	!	5	9	1	9	IRCODE7	!	IRCODE7	m
-2	"<R?c	!	6	9	OP0	!	OP0	x
-3	L7gU	!	6	9	1	2	OP0~1	"`
-4	"<R?c	!	6	9	OP1	!	OP1	w
-5	L7gU	!	6	9	1	4	OP1~1	"c
-6	"<R?c	!	6	9	OP2	!	OP2	v
-7	L7gU	!	6	9	1	6	OP2~1	"f
-8	"<R?c	!	6	9	OP3	!	OP3	u
-9	L7gU	!	6	9	1	8	OP3~1	"i
+"	"<R?c	!	8	6	A0	!	A0	".
+#	L7gU	!	8	6	1	"	A0~1	#0
+$	"<R?c	!	8	6	A1	!	A1	"-
+%	L7gU	!	8	6	1	$	A1~1	#3
+&	"<R?c	!	8	6	A2	!	A2	",
+'	L7gU	!	8	6	1	&	A2~1	#6
+(	"<R?c	!	8	6	A3	!	A3	"+
+)	L7gU	!	8	6	1	(	A3~1	#9
+*	"<R?c	!	8	6	A4	!	A4	"*
++	L7gU	!	8	6	1	*	A4~1	#<
+,	"<R?c	!	8	6	A5	!	A5	")
+-	L7gU	!	8	6	1	,	A5~1	#?
+.	"<R?c	!	8	6	A6	!	A6	"(
+/	L7gU	!	8	6	1	.	A6~1	#B
+0	"<R?c	!	8	6	A7	!	A7	"'
+1	L7gU	!	8	6	1	0	A7~1	#E
+2	IeE[	!	7	6	I10	"$
+3	L7gU	!	7	6	1	2	I10~1	#N
+4	IeE[	!	7	6	I11	"#
+5	L7gU	!	7	6	1	4	I11~1	#Q
+6	IeE[	!	7	6	I8	"&
+7	L7gU	!	7	6	1	6	I8~1	#H
+8	IeE[	!	7	6	I9	"%
+9	L7gU	!	7	6	1	8	I9~1	#K
+:	"?%_n	!	5	6	1	#	IRCODE0	!	IRCODE0	|
+;	"?%_n	!	5	6	1	%	IRCODE1	!	IRCODE1	{
+<	"?%_n	!	5	6	1	3	IRCODE10	!	IRCODE10	r
+=	"?%_n	!	5	6	1	5	IRCODE11	!	IRCODE11	q
+>	"?%_n	!	5	6	1	K	IRCODE12	!	IRCODE12	p
+?	"?%_n	!	5	6	1	M	IRCODE13	!	IRCODE13	o
+@	"?%_n	!	5	6	1	O	IRCODE14	!	IRCODE14	n
+A	"?%_n	!	5	6	1	Q	IRCODE15	!	IRCODE15	m
+B	"?%_n	!	5	6	1	'	IRCODE2	!	IRCODE2	z
+C	"?%_n	!	5	6	1	)	IRCODE3	!	IRCODE3	y
+D	"?%_n	!	5	6	1	+	IRCODE4	!	IRCODE4	x
+E	"?%_n	!	5	6	1	-	IRCODE5	!	IRCODE5	w
+F	"?%_n	!	5	6	1	/	IRCODE6	!	IRCODE6	v
+G	"?%_n	!	5	6	1	1	IRCODE7	!	IRCODE7	u
+H	"?%_n	!	5	6	1	7	IRCODE8	!	IRCODE8	t
+I	"?%_n	!	5	6	1	9	IRCODE9	!	IRCODE9	s
+J	"<R?c	!	6	10	OP0	!	OP0	""
+K	L7gU	!	6	10	1	J	OP0~1	#T
+L	"<R?c	!	6	10	OP1	!	OP1	"!
+M	L7gU	!	6	10	1	L	OP1~1	#W
+N	"<R?c	!	6	10	OP2	!	OP2	~
+O	L7gU	!	6	10	1	N	OP2~1	#Z
+P	"<R?c	!	6	10	OP3	!	OP3	}
+Q	L7gU	!	6	10	1	P	OP3~1	#]

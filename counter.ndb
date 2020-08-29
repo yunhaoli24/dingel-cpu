@@ -5,52 +5,47 @@ The length of the symbol table is: 61
 Index Hierarchy Path
 ----- --------------
 !	&null_hpath&
-.	|LPM_ADD_SUB:79|
-?	|LPM_ADD_SUB:79|addcore:adder|
+.	|LPM_ADD_SUB:64|
+?	|LPM_ADD_SUB:64|addcore:adder|
 
-The number of name info structs is : 42
+The number of name info structs is : 37
 
 InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
 -------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
-"	IeEA	!	22	17	:107	#%
-#	IeEA	!	22	17	:108	#&
-$	LGPw	!	8	12	1	5	(	)	*	-	$	:11	"$
-%	IeEA	!	22	17	:116	#.
-&	LGPw	!	7	12	1	6	(	)	*	-	$	&	:12	"%
-'	IeEA	!	14	9	:28	"5
-(	L8e}	!	8	9	1	3	:3	~
-)	L8e}	!	8	9	1	4	:5	"!
-*	L8e}	!	8	9	1	5	:7	""
-+	IeEA	!	22	17	:85	"m
-,	IeEA	!	22	17	:89	"q
--	L8e}	!	8	9	1	6	:9	"#
-.	IeEA	!	22	17	:90	"r
-/	IeEA	!	22	17	:95	"w
-0	IeEA	!	22	17	:99	"{
-1	(@\6H	!	7	9	6	(	)	*	-	$	&	CLR	n
-2	(@\6H	!	7	9	6	(	)	*	-	$	&	Q	m
-3	IeE[	!	8	9	T1	o
-4	IeE[	!	8	9	T2	p
-5	IeE[	!	8	9	T3	q
-6	IeE[	!	8	9	T4	r
-7	"<;pW	!	&	X0	!	X0	"%
-8	"<;pW	!	$	X1	!	X1	"$
-9	IeEA	.	704	78	:85	$3
-:	IeEA	.	704	78	:86	$4
-;	IeEA	.	704	56	:87	$5
-<	IeEA	.	705	35	:88	$6
-=	IeEA	.	704	91	:89	$7
->	IeEA	.	704	91	:90	$8
-?	IeEA	?	308	28	:40	$P
-@	IeEA	?	308	52	:41	$Q
-A	IeEA	?	308	40	:42	$R
-B	IeEA	?	309	18	:43	$S
-C	IeEA	?	312	28	:45	$U
-D	IeEA	?	312	52	:46	$V
-E	IeEA	?	312	64	:47	$W
-F	IeEA	?	315	26	:49	$Y
-G	IeEA	?	315	37	:50	$Z
-H	IeEA	?	316	45	:51	$[
-I	IeEA	?	316	67	:52	$\
-J	IeEA	?	308	64	pcarry0	$T
-K	IeEA	?	312	40	pcarry1	$X
+"	LGPw	!	2	14	1	5	$	%	&	+	"	:10	"#
+#	IeEA	!	16	6	:24	"1
+$	L8e}	!	9	6	1	/	:3	}
+%	L8e}	!	9	6	1	0	:5	~
+&	L8e}	!	9	6	1	1	:7	"!
+'	IeEA	!	23	11	:70	"^
+(	IeEA	!	23	11	:74	"b
+)	IeEA	!	23	11	:82	"j
+*	IeEA	!	23	11	:83	"k
++	LGPw	!	3	14	1	4	$	%	&	+	:9	""
+,	IeEA	!	23	11	:91	"s
+-	(@\6H	!	8	6	5	$	%	&	+	"	CLK	m
+.	(@\6H	!	8	6	5	$	%	&	+	"	CLR	n
+/	IeE[	!	9	6	T2	o
+0	IeE[	!	9	6	T3	p
+1	IeE[	!	9	6	T4	q
+2	"<;pW	!	"	X0	!	X0	"#
+3	"<;pW	!	+	X1	!	X1	""
+4	IeEA	.	704	78	:85	#r
+5	IeEA	.	704	78	:86	#s
+6	IeEA	.	704	56	:87	#t
+7	IeEA	.	705	35	:88	#u
+8	IeEA	.	704	91	:89	#v
+9	IeEA	.	704	91	:90	#w
+:	IeEA	?	308	28	:40	$1
+;	IeEA	?	308	52	:41	$2
+<	IeEA	?	308	40	:42	$3
+=	IeEA	?	309	18	:43	$4
+>	IeEA	?	312	28	:45	$6
+?	IeEA	?	312	52	:46	$7
+@	IeEA	?	312	64	:47	$8
+A	IeEA	?	315	26	:49	$:
+B	IeEA	?	315	37	:50	$;
+C	IeEA	?	316	45	:51	$<
+D	IeEA	?	316	67	:52	$=
+E	IeEA	?	308	64	pcarry0	$5
+F	IeEA	?	312	40	pcarry1	$9

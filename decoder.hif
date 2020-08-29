@@ -24,6 +24,13 @@ HIF003
 --
 FILES
 {
+	decoder.vhd
+	{
+		decoder [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
+		{
+			0 [] [];
+		}
+	}
 }
 TREE
 {

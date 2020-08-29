@@ -1,8 +1,8 @@
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\ls273.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\ls273.rpt
 
 MAX+plus II Compiler Report File
 Version 10.0 9/14/2000
-Compiled: 08/28/2020 17:01:29
+Compiled: 08/29/2020 13:12:27
 
 Copyright (C) 1988-2000 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -43,14 +43,14 @@ User Pins:                 9      8      0
 
 
 
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\ls273.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\ls273.rpt
 
 ** PROJECT TIMING MESSAGES **
 
 Warning: Timing characteristics of device EP1K10TC100-1 are preliminary
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\ls273.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\ls273.rpt
 ls273
 
 ***** Logic for device 'ls273' compiled without errors.
@@ -90,15 +90,15 @@ Device Options:
      ^nCEO |  2                                                    74 | ^nCE 
       #TDO |  3                                                    73 | #TDI 
      VCCIO |  4                                                    72 | VCCINT 
-        O3 |  5                                                    71 | D7 
+        Q3 |  5                                                    71 | D7 
   RESERVED |  6                                                    70 | D6 
-        O6 |  7                                                    69 | O7 
+        Q6 |  7                                                    69 | Q7 
   RESERVED |  8                                                    68 | RESERVED 
-        O0 |  9                                                    67 | VCCIO 
+        Q0 |  9                                                    67 | VCCIO 
   RESERVED | 10                                                    66 | GND 
-       GND | 11                                                    65 | O1 
+       GND | 11                                                    65 | Q1 
     VCCINT | 12                                                    64 | RESERVED 
-        O2 | 13                   EP1K10TC100-1                    63 | RESERVED 
+        Q2 | 13                   EP1K10TC100-1                    63 | RESERVED 
   RESERVED | 14                                                    62 | RESERVED 
   RESERVED | 15                                                    61 | RESERVED 
   RESERVED | 16                                                    60 | VCCINT 
@@ -106,8 +106,8 @@ Device Options:
        GND | 18                                                    58 | RESERVED 
   RESERVED | 19                                                    57 | RESERVED 
   RESERVED | 20                                                    56 | RESERVED 
-        D5 | 21                                                    55 | O5 
-        O4 | 22                                                    54 | ^MSEL0 
+        D5 | 21                                                    55 | Q5 
+        Q4 | 22                                                    54 | ^MSEL0 
   RESERVED | 23                                                    53 | ^MSEL1 
       #TMS | 24                                                    52 | VCCINT 
   ^nSTATUS | 25                                                    51 | ^nCONFIG 
@@ -142,7 +142,7 @@ PDn = Power Down pin.
 $ = Pin has PCI I/O option enabled. Pin is neither '5.0 V'- nor '3.3 V'-tolerant. 
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\ls273.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\ls273.rpt
 ls273
 
 ** RESOURCE USAGE **
@@ -203,7 +203,7 @@ Total:   1   0   0   0   0   0   0   1   0   0   1   0   0   0   1   0   0   0  
 
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\ls273.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\ls273.rpt
 ls273
 
 ** INPUTS **
@@ -239,21 +239,21 @@ Sections of this Report File for information on which signals' fan-outs are used
 Clock, Clear, Preset, Output Enable, and synchronous Load signals.
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\ls273.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\ls273.rpt
 ls273
 
 ** OUTPUTS **
 
        Fed By Fed By                                Fan-In    Fan-Out
  Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-   9      -     -    A    --     OUTPUT                 0    1    0    0  O0
-  65      -     -    B    --     OUTPUT                 0    1    0    0  O1
-  13      -     -    B    --     OUTPUT                 0    1    0    0  O2
-   5      -     -    A    --     OUTPUT                 0    1    0    0  O3
-  22      -     -    C    --     OUTPUT                 0    1    0    0  O4
-  55      -     -    C    --     OUTPUT                 0    1    0    0  O5
-   7      -     -    A    --     OUTPUT                 0    1    0    0  O6
-  69      -     -    A    --     OUTPUT                 0    1    0    0  O7
+   9      -     -    A    --     OUTPUT                 0    1    0    0  Q0
+  65      -     -    B    --     OUTPUT                 0    1    0    0  Q1
+  13      -     -    B    --     OUTPUT                 0    1    0    0  Q2
+   5      -     -    A    --     OUTPUT                 0    1    0    0  Q3
+  22      -     -    C    --     OUTPUT                 0    1    0    0  Q4
+  55      -     -    C    --     OUTPUT                 0    1    0    0  Q5
+   7      -     -    A    --     OUTPUT                 0    1    0    0  Q6
+  69      -     -    A    --     OUTPUT                 0    1    0    0  Q7
 
 
 Code:
@@ -269,7 +269,7 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\ls273.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\ls273.rpt
 ls273
 
 ** BURIED LOGIC **
@@ -298,7 +298,7 @@ r = Fitter-inserted logic cell
 p = Packed register
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\ls273.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\ls273.rpt
 ls273
 
 ** FASTTRACK INTERCONNECT UTILIZATION **
@@ -344,7 +344,7 @@ Column  Interconnect    Input Pins     Output Pins     Bidir Pins
 EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\ls273.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\ls273.rpt
 ls273
 
 ** CLOCK SIGNALS **
@@ -353,7 +353,7 @@ Type     Fan-out       Name
 INPUT        8         CLK
 
 
-Device-Specific Information:d:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\ls273.rpt
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\ls273.rpt
 ls273
 
 ** EQUATIONS **
@@ -368,37 +368,37 @@ D5       : INPUT;
 D6       : INPUT;
 D7       : INPUT;
 
--- Node name is 'O0' 
--- Equation name is 'O0', type is output 
-O0       =  _LC7_A14;
+-- Node name is 'Q0' 
+-- Equation name is 'Q0', type is output 
+Q0       =  _LC7_A14;
 
--- Node name is 'O1' 
--- Equation name is 'O1', type is output 
-O1       =  _LC1_B11;
+-- Node name is 'Q1' 
+-- Equation name is 'Q1', type is output 
+Q1       =  _LC1_B11;
 
--- Node name is 'O2' 
--- Equation name is 'O2', type is output 
-O2       =  _LC1_B24;
+-- Node name is 'Q2' 
+-- Equation name is 'Q2', type is output 
+Q2       =  _LC1_B24;
 
--- Node name is 'O3' 
--- Equation name is 'O3', type is output 
-O3       =  _LC1_A20;
+-- Node name is 'Q3' 
+-- Equation name is 'Q3', type is output 
+Q3       =  _LC1_A20;
 
--- Node name is 'O4' 
--- Equation name is 'O4', type is output 
-O4       =  _LC5_C21;
+-- Node name is 'Q4' 
+-- Equation name is 'Q4', type is output 
+Q4       =  _LC5_C21;
 
--- Node name is 'O5' 
--- Equation name is 'O5', type is output 
-O5       =  _LC7_C1;
+-- Node name is 'Q5' 
+-- Equation name is 'Q5', type is output 
+Q5       =  _LC7_C1;
 
--- Node name is 'O6' 
--- Equation name is 'O6', type is output 
-O6       =  _LC3_A21;
+-- Node name is 'Q6' 
+-- Equation name is 'Q6', type is output 
+Q6       =  _LC3_A21;
 
--- Node name is 'O7' 
--- Equation name is 'O7', type is output 
-O7       =  _LC8_A8;
+-- Node name is 'Q7' 
+-- Equation name is 'Q7', type is output 
+Q7       =  _LC8_A8;
 
 -- Node name is ':10' 
 -- Equation name is '_LC8_A8', type is buried 
@@ -434,7 +434,7 @@ _LC7_A14 = DFFE( D0, GLOBAL( CLK),  VCC,  VCC,  VCC);
 
 
 
-Project Informationd:\lesson\theory\principles of computer composition\curriculum design\project\design\dingel-cpu\ls273.rpt
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\ls273.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -523,4 +523,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 16,633K
+Peak memory allocated during compilation  = 16,371K
