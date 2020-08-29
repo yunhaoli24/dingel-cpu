@@ -1,0 +1,131 @@
+-- Copyright (C) 1988-2000 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+----------------------------------------------------------------------------
+
+CHIP "controm" ASSIGNED TO AN EP1K10TC100-1
+CONF_DONE                        : 1
+nCEO                             : 2
+TDO                              : 3
+VCCIO                            : 4
+O4                               : 5
+O7                               : 6
+O16                              : 7
+O1                               : 8
+RESERVED                         : 9
+O11                              : 10
+GND                              : 11
+VCCINT                           : 12
+RESERVED                         : 13
+RESERVED                         : 14
+RESERVED                         : 15
+RESERVED                         : 16
+VCCIO                            : 17
+GND                              : 18
+RESERVED                         : 19
+RESERVED                         : 20
+RESERVED                         : 21
+O17                              : 22
+UA3                              : 23
+TMS                              : 24
+nSTATUS                          : 25
+RESERVED                         : 26
+RESERVED                         : 27
+RESERVED                         : 28
+RESERVED                         : 29
+RESERVED                         : 30
+UA2                              : 31
+RESERVED                         : 32
+UA4                              : 33
+O6                               : 34
+VCCINT                           : 35
+GND                              : 36
+VCC_CKLK                         : 37
+ADDR2                            : 38
+ADDR4                            : 39
+ADDR0                            : 40
+GND_CKLK                         : 41
+GND                              : 42
+O18                              : 43
+VCCIO                            : 44
+O14                              : 45
+RESERVED                         : 46
+RESERVED                         : 47
+UA5                              : 48
+RESERVED                         : 49
+O8                               : 50
+nCONFIG                          : 51
+VCCINT                           : 52
+MSEL1                            : 53
+MSEL0                            : 54
+RESERVED                         : 55
+O5                               : 56
+RESERVED                         : 57
+RESERVED                         : 58
+GND                              : 59
+VCCINT                           : 60
+RESERVED                         : 61
+RESERVED                         : 62
+RESERVED                         : 63
+RESERVED                         : 64
+RESERVED                         : 65
+GND                              : 66
+VCCIO                            : 67
+O10                              : 68
+O9                               : 69
+O2                               : 70
+O0                               : 71
+VCCINT                           : 72
+TDI                              : 73
+nCE                              : 74
+DCLK                             : 75
+DATA0                            : 76
+RESERVED                         : 77
+O15                              : 78
+RESERVED                         : 79
+O13                              : 80
+RESERVED                         : 81
+O12                              : 82
+VCCIO                            : 83
+RESERVED                         : 84
+RESERVED                         : 85
+O3                               : 86
+O19                              : 87
+GND                              : 88
+ADDR1                            : 89
+ADDR5                            : 90
+ADDR3                            : 91
+VCCINT                           : 92
+UA0                              : 93
+RESERVED                         : 94
+GND                              : 95
+RESERVED                         : 96
+RESERVED                         : 97
+UA1                              : 98
+RESERVED                         : 99
+TCK                              : 100

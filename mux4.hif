@@ -26,7 +26,7 @@ FILES
 {
 	mux4.vhd
 	{
-		mux4 [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
+		mux4 [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
 			0 [] [];
 		}

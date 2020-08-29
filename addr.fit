@@ -1,0 +1,78 @@
+-- MAX+plus II Compiler Fit File      
+-- Version 10.0 9/14/2000             
+-- Compiled: 08/29/2020 13:35:05      
+
+-- Copyright (C) 1988-2000 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+CHIP "addr"
+BEGIN
+
+    DEVICE = "EP1K10TC100-1";
+
+    "CF"                           : INPUT_PIN  = 70     ;
+    "I12"                          : INPUT_PIN  = 89     ;
+    "I13"                          : INPUT_PIN  = 91     ;
+    "I14"                          : INPUT_PIN  = 39     ;
+    "I15"                          : INPUT_PIN  = 90     ;
+    "P1"                           : INPUT_PIN  = 40     ;
+    "P2"                           : INPUT_PIN  = 71     ;
+    "T4"                           : INPUT_PIN  = 38     ;
+    "ZF"                           : INPUT_PIN  = 68     ;
+    "SE0"                          : OUTPUT_PIN = 8      ;
+    "SE1"                          : OUTPUT_PIN = 6      ;
+    "SE2"                          : OUTPUT_PIN = 7      ;
+    "SE3"                          : OUTPUT_PIN = 10     ;
+    "SE4"                          : OUTPUT_PIN = 5      ;
+    "SE5"                          : OUTPUT_PIN = 9      ;
+    ":19"                          : LOCATION   = LC7_A13;
+    ":24"                          : LOCATION   = LC1_A13;
+    ":29"                          : LOCATION   = LC8_A13;
+    ":34"                          : LOCATION   = LC3_A13;
+    ":39"                          : LOCATION   = LC2_A13;
+    ":44"                          : LOCATION   = LC5_A13;
+
+END;
+
+INTERNAL_INFO "addr"
+BEGIN
+	DEVICE = EP1K10TC100-1;
+    OH10R0P70 : LORAX = "1:G41R0,PA18R0C12->LC7_A13|";
+    OD1P89  : LORAX = "1:FB1|2:FH1R0,PA20R0C12->LC5_A13||";
+    OD0P91  : LORAX = "1:FB0|2:FH0R0,PA12R0C12->LC2_A13||";
+    OD5P39  : LORAX = "1:FB5|2:CH1R0,PA7R0C12->LC3_A13||";
+    OD4P90  : LORAX = "1:FB4|2:CH0R0,PA19R0C12->LC8_A13||";
+    OD3P40  : LORAX = "1:FB3|2:FH3R0,PA5R0C12->LC8_A13,->LC3_A13,->LC2_A13,->LC5_A13||";
+    OH8R0P71 : LORAX = "1:G13R0,PA0R0C12->LC7_A13,->LC1_A13|";
+    OD2P38  : LORAX = "1:FB2|2:FH2R0,PA8R0C12->LC7_A13,->LC1_A13,->LC8_A13,->LC3_A13,->LC2_A13,->LC5_A13||";
+    OH14R0P68 : LORAX = "1:G44R0,PA6R0C12->LC1_A13|";
+    LC7_A13 : LORAX = "1:MSW6R0C13,G53R0->OH6R0P9|";
+    LC1_A13 : LORAX = "1:MSW0R0C13,HHR23R0->OH0R0P5|";
+    LC8_A13 : LORAX = "1:MSW7R0C13,HHR35R0->OH7R0P10|";
+    LC3_A13 : LORAX = "1:MSW2R0C13,HHR4R0->OH2R0P7|";
+    LC2_A13 : LORAX = "1:MSW1R0C13,G29R0->OH1R0P6|";
+    LC5_A13 : LORAX = "1:MSW4R0C12,HHR41R0->OH4R0P8|";
+	LC7_A13 : LORAX2 = "X, OH10R0P70, OD2P38, OH8R0P71";
+	LC1_A13 : LORAX2 = "X, OH14R0P68, OD2P38, OH8R0P71";
+	LC8_A13 : LORAX2 = "X, OD4P90, OD3P40, OD2P38";
+	LC3_A13 : LORAX2 = "X, OD5P39, OD3P40, OD2P38";
+	LC2_A13 : LORAX2 = "X, OD0P91, OD3P40, OD2P38";
+	LC5_A13 : LORAX2 = "X, OD1P89, OD3P40, OD2P38";
+END;
