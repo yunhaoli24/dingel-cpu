@@ -27,13 +27,14 @@ FILES
 }
 TREE
 {
-	aa::(0,0):(0): aa.gdf
+	crom::(0,0):(0): crom.gdf
 	{
-		mmm::(0,0):(8): mmm.vhd;
-		mmm::(0,0):(7): mmm.vhd;
-		mmm::(0,0):(6): mmm.vhd;
-		mmm::(0,0):(5): mmm.vhd;
-		mmm::(0,0):(4): mmm.vhd;
-		mmm::(0,0):(1): mmm.vhd;
+		aa::(0,0):(1): aa.gdf;
+		f3::(0,0):(2): f3.vhd;
+		f2::(0,0):(3): f2.vhd;
+		f1::(0,0):(4): f1.vhd;
+		addr::(0,0):(5): addr.vhd;
+		controm::(0,0):(6): controm.vhd;
+		mcommand::(0,0):(7): mcommand.vhd;
 	}
 }
