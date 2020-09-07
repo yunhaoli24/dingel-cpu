@@ -1,0 +1,131 @@
+-- Copyright (C) 1988-2000 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+----------------------------------------------------------------------------
+
+CHIP "top" ASSIGNED TO AN EP1K10TC100-1
+CONF_DONE                        : 1
+nCEO                             : 2
+TDO                              : 3
+VCCIO                            : 4
+OUTBUS6                          : 5
+IR12                             : 6
+OUTBUS0                          : 7
+IR2                              : 8
+INBUS2                           : 9
+IR9                              : 10
+GND                              : 11
+VCCINT                           : 12
+IR15                             : 13
+RESERVED                         : 14
+RESERVED                         : 15
+RESERVED                         : 16
+VCCIO                            : 17
+GND                              : 18
+RESERVED                         : 19
+RESERVED                         : 20
+IR4                              : 21
+RESERVED                         : 22
+RESERVED                         : 23
+TMS                              : 24
+nSTATUS                          : 25
+OUTBUS2                          : 26
+OUTBUS7                          : 27
+RESERVED                         : 28
+RESERVED                         : 29
+RESERVED                         : 30
+RESERVED                         : 31
+IR3                              : 32
+OUTBUS4                          : 33
+IR14                             : 34
+VCCINT                           : 35
+GND                              : 36
+VCC_CKLK                         : 37
+CLR                              : 38
+CLK                              : 39
+INBUS0                           : 40
+GND_CKLK                         : 41
+GND                              : 42
+OUTBUS1                          : 43
+VCCIO                            : 44
+CF                               : 45
+RESERVED                         : 46
+RESERVED                         : 47
+RESERVED                         : 48
+IR7                              : 49
+RESERVED                         : 50
+nCONFIG                          : 51
+VCCINT                           : 52
+MSEL1                            : 53
+MSEL0                            : 54
+RESERVED                         : 55
+RESERVED                         : 56
+RESERVED                         : 57
+RESERVED                         : 58
+GND                              : 59
+VCCINT                           : 60
+RESERVED                         : 61
+IR11                             : 62
+RESERVED                         : 63
+IR5                              : 64
+ZF                               : 65
+GND                              : 66
+VCCIO                            : 67
+INBUS4                           : 68
+INBUS3                           : 69
+IR0                              : 70
+IR1                              : 71
+VCCINT                           : 72
+TDI                              : 73
+nCE                              : 74
+DCLK                             : 75
+DATA0                            : 76
+RESERVED                         : 77
+OUTBUS3                          : 78
+RESERVED                         : 79
+IR8                              : 80
+OUTBUS5                          : 81
+RESERVED                         : 82
+VCCIO                            : 83
+RESERVED                         : 84
+RESERVED                         : 85
+IR13                             : 86
+RESERVED                         : 87
+GND                              : 88
+INBUS7                           : 89
+INBUS5                           : 90
+INBUS6                           : 91
+VCCINT                           : 92
+RESERVED                         : 93
+IR6                              : 94
+GND                              : 95
+IR10                             : 96
+RESERVED                         : 97
+INBUS1                           : 98
+RESERVED                         : 99
+TCK                              : 100
