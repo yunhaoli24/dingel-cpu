@@ -257,6 +257,7 @@ TREE
 {
 	top::(0,0):(0): top.gdf
 	{
+		mux3_2::(0,0):(34): mux3_2.vhd;
 		counter::(0,0):(1): counter.vhd
 		{
 			lpm_add_sub:2:(23,11):(64): lpm_add_sub.tdf
@@ -357,7 +358,6 @@ TREE
 		convert::(0,0):(15): convert.vhd;
 		fen2::(0,0):(16): fen2.vhd;
 		mux3::(0,0):(24): mux3.vhd;
-		mux3::(0,0):(25): mux3.vhd;
 		ram::(0,0):(26): ram.vhd;
 		ir::(0,0):(27): ir.vhd;
 	}
