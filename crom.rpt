@@ -1,0 +1,1044 @@
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+
+MAX+plus II Compiler Report File
+Version 10.0 9/14/2000
+Compiled: 09/09/2020 14:25:40
+
+Copyright (C) 1988-2000 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input Output Bidir  Memory  Memory  			 LCs
+POF       Device          Pins  Pins   Pins   Bits % Utilized  LCs  % Utilized
+
+crom      EP1K10TC100-1    10     18     0    0         0  %    63       10 %
+
+User Pins:                 10     18     0  
+
+
+
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+
+** PROJECT COMPILATION MESSAGES **
+
+Warning: Flipflop '|MCOMMAND:7|:46' stuck at GND
+
+
+** PROJECT TIMING MESSAGES **
+
+Warning: Timing characteristics of device EP1K10TC100-1 are preliminary
+
+
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+
+** FILE HIERARCHY **
+
+
+
+|aa:1|
+|aa:1|mmm:1|
+|aa:1|mmm:8|
+|aa:1|mmm:7|
+|aa:1|mmm:6|
+|aa:1|mmm:5|
+|aa:1|mmm:4|
+|f3:2|
+|f2:3|
+|f1:4|
+|addr:5|
+|controm:6|
+|mcommand:7|
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+crom
+
+***** Logic for device 'crom' compiled without errors.
+
+
+
+
+Device: EP1K10TC100-1
+
+ACEX 1K Configuration Scheme: Passive Serial
+
+Device Options:
+    User-Supplied Start-Up Clock               = OFF
+    Auto-Restart Configuration on Frame Error  = OFF
+    Release Clears Before Tri-States           = OFF
+    Enable Chip_Wide Reset                     = OFF
+    Enable Chip-Wide Output Enable             = OFF
+    Enable INIT_DONE Output                    = OFF
+    JTAG User Code                             = 7f
+    MultiVolt I/O                              = OFF
+    Enable Lock Output                         = OFF
+
+                                                                   
+                                                                   
+                  R R       R R           R R R R   R R R R R R    
+                  E E       E E           E E E E   E E E E E E    
+                  S S       S S V         S S S S   S S S S S S ^  
+                  E E L     E E C         E E E E V E E E E E E D  
+                # R R E     R R C         R R R R C R R R R R R A  
+                T V V D   G V V I       G V V V V C V V V V V V T  
+                C E E _ S N E E N C D Z N E E E E I E E E E E E A  
+                K D D B 0 D D D T F 3 F D D D D D O D D D D D D 0  
+              ----------------------------------------------------_ 
+             / 100  98  96  94  92  90  88  86  84  82  80  78  76   |_ 
+            /     99  97  95  93  91  89  87  85  83  81  79  77    | 
+^CONF_DONE |  1                                                    75 | ^DCLK 
+     ^nCEO |  2                                                    74 | ^nCE 
+      #TDO |  3                                                    73 | #TDI 
+     VCCIO |  4                                                    72 | VCCINT 
+        D2 |  5                                                    71 | RESERVED 
+  RESERVED |  6                                                    70 | T3 
+      RD_D |  7                                                    69 | RESERVED 
+      CS_D |  8                                                    68 | RESERVED 
+  RESERVED |  9                                                    67 | VCCIO 
+      LDIR | 10                                                    66 | GND 
+       GND | 11                                                    65 | D1 
+    VCCINT | 12                                                    64 | S1 
+      LDPC | 13                   EP1K10TC100-1                    63 | RS_B 
+     ALU_B | 14                                                    62 | LOAD 
+     LDPSW | 15                                                    61 | D0 
+     RAM_B | 16                                                    60 | VCCINT 
+     VCCIO | 17                                                    59 | GND 
+       GND | 18                                                    58 | RESERVED 
+  RESERVED | 19                                                    57 | LDAR 
+  RESERVED | 20                                                    56 | RESERVED 
+  RESERVED | 21                                                    55 | RESERVED 
+  RESERVED | 22                                                    54 | ^MSEL0 
+  RESERVED | 23                                                    53 | ^MSEL1 
+      #TMS | 24                                                    52 | VCCINT 
+  ^nSTATUS | 25                                                    51 | ^nCONFIG 
+           |      27  29  31  33  35  37  39  41  43  45  47  49  _| 
+            \   26  28  30  32  34  36  38  40  42  44  46  48  50   | 
+             \----------------------------------------------------- 
+                S C R R R R A S L V G V C T T G G R V R R R R R R  
+                2 S E E E E D W D C N C L 2 4 N N E C E E E E E E  
+                  _ S S S S D _ R C D C R     D D S C S S S S S S  
+                  I E E E E R B I I   _       _   E I E E E E E E  
+                    R R R R _     N   C       C   R O R R R R R R  
+                    V V V V B     T   K       K   V   V V V V V V  
+                    E E E E           L       L   E   E E E E E E  
+                    D D D D           K       K   D   D D D D D D  
+                                                                   
+                                                                   
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+^ = Dedicated configuration pin.
++ = Reserved configuration pin, which is tri-stated during user mode.
+* = Reserved configuration pin, which drives out in user mode.
+PDn = Power Down pin. 
+@ = Special-purpose pin. 
+# = JTAG Boundary-Scan Testing/In-System Programming or Configuration Pin. The JTAG inputs TMS and TDI should be tied to VCC and TCK should be tied to GND when not in use.
+& = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
+$ = Pin has PCI I/O option enabled. Pin is neither '5.0 V'- nor '3.3 V'-tolerant. 
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+crom
+
+** RESOURCE USAGE **
+
+Logic                Column       Row                                   
+Array                Interconnect Interconnect         Clears/     External  
+Block   Logic Cells  Driven       Driven       Clocks  Presets   Interconnect
+A21      6/ 8( 75%)   1/ 8( 12%)   3/ 8( 37%)    1/2    2/2       5/22( 22%)   
+B2       1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       1/22(  4%)   
+B11      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       1/22(  4%)   
+B13      8/ 8(100%)   1/ 8( 12%)   3/ 8( 37%)    1/2    0/2      11/22( 50%)   
+B14      8/ 8(100%)   0/ 8(  0%)   6/ 8( 75%)    0/2    0/2       6/22( 27%)   
+B15      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    2/2       1/22(  4%)   
+B16      8/ 8(100%)   2/ 8( 25%)   3/ 8( 37%)    1/2    0/2       9/22( 40%)   
+B19      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    2/2       1/22(  4%)   
+B20      8/ 8(100%)   0/ 8(  0%)   5/ 8( 62%)    1/2    0/2      10/22( 45%)   
+B21      3/ 8( 37%)   0/ 8(  0%)   2/ 8( 25%)    1/2    2/2       4/22( 18%)   
+B22      8/ 8(100%)   3/ 8( 37%)   4/ 8( 50%)    1/2    2/2       8/22( 36%)   
+B23      2/ 8( 25%)   0/ 8(  0%)   1/ 8( 12%)    1/2    2/2       3/22( 13%)   
+B24      8/ 8(100%)   2/ 8( 25%)   5/ 8( 62%)    1/2    0/2       8/22( 36%)   
+
+
+Embedded             Column       Row                                   
+Array     Embedded   Interconnect Interconnect         Read/      External  
+Block     Cells      Driven       Driven       Clocks  Write    Interconnect
+
+
+Total dedicated input pins used:                 6/6      (100%)
+Total I/O pins used:                            22/60     ( 36%)
+Total logic cells used:                         63/576    ( 10%)
+Total embedded cells used:                       0/48     (  0%)
+Total EABs used:                                 0/3      (  0%)
+Average fan-in:                                 2.71/4    ( 67%)
+Total fan-in:                                 171/2304    (  7%)
+
+Total input pins required:                      10
+Total input I/O cell registers required:         0
+Total output pins required:                     18
+Total output I/O cell registers required:        0
+Total buried I/O cell registers required:        0
+Total bidirectional pins required:               0
+Total reserved pins required                     0
+Total logic cells required:                     63
+Total flipflops required:                       23
+Total packed registers required:                 0
+Total logic cells in carry chains:               0
+Total number of carry chains:                    0
+Total logic cells in cascade chains:             0
+Total number of cascade chains:                  0
+Total single-pin Clock Enables required:         0
+Total single-pin Output Enables required:        0
+
+Synthesized logic cells:                        11/ 576   (  1%)
+
+Logic Cell and Embedded Cell Counts
+
+Column:  01  02  03  04  05  06  07  08  09  10  11  12  EA  13  14  15  16  17  18  19  20  21  22  23  24  Total(LC/EC)
+ A:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   6   0   0   0      6/0  
+ B:      0   1   0   0   0   0   0   0   0   0   1   0   0   8   8   1   8   0   0   1   8   3   8   2   8     57/0  
+ C:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+
+Total:   0   1   0   0   0   0   0   0   0   0   1   0   0   8   8   1   8   0   0   1   8   9   8   2   8     63/0  
+
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+crom
+
+** INPUTS **
+
+                                                    Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  91      -     -    -    --      INPUT             ^    0    0    0    1  CF
+  38      -     -    -    --      INPUT  G          ^    0    0    0    0  CLR
+  61      -     -    B    --      INPUT             ^    0    0    0    1  D0
+  65      -     -    B    --      INPUT             ^    0    0    0    1  D1
+   5      -     -    A    --      INPUT             ^    0    0    0    1  D2
+  90      -     -    -    --      INPUT             ^    0    0    0    1  D3
+  39      -     -    -    --      INPUT  G          ^    0    0    0    1  T2
+  70      -     -    A    --      INPUT             ^    0    0    0    3  T3
+  40      -     -    -    --      INPUT             ^    0    0    0    9  T4
+  89      -     -    -    --      INPUT             ^    0    0    0    1  ZF
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+^ = Increased input delay
+* = PCI I/O is enabled
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+G = Global Source. Fan-out destinations counted here do not include destinations
+that are driven using global routing resources. Refer to the Auto Global Signals,
+Clock Signals, Clear Signals, Synchronous Load Signals, and Synchronous Clear Signals
+Sections of this Report File for information on which signals' fan-outs are used as
+Clock, Clear, Preset, Output Enable, and synchronous Load signals.
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+crom
+
+** OUTPUTS **
+
+       Fed By Fed By                                Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  32      -     -    -    16     OUTPUT                 0    1    0    0  ADDR_B
+  14      -     -    B    --     OUTPUT                 0    1    0    0  ALU_B
+   8      -     -    A    --     OUTPUT                 0    1    0    0  CS_D
+  27      -     -    -    21     OUTPUT                 0    1    0    0  CS_I
+  57      -     -    C    --     OUTPUT                 0    0    0    0  LDAR
+  10      -     -    A    --     OUTPUT                 0    1    0    0  LDIR
+  13      -     -    B    --     OUTPUT                 0    1    0    0  LDPC
+  15      -     -    B    --     OUTPUT                 0    1    0    0  LDPSW
+  34      -     -    -    14     OUTPUT                 0    1    0    0  LDRI
+  97      -     -    -    23     OUTPUT                 0    1    0    0  LED_B
+  62      -     -    B    --     OUTPUT                 0    1    0    0  LOAD
+  16      -     -    B    --     OUTPUT                 0    1    0    0  RAM_B
+   7      -     -    A    --     OUTPUT                 0    1    0    0  RD_D
+  63      -     -    B    --     OUTPUT                 0    1    0    0  RS_B
+  33      -     -    -    15     OUTPUT                 0    1    0    0  SW_B
+  96      -     -    -    22     OUTPUT                 0    1    0    0  S0
+  64      -     -    B    --     OUTPUT                 0    1    0    0  S1
+  26      -     -    -    23     OUTPUT                 0    1    0    0  S2
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+^ = Increased input delay
+* = PCI I/O is enabled
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+crom
+
+** BURIED LOGIC **
+
+                                                    Fan-In    Fan-Out
+ IOC     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+   -      2     -    B    23       DFFE   +            0    1    0    4  |aa:1|MMM:1|:5
+   -      4     -    B    21       DFFE   +            0    1    0    4  |aa:1|MMM:4|:5
+   -      2     -    B    19       DFFE   +            0    1    0    4  |aa:1|MMM:5|:5
+   -      1     -    A    21       DFFE   +            0    1    0   13  |aa:1|MMM:6|:5
+   -      5     -    B    15       DFFE   +            0    1    0   15  |aa:1|MMM:7|:5
+   -      1     -    B    22       DFFE   +            0    1    0    7  |aa:1|MMM:8|:5
+   -      1     -    B    23        OR2        !       2    1    0    1  |ADDR:5|:19
+   -      1     -    B    21        OR2        !       2    1    0    1  |ADDR:5|:24
+   -      3     -    B    22        OR2        !       2    1    0    1  |ADDR:5|:29
+   -      2     -    A    21        OR2        !       2    1    0    1  |ADDR:5|:34
+   -      2     -    B    22        OR2        !       2    1    0    1  |ADDR:5|:39
+   -      8     -    B    22        OR2        !       2    1    0    1  |ADDR:5|:44
+   -      5     -    B    14        OR2    s   !       0    3    0    2  |CONTROM:6|~1306~1
+   -      1     -    B    24        OR2        !       0    4    0    3  |CONTROM:6|:1338
+   -      4     -    B    14       AND2    s           0    3    0    4  |CONTROM:6|~1354~1
+   -      5     -    B    20        OR2        !       0    3    0    5  |CONTROM:6|:1386
+   -      8     -    B    20       AND2                0    3    0    1  |CONTROM:6|:1418
+   -      2     -    B    14        OR2    s           0    3    0    4  |CONTROM:6|~1434~1
+   -      8     -    B    14        OR2    s           0    2    0    6  |CONTROM:6|~1450~1
+   -      1     -    B    13        OR2        !       0    3    0    4  |CONTROM:6|:1450
+   -      1     -    B    14        OR2    s           0    3    0    3  |CONTROM:6|~1466~1
+   -      7     -    B    14        OR2        !       0    4    0    4  |CONTROM:6|:1466
+   -      2     -    B    20        OR2        !       0    3    0    4  |CONTROM:6|:1482
+   -      3     -    B    14        OR2        !       0    4    0   10  |CONTROM:6|:1498
+   -      6     -    B    14        OR2                0    4    0    3  |CONTROM:6|:1510
+   -      5     -    B    24        OR2                0    3    0    1  |CONTROM:6|:1522
+   -      8     -    B    13        OR2    s           0    3    0    7  |CONTROM:6|~1545~1
+   -      8     -    B    24       AND2                0    3    0    3  |CONTROM:6|:1645
+   -      5     -    B    13        OR2                0    4    0    1  |CONTROM:6|:1662
+   -      3     -    B    16        OR2    s           0    2    0    6  |CONTROM:6|~1666~1
+   -      4     -    B    13       AND2    s           0    2    0    1  |CONTROM:6|~1869~1
+   -      2     -    B    24        OR2        !       0    4    0    4  |CONTROM:6|:1869
+   -      3     -    B    20       AND2    s           0    2    0    1  |CONTROM:6|~1881~1
+   -      7     -    B    20        OR2        !       0    4    0    2  |CONTROM:6|:1900
+   -      4     -    B    20        OR2                0    4    0    1  |CONTROM:6|:1909
+   -      4     -    B    24       AND2        !       0    2    0    3  |CONTROM:6|:2191
+   -      7     -    B    24        OR2                0    4    0    1  |CONTROM:6|:2199
+   -      6     -    B    16       AND2    s   !       0    3    0    2  |CONTROM:6|~2209~1
+   -      6     -    B    20        OR2                0    4    0    5  |CONTROM:6|:2284
+   -      5     -    B    16       AND2    s           0    2    0    2  |CONTROM:6|~2301~1
+   -      5     -    B    02       DFFE   +            0    1    1    0  |MCOMMAND:7|DATAOUT19 (|MCOMMAND:7|:44)
+   -      7     -    B    16       DFFE   +            0    4    0    1  |MCOMMAND:7|DATAOUT18 (|MCOMMAND:7|:45)
+   -      7     -    B    13       DFFE   +            0    4    0    1  |MCOMMAND:7|DATAOUT15 (|MCOMMAND:7|:48)
+   -      1     -    B    20       DFFE   +            0    4    0    1  |MCOMMAND:7|DATAOUT14 (|MCOMMAND:7|:49)
+   -      4     -    B    11       DFFE   +            0    1    1    0  |MCOMMAND:7|DATAOUT13 (|MCOMMAND:7|:50)
+   -      3     -    B    24       DFFE   +            0    4    1    0  |MCOMMAND:7|DATAOUT12 (|MCOMMAND:7|:51)
+   -      2     -    B    13       DFFE   +            0    1    1    0  |MCOMMAND:7|DATAOUT11 (|MCOMMAND:7|:52)
+   -      4     -    B    22       DFFE   +            0    4    1    0  |MCOMMAND:7|DATAOUT10 (|MCOMMAND:7|:53)
+   -      3     -    B    13       DFFE   +            0    4    1    0  |MCOMMAND:7|DATAOUT9 (|MCOMMAND:7|:54)
+   -      4     -    B    16       DFFE   +            0    4    1    0  |MCOMMAND:7|DATAOUT8 (|MCOMMAND:7|:55)
+   -      6     -    B    24       DFFE   +            0    4    1    0  |MCOMMAND:7|DATAOUT7 (|MCOMMAND:7|:56)
+   -      4     -    A    21       DFFE   +            0    0    0    2  |MCOMMAND:7|DATAOUT6 (|MCOMMAND:7|:57)
+   -      6     -    B    22       DFFE   +            0    4    1    0  |MCOMMAND:7|DATAOUT4 (|MCOMMAND:7|:59)
+   -      5     -    B    22       DFFE   +            0    4    1    0  |MCOMMAND:7|DATAOUT3 (|MCOMMAND:7|:60)
+   -      8     -    B    16       DFFE   +            0    4    1    0  |MCOMMAND:7|DATAOUT2 (|MCOMMAND:7|:61)
+   -      7     -    B    22       DFFE   +            0    1    0    5  |MCOMMAND:7|DATAOUT1 (|MCOMMAND:7|:62)
+   -      2     -    B    16       DFFE   +            0    4    0    2  |MCOMMAND:7|DATAOUT0 (|MCOMMAND:7|:63)
+   -      1     -    B    16       AND2                1    1    1    0  |MCOMMAND:7|:874
+   -      8     -    A    21       AND2                1    1    1    0  |MCOMMAND:7|:922
+   -      6     -    B    13       AND2                1    1    1    0  |MCOMMAND:7|:946
+   -      5     -    B    21       AND2                1    1    1    0  |MCOMMAND:7|:970
+   -      3     -    A    21        OR2        !       2    1    1    0  |MCOMMAND:7|:1151
+   -      5     -    A    21        OR2        !       1    1    1    0  |MCOMMAND:7|:1177
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+^ = Increased input delay
+* = PCI I/O is enabled
+p = Packed register
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+crom
+
+** FASTTRACK INTERCONNECT UTILIZATION **
+
+Row FastTrack Interconnect:
+
+          Global         Left Half-      Right Half-
+         FastTrack       FastTrack       FastTrack 
+Row     Interconnect    Interconnect    Interconnect    Input Pins     Output Pins     Bidir Pins
+A:       2/ 96(  2%)     0/ 48(  0%)     4/ 48(  8%)    2/16( 12%)      3/16( 18%)     0/16(  0%)
+B:      29/ 96( 30%)     2/ 48(  4%)     8/ 48( 16%)    2/16( 12%)      7/16( 43%)     0/16(  0%)
+C:       0/ 96(  0%)     0/ 48(  0%)     0/ 48(  0%)    0/16(  0%)      1/16(  6%)     0/16(  0%)
+
+
+Column FastTrack Interconnect:
+
+         FastTrack                                 
+Column  Interconnect    Input Pins     Output Pins     Bidir Pins
+01:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+02:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+03:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+04:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+05:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+06:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+07:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+08:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+09:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+10:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+11:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+12:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+13:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+14:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+15:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+16:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+17:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+18:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+19:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+20:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+21:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+22:      3/24( 12%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+23:      2/24(  8%)     0/4(  0%)      2/4( 50%)       0/4(  0%)
+24:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+crom
+
+** CLOCK SIGNALS **
+
+Type     Fan-out       Name
+INPUT       24         T2
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+crom
+
+** CLEAR SIGNALS **
+
+Type     Fan-out       Name
+INPUT        6         CLR
+
+
+Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+crom
+
+** EQUATIONS **
+
+CF       : INPUT;
+CLR      : INPUT;
+D0       : INPUT;
+D1       : INPUT;
+D2       : INPUT;
+D3       : INPUT;
+T2       : INPUT;
+T3       : INPUT;
+T4       : INPUT;
+ZF       : INPUT;
+
+-- Node name is 'ADDR_B' 
+-- Equation name is 'ADDR_B', type is output 
+ADDR_B   =  _LC8_B16;
+
+-- Node name is 'ALU_B' 
+-- Equation name is 'ALU_B', type is output 
+ALU_B    =  _LC3_B13;
+
+-- Node name is 'CS_D' 
+-- Equation name is 'CS_D', type is output 
+CS_D     = !_LC5_A21;
+
+-- Node name is 'CS_I' 
+-- Equation name is 'CS_I', type is output 
+CS_I     =  _LC5_B22;
+
+-- Node name is 'LDAR' 
+-- Equation name is 'LDAR', type is output 
+LDAR     =  GND;
+
+-- Node name is 'LDIR' 
+-- Equation name is 'LDIR', type is output 
+LDIR     =  _LC8_A21;
+
+-- Node name is 'LDPC' 
+-- Equation name is 'LDPC', type is output 
+LDPC     =  _LC1_B16;
+
+-- Node name is 'LDPSW' 
+-- Equation name is 'LDPSW', type is output 
+LDPSW    =  _LC5_B21;
+
+-- Node name is 'LDRI' 
+-- Equation name is 'LDRI', type is output 
+LDRI     =  _LC6_B13;
+
+-- Node name is 'LED_B' 
+-- Equation name is 'LED_B', type is output 
+LED_B    =  _LC6_B24;
+
+-- Node name is 'LOAD' 
+-- Equation name is 'LOAD', type is output 
+LOAD     =  _LC5_B2;
+
+-- Node name is 'RAM_B' 
+-- Equation name is 'RAM_B', type is output 
+RAM_B    =  _LC6_B22;
+
+-- Node name is 'RD_D' 
+-- Equation name is 'RD_D', type is output 
+RD_D     = !_LC3_A21;
+
+-- Node name is 'RS_B' 
+-- Equation name is 'RS_B', type is output 
+RS_B     =  _LC4_B11;
+
+-- Node name is 'SW_B' 
+-- Equation name is 'SW_B', type is output 
+SW_B     =  _LC4_B16;
+
+-- Node name is 'S0' 
+-- Equation name is 'S0', type is output 
+S0       =  _LC4_B22;
+
+-- Node name is 'S1' 
+-- Equation name is 'S1', type is output 
+S1       =  _LC2_B13;
+
+-- Node name is 'S2' 
+-- Equation name is 'S2', type is output 
+S2       =  _LC3_B24;
+
+-- Node name is '|aa:1|MMM:1|:5' 
+-- Equation name is '_LC2_B23', type is buried 
+_LC2_B23 = DFFE( GND, GLOBAL( T2), GLOBAL( CLR), !_LC1_B23,  VCC);
+
+-- Node name is '|aa:1|MMM:4|:5' 
+-- Equation name is '_LC4_B21', type is buried 
+_LC4_B21 = DFFE( GND, GLOBAL( T2), GLOBAL( CLR), !_LC1_B21,  VCC);
+
+-- Node name is '|aa:1|MMM:5|:5' 
+-- Equation name is '_LC2_B19', type is buried 
+_LC2_B19 = DFFE( GND, GLOBAL( T2), GLOBAL( CLR), !_LC3_B22,  VCC);
+
+-- Node name is '|aa:1|MMM:6|:5' 
+-- Equation name is '_LC1_A21', type is buried 
+_LC1_A21 = DFFE( GND, GLOBAL( T2), GLOBAL( CLR), !_LC2_A21,  VCC);
+
+-- Node name is '|aa:1|MMM:7|:5' 
+-- Equation name is '_LC5_B15', type is buried 
+_LC5_B15 = DFFE( GND, GLOBAL( T2), GLOBAL( CLR), !_LC2_B22,  VCC);
+
+-- Node name is '|aa:1|MMM:8|:5' 
+-- Equation name is '_LC1_B22', type is buried 
+_LC1_B22 = DFFE( GND, GLOBAL( T2), GLOBAL( CLR), !_LC8_B22,  VCC);
+
+-- Node name is '|ADDR:5|:19' 
+-- Equation name is '_LC1_B23', type is buried 
+!_LC1_B23 = _LC1_B23~NOT;
+_LC1_B23~NOT = LCELL( _EQ001);
+  _EQ001 = !CF
+         # !T4
+         # !_LC2_B16;
+
+-- Node name is '|ADDR:5|:24' 
+-- Equation name is '_LC1_B21', type is buried 
+!_LC1_B21 = _LC1_B21~NOT;
+_LC1_B21~NOT = LCELL( _EQ002);
+  _EQ002 = !T4
+         # !_LC2_B16
+         # !ZF;
+
+-- Node name is '|ADDR:5|:29' 
+-- Equation name is '_LC3_B22', type is buried 
+!_LC3_B22 = _LC3_B22~NOT;
+_LC3_B22~NOT = LCELL( _EQ003);
+  _EQ003 = !T4
+         # !_LC7_B22
+         # !D3;
+
+-- Node name is '|ADDR:5|:34' 
+-- Equation name is '_LC2_A21', type is buried 
+!_LC2_A21 = _LC2_A21~NOT;
+_LC2_A21~NOT = LCELL( _EQ004);
+  _EQ004 = !T4
+         # !_LC7_B22
+         # !D2;
+
+-- Node name is '|ADDR:5|:39' 
+-- Equation name is '_LC2_B22', type is buried 
+!_LC2_B22 = _LC2_B22~NOT;
+_LC2_B22~NOT = LCELL( _EQ005);
+  _EQ005 = !T4
+         # !_LC7_B22
+         # !D1;
+
+-- Node name is '|ADDR:5|:44' 
+-- Equation name is '_LC8_B22', type is buried 
+!_LC8_B22 = _LC8_B22~NOT;
+_LC8_B22~NOT = LCELL( _EQ006);
+  _EQ006 = !D0
+         # !T4
+         # !_LC7_B22;
+
+-- Node name is '|CONTROM:6|~1306~1' 
+-- Equation name is '_LC5_B14', type is buried 
+-- synthesized logic cell 
+!_LC5_B14 = _LC5_B14~NOT;
+_LC5_B14~NOT = LCELL( _EQ007);
+  _EQ007 =  _LC5_B15
+         #  _LC1_A21
+         #  _LC1_B22;
+
+-- Node name is '|CONTROM:6|:1338' 
+-- Equation name is '_LC1_B24', type is buried 
+!_LC1_B24 = _LC1_B24~NOT;
+_LC1_B24~NOT = LCELL( _EQ008);
+  _EQ008 =  _LC1_A21
+         #  _LC1_B22
+         # !_LC5_B15
+         # !_LC4_B14;
+
+-- Node name is '|CONTROM:6|~1354~1' 
+-- Equation name is '_LC4_B14', type is buried 
+-- synthesized logic cell 
+_LC4_B14 = LCELL( _EQ009);
+  _EQ009 =  _LC2_B19 & !_LC2_B23 & !_LC4_B21;
+
+-- Node name is '|CONTROM:6|:1386' 
+-- Equation name is '_LC5_B20', type is buried 
+!_LC5_B20 = _LC5_B20~NOT;
+_LC5_B20~NOT = LCELL( _EQ010);
+  _EQ010 = !_LC5_B15
+         #  _LC8_B14
+         # !_LC1_A21;
+
+-- Node name is '|CONTROM:6|:1418' 
+-- Equation name is '_LC8_B20', type is buried 
+_LC8_B20 = LCELL( _EQ011);
+  _EQ011 =  _LC1_A21 & !_LC5_B15 & !_LC8_B14;
+
+-- Node name is '|CONTROM:6|~1434~1' 
+-- Equation name is '_LC2_B14', type is buried 
+-- synthesized logic cell 
+_LC2_B14 = LCELL( _EQ012);
+  _EQ012 = !_LC1_A21
+         #  _LC1_B22
+         #  _LC1_B14;
+
+-- Node name is '|CONTROM:6|~1450~1' 
+-- Equation name is '_LC8_B14', type is buried 
+-- synthesized logic cell 
+_LC8_B14 = LCELL( _EQ013);
+  _EQ013 =  _LC1_B14
+         # !_LC1_B22;
+
+-- Node name is '|CONTROM:6|:1450' 
+-- Equation name is '_LC1_B13', type is buried 
+!_LC1_B13 = _LC1_B13~NOT;
+_LC1_B13~NOT = LCELL( _EQ014);
+  _EQ014 =  _LC1_A21
+         # !_LC5_B15
+         #  _LC8_B14;
+
+-- Node name is '|CONTROM:6|~1466~1' 
+-- Equation name is '_LC1_B14', type is buried 
+-- synthesized logic cell 
+_LC1_B14 = LCELL( _EQ015);
+  _EQ015 =  _LC2_B19
+         #  _LC2_B23
+         #  _LC4_B21;
+
+-- Node name is '|CONTROM:6|:1466' 
+-- Equation name is '_LC7_B14', type is buried 
+!_LC7_B14 = _LC7_B14~NOT;
+_LC7_B14~NOT = LCELL( _EQ016);
+  _EQ016 =  _LC1_B14
+         # !_LC5_B15
+         #  _LC1_A21
+         #  _LC1_B22;
+
+-- Node name is '|CONTROM:6|:1482' 
+-- Equation name is '_LC2_B20', type is buried 
+!_LC2_B20 = _LC2_B20~NOT;
+_LC2_B20~NOT = LCELL( _EQ017);
+  _EQ017 =  _LC1_A21
+         #  _LC5_B15
+         #  _LC8_B14;
+
+-- Node name is '|CONTROM:6|:1498' 
+-- Equation name is '_LC3_B14', type is buried 
+!_LC3_B14 = _LC3_B14~NOT;
+_LC3_B14~NOT = LCELL( _EQ018);
+  _EQ018 = !_LC5_B14
+         #  _LC2_B19
+         #  _LC2_B23
+         #  _LC4_B21;
+
+-- Node name is '|CONTROM:6|:1510' 
+-- Equation name is '_LC6_B14', type is buried 
+_LC6_B14 = LCELL( _EQ019);
+  _EQ019 = !_LC2_B19 &  _LC2_B23 & !_LC4_B21 &  _LC5_B14
+         # !_LC2_B19 & !_LC2_B23 &  _LC4_B21 &  _LC5_B14;
+
+-- Node name is '|CONTROM:6|:1522' 
+-- Equation name is '_LC5_B24', type is buried 
+_LC5_B24 = LCELL( _EQ020);
+  _EQ020 = !_LC4_B24 &  _LC6_B14
+         #  _LC5_B20;
+
+-- Node name is '|CONTROM:6|~1545~1' 
+-- Equation name is '_LC8_B13', type is buried 
+-- synthesized logic cell 
+_LC8_B13 = LCELL( _EQ021);
+  _EQ021 = !_LC1_B13 &  _LC5_B15
+         # !_LC1_B13 &  _LC2_B14;
+
+-- Node name is '|CONTROM:6|:1645' 
+-- Equation name is '_LC8_B24', type is buried 
+_LC8_B24 = LCELL( _EQ022);
+  _EQ022 = !_LC1_A21 &  _LC4_B14 & !_LC5_B15;
+
+-- Node name is '|CONTROM:6|:1662' 
+-- Equation name is '_LC5_B13', type is buried 
+_LC5_B13 = LCELL( _EQ023);
+  _EQ023 =  _LC4_B13 &  _LC5_B15 &  _LC8_B24
+         #  _LC2_B14 &  _LC4_B13 &  _LC8_B24;
+
+-- Node name is '|CONTROM:6|~1666~1' 
+-- Equation name is '_LC3_B16', type is buried 
+-- synthesized logic cell 
+_LC3_B16 = LCELL( _EQ024);
+  _EQ024 =  _LC2_B20
+         #  _LC7_B14;
+
+-- Node name is '|CONTROM:6|~1869~1' 
+-- Equation name is '_LC4_B13', type is buried 
+-- synthesized logic cell 
+_LC4_B13 = LCELL( _EQ025);
+  _EQ025 = !_LC5_B20 & !_LC6_B20;
+
+-- Node name is '|CONTROM:6|:1869' 
+-- Equation name is '_LC2_B24', type is buried 
+!_LC2_B24 = _LC2_B24~NOT;
+_LC2_B24~NOT = LCELL( _EQ026);
+  _EQ026 =  _LC4_B24
+         #  _LC6_B14
+         #  _LC5_B20
+         #  _LC6_B20;
+
+-- Node name is '|CONTROM:6|~1881~1' 
+-- Equation name is '_LC3_B20', type is buried 
+-- synthesized logic cell 
+_LC3_B20 = LCELL( _EQ027);
+  _EQ027 = !_LC3_B14 & !_LC3_B16;
+
+-- Node name is '|CONTROM:6|:1900' 
+-- Equation name is '_LC7_B20', type is buried 
+!_LC7_B20 = _LC7_B20~NOT;
+_LC7_B20~NOT = LCELL( _EQ028);
+  _EQ028 = !_LC1_B24 & !_LC5_B20 & !_LC6_B14
+         # !_LC5_B20 &  _LC8_B24;
+
+-- Node name is '|CONTROM:6|:1909' 
+-- Equation name is '_LC4_B20', type is buried 
+_LC4_B20 = LCELL( _EQ029);
+  _EQ029 = !_LC5_B15 &  _LC7_B20
+         #  _LC2_B14 &  _LC7_B20
+         #  _LC8_B20
+         # !_LC2_B14 & !_LC5_B15;
+
+-- Node name is '|CONTROM:6|:2191' 
+-- Equation name is '_LC4_B24', type is buried 
+!_LC4_B24 = _LC4_B24~NOT;
+_LC4_B24~NOT = LCELL( _EQ030);
+  _EQ030 = !_LC1_B24 & !_LC8_B24;
+
+-- Node name is '|CONTROM:6|:2199' 
+-- Equation name is '_LC7_B24', type is buried 
+_LC7_B24 = LCELL( _EQ031);
+  _EQ031 =  _LC4_B24 & !_LC5_B15
+         #  _LC4_B24 &  _LC8_B14
+         # !_LC1_A21 &  _LC4_B24;
+
+-- Node name is '|CONTROM:6|~2209~1' 
+-- Equation name is '_LC6_B16', type is buried 
+-- synthesized logic cell 
+!_LC6_B16 = _LC6_B16~NOT;
+_LC6_B16~NOT = LCELL( _EQ032);
+  _EQ032 = !_LC6_B20 & !_LC7_B14 &  _LC8_B13;
+
+-- Node name is '|CONTROM:6|:2284' 
+-- Equation name is '_LC6_B20', type is buried 
+_LC6_B20 = LCELL( _EQ033);
+  _EQ033 = !_LC2_B14 &  _LC5_B15
+         #  _LC1_A21 & !_LC5_B15 & !_LC8_B14;
+
+-- Node name is '|CONTROM:6|~2301~1' 
+-- Equation name is '_LC5_B16', type is buried 
+-- synthesized logic cell 
+_LC5_B16 = LCELL( _EQ034);
+  _EQ034 = !_LC2_B20 & !_LC3_B14;
+
+-- Node name is '|MCOMMAND:7|:63' = '|MCOMMAND:7|DATAOUT0' 
+-- Equation name is '_LC2_B16', type is buried 
+_LC2_B16 = DFFE( _EQ035, GLOBAL( T2),  VCC,  VCC,  VCC);
+  _EQ035 =  _LC5_B16 &  _LC6_B20 & !_LC7_B14 &  _LC8_B13;
+
+-- Node name is '|MCOMMAND:7|:62' = '|MCOMMAND:7|DATAOUT1' 
+-- Equation name is '_LC7_B22', type is buried 
+_LC7_B22 = DFFE( _LC3_B14, GLOBAL( T2),  VCC,  VCC,  VCC);
+
+-- Node name is '|MCOMMAND:7|:61' = '|MCOMMAND:7|DATAOUT2' 
+-- Equation name is '_LC8_B16', type is buried 
+_LC8_B16 = DFFE( _EQ036, GLOBAL( T2),  VCC,  VCC,  VCC);
+  _EQ036 = !_LC2_B20 &  _LC7_B24
+         # !_LC2_B20 &  _LC6_B16
+         #  _LC3_B14;
+
+-- Node name is '|MCOMMAND:7|:60' = '|MCOMMAND:7|DATAOUT3' 
+-- Equation name is '_LC5_B22', type is buried 
+_LC5_B22 = DFFE( _EQ037, GLOBAL( T2),  VCC,  VCC,  VCC);
+  _EQ037 = !_LC2_B24 & !_LC3_B14
+         # !_LC3_B14 & !_LC8_B13
+         # !_LC3_B14 &  _LC3_B16;
+
+-- Node name is '|MCOMMAND:7|:59' = '|MCOMMAND:7|DATAOUT4' 
+-- Equation name is '_LC6_B22', type is buried 
+_LC6_B22 = DFFE( _EQ038, GLOBAL( T2),  VCC,  VCC,  VCC);
+  _EQ038 = !_LC2_B24
+         # !_LC8_B13
+         #  _LC3_B16
+         #  _LC3_B14;
+
+-- Node name is '|MCOMMAND:7|:57' = '|MCOMMAND:7|DATAOUT6' 
+-- Equation name is '_LC4_A21', type is buried 
+_LC4_A21 = DFFE( VCC, GLOBAL( T2),  VCC,  VCC,  VCC);
+
+-- Node name is '|MCOMMAND:7|:56' = '|MCOMMAND:7|DATAOUT7' 
+-- Equation name is '_LC6_B24', type is buried 
+_LC6_B24 = DFFE( _EQ039, GLOBAL( T2),  VCC,  VCC,  VCC);
+  _EQ039 =  _LC1_A21
+         #  _LC1_B22
+         # !_LC5_B15
+         # !_LC4_B14;
+
+-- Node name is '|MCOMMAND:7|:55' = '|MCOMMAND:7|DATAOUT8' 
+-- Equation name is '_LC4_B16', type is buried 
+_LC4_B16 = DFFE( _EQ040, GLOBAL( T2),  VCC,  VCC,  VCC);
+  _EQ040 = !_LC2_B24 & !_LC7_B14
+         # !_LC7_B14 & !_LC8_B13
+         # !_LC5_B16;
+
+-- Node name is '|MCOMMAND:7|:54' = '|MCOMMAND:7|DATAOUT9' 
+-- Equation name is '_LC3_B13', type is buried 
+_LC3_B13 = DFFE( _EQ041, GLOBAL( T2),  VCC,  VCC,  VCC);
+  _EQ041 =  _LC3_B16
+         #  _LC3_B14
+         # !_LC1_B13 &  _LC4_B20;
+
+-- Node name is '|MCOMMAND:7|:53' = '|MCOMMAND:7|DATAOUT10' 
+-- Equation name is '_LC4_B22', type is buried 
+_LC4_B22 = DFFE( _EQ042, GLOBAL( T2),  VCC,  VCC,  VCC);
+  _EQ042 =  _LC2_B24 & !_LC3_B14 & !_LC3_B16
+         # !_LC3_B14 & !_LC3_B16 & !_LC8_B13;
+
+-- Node name is '|MCOMMAND:7|:52' = '|MCOMMAND:7|DATAOUT11' 
+-- Equation name is '_LC2_B13', type is buried 
+_LC2_B13 = DFFE( _LC1_B13, GLOBAL( T2),  VCC,  VCC,  VCC);
+
+-- Node name is '|MCOMMAND:7|:51' = '|MCOMMAND:7|DATAOUT12' 
+-- Equation name is '_LC3_B24', type is buried 
+_LC3_B24 = DFFE( _EQ043, GLOBAL( T2),  VCC,  VCC,  VCC);
+  _EQ043 = !_LC1_A21 & !_LC1_B22 &  _LC4_B14 & !_LC5_B15;
+
+-- Node name is '|MCOMMAND:7|:50' = '|MCOMMAND:7|DATAOUT13' 
+-- Equation name is '_LC4_B11', type is buried 
+_LC4_B11 = DFFE(!_LC1_B24, GLOBAL( T2),  VCC,  VCC,  VCC);
+
+-- Node name is '|MCOMMAND:7|:49' = '|MCOMMAND:7|DATAOUT14' 
+-- Equation name is '_LC1_B20', type is buried 
+_LC1_B20 = DFFE( _EQ044, GLOBAL( T2),  VCC,  VCC,  VCC);
+  _EQ044 =  _LC3_B20 & !_LC6_B20 & !_LC7_B20
+         #  _LC3_B20 & !_LC8_B13;
+
+-- Node name is '|MCOMMAND:7|:48' = '|MCOMMAND:7|DATAOUT15' 
+-- Equation name is '_LC7_B13', type is buried 
+_LC7_B13 = DFFE( _EQ045, GLOBAL( T2),  VCC,  VCC,  VCC);
+  _EQ045 = !_LC3_B14 &  _LC3_B16
+         #  _LC1_B13 & !_LC3_B14
+         # !_LC3_B14 &  _LC5_B13;
+
+-- Node name is '|MCOMMAND:7|:45' = '|MCOMMAND:7|DATAOUT18' 
+-- Equation name is '_LC7_B16', type is buried 
+_LC7_B16 = DFFE( _EQ046, GLOBAL( T2),  VCC,  VCC,  VCC);
+  _EQ046 = !_LC2_B20 &  _LC5_B24 & !_LC6_B16
+         #  _LC3_B14;
+
+-- Node name is '|MCOMMAND:7|:44' = '|MCOMMAND:7|DATAOUT19' 
+-- Equation name is '_LC5_B2', type is buried 
+_LC5_B2  = DFFE(!_LC5_B20, GLOBAL( T2),  VCC,  VCC,  VCC);
+
+-- Node name is '|MCOMMAND:7|:874' 
+-- Equation name is '_LC1_B16', type is buried 
+_LC1_B16 = LCELL( _EQ047);
+  _EQ047 =  _LC7_B16 &  T4;
+
+-- Node name is '|MCOMMAND:7|:922' 
+-- Equation name is '_LC8_A21', type is buried 
+_LC8_A21 = LCELL( _EQ048);
+  _EQ048 =  _LC7_B22 &  T3;
+
+-- Node name is '|MCOMMAND:7|:946' 
+-- Equation name is '_LC6_B13', type is buried 
+_LC6_B13 = LCELL( _EQ049);
+  _EQ049 =  _LC7_B13 &  T4;
+
+-- Node name is '|MCOMMAND:7|:970' 
+-- Equation name is '_LC5_B21', type is buried 
+_LC5_B21 = LCELL( _EQ050);
+  _EQ050 =  _LC1_B20 &  T4;
+
+-- Node name is '|MCOMMAND:7|:1151' 
+-- Equation name is '_LC3_A21', type is buried 
+!_LC3_A21 = _LC3_A21~NOT;
+_LC3_A21~NOT = LCELL( _EQ051);
+  _EQ051 = !T2 & !T3
+         #  _LC4_A21;
+
+-- Node name is '|MCOMMAND:7|:1177' 
+-- Equation name is '_LC5_A21', type is buried 
+!_LC5_A21 = _LC5_A21~NOT;
+_LC5_A21~NOT = LCELL( _EQ052);
+  _EQ052 =  _LC4_A21
+         # !T3;
+
+
+
+Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\crom.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Multi-Level
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'ACEX1K' family
+
+      CARRY_CHAIN                         = ignore
+      CARRY_CHAIN_LENGTH                  = 32
+      CASCADE_CHAIN                       = ignore
+      CASCADE_CHAIN_LENGTH                = 2
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SUBFACTOR_EXTRACTION                = on
+      IGNORE_SOFT_BUFFERS                 = on
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Use Quartus Fitter                        = on
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:01
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:01
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 24,074K
