@@ -2,7 +2,7 @@ Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport
 
 MAX+plus II Compiler Report File
 Version 10.0 9/14/2000
-Compiled: 08/29/2020 21:31:26
+Compiled: 09/09/2020 23:09:20
 
 Copyright (C) 1988-2000 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -75,13 +75,13 @@ Device Options:
 
                                                                    
                                                                    
-                  R R R R   R R           R R R R     R R     R    
-                  E E E E   E E           E E E E     E E     E    
-                  S S S S   S S V         S S S S     S S     S ^  
-                  E E E E   E E C         E E E E V D E E     E D  
-                # R R R R   R R C B R R   R R R R C A R R R B R A  
-                T V V V V G V V I I I I G V V V V C T V V I I V T  
-                C E E E E N E E N N N N N E E E E I A E E N N E A  
+                  R R R R   R R   F       R R R R     R R   F R    
+                  E E E E   E E   E R R   E E E E     E E R E E    
+                  S S S S   S S V N A A   S S S S   I S S A N S ^  
+                  E E E E   E E C 2 M M   E E E E V N E E M 2 E D  
+                # R R R R   R R C O O O   R R R R C B R R O O R A  
+                T V V V V G V V I U U U G V V V V C U V V U U V T  
+                C E E E E N E E N T T T N E E E E I S E E T T E A  
                 K D D D D D D D T 0 1 0 D D D D D O 7 D D 7 4 D 0  
               ----------------------------------------------------_ 
              / 100  98  96  94  92  90  88  86  84  82  80  78  76   |_ 
@@ -90,18 +90,18 @@ Device Options:
      ^nCEO |  2                                                    74 | ^nCE 
       #TDO |  3                                                    73 | #TDI 
      VCCIO |  4                                                    72 | VCCINT 
-     DATA2 |  5                                                    71 | RIN3 
- MUX3_OUT1 |  6                                                    70 | BIN3 
- MUX3_OUT3 |  7                                                    69 | BIN1 
-      BIN2 |  8                                                    68 | DATA3 
- MUX3_OUT0 |  9                                                    67 | VCCIO 
- MUX3_OUT2 | 10                                                    66 | GND 
-       GND | 11                                                    65 | MUX3_OUT6 
-    VCCINT | 12                                                    64 | RIN6 
-     DATA5 | 13                   EP1K10TC100-1                    63 | MUX3_OUT5 
-     DATA6 | 14                                                    62 | MUX3_OUT7 
-     DATA4 | 15                                                    61 | BIN7 
-      RIN5 | 16                                                    60 | VCCINT 
+    INBUS2 |  5                                                    71 | RAMOUT3 
+     DBUS1 |  6                                                    70 | FEN2OUT3 
+     DBUS3 |  7                                                    69 | FEN2OUT1 
+  FEN2OUT2 |  8                                                    68 | INBUS3 
+     DBUS0 |  9                                                    67 | VCCIO 
+     DBUS2 | 10                                                    66 | GND 
+       GND | 11                                                    65 | DBUS6 
+    VCCINT | 12                                                    64 | RAMOUT6 
+    INBUS5 | 13                   EP1K10TC100-1                    63 | DBUS5 
+    INBUS6 | 14                                                    62 | DBUS7 
+    INBUS4 | 15                                                    61 | FEN2OUT7 
+   RAMOUT5 | 16                                                    60 | VCCINT 
      VCCIO | 17                                                    59 | GND 
        GND | 18                                                    58 | RESERVED 
   RESERVED | 19                                                    57 | RESERVED 
@@ -114,15 +114,15 @@ Device Options:
            |      27  29  31  33  35  37  39  41  43  45  47  49  _| 
             \   26  28  30  32  34  36  38  40  42  44  46  48  50   | 
              \----------------------------------------------------- 
-                R R R D R R R R R V G V B D I G G B V M R R R B R  
-                E E I A E E E E E C N C A A   N N I C U E E E I I  
-                S S N T S S S S S C D C C T   D D N C X S S S N N  
-                E E 2 A E E E E E I   _ K A   _   5 I 3 E E E 6 4  
-                R R   1 R R R R R N   C   0   C     O _ R R R      
-                V V     V V V V V T   K       K       O V V V      
-                E E     E E E E E     L       L       U E E E      
-                D D     D D D D D     K       K       T D D D      
-                                                      4            
+                R R R I R R R R R V G V R I S G G F V D R R R F R  
+                E E A N E E E E E C N C A N W N N E C B E E E E A  
+                S S M B S S S S S C D C M B _ D D N C U S S S N M  
+                E E O U E E E E E I   _ _ U B _   2 I S E E E 2 O  
+                R R U S R R R R R N   C B S   C   O O 4 R R R O U  
+                V V T 1 V V V V V T   K   0   K   U     V V V U T  
+                E E 2   E E E E E     L       L   T     E E E T 4  
+                D D     D D D D D     K       K   5     D D D 6    
+                                                                   
                                                                    
 
 
@@ -204,32 +204,32 @@ mux3
 
                                                     Fan-In    Fan-Out
  Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-  38      -     -    -    --      INPUT             ^    0    0    0    8  BACK
-  91      -     -    -    --      INPUT             ^    0    0    0    1  BIN0
-  69      -     -    A    --      INPUT             ^    0    0    0    1  BIN1
-   8      -     -    A    --      INPUT             ^    0    0    0    1  BIN2
-  70      -     -    A    --      INPUT             ^    0    0    0    1  BIN3
-  78      -     -    -    01      INPUT             ^    0    0    0    1  BIN4
-  43      -     -    -    12      INPUT             ^    0    0    0    1  BIN5
-  49      -     -    -    06      INPUT             ^    0    0    0    1  BIN6
-  61      -     -    B    --      INPUT             ^    0    0    0    1  BIN7
-  39      -     -    -    --      INPUT             ^    0    0    0    1  DATA0
-  29      -     -    -    19      INPUT             ^    0    0    0    1  DATA1
-   5      -     -    A    --      INPUT             ^    0    0    0    1  DATA2
-  68      -     -    A    --      INPUT             ^    0    0    0    1  DATA3
-  15      -     -    B    --      INPUT             ^    0    0    0    1  DATA4
-  13      -     -    B    --      INPUT             ^    0    0    0    1  DATA5
-  14      -     -    B    --      INPUT             ^    0    0    0    1  DATA6
-  82      -     -    -    04      INPUT             ^    0    0    0    1  DATA7
-  40      -     -    -    --      INPUT             ^    0    0    0    8  I
-  89      -     -    -    --      INPUT             ^    0    0    0    1  RIN0
-  90      -     -    -    --      INPUT             ^    0    0    0    1  RIN1
-  28      -     -    -    20      INPUT             ^    0    0    0    1  RIN2
-  71      -     -    A    --      INPUT             ^    0    0    0    1  RIN3
-  50      -     -    -    02      INPUT             ^    0    0    0    1  RIN4
-  16      -     -    B    --      INPUT             ^    0    0    0    1  RIN5
-  64      -     -    B    --      INPUT             ^    0    0    0    1  RIN6
-  79      -     -    -    02      INPUT             ^    0    0    0    1  RIN7
+  91      -     -    -    --      INPUT             ^    0    0    0    1  FEN2OUT0
+  69      -     -    A    --      INPUT             ^    0    0    0    1  FEN2OUT1
+   8      -     -    A    --      INPUT             ^    0    0    0    1  FEN2OUT2
+  70      -     -    A    --      INPUT             ^    0    0    0    1  FEN2OUT3
+  78      -     -    -    01      INPUT             ^    0    0    0    1  FEN2OUT4
+  43      -     -    -    12      INPUT             ^    0    0    0    1  FEN2OUT5
+  49      -     -    -    06      INPUT             ^    0    0    0    1  FEN2OUT6
+  61      -     -    B    --      INPUT             ^    0    0    0    1  FEN2OUT7
+  39      -     -    -    --      INPUT             ^    0    0    0    1  INBUS0
+  29      -     -    -    19      INPUT             ^    0    0    0    1  INBUS1
+   5      -     -    A    --      INPUT             ^    0    0    0    1  INBUS2
+  68      -     -    A    --      INPUT             ^    0    0    0    1  INBUS3
+  15      -     -    B    --      INPUT             ^    0    0    0    1  INBUS4
+  13      -     -    B    --      INPUT             ^    0    0    0    1  INBUS5
+  14      -     -    B    --      INPUT             ^    0    0    0    1  INBUS6
+  82      -     -    -    04      INPUT             ^    0    0    0    1  INBUS7
+  38      -     -    -    --      INPUT             ^    0    0    0    8  RAM_B
+  89      -     -    -    --      INPUT             ^    0    0    0    1  RAMOUT0
+  90      -     -    -    --      INPUT             ^    0    0    0    1  RAMOUT1
+  28      -     -    -    20      INPUT             ^    0    0    0    1  RAMOUT2
+  71      -     -    A    --      INPUT             ^    0    0    0    1  RAMOUT3
+  50      -     -    -    02      INPUT             ^    0    0    0    1  RAMOUT4
+  16      -     -    B    --      INPUT             ^    0    0    0    1  RAMOUT5
+  64      -     -    B    --      INPUT             ^    0    0    0    1  RAMOUT6
+  79      -     -    -    02      INPUT             ^    0    0    0    1  RAMOUT7
+  40      -     -    -    --      INPUT             ^    0    0    0    8  SW_B
 
 
 Code:
@@ -252,14 +252,14 @@ mux3
 
        Fed By Fed By                                Fan-In    Fan-Out
  Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-   9      -     -    A    --     OUTPUT                 0    1    0    0  MUX3_OUT0
-   6      -     -    A    --     OUTPUT                 0    1    0    0  MUX3_OUT1
-  10      -     -    A    --     OUTPUT                 0    1    0    0  MUX3_OUT2
-   7      -     -    A    --     OUTPUT                 0    1    0    0  MUX3_OUT3
-  45      -     -    -    11     OUTPUT                 0    1    0    0  MUX3_OUT4
-  63      -     -    B    --     OUTPUT                 0    1    0    0  MUX3_OUT5
-  65      -     -    B    --     OUTPUT                 0    1    0    0  MUX3_OUT6
-  62      -     -    B    --     OUTPUT                 0    1    0    0  MUX3_OUT7
+   9      -     -    A    --     OUTPUT                 0    1    0    0  DBUS0
+   6      -     -    A    --     OUTPUT                 0    1    0    0  DBUS1
+  10      -     -    A    --     OUTPUT                 0    1    0    0  DBUS2
+   7      -     -    A    --     OUTPUT                 0    1    0    0  DBUS3
+  45      -     -    -    11     OUTPUT                 0    1    0    0  DBUS4
+  63      -     -    B    --     OUTPUT                 0    1    0    0  DBUS5
+  65      -     -    B    --     OUTPUT                 0    1    0    0  DBUS6
+  62      -     -    B    --     OUTPUT                 0    1    0    0  DBUS7
 
 
 Code:
@@ -282,22 +282,22 @@ mux3
 
                                                     Fan-In    Fan-Out
  IOC     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
-   -      8     -    B    11        OR2                3    0    0    1  :171
-   -      6     -    B    11        OR2                2    1    1    0  :177
-   -      7     -    B    11        OR2                3    0    0    1  :183
-   -      1     -    B    11        OR2                2    1    1    0  :186
-   -      5     -    B    11        OR2                3    0    0    1  :192
-   -      4     -    B    11        OR2                2    1    1    0  :195
-   -      3     -    B    11        OR2                3    0    0    1  :201
-   -      2     -    B    11        OR2                2    1    1    0  :204
-   -      6     -    A    14        OR2                3    0    0    1  :210
-   -      2     -    A    14        OR2                2    1    1    0  :213
-   -      5     -    A    14        OR2                3    0    0    1  :219
-   -      8     -    A    14        OR2                2    1    1    0  :222
-   -      4     -    A    14        OR2                3    0    0    1  :228
-   -      1     -    A    14        OR2                2    1    1    0  :231
-   -      3     -    A    14        OR2                3    0    0    1  :237
-   -      7     -    A    14        OR2                2    1    1    0  :240
+   -      8     -    B    11        OR2                3    0    0    1  :177
+   -      6     -    B    11        OR2                2    1    1    0  :183
+   -      7     -    B    11        OR2                3    0    0    1  :189
+   -      1     -    B    11        OR2                2    1    1    0  :192
+   -      5     -    B    11        OR2                3    0    0    1  :198
+   -      4     -    B    11        OR2                2    1    1    0  :201
+   -      3     -    B    11        OR2                3    0    0    1  :207
+   -      2     -    B    11        OR2                2    1    1    0  :210
+   -      6     -    A    14        OR2                3    0    0    1  :216
+   -      2     -    A    14        OR2                2    1    1    0  :219
+   -      5     -    A    14        OR2                3    0    0    1  :225
+   -      8     -    A    14        OR2                2    1    1    0  :228
+   -      4     -    A    14        OR2                3    0    0    1  :234
+   -      1     -    A    14        OR2                2    1    1    0  :237
+   -      3     -    A    14        OR2                3    0    0    1  :243
+   -      7     -    A    14        OR2                2    1    1    0  :246
 
 
 Code:
@@ -363,160 +363,160 @@ mux3
 
 ** EQUATIONS **
 
-BACK     : INPUT;
-BIN0     : INPUT;
-BIN1     : INPUT;
-BIN2     : INPUT;
-BIN3     : INPUT;
-BIN4     : INPUT;
-BIN5     : INPUT;
-BIN6     : INPUT;
-BIN7     : INPUT;
-DATA0    : INPUT;
-DATA1    : INPUT;
-DATA2    : INPUT;
-DATA3    : INPUT;
-DATA4    : INPUT;
-DATA5    : INPUT;
-DATA6    : INPUT;
-DATA7    : INPUT;
-I        : INPUT;
-RIN0     : INPUT;
-RIN1     : INPUT;
-RIN2     : INPUT;
-RIN3     : INPUT;
-RIN4     : INPUT;
-RIN5     : INPUT;
-RIN6     : INPUT;
-RIN7     : INPUT;
+FEN2OUT0 : INPUT;
+FEN2OUT1 : INPUT;
+FEN2OUT2 : INPUT;
+FEN2OUT3 : INPUT;
+FEN2OUT4 : INPUT;
+FEN2OUT5 : INPUT;
+FEN2OUT6 : INPUT;
+FEN2OUT7 : INPUT;
+INBUS0   : INPUT;
+INBUS1   : INPUT;
+INBUS2   : INPUT;
+INBUS3   : INPUT;
+INBUS4   : INPUT;
+INBUS5   : INPUT;
+INBUS6   : INPUT;
+INBUS7   : INPUT;
+RAM_B    : INPUT;
+RAMOUT0  : INPUT;
+RAMOUT1  : INPUT;
+RAMOUT2  : INPUT;
+RAMOUT3  : INPUT;
+RAMOUT4  : INPUT;
+RAMOUT5  : INPUT;
+RAMOUT6  : INPUT;
+RAMOUT7  : INPUT;
+SW_B     : INPUT;
 
--- Node name is 'MUX3_OUT0' 
--- Equation name is 'MUX3_OUT0', type is output 
-MUX3_OUT0 =  _LC7_A14;
+-- Node name is 'DBUS0' 
+-- Equation name is 'DBUS0', type is output 
+DBUS0    =  _LC7_A14;
 
--- Node name is 'MUX3_OUT1' 
--- Equation name is 'MUX3_OUT1', type is output 
-MUX3_OUT1 =  _LC1_A14;
+-- Node name is 'DBUS1' 
+-- Equation name is 'DBUS1', type is output 
+DBUS1    =  _LC1_A14;
 
--- Node name is 'MUX3_OUT2' 
--- Equation name is 'MUX3_OUT2', type is output 
-MUX3_OUT2 =  _LC8_A14;
+-- Node name is 'DBUS2' 
+-- Equation name is 'DBUS2', type is output 
+DBUS2    =  _LC8_A14;
 
--- Node name is 'MUX3_OUT3' 
--- Equation name is 'MUX3_OUT3', type is output 
-MUX3_OUT3 =  _LC2_A14;
+-- Node name is 'DBUS3' 
+-- Equation name is 'DBUS3', type is output 
+DBUS3    =  _LC2_A14;
 
--- Node name is 'MUX3_OUT4' 
--- Equation name is 'MUX3_OUT4', type is output 
-MUX3_OUT4 =  _LC2_B11;
+-- Node name is 'DBUS4' 
+-- Equation name is 'DBUS4', type is output 
+DBUS4    =  _LC2_B11;
 
--- Node name is 'MUX3_OUT5' 
--- Equation name is 'MUX3_OUT5', type is output 
-MUX3_OUT5 =  _LC4_B11;
+-- Node name is 'DBUS5' 
+-- Equation name is 'DBUS5', type is output 
+DBUS5    =  _LC4_B11;
 
--- Node name is 'MUX3_OUT6' 
--- Equation name is 'MUX3_OUT6', type is output 
-MUX3_OUT6 =  _LC1_B11;
+-- Node name is 'DBUS6' 
+-- Equation name is 'DBUS6', type is output 
+DBUS6    =  _LC1_B11;
 
--- Node name is 'MUX3_OUT7' 
--- Equation name is 'MUX3_OUT7', type is output 
-MUX3_OUT7 =  _LC6_B11;
-
--- Node name is ':171' 
--- Equation name is '_LC8_B11', type is buried 
-_LC8_B11 = LCELL( _EQ001);
-  _EQ001 = !BACK &  RIN7
-         #  BACK &  BIN7;
+-- Node name is 'DBUS7' 
+-- Equation name is 'DBUS7', type is output 
+DBUS7    =  _LC6_B11;
 
 -- Node name is ':177' 
--- Equation name is '_LC6_B11', type is buried 
-_LC6_B11 = LCELL( _EQ002);
-  _EQ002 = !I &  _LC8_B11
-         #  DATA7 &  I;
+-- Equation name is '_LC8_B11', type is buried 
+_LC8_B11 = LCELL( _EQ001);
+  _EQ001 = !RAM_B &  RAMOUT7
+         #  FEN2OUT7 &  RAM_B;
 
 -- Node name is ':183' 
+-- Equation name is '_LC6_B11', type is buried 
+_LC6_B11 = LCELL( _EQ002);
+  _EQ002 =  _LC8_B11 &  SW_B
+         #  INBUS7 & !SW_B;
+
+-- Node name is ':189' 
 -- Equation name is '_LC7_B11', type is buried 
 _LC7_B11 = LCELL( _EQ003);
-  _EQ003 = !BACK &  RIN6
-         #  BACK &  BIN6;
-
--- Node name is ':186' 
--- Equation name is '_LC1_B11', type is buried 
-_LC1_B11 = LCELL( _EQ004);
-  _EQ004 = !I &  _LC7_B11
-         #  DATA6 &  I;
+  _EQ003 = !RAM_B &  RAMOUT6
+         #  FEN2OUT6 &  RAM_B;
 
 -- Node name is ':192' 
+-- Equation name is '_LC1_B11', type is buried 
+_LC1_B11 = LCELL( _EQ004);
+  _EQ004 =  _LC7_B11 &  SW_B
+         #  INBUS6 & !SW_B;
+
+-- Node name is ':198' 
 -- Equation name is '_LC5_B11', type is buried 
 _LC5_B11 = LCELL( _EQ005);
-  _EQ005 = !BACK &  RIN5
-         #  BACK &  BIN5;
-
--- Node name is ':195' 
--- Equation name is '_LC4_B11', type is buried 
-_LC4_B11 = LCELL( _EQ006);
-  _EQ006 = !I &  _LC5_B11
-         #  DATA5 &  I;
+  _EQ005 = !RAM_B &  RAMOUT5
+         #  FEN2OUT5 &  RAM_B;
 
 -- Node name is ':201' 
+-- Equation name is '_LC4_B11', type is buried 
+_LC4_B11 = LCELL( _EQ006);
+  _EQ006 =  _LC5_B11 &  SW_B
+         #  INBUS5 & !SW_B;
+
+-- Node name is ':207' 
 -- Equation name is '_LC3_B11', type is buried 
 _LC3_B11 = LCELL( _EQ007);
-  _EQ007 = !BACK &  RIN4
-         #  BACK &  BIN4;
-
--- Node name is ':204' 
--- Equation name is '_LC2_B11', type is buried 
-_LC2_B11 = LCELL( _EQ008);
-  _EQ008 = !I &  _LC3_B11
-         #  DATA4 &  I;
+  _EQ007 = !RAM_B &  RAMOUT4
+         #  FEN2OUT4 &  RAM_B;
 
 -- Node name is ':210' 
+-- Equation name is '_LC2_B11', type is buried 
+_LC2_B11 = LCELL( _EQ008);
+  _EQ008 =  _LC3_B11 &  SW_B
+         #  INBUS4 & !SW_B;
+
+-- Node name is ':216' 
 -- Equation name is '_LC6_A14', type is buried 
 _LC6_A14 = LCELL( _EQ009);
-  _EQ009 = !BACK &  RIN3
-         #  BACK &  BIN3;
-
--- Node name is ':213' 
--- Equation name is '_LC2_A14', type is buried 
-_LC2_A14 = LCELL( _EQ010);
-  _EQ010 = !I &  _LC6_A14
-         #  DATA3 &  I;
+  _EQ009 = !RAM_B &  RAMOUT3
+         #  FEN2OUT3 &  RAM_B;
 
 -- Node name is ':219' 
+-- Equation name is '_LC2_A14', type is buried 
+_LC2_A14 = LCELL( _EQ010);
+  _EQ010 =  _LC6_A14 &  SW_B
+         #  INBUS3 & !SW_B;
+
+-- Node name is ':225' 
 -- Equation name is '_LC5_A14', type is buried 
 _LC5_A14 = LCELL( _EQ011);
-  _EQ011 = !BACK &  RIN2
-         #  BACK &  BIN2;
-
--- Node name is ':222' 
--- Equation name is '_LC8_A14', type is buried 
-_LC8_A14 = LCELL( _EQ012);
-  _EQ012 = !I &  _LC5_A14
-         #  DATA2 &  I;
+  _EQ011 = !RAM_B &  RAMOUT2
+         #  FEN2OUT2 &  RAM_B;
 
 -- Node name is ':228' 
+-- Equation name is '_LC8_A14', type is buried 
+_LC8_A14 = LCELL( _EQ012);
+  _EQ012 =  _LC5_A14 &  SW_B
+         #  INBUS2 & !SW_B;
+
+-- Node name is ':234' 
 -- Equation name is '_LC4_A14', type is buried 
 _LC4_A14 = LCELL( _EQ013);
-  _EQ013 = !BACK &  RIN1
-         #  BACK &  BIN1;
-
--- Node name is ':231' 
--- Equation name is '_LC1_A14', type is buried 
-_LC1_A14 = LCELL( _EQ014);
-  _EQ014 = !I &  _LC4_A14
-         #  DATA1 &  I;
+  _EQ013 = !RAM_B &  RAMOUT1
+         #  FEN2OUT1 &  RAM_B;
 
 -- Node name is ':237' 
+-- Equation name is '_LC1_A14', type is buried 
+_LC1_A14 = LCELL( _EQ014);
+  _EQ014 =  _LC4_A14 &  SW_B
+         #  INBUS1 & !SW_B;
+
+-- Node name is ':243' 
 -- Equation name is '_LC3_A14', type is buried 
 _LC3_A14 = LCELL( _EQ015);
-  _EQ015 = !BACK &  RIN0
-         #  BACK &  BIN0;
+  _EQ015 = !RAM_B &  RAMOUT0
+         #  FEN2OUT0 &  RAM_B;
 
--- Node name is ':240' 
+-- Node name is ':246' 
 -- Equation name is '_LC7_A14', type is buried 
 _LC7_A14 = LCELL( _EQ016);
-  _EQ016 = !I &  _LC3_A14
-         #  DATA0 &  I;
+  _EQ016 =  _LC3_A14 &  SW_B
+         #  INBUS0 & !SW_B;
 
 
 
@@ -609,4 +609,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 16,098K
+Peak memory allocated during compilation  = 17,577K

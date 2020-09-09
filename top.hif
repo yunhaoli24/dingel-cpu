@@ -226,7 +226,7 @@ FILES
 	}
 	mux3.vhd
 	{
-		mux3 [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
+		mux3 [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
 			45 [] [];
 		}
@@ -264,6 +264,7 @@ TREE
 {
 	top::(0,0):(0): top.gdf
 	{
+		mux3::(0,0):(37): mux3.vhd;
 		mux3_2::(0,0):(34): mux3_2.vhd;
 		counter::(0,0):(1): counter.vhd
 		{
@@ -277,12 +278,6 @@ TREE
 		}
 		crom::(0,0):(2): crom.gdf
 		{
-			mcommand:14:(0,0):(7): mcommand.vhd;
-			controm:13:(0,0):(6): controm.vhd;
-			addr:12:(0,0):(5): addr.vhd;
-			f1:11:(0,0):(4): f1.vhd;
-			f2:10:(0,0):(3): f2.vhd;
-			f3:9:(0,0):(2): f3.vhd;
 			aa:7:(0,0):(1): aa.gdf
 			{
 				mmm:8:(0,0):(1): mmm.vhd;
@@ -292,6 +287,12 @@ TREE
 				mmm:8:(0,0):(5): mmm.vhd;
 				mmm:8:(0,0):(4): mmm.vhd;
 			}
+			f3:9:(0,0):(2): f3.vhd;
+			f2:10:(0,0):(3): f2.vhd;
+			f1:11:(0,0):(4): f1.vhd;
+			addr:12:(0,0):(5): addr.vhd;
+			controm:13:(0,0):(6): controm.vhd;
+			mcommand:14:(0,0):(7): mcommand.vhd;
 		}
 		decoder::(0,0):(3): decoder.vhd;
 		ls273::(0,0):(4): ls273.vhd;
@@ -364,7 +365,6 @@ TREE
 		rom::(0,0):(14): rom.vhd;
 		convert::(0,0):(15): convert.vhd;
 		fen2::(0,0):(16): fen2.vhd;
-		mux3::(0,0):(24): mux3.vhd;
 		ram::(0,0):(26): ram.vhd;
 		ir::(0,0):(27): ir.vhd;
 	}

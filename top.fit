@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 10.0 9/14/2000             
--- Compiled: 09/09/2020 22:55:11      
+-- Compiled: 09/09/2020 23:11:18      
 
 -- Copyright (C) 1988-2000 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -361,14 +361,14 @@ BEGIN
     "|MUX3_2:34|:285"              : LOCATION   = LC1_A23;
     "|MUX3_2:34|:294"              : LOCATION   = LC8_A13;
     "|MUX3_2:34|:297"              : LOCATION   = LC2_A20;
-    "|MUX3:24|:178"                : LOCATION   = LC1_C14;
-    "|MUX3:24|:187"                : LOCATION   = LC6_B2 ;
-    "|MUX3:24|:196"                : LOCATION   = LC3_B2 ;
-    "|MUX3:24|:205"                : LOCATION   = LC2_B5 ;
-    "|MUX3:24|:214"                : LOCATION   = LC5_B2 ;
-    "|MUX3:24|:223"                : LOCATION   = LC3_A18;
-    "|MUX3:24|:232"                : LOCATION   = LC8_B15;
-    "|MUX3:24|:241"                : LOCATION   = LC6_B13;
+    "|MUX3:37|:183"                : LOCATION   = LC1_C14;
+    "|MUX3:37|:192"                : LOCATION   = LC6_B2 ;
+    "|MUX3:37|:201"                : LOCATION   = LC3_B2 ;
+    "|MUX3:37|:210"                : LOCATION   = LC2_B5 ;
+    "|MUX3:37|:219"                : LOCATION   = LC5_B2 ;
+    "|MUX3:37|:228"                : LOCATION   = LC3_A18;
+    "|MUX3:37|:237"                : LOCATION   = LC8_B15;
+    "|MUX3:37|:246"                : LOCATION   = LC6_B13;
     "|MUX4:9|:94"                  : LOCATION   = LC3_B1 ;
     "|MUX4:9|:247"                 : LOCATION   = LC5_B14;
     "|MUX4:9|:248"                 : LOCATION   = LC4_B14;

@@ -2,7 +2,7 @@ Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport
 
 MAX+plus II Compiler Report File
 Version 10.0 9/14/2000
-Compiled: 09/09/2020 22:55:11
+Compiled: 09/09/2020 23:11:18
 
 Copyright (C) 1988-2000 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -137,10 +137,10 @@ Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport
 |rom:14|
 |convert:15|
 |fen2:16|
-|mux3:24|
 |ram:26|
 |ir:27|
 |mux3_2:34|
+|mux3:37|
 
 
 Device-Specific Information:c:\users\administrator\onedrive - mytccd.edu\experimentreport\computerorganization\curriculumdesign\dingel-cpu\top.rpt
@@ -731,14 +731,14 @@ top
    -      1     -    A    23        OR2                0    3    0    2  |MUX3_2:34|:285
    -      8     -    A    13        OR2                0    4    0    1  |MUX3_2:34|:294
    -      2     -    A    20        OR2                0    3    0    2  |MUX3_2:34|:297
-   -      1     -    C    14        OR2                1    2    0    4  |MUX3:24|:178
-   -      6     -    B    02        OR2                1    2    0    4  |MUX3:24|:187
-   -      3     -    B    02        OR2                1    2    0    4  |MUX3:24|:196
-   -      2     -    B    05        OR2                1    2    0    4  |MUX3:24|:205
-   -      5     -    B    02        OR2                1    2    0    4  |MUX3:24|:214
-   -      3     -    A    18        OR2                1    2    0    4  |MUX3:24|:223
-   -      8     -    B    15        OR2                1    2    0    5  |MUX3:24|:232
-   -      6     -    B    13        OR2                1    2    0    5  |MUX3:24|:241
+   -      1     -    C    14        OR2                1    2    0    4  |MUX3:37|:183
+   -      6     -    B    02        OR2                1    2    0    4  |MUX3:37|:192
+   -      3     -    B    02        OR2                1    2    0    4  |MUX3:37|:201
+   -      2     -    B    05        OR2                1    2    0    4  |MUX3:37|:210
+   -      5     -    B    02        OR2                1    2    0    4  |MUX3:37|:219
+   -      3     -    A    18        OR2                1    2    0    4  |MUX3:37|:228
+   -      8     -    B    15        OR2                1    2    0    5  |MUX3:37|:237
+   -      6     -    B    13        OR2                1    2    0    5  |MUX3:37|:246
    -      3     -    B    01       AND2                0    2    0    8  |MUX4:9|:94
    -      5     -    B    14       AND2                0    3    0    1  |MUX4:9|:247
    -      4     -    B    14        OR2                0    4    0    1  |MUX4:9|:248
@@ -2903,49 +2903,49 @@ _LC2_A20 = LCELL( _EQ265);
   _EQ265 =  _LC4_A20 & !_LC4_C21
          #  _LC4_C21 &  _LC8_A13;
 
--- Node name is '|MUX3:24|:178' 
+-- Node name is '|MUX3:37|:183' 
 -- Equation name is '_LC1_C14', type is buried 
 _LC1_C14 = LCELL( _EQ266);
   _EQ266 =  _LC2_C14 &  _LC4_C17
          #  INBUS7 & !_LC4_C17;
 
--- Node name is '|MUX3:24|:187' 
+-- Node name is '|MUX3:37|:192' 
 -- Equation name is '_LC6_B2', type is buried 
 _LC6_B2  = LCELL( _EQ267);
   _EQ267 =  _LC4_B2 &  _LC4_C17
          #  INBUS6 & !_LC4_C17;
 
--- Node name is '|MUX3:24|:196' 
+-- Node name is '|MUX3:37|:201' 
 -- Equation name is '_LC3_B2', type is buried 
 _LC3_B2  = LCELL( _EQ268);
   _EQ268 =  _LC2_B10 &  _LC4_C17
          #  INBUS5 & !_LC4_C17;
 
--- Node name is '|MUX3:24|:205' 
+-- Node name is '|MUX3:37|:210' 
 -- Equation name is '_LC2_B5', type is buried 
 _LC2_B5  = LCELL( _EQ269);
   _EQ269 =  _LC4_C17 &  _LC5_B5
          #  INBUS4 & !_LC4_C17;
 
--- Node name is '|MUX3:24|:214' 
+-- Node name is '|MUX3:37|:219' 
 -- Equation name is '_LC5_B2', type is buried 
 _LC5_B2  = LCELL( _EQ270);
   _EQ270 =  _LC1_B2 &  _LC4_C17
          #  INBUS3 & !_LC4_C17;
 
--- Node name is '|MUX3:24|:223' 
+-- Node name is '|MUX3:37|:228' 
 -- Equation name is '_LC3_A18', type is buried 
 _LC3_A18 = LCELL( _EQ271);
   _EQ271 =  _LC4_C17 &  _LC5_A18
          #  INBUS2 & !_LC4_C17;
 
--- Node name is '|MUX3:24|:232' 
+-- Node name is '|MUX3:37|:237' 
 -- Equation name is '_LC8_B15', type is buried 
 _LC8_B15 = LCELL( _EQ272);
   _EQ272 =  _LC4_C17 &  _LC6_B15
          #  INBUS1 & !_LC4_C17;
 
--- Node name is '|MUX3:24|:241' 
+-- Node name is '|MUX3:37|:246' 
 -- Equation name is '_LC6_B13', type is buried 
 _LC6_B13 = LCELL( _EQ273);
   _EQ273 =  _LC4_C17 &  _LC8_B13
@@ -3311,17 +3311,17 @@ Compilation Times
 -----------------
 
    Compiler Netlist Extractor             00:00:00
-   Database Builder                       00:00:01
-   Logic Synthesizer                      00:00:02
-   Partitioner                            00:00:01
-   Fitter                                 00:00:00
-   Timing SNF Extractor                   00:00:01
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:03
+   Partitioner                            00:00:00
+   Fitter                                 00:00:01
+   Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:05
+   Total Time                             00:00:04
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 41,127K
+Peak memory allocated during compilation  = 41,884K
