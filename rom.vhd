@@ -13,20 +13,20 @@ ARCHITECTURE A OF ROM IS
 
 --  注记符号    指令格式(OP)    Rs Rd     addr
    
---    MOV          000001       XX Rd     im
---    IN           000010       XX Rd    XXXXXXXX
---    DEC          000011       XX Rd    XXXXXXXX
---    TEST         000100       XX Rd     addr
---    JB           000101       XX Rd     addr
---    JZ           000110       XX Rd     addr
---    JMP          000111       XX XX     addr
---    MUL          001000       Rs Rd    XXXXXXXX
---    ADD          001001       Rs Rd    XXXXXXXX
---    OUT          001010       Rs XX    XXXXXXXX
---    LAD          001011       Rs Rd    XXXXXXXX
---    STO          001101       Rs Rd    XXXXXXXX
---    INC          001111       XX Rd    XXXXXXXX
---    CMP          010000       Rs Rd    XXXXXXXX
+--    MOV           0001        XX Rd     im
+--    IN            0010        XX Rd    XXXXXXXX
+--    DEC           0011        XX Rd    XXXXXXXX
+--    TEST          0100        XX Rd     addr
+--    JB            0101        XX Rd     addr
+--    JZ            0110        XX Rd     addr
+--    JMP           0111        XX XX     addr
+--    CMP           1000        Rs Rd    XXXXXXXX
+--    ADD           1001        Rs Rd    XXXXXXXX
+--    OUT           1010        Rs XX    XXXXXXXX
+--    LAD           1011        Rs Rd    XXXXXXXX
+--    STO           1101        Rs Rd    XXXXXXXX
+--    INC           1111        XX Rd    XXXXXXXX
+
 BEGIN
 	DOUT<="0001000100000000" WHEN ADDR="00000000" AND CS_I='0' ELSE--MOV R1,2H
           "0000100010000000" WHEN ADDR="00000001" AND CS_I='0' ELSE--MOV R2,6H

@@ -2,7 +2,7 @@ Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport
 
 MAX+plus II Compiler Report File
 Version 10.0 9/14/2000
-Compiled: 09/10/2020 11:46:07
+Compiled: 09/10/2020 11:57:57
 
 Copyright (C) 1988-2000 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -767,15 +767,15 @@ top
    -      7     -    C    27        OR2        !       0    3    0    1  |crom:2|ADDR:5|:21
    -      1     -    C    31        OR2        !       0    3    0    1  |crom:2|ADDR:5|:37
    -      5     -    C    31        OR2        !       0    3    0    1  |crom:2|ADDR:5|:42
-   -      8     -    C    24       AND2                0    4    0    2  |crom:2|CONTROM:6|:1634
-   -      8     -    C    31       AND2                0    4    0    3  |crom:2|CONTROM:6|:1650
-   -      5     -    C    21       AND2                0    4    0    3  |crom:2|CONTROM:6|:1666
-   -      2     -    C    21       AND2                0    4    0    6  |crom:2|CONTROM:6|:1682
-   -      7     -    C    21        OR2        !       0    4    0    9  |crom:2|CONTROM:6|:1826
-   -      4     -    C    31        OR2        !       0    4    0    5  |crom:2|CONTROM:6|:1874
-   -      6     -    C    24        OR2    s           0    4    0    3  |crom:2|CONTROM:6|~1987~1
-   -      1     -    C    24       AND2    s   !       0    2    0    7  |crom:2|CONTROM:6|~2201~1
-   -      1     -    C    27        OR2                0    2    0    3  |crom:2|CONTROM:6|:2216
+   -      8     -    C    24       AND2                0    4    0    2  |crom:2|CONTROM:6|:1540
+   -      8     -    C    31       AND2                0    4    0    3  |crom:2|CONTROM:6|:1556
+   -      5     -    C    21       AND2                0    4    0    3  |crom:2|CONTROM:6|:1572
+   -      2     -    C    21       AND2                0    4    0    6  |crom:2|CONTROM:6|:1588
+   -      7     -    C    21        OR2        !       0    4    0    9  |crom:2|CONTROM:6|:1732
+   -      4     -    C    31        OR2        !       0    4    0    5  |crom:2|CONTROM:6|:1780
+   -      6     -    C    24        OR2    s           0    4    0    3  |crom:2|CONTROM:6|~1887~1
+   -      1     -    C    24       AND2    s   !       0    2    0    7  |crom:2|CONTROM:6|~2089~1
+   -      1     -    C    27        OR2                0    2    0    3  |crom:2|CONTROM:6|:2101
    -      1     -    C    19       DFFE                0    1    0    9  |crom:2|MCOMMAND:7|DATAOUT19 (|crom:2|MCOMMAND:7|:44)
    -      1     -    C    22       DFFE                0    2    0    2  |crom:2|MCOMMAND:7|DATAOUT18 (|crom:2|MCOMMAND:7|:45)
    -      6     -    C    27       DFFE                0    5    0    1  |crom:2|MCOMMAND:7|DATAOUT17 (|crom:2|MCOMMAND:7|:46)
@@ -3201,27 +3201,27 @@ _LC5_C31~NOT = LCELL( _EQ216);
          # !_LC7_C22
          # !_LC2_C31;
 
--- Node name is '|crom:2|CONTROM:6|:1634' 
+-- Node name is '|crom:2|CONTROM:6|:1540' 
 -- Equation name is '_LC8_C24', type is buried 
 _LC8_C24 = LCELL( _EQ217);
   _EQ217 =  _LC2_C24 & !_LC2_C27 &  _LC3_C31 &  _LC5_C24;
 
--- Node name is '|crom:2|CONTROM:6|:1650' 
+-- Node name is '|crom:2|CONTROM:6|:1556' 
 -- Equation name is '_LC8_C31', type is buried 
 _LC8_C31 = LCELL( _EQ218);
   _EQ218 =  _LC2_C24 & !_LC2_C27 & !_LC3_C31 &  _LC5_C24;
 
--- Node name is '|crom:2|CONTROM:6|:1666' 
+-- Node name is '|crom:2|CONTROM:6|:1572' 
 -- Equation name is '_LC5_C21', type is buried 
 _LC5_C21 = LCELL( _EQ219);
   _EQ219 =  _LC2_C24 & !_LC2_C27 &  _LC3_C31 & !_LC5_C24;
 
--- Node name is '|crom:2|CONTROM:6|:1682' 
+-- Node name is '|crom:2|CONTROM:6|:1588' 
 -- Equation name is '_LC2_C21', type is buried 
 _LC2_C21 = LCELL( _EQ220);
   _EQ220 =  _LC2_C24 & !_LC2_C27 & !_LC3_C31 & !_LC5_C24;
 
--- Node name is '|crom:2|CONTROM:6|:1826' 
+-- Node name is '|crom:2|CONTROM:6|:1732' 
 -- Equation name is '_LC7_C21', type is buried 
 !_LC7_C21 = _LC7_C21~NOT;
 _LC7_C21~NOT = LCELL( _EQ221);
@@ -3230,7 +3230,7 @@ _LC7_C21~NOT = LCELL( _EQ221);
          #  _LC2_C27
          # !_LC3_C31;
 
--- Node name is '|crom:2|CONTROM:6|:1874' 
+-- Node name is '|crom:2|CONTROM:6|:1780' 
 -- Equation name is '_LC4_C31', type is buried 
 !_LC4_C31 = _LC4_C31~NOT;
 _LC4_C31~NOT = LCELL( _EQ222);
@@ -3239,7 +3239,7 @@ _LC4_C31~NOT = LCELL( _EQ222);
          #  _LC2_C27
          #  _LC3_C31;
 
--- Node name is '|crom:2|CONTROM:6|~1987~1' 
+-- Node name is '|crom:2|CONTROM:6|~1887~1' 
 -- Equation name is '_LC6_C24', type is buried 
 -- synthesized logic cell 
 _LC6_C24 = LCELL( _EQ223);
@@ -3248,14 +3248,14 @@ _LC6_C24 = LCELL( _EQ223);
          # !_LC3_C31 & !_LC5_C24
          #  _LC3_C31 &  _LC5_C24;
 
--- Node name is '|crom:2|CONTROM:6|~2201~1' 
+-- Node name is '|crom:2|CONTROM:6|~2089~1' 
 -- Equation name is '_LC1_C24', type is buried 
 -- synthesized logic cell 
 !_LC1_C24 = _LC1_C24~NOT;
 _LC1_C24~NOT = LCELL( _EQ224);
   _EQ224 = !_LC4_C31 &  _LC6_C24;
 
--- Node name is '|crom:2|CONTROM:6|:2216' 
+-- Node name is '|crom:2|CONTROM:6|:2101' 
 -- Equation name is '_LC1_C27', type is buried 
 _LC1_C27 = LCELL( _EQ225);
   _EQ225 =  _LC5_C21
@@ -7617,18 +7617,18 @@ VHDL Netlist Writer                       = off
 Compilation Times
 -----------------
 
-   Compiler Netlist Extractor             00:00:01
+   Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:03
    Partitioner                            00:00:00
    Fitter                                 00:00:02
-   Timing SNF Extractor                   00:00:00
-   Assembler                              00:00:01
+   Timing SNF Extractor                   00:00:01
+   Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:07
+   Total Time                             00:00:06
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 41,348K
+Peak memory allocated during compilation  = 44,888K

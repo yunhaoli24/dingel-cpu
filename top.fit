@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 10.0 9/14/2000             
--- Compiled: 09/10/2020 11:46:07      
+-- Compiled: 09/10/2020 11:57:57      
 
 -- Copyright (C) 1988-2000 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -293,15 +293,15 @@ BEGIN
     "|crom:2|ADDR:5|:21"           : LOCATION   = LC7_C27;
     "|crom:2|ADDR:5|:37"           : LOCATION   = LC1_C31;
     "|crom:2|ADDR:5|:42"           : LOCATION   = LC5_C31;
-    "|crom:2|CONTROM:6|:1634"      : LOCATION   = LC8_C24;
-    "|crom:2|CONTROM:6|:1650"      : LOCATION   = LC8_C31;
-    "|crom:2|CONTROM:6|:1666"      : LOCATION   = LC5_C21;
-    "|crom:2|CONTROM:6|:1682"      : LOCATION   = LC2_C21;
-    "|crom:2|CONTROM:6|:1826"      : LOCATION   = LC7_C21;
-    "|crom:2|CONTROM:6|:1874"      : LOCATION   = LC4_C31;
-    "|crom:2|CONTROM:6|~1987~1"    : LOCATION   = LC6_C24;
-    "|crom:2|CONTROM:6|~2201~1"    : LOCATION   = LC1_C24;
-    "|crom:2|CONTROM:6|:2216"      : LOCATION   = LC1_C27;
+    "|crom:2|CONTROM:6|:1540"      : LOCATION   = LC8_C24;
+    "|crom:2|CONTROM:6|:1556"      : LOCATION   = LC8_C31;
+    "|crom:2|CONTROM:6|:1572"      : LOCATION   = LC5_C21;
+    "|crom:2|CONTROM:6|:1588"      : LOCATION   = LC2_C21;
+    "|crom:2|CONTROM:6|:1732"      : LOCATION   = LC7_C21;
+    "|crom:2|CONTROM:6|:1780"      : LOCATION   = LC4_C31;
+    "|crom:2|CONTROM:6|~1887~1"    : LOCATION   = LC6_C24;
+    "|crom:2|CONTROM:6|~2089~1"    : LOCATION   = LC1_C24;
+    "|crom:2|CONTROM:6|:2101"      : LOCATION   = LC1_C27;
     "|crom:2|MCOMMAND:7|:44"       : LOCATION   = LC1_C19;  -- |crom:2|MCOMMAND:7|DATAOUT19
     "|crom:2|MCOMMAND:7|:45"       : LOCATION   = LC1_C22;  -- |crom:2|MCOMMAND:7|DATAOUT18
     "|crom:2|MCOMMAND:7|:46"       : LOCATION   = LC6_C27;  -- |crom:2|MCOMMAND:7|DATAOUT17
