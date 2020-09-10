@@ -2,7 +2,7 @@ Project Informationc:\users\administrator\onedrive - mytccd.edu\experimentreport
 
 MAX+plus II Compiler Report File
 Version 10.0 9/14/2000
-Compiled: 09/10/2020 14:05:21
+Compiled: 09/10/2020 14:39:29
 
 Copyright (C) 1988-2000 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -801,8 +801,8 @@ top
    -      1     -    D    33       DFFE                0    2    0   17  |crom:2|aa:1|MMM:8|:5
    -      4     -    D    04        OR2        !       0    3    0    1  |crom:2|ADDR:5|:37
    -      7     -    D    33        OR2        !       0    3    0    1  |crom:2|ADDR:5|:42
-   -      6     -    D    17        OR2    s   !       0    4    0    6  |crom:2|CONTROM:6|~2089~1
-   -      2     -    D    04        OR2    s           0    2    0    4  |crom:2|CONTROM:6|~2244~1
+   -      6     -    D    17        OR2    s   !       0    4    0    6  |crom:2|CONTROM:6|~2201~1
+   -      2     -    D    04        OR2    s           0    2    0    4  |crom:2|CONTROM:6|~2365~1
    -      7     -    D    06       DFFE                0    1    0    9  |crom:2|MCOMMAND:7|DATAOUT19 (|crom:2|MCOMMAND:7|:44)
    -      5     -    D    33       DFFE                0    4    0    4  |crom:2|MCOMMAND:7|DATAOUT18 (|crom:2|MCOMMAND:7|:45)
    -      4     -    D    17       DFFE                0    5    0    1  |crom:2|MCOMMAND:7|DATAOUT17 (|crom:2|MCOMMAND:7|:46)
@@ -3402,7 +3402,7 @@ _LC7_D33~NOT = LCELL( _EQ219);
          # !_LC2_D6
          # !_LC5_D33;
 
--- Node name is '|crom:2|CONTROM:6|~2089~1' 
+-- Node name is '|crom:2|CONTROM:6|~2201~1' 
 -- Equation name is '_LC6_D17', type is buried 
 -- synthesized logic cell 
 !_LC6_D17 = _LC6_D17~NOT;
@@ -3411,7 +3411,7 @@ _LC6_D17~NOT = LCELL( _EQ220);
          #  _LC2_D4 & !_LC3_D4
          #  _LC1_D33 &  _LC2_D4;
 
--- Node name is '|crom:2|CONTROM:6|~2244~1' 
+-- Node name is '|crom:2|CONTROM:6|~2365~1' 
 -- Equation name is '_LC2_D4', type is buried 
 -- synthesized logic cell 
 _LC2_D4  = LCELL( _EQ221);
@@ -3421,16 +3421,16 @@ _LC2_D4  = LCELL( _EQ221);
 -- Node name is '|crom:2|MCOMMAND:7|:61' = '|crom:2|MCOMMAND:7|DATAOUT2' 
 -- Equation name is '_LC3_D33', type is buried 
 _LC3_D33 = DFFE( _EQ222,  _LC3_D6,  VCC,  VCC,  VCC);
-  _EQ222 =  _LC1_D17
-         # !_LC1_D33
-         #  _LC3_D4;
+  _EQ222 =  _LC3_D4
+         #  _LC1_D17
+         # !_LC1_D33;
 
 -- Node name is '|crom:2|MCOMMAND:7|:60' = '|crom:2|MCOMMAND:7|DATAOUT3' 
 -- Equation name is '_LC6_D33', type is buried 
 _LC6_D33 = DFFE( _EQ223,  _LC3_D6,  VCC,  VCC,  VCC);
-  _EQ223 =  _LC1_D33
-         #  _LC1_D17
-         #  _LC3_D4;
+  _EQ223 =  _LC3_D4
+         #  _LC1_D33
+         #  _LC1_D17;
 
 -- Node name is '|crom:2|MCOMMAND:7|:59' = '|crom:2|MCOMMAND:7|DATAOUT4' 
 -- Equation name is '_LC3_D17', type is buried 
@@ -7985,8 +7985,8 @@ VHDL Netlist Writer                       = off
 Compilation Times
 -----------------
 
-   Compiler Netlist Extractor             00:00:00
-   Database Builder                       00:00:01
+   Compiler Netlist Extractor             00:00:01
+   Database Builder                       00:00:00
    Logic Synthesizer                      00:00:03
    Partitioner                            00:00:00
    Fitter                                 00:00:02
@@ -7999,4 +7999,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 42,522K
+Peak memory allocated during compilation  = 41,359K

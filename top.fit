@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 10.0 9/14/2000             
--- Compiled: 09/10/2020 14:05:21      
+-- Compiled: 09/10/2020 14:39:29      
 
 -- Copyright (C) 1988-2000 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -326,8 +326,8 @@ BEGIN
     "|crom:2|aa:1|MMM:8|:5"        : LOCATION   = LC1_D33;
     "|crom:2|ADDR:5|:37"           : LOCATION   = LC4_D4 ;
     "|crom:2|ADDR:5|:42"           : LOCATION   = LC7_D33;
-    "|crom:2|CONTROM:6|~2089~1"    : LOCATION   = LC6_D17;
-    "|crom:2|CONTROM:6|~2244~1"    : LOCATION   = LC2_D4 ;
+    "|crom:2|CONTROM:6|~2201~1"    : LOCATION   = LC6_D17;
+    "|crom:2|CONTROM:6|~2365~1"    : LOCATION   = LC2_D4 ;
     "|crom:2|MCOMMAND:7|:44"       : LOCATION   = LC7_D6 ;  -- |crom:2|MCOMMAND:7|DATAOUT19
     "|crom:2|MCOMMAND:7|:45"       : LOCATION   = LC5_D33;  -- |crom:2|MCOMMAND:7|DATAOUT18
     "|crom:2|MCOMMAND:7|:46"       : LOCATION   = LC4_D17;  -- |crom:2|MCOMMAND:7|DATAOUT17
