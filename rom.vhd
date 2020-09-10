@@ -23,8 +23,8 @@ ARCHITECTURE A OF ROM IS
 --    CMP           1000        Rs Rd    XXXXXXXX
 --    ADD           1001        Rs Rd    XXXXXXXX
 --    OUT           1010        Rs XX    XXXXXXXX
---    LAD           1011        Rs Rd    XXXXXXXX
---    STO           1101        Rs Rd    XXXXXXXX
+--    LAD           1011        Rs(Rd)   XXXXXXXX
+--    STO           1101        Rs(Rd)   XXXXXXXX
 --    INC           1111        XX Rd    XXXXXXXX
 
 BEGIN

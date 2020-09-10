@@ -60,7 +60,7 @@ BEGIN
             TEMP2<=X * Y;
  			ALUOUT<=TEMP2(7 DOWNTO 0);
          
-        ELSIF(S2='1' AND S1='1' AND S0='0') THEN     --Rd->BUS
+        ELSIF(S2='1' AND S1='1' AND S0='1') THEN     --Rd->BUS
  			ALUOUT<=Y;
 		ELSE
 		    ALUOUT<="00000000" ;
