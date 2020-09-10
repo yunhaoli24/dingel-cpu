@@ -29,12 +29,17 @@ BEGIN
             ELSE
                 ZF<='0';
             END IF;
-		ELSIF(S2='0' AND S1='0' AND S0='1') THEN    --TEST
-			CF<=X(7);
-			IF (X="00000000") THEN
-                ZF<='1';
-            ELSE
+		ELSIF(S2='0' AND S1='0' AND S0='1') THEN    --SUB
+			ALUOUT<=X-Y;
+			IF (X<Y) THEN
                 ZF<='0';
+				CF<='1';
+            ELSIF(X=Y)THEN
+                ZF<='1';
+				CF<='0';
+			ELSE
+				ZF<='0';
+				CF<='0';
             END IF;
 		ELSIF(S2='0' AND S1='1' AND S0='0')THEN	--INC
             AA<='0'&Y;
