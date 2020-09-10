@@ -36,7 +36,16 @@ BEGIN
             ELSE
                 ZF<='0';
             END IF;
-		
+		ELSIF(S2='0' AND S1='1' AND S0='0')THEN	--INC
+            AA<='0'&Y;
+            TEMP<=AA+1;
+			ALUOUT<=TEMP(7 DOWNTO 0);
+			CF<=TEMP(8);
+			IF(TEMP="000000000")THEN
+				ZF<='1';
+			ELSE
+				ZF<='0';
+			END IF;
         ELSIF(S2='0' AND S1='1' AND S0='1') THEN     --DEC
             AA<='0'&Y;
             TEMP<=AA-1;
