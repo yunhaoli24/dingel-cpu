@@ -14,7 +14,7 @@ ARCHITECTURE A OF ROM IS
 --  注记符号    指令格式(OP)    Rs Rd     addr
    
 --    MOV          000001       XX Rd     im
---    IN1          000010       XX Rd    XXXXXXXX
+--    IN           000010       XX Rd    XXXXXXXX
 --    DEC          000011       XX Rd    XXXXXXXX
 --    TEST         000100       XX Rd     addr
 --    JB           000101       XX Rd     addr
