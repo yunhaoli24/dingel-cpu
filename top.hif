@@ -24,184 +24,46 @@ HIF003
 --
 FILES
 {
-	csa_cell.tdf
+	mux3_2.vhd
 	{
-		csa_cell [USE_LPM_FOR_AHDL_OPERATORS,SIZE=6] []
+		mux3_2 [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
-			36 [USE_LPM_FOR_AHDL_OPERATORS=OFF,SIZE=19] [sum_out18,sum_out17,sum_out16,sum_out15,sum_out14,sum_out13,sum_out12,sum_out11,sum_out10,sum_out9,sum_out8,sum_out7,sum_out6,sum_out5,sum_out4,sum_out3,sum_out2,sum_out1,sum_out0,carry_out18,carry_out17,carry_out16,carry_out15,carry_out14,carry_out13,carry_out12,carry_out11,carry_out10,carry_out9,carry_out8,carry_out7,carry_out6,carry_out5,carry_out4,carry_out3,carry_out2,carry_out1,carry_out0,data2_18,data2_17,data2_16,data2_15,data2_14,data2_13,data2_12,data2_11,data2_10,data2_9,data2_8,data2_7,data2_6,data2_5,data2_4,data2_3,data2_2,data2_1,data2_0,data1_18,data1_17,data1_16,data1_15,data1_14,data1_13,data1_12,data1_11,data1_10,data1_9,data1_8,data1_7,data1_6,data1_5,data1_4,data1_3,data1_2,data1_1,data1_0,data0_18,data0_17,data0_16,data0_15,data0_14,data0_13,data0_12,data0_11,data0_10,data0_9,data0_8,data0_7,data0_6,data0_5,data0_4,data0_3,data0_2,data0_1,data0_0];
-			34 [USE_LPM_FOR_AHDL_OPERATORS=OFF,SIZE=18] [sum_out17,sum_out16,sum_out15,sum_out14,sum_out13,sum_out12,sum_out11,sum_out10,sum_out9,sum_out8,sum_out7,sum_out6,sum_out5,sum_out4,sum_out3,sum_out2,sum_out1,sum_out0,carry_out17,carry_out16,carry_out15,carry_out14,carry_out13,carry_out12,carry_out11,carry_out10,carry_out9,carry_out8,carry_out7,carry_out6,carry_out5,carry_out4,carry_out3,carry_out2,carry_out1,carry_out0,data2_17,data2_16,data2_15,data2_14,data2_13,data2_12,data2_11,data2_10,data2_9,data2_8,data2_7,data2_6,data2_5,data2_4,data2_3,data2_2,data2_1,data2_0,data1_17,data1_16,data1_15,data1_14,data1_13,data1_12,data1_11,data1_10,data1_9,data1_8,data1_7,data1_6,data1_5,data1_4,data1_3,data1_2,data1_1,data1_0,data0_17,data0_16,data0_15,data0_14,data0_13,data0_12,data0_11,data0_10,data0_9,data0_8,data0_7,data0_6,data0_5,data0_4,data0_3,data0_2,data0_1,data0_0];
-			31 [USE_LPM_FOR_AHDL_OPERATORS=OFF,SIZE=17] [sum_out16,sum_out15,sum_out14,sum_out13,sum_out12,sum_out11,sum_out10,sum_out9,sum_out8,sum_out7,sum_out6,sum_out5,sum_out4,sum_out3,sum_out2,sum_out1,sum_out0,carry_out16,carry_out15,carry_out14,carry_out13,carry_out12,carry_out11,carry_out10,carry_out9,carry_out8,carry_out7,carry_out6,carry_out5,carry_out4,carry_out3,carry_out2,carry_out1,carry_out0,data2_16,data2_15,data2_14,data2_13,data2_12,data2_11,data2_10,data2_9,data2_8,data2_7,data2_6,data2_5,data2_4,data2_3,data2_2,data2_1,data2_0,data1_16,data1_15,data1_14,data1_13,data1_12,data1_11,data1_10,data1_9,data1_8,data1_7,data1_6,data1_5,data1_4,data1_3,data1_2,data1_1,data1_0,data0_16,data0_15,data0_14,data0_13,data0_12,data0_11,data0_10,data0_9,data0_8,data0_7,data0_6,data0_5,data0_4,data0_3,data0_2,data0_1,data0_0];
-			29 [USE_LPM_FOR_AHDL_OPERATORS=OFF,SIZE=16] [sum_out15,sum_out14,sum_out13,sum_out12,sum_out11,sum_out10,sum_out9,sum_out8,sum_out7,sum_out6,sum_out5,sum_out4,sum_out3,sum_out2,sum_out1,sum_out0,carry_out15,carry_out14,carry_out13,carry_out12,carry_out11,carry_out10,carry_out9,carry_out8,carry_out7,carry_out6,carry_out5,carry_out4,carry_out3,carry_out2,carry_out1,carry_out0,data2_15,data2_14,data2_13,data2_12,data2_11,data2_10,data2_9,data2_8,data2_7,data2_6,data2_5,data2_4,data2_3,data2_2,data2_1,data2_0,data1_15,data1_14,data1_13,data1_12,data1_11,data1_10,data1_9,data1_8,data1_7,data1_6,data1_5,data1_4,data1_3,data1_2,data1_1,data1_0,data0_15,data0_14,data0_13,data0_12,data0_11,data0_10,data0_9,data0_8,data0_7,data0_6,data0_5,data0_4,data0_3,data0_2,data0_1,data0_0];
+			49 [] [];
 		}
 	}
-	csa_add.tdf
+	ir.vhd
 	{
-		csa_add [USE_LPM_FOR_AHDL_OPERATORS,size=6,width=4,END_ADDER=0] [lpm_add_sub.inc,csa_add.inc,csa_cell.inc]
+		ir [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
-			35 [USE_LPM_FOR_AHDL_OPERATORS=OFF,size=19,width=3,END_ADDER=0] [result18,result17,result16,result15,result14,result13,result12,result11,result10,result9,result8,result7,result6,result5,result4,result3,result2,result1,result0,carry_out18,carry_out17,carry_out16,carry_out15,carry_out14,carry_out13,carry_out12,carry_out11,carry_out10,carry_out9,carry_out8,carry_out7,carry_out6,carry_out5,carry_out4,carry_out3,carry_out2,carry_out1,carry_out0,data2_18,data2_17,data2_16,data2_15,data2_14,data2_13,data2_12,data2_11,data2_10,data2_9,data2_8,data2_7,data2_6,data2_5,data2_4,data2_3,data2_2,data2_1,data2_0,data1_18,data1_17,data1_16,data1_15,data1_14,data1_13,data1_12,data1_11,data1_10,data1_9,data1_8,data1_7,data1_6,data1_5,data1_4,data1_3,data1_2,data1_1,data1_0,data0_18,data0_17,data0_16,data0_15,data0_14,data0_13,data0_12,data0_11,data0_10,data0_9,data0_8,data0_7,data0_6,data0_5,data0_4,data0_3,data0_2,data0_1,data0_0];
-			33 [USE_LPM_FOR_AHDL_OPERATORS=OFF,size=18,width=4,END_ADDER=0] [result18,result17,result16,result15,result14,result13,result12,result11,result10,result9,result8,result7,result6,result5,result4,result3,result2,result1,result0,carry_out18,carry_out17,carry_out16,carry_out15,carry_out14,carry_out13,carry_out12,carry_out11,carry_out10,carry_out9,carry_out8,carry_out7,carry_out6,carry_out5,carry_out4,carry_out3,carry_out2,carry_out1,carry_out0,data3_17,data3_16,data3_15,data3_14,data3_13,data3_12,data3_11,data3_10,data3_9,data3_8,data3_7,data3_6,data3_5,data3_4,data3_3,data3_2,data3_1,data3_0,data2_17,data2_16,data2_15,data2_14,data2_13,data2_12,data2_11,data2_10,data2_9,data2_8,data2_7,data2_6,data2_5,data2_4,data2_3,data2_2,data2_1,data2_0,data1_17,data1_16,data1_15,data1_14,data1_13,data1_12,data1_11,data1_10,data1_9,data1_8,data1_7,data1_6,data1_5,data1_4,data1_3,data1_2,data1_1,data1_0,data0_17,data0_16,data0_15,data0_14,data0_13,data0_12,data0_11,data0_10,data0_9,data0_8,data0_7,data0_6,data0_5,data0_4,data0_3,data0_2,data0_1,data0_0];
-			30 [USE_LPM_FOR_AHDL_OPERATORS=OFF,size=17,width=6,END_ADDER=0] [result18,result17,result16,result15,result14,result13,result12,result11,result10,result9,result8,result7,result6,result5,result4,result3,result2,result1,result0,carry_out18,carry_out17,carry_out16,carry_out15,carry_out14,carry_out13,carry_out12,carry_out11,carry_out10,carry_out9,carry_out8,carry_out7,carry_out6,carry_out5,carry_out4,carry_out3,carry_out2,carry_out1,carry_out0,data5_16,data5_15,data5_14,data5_13,data5_12,data5_11,data5_10,data5_9,data5_8,data5_7,data5_6,data5_5,data5_4,data5_3,data5_2,data5_1,data5_0,data4_16,data4_15,data4_14,data4_13,data4_12,data4_11,data4_10,data4_9,data4_8,data4_7,data4_6,data4_5,data4_4,data4_3,data4_2,data4_1,data4_0,data3_16,data3_15,data3_14,data3_13,data3_12,data3_11,data3_10,data3_9,data3_8,data3_7,data3_6,data3_5,data3_4,data3_3,data3_2,data3_1,data3_0,data2_16,data2_15,data2_14,data2_13,data2_12,data2_11,data2_10,data2_9,data2_8,data2_7,data2_6,data2_5,data2_4,data2_3,data2_2,data2_1,data2_0,data1_16,data1_15,data1_14,data1_13,data1_12,data1_11,data1_10,data1_9,data1_8,data1_7,data1_6,data1_5,data1_4,data1_3,data1_2,data1_1,data1_0,data0_16,data0_15,data0_14,data0_13,data0_12,data0_11,data0_10,data0_9,data0_8,data0_7,data0_6,data0_5,data0_4,data0_3,data0_2,data0_1,data0_0];
-			28 [USE_LPM_FOR_AHDL_OPERATORS=OFF,size=16,width=8,END_ADDER=1] [result15,result14,result13,result12,result11,result10,result9,result8,result7,result6,result5,result4,result3,result2,result1,result0,data7_15,data7_14,data7_13,data7_12,data7_11,data7_10,data7_9,data7_8,data7_7,data7_6,data7_5,data7_4,data7_3,data7_2,data7_1,data7_0,data6_15,data6_14,data6_13,data6_12,data6_11,data6_10,data6_9,data6_8,data6_7,data6_6,data6_5,data6_4,data6_3,data6_2,data6_1,data6_0,data5_15,data5_14,data5_13,data5_12,data5_11,data5_10,data5_9,data5_8,data5_7,data5_6,data5_5,data5_4,data5_3,data5_2,data5_1,data5_0,data4_15,data4_14,data4_13,data4_12,data4_11,data4_10,data4_9,data4_8,data4_7,data4_6,data4_5,data4_4,data4_3,data4_2,data4_1,data4_0,data3_15,data3_14,data3_13,data3_12,data3_11,data3_10,data3_9,data3_8,data3_7,data3_6,data3_5,data3_4,data3_3,data3_2,data3_1,data3_0,data2_15,data2_14,data2_13,data2_12,data2_11,data2_10,data2_9,data2_8,data2_7,data2_6,data2_5,data2_4,data2_3,data2_2,data2_1,data2_0,data1_15,data1_14,data1_13,data1_12,data1_11,data1_10,data1_9,data1_8,data1_7,data1_6,data1_5,data1_4,data1_3,data1_2,data1_1,data1_0,data0_15,data0_14,data0_13,data0_12,data0_11,data0_10,data0_9,data0_8,data0_7,data0_6,data0_5,data0_4,data0_3,data0_2,data0_1,data0_0];
+			48 [] [];
 		}
 	}
-	multcore.tdf
+	ram.vhd
 	{
-		multcore [USE_LPM_FOR_AHDL_OPERATORS,widtha,widthb,LPM_REPRESENTATION=UNSIGNED,LATENCY=0,ONE_INPUT_IS_CONSTANT=NO,USE_EAB=OFF,MAXIMIZE_SPEED=5,OP_MODE=0,DEVICE_FAMILY,CARRY_CHAIN] [mul_boothc.inc,mul_lfrg.inc,muleabz.inc,mpar_add.inc,csa_add.inc,lpm_add_sub.inc,aglobal.inc]
+		ram [] [U3877600.DLS,U4470260.DLS,U9234712.DLS,U9587408.DLS,U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
-			27 [USE_LPM_FOR_AHDL_OPERATORS=OFF,widtha=8,widthb=8,LPM_REPRESENTATION=UNSIGNED,LATENCY=1,ONE_INPUT_IS_CONSTANT=NO,USE_EAB=OFF,MAXIMIZE_SPEED=5,OP_MODE=0,DEVICE_FAMILY=ACEX1K,CARRY_CHAIN=IGNORE] [result15,result14,result13,result12,result11,result10,result9,result8,result7,result6,result5,result4,result3,result2,result1,result0,dataa7,dataa6,dataa5,dataa4,dataa3,dataa2,dataa1,dataa0,datab7,datab6,datab5,datab4,datab3,datab2,datab1,datab0];
+			47 [] [];
 		}
 	}
-	lpm_mult.tdf
+	mux3.vhd
 	{
-		lpm_mult [USE_LPM_FOR_AHDL_OPERATORS,LPM_WIDTHA,LPM_WIDTHB,LPM_WIDTHP,LPM_WIDTHR=0,LPM_WIDTHS,LPM_REPRESENTATION=UNSIGNED,LPM_PIPELINE=0,LATENCY=0,INPUT_A_IS_CONSTANT=NO,INPUT_B_IS_CONSTANT=NO,USE_EAB=OFF,MAXIMIZE_SPEED=1,OPTIMIZE_FOR_SPEED=5,DEVICE_FAMILY,CARRY_CHAIN] [altshift.inc,bypassff.inc,multcore.inc,lpm_add_sub.inc,aglobal.inc]
+		mux3 [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
-			26 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTHA=8,LPM_WIDTHB=8,LPM_WIDTHP=16,LPM_WIDTHR=0,LPM_WIDTHS=1,LPM_REPRESENTATION=UNSIGNED,LPM_PIPELINE=0,LATENCY=0,INPUT_A_IS_CONSTANT=NO,INPUT_B_IS_CONSTANT=NO,USE_EAB=OFF,MAXIMIZE_SPEED=1,OPTIMIZE_FOR_SPEED=5,DEVICE_FAMILY=ACEX1K,CARRY_CHAIN=IGNORE] [RESULT15,RESULT14,RESULT13,RESULT12,RESULT11,RESULT10,RESULT9,RESULT8,RESULT7,RESULT6,RESULT5,RESULT4,RESULT3,RESULT2,RESULT1,RESULT0,DATAB7,DATAB6,DATAB5,DATAB4,DATAB3,DATAB2,DATAB1,DATAB0,DATAA7,DATAA6,DATAA5,DATAA4,DATAA3,DATAA2,DATAA1,DATAA0];
+			50 [] [];
 		}
 	}
-	altshift.tdf
+	fen2.vhd
 	{
-		altshift [USE_LPM_FOR_AHDL_OPERATORS,WIDTH=4,DEPTH=0] []
+		fen2 [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
-			24 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=8,DEPTH=0] [result7,result6,result5,result4,result3,result2,result1,result0,data7,data6,data5,data4,data3,data2,data1,data0];
-			40 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=16,DEPTH=0] [result15,result14,result13,result12,result11,result10,result9,result8,result7,result6,result5,result4,result3,result2,result1,result0,data15,data14,data13,data12,data11,data10,data9,data8,data7,data6,data5,data4,data3,data2,data1,data0];
-			39 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=20,DEPTH=0] [result19,result18,result17,result16,result15,result14,result13,result12,result11,result10,result9,result8,result7,result6,result5,result4,result3,result2,result1,result0,data19,data18,data17,data16,data15,data14,data13,data12,data11,data10,data9,data8,data7,data6,data5,data4,data3,data2,data1,data0];
-			21 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=9,DEPTH=0] [result8,result7,result6,result5,result4,result3,result2,result1,result0,data8,data7,data6,data5,data4,data3,data2,data1,data0];
-			5 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=1,DEPTH=0] [result0,data0];
-			4 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=2,DEPTH=0] [result1,result0,data1,data0];
+			46 [] [];
 		}
 	}
-	addcore.tdf
+	convert.vhd
 	{
-		addcore [USE_LPM_FOR_AHDL_OPERATORS,width,CONSTANT_CIN,CARRY_CHAIN,CARRY_CHAIN_LENGTH,DEVICE_FAMILY] [aglobal.inc,addcore.inc]
+		convert [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
-			23 [USE_LPM_FOR_AHDL_OPERATORS=OFF,width=8,CONSTANT_CIN=0,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=ACEX1K] [result7,result6,result5,result4,result3,result2,result1,result0,dataa7,dataa6,dataa5,dataa4,dataa3,dataa2,dataa1,dataa0,datab7,datab6,datab5,datab4,datab3,datab2,datab1,datab0,cin];
-			38 [USE_LPM_FOR_AHDL_OPERATORS=OFF,width=20,CONSTANT_CIN=0,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=ACEX1K] [result19,result18,result17,result16,result15,result14,result13,result12,result11,result10,result9,result8,result7,result6,result5,result4,result3,result2,result1,result0,cout,dataa19,dataa18,dataa17,dataa16,dataa15,dataa14,dataa13,dataa12,dataa11,dataa10,dataa9,dataa8,dataa7,dataa6,dataa5,dataa4,dataa3,dataa2,dataa1,dataa0,datab19,datab18,datab17,datab16,datab15,datab14,datab13,datab12,datab11,datab10,datab9,datab8,datab7,datab6,datab5,datab4,datab3,datab2,datab1,datab0,cin];
-			20 [USE_LPM_FOR_AHDL_OPERATORS=OFF,width=9,CONSTANT_CIN=0,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=ACEX1K] [result8,result7,result6,result5,result4,result3,result2,result1,result0,dataa8,dataa7,dataa6,dataa5,dataa4,dataa3,dataa2,dataa1,dataa0,datab8,datab7,datab6,datab5,datab4,datab3,datab2,datab1,datab0,cin];
-			3 [USE_LPM_FOR_AHDL_OPERATORS=OFF,width=2,CONSTANT_CIN=0,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=ACEX1K] [result1,result0,dataa1,dataa0,datab1,datab0,cin];
-		}
-	}
-	lpm_add_sub.tdf
-	{
-		lpm_add_sub [USE_LPM_FOR_AHDL_OPERATORS,LPM_WIDTH,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=NO,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY,STYLE] [aglobal.inc,altshift.inc,bypassff.inc,look_add.inc,addcore.inc,lpm_add_sub.inc]
-		{
-			43 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=8,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=YES,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=ACEX1K,STYLE=NORMAL] [RESULT7,RESULT6,RESULT5,RESULT4,RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB7,DATAB6,DATAB5,DATAB4,DATAB3,DATAB2,DATAB1,DATAB0,DATAA7,DATAA6,DATAA5,DATAA4,DATAA3,DATAA2,DATAA1,DATAA0];
-			37 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=20,LPM_REPRESENTATION=UNSIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=NO,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=ACEX1K,STYLE=NORMAL] [result19,result18,result17,result16,result15,result14,result13,result12,result11,result10,result9,result8,result7,result6,result5,result4,result3,result2,result1,result0,cout,cin,dataa19,dataa18,dataa17,dataa16,dataa15,dataa14,dataa13,dataa12,dataa11,dataa10,dataa9,dataa8,dataa7,dataa6,dataa5,dataa4,dataa3,dataa2,dataa1,dataa0,datab19,datab18,datab17,datab16,datab15,datab14,datab13,datab12,datab11,datab10,datab9,datab8,datab7,datab6,datab5,datab4,datab3,datab2,datab1,datab0];
-			25 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=9,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=YES,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=ACEX1K,STYLE=NORMAL] [RESULT8,RESULT7,RESULT6,RESULT5,RESULT4,RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB8,DATAB7,DATAB6,DATAB5,DATAB4,DATAB3,DATAB2,DATAB1,DATAB0,DATAA8,DATAA7,DATAA6,DATAA5,DATAA4,DATAA3,DATAA2,DATAA1,DATAA0];
-			19 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=9,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=NO,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=ACEX1K,STYLE=NORMAL] [RESULT8,RESULT7,RESULT6,RESULT5,RESULT4,RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB8,DATAB7,DATAB6,DATAB5,DATAB4,DATAB3,DATAB2,DATAB1,DATAB0,DATAA8,DATAA7,DATAA6,DATAA5,DATAA4,DATAA3,DATAA2,DATAA1,DATAA0];
-			2 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=2,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=YES,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=ACEX1K,STYLE=NORMAL] [RESULT1,RESULT0,CIN,DATAB1,DATAB0,DATAA1,DATAA0];
-			22 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=8,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=NO,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=ACEX1K,STYLE=NORMAL] [DATAA0,DATAA1,DATAA2,DATAA3,DATAA4,DATAA5,DATAA6,DATAA7,DATAB0,DATAB1,DATAB2,DATAB3,DATAB4,DATAB5,DATAB6,DATAB7,CIN,RESULT0,RESULT1,RESULT2,RESULT3,RESULT4,RESULT5,RESULT6,RESULT7];
-		}
-	}
-	mmm.vhd
-	{
-		mmm [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
-		{
-			54 [] [];
-		}
-	}
-	mcommand.vhd
-	{
-		mcommand [] [U1147235.DLS,U7449008.DLS,U2043679.DLS,U9587408.DLS,U9234712.DLS,U9092257.DLS,U5125632.DLS]
-		{
-			58 [] [];
-		}
-	}
-	controm.vhd
-	{
-		controm [] [U1147235.DLS,U7449008.DLS,U2043679.DLS,U9587408.DLS,U9234712.DLS,U9092257.DLS,U5125632.DLS]
-		{
-			59 [] [];
-		}
-	}
-	addr.vhd
-	{
-		addr [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
-		{
-			60 [] [];
-		}
-	}
-	f1.vhd
-	{
-		f1 [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
-		{
-			57 [] [];
-		}
-	}
-	f2.vhd
-	{
-		f2 [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
-		{
-			56 [] [];
-		}
-	}
-	f3.vhd
-	{
-		f3 [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
-		{
-			55 [] [];
-		}
-	}
-	aa.gdf
-	{
-		aa [] []
-		{
-			53 [] [];
-		}
-	}
-	counter.vhd
-	{
-		counter [] [U1147235.DLS,U7449008.DLS,U2043679.DLS,U9587408.DLS,U9234712.DLS,U9092257.DLS,U5125632.DLS]
-		{
-			51 [] [];
-		}
-	}
-	crom.gdf
-	{
-		crom [] []
-		{
-			52 [] [];
-		}
-	}
-	decoder.vhd
-	{
-		decoder [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
-		{
-			61 [] [];
-		}
-	}
-	mux4.vhd
-	{
-		mux4 [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
-		{
-			63 [] [];
-		}
-	}
-	alu.vhd
-	{
-		alu [] [U1147235.DLS,U7449008.DLS,U2043679.DLS,U9587408.DLS,U9234712.DLS,U4470260.DLS,U3877600.DLS]
-		{
-			32 [] [];
-		}
-	}
-	psw.vhd
-	{
-		psw [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
-		{
-			41 [] [];
-		}
-	}
-	pc.vhd
-	{
-		pc [] [U1147235.DLS,U7449008.DLS,U2043679.DLS,U9587408.DLS,U9234712.DLS,U9092257.DLS,U5125632.DLS]
-		{
-			42 [] [];
-		}
-	}
-	ls273.vhd
-	{
-		ls273 [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
-		{
-			62 [] [];
+			45 [] [];
 		}
 	}
 	rom.vhd
@@ -211,46 +73,184 @@ FILES
 			44 [] [];
 		}
 	}
-	convert.vhd
+	ls273.vhd
 	{
-		convert [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
+		ls273 [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
-			45 [] [];
+			62 [] [];
 		}
 	}
-	fen2.vhd
+	pc.vhd
 	{
-		fen2 [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
+		pc [] [U5125632.DLS,U9092257.DLS,U9234712.DLS,U9587408.DLS,U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
-			46 [] [];
+			42 [] [];
 		}
 	}
-	mux3.vhd
+	psw.vhd
 	{
-		mux3 [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
+		psw [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
-			50 [] [];
+			41 [] [];
 		}
 	}
-	ram.vhd
+	alu.vhd
 	{
-		ram [] [U1147235.DLS,U7449008.DLS,U2043679.DLS,U9587408.DLS,U9234712.DLS,U4470260.DLS,U3877600.DLS]
+		alu [] [U3877600.DLS,U4470260.DLS,U9234712.DLS,U9587408.DLS,U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
-			47 [] [];
+			32 [] [];
 		}
 	}
-	ir.vhd
+	mux4.vhd
 	{
-		ir [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
+		mux4 [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
-			48 [] [];
+			63 [] [];
 		}
 	}
-	mux3_2.vhd
+	decoder.vhd
 	{
-		mux3_2 [] [U1147235.DLS,U7449008.DLS,U2043679.DLS]
+		decoder [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
 		{
-			49 [] [];
+			61 [] [];
+		}
+	}
+	crom.gdf
+	{
+		crom [] []
+		{
+			52 [] [];
+		}
+	}
+	counter.vhd
+	{
+		counter [] [U5125632.DLS,U9092257.DLS,U9234712.DLS,U9587408.DLS,U2043679.DLS,U7449008.DLS,U1147235.DLS]
+		{
+			51 [] [];
+		}
+	}
+	aa.gdf
+	{
+		aa [] []
+		{
+			53 [] [];
+		}
+	}
+	f3.vhd
+	{
+		f3 [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
+		{
+			55 [] [];
+		}
+	}
+	f2.vhd
+	{
+		f2 [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
+		{
+			56 [] [];
+		}
+	}
+	f1.vhd
+	{
+		f1 [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
+		{
+			57 [] [];
+		}
+	}
+	addr.vhd
+	{
+		addr [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
+		{
+			60 [] [];
+		}
+	}
+	controm.vhd
+	{
+		controm [] [U5125632.DLS,U9092257.DLS,U9234712.DLS,U9587408.DLS,U2043679.DLS,U7449008.DLS,U1147235.DLS]
+		{
+			59 [] [];
+		}
+	}
+	mcommand.vhd
+	{
+		mcommand [] [U5125632.DLS,U9092257.DLS,U9234712.DLS,U9587408.DLS,U2043679.DLS,U7449008.DLS,U1147235.DLS]
+		{
+			58 [] [];
+		}
+	}
+	mmm.vhd
+	{
+		mmm [] [U2043679.DLS,U7449008.DLS,U1147235.DLS]
+		{
+			54 [] [];
+		}
+	}
+	lpm_add_sub.tdf
+	{
+		lpm_add_sub [STYLE,DEVICE_FAMILY,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=NO,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH,USE_LPM_FOR_AHDL_OPERATORS] [lpm_add_sub.inc,addcore.inc,look_add.inc,bypassff.inc,altshift.inc,aglobal.inc]
+		{
+			22 [STYLE=NORMAL,DEVICE_FAMILY=ACEX1K,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=NO,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=8,USE_LPM_FOR_AHDL_OPERATORS=OFF] [RESULT7,RESULT6,RESULT5,RESULT4,RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB7,DATAB6,DATAB5,DATAB4,DATAB3,DATAB2,DATAB1,DATAB0,DATAA7,DATAA6,DATAA5,DATAA4,DATAA3,DATAA2,DATAA1,DATAA0];
+			2 [STYLE=NORMAL,DEVICE_FAMILY=ACEX1K,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=YES,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=2,USE_LPM_FOR_AHDL_OPERATORS=OFF] [DATAA0,DATAA1,DATAB0,DATAB1,CIN,RESULT0,RESULT1];
+			19 [STYLE=NORMAL,DEVICE_FAMILY=ACEX1K,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=NO,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=9,USE_LPM_FOR_AHDL_OPERATORS=OFF] [DATAA0,DATAA1,DATAA2,DATAA3,DATAA4,DATAA5,DATAA6,DATAA7,DATAA8,DATAB0,DATAB1,DATAB2,DATAB3,DATAB4,DATAB5,DATAB6,DATAB7,DATAB8,CIN,RESULT0,RESULT1,RESULT2,RESULT3,RESULT4,RESULT5,RESULT6,RESULT7,RESULT8];
+			25 [STYLE=NORMAL,DEVICE_FAMILY=ACEX1K,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=YES,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=9,USE_LPM_FOR_AHDL_OPERATORS=OFF] [DATAA0,DATAA1,DATAA2,DATAA3,DATAA4,DATAA5,DATAA6,DATAA7,DATAA8,DATAB0,DATAB1,DATAB2,DATAB3,DATAB4,DATAB5,DATAB6,DATAB7,DATAB8,CIN,RESULT0,RESULT1,RESULT2,RESULT3,RESULT4,RESULT5,RESULT6,RESULT7,RESULT8];
+			37 [STYLE=NORMAL,DEVICE_FAMILY=ACEX1K,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=NO,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=UNSIGNED,LPM_WIDTH=20,USE_LPM_FOR_AHDL_OPERATORS=OFF] [datab0,datab1,datab2,datab3,datab4,datab5,datab6,datab7,datab8,datab9,datab10,datab11,datab12,datab13,datab14,datab15,datab16,datab17,datab18,datab19,dataa0,dataa1,dataa2,dataa3,dataa4,dataa5,dataa6,dataa7,dataa8,dataa9,dataa10,dataa11,dataa12,dataa13,dataa14,dataa15,dataa16,dataa17,dataa18,dataa19,cin,cout,result0,result1,result2,result3,result4,result5,result6,result7,result8,result9,result10,result11,result12,result13,result14,result15,result16,result17,result18,result19];
+			43 [STYLE=NORMAL,DEVICE_FAMILY=ACEX1K,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=YES,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=8,USE_LPM_FOR_AHDL_OPERATORS=OFF] [DATAA0,DATAA1,DATAA2,DATAA3,DATAA4,DATAA5,DATAA6,DATAA7,DATAB0,DATAB1,DATAB2,DATAB3,DATAB4,DATAB5,DATAB6,DATAB7,CIN,RESULT0,RESULT1,RESULT2,RESULT3,RESULT4,RESULT5,RESULT6,RESULT7];
+		}
+	}
+	addcore.tdf
+	{
+		addcore [DEVICE_FAMILY,CARRY_CHAIN_LENGTH,CARRY_CHAIN,CONSTANT_CIN,width,USE_LPM_FOR_AHDL_OPERATORS] [addcore.inc,aglobal.inc]
+		{
+			3 [DEVICE_FAMILY=ACEX1K,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,CONSTANT_CIN=0,width=2,USE_LPM_FOR_AHDL_OPERATORS=OFF] [cin,datab0,datab1,dataa0,dataa1,result0,result1];
+			20 [DEVICE_FAMILY=ACEX1K,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,CONSTANT_CIN=0,width=9,USE_LPM_FOR_AHDL_OPERATORS=OFF] [cin,datab0,datab1,datab2,datab3,datab4,datab5,datab6,datab7,datab8,dataa0,dataa1,dataa2,dataa3,dataa4,dataa5,dataa6,dataa7,dataa8,result0,result1,result2,result3,result4,result5,result6,result7,result8];
+			38 [DEVICE_FAMILY=ACEX1K,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,CONSTANT_CIN=0,width=20,USE_LPM_FOR_AHDL_OPERATORS=OFF] [cin,datab0,datab1,datab2,datab3,datab4,datab5,datab6,datab7,datab8,datab9,datab10,datab11,datab12,datab13,datab14,datab15,datab16,datab17,datab18,datab19,dataa0,dataa1,dataa2,dataa3,dataa4,dataa5,dataa6,dataa7,dataa8,dataa9,dataa10,dataa11,dataa12,dataa13,dataa14,dataa15,dataa16,dataa17,dataa18,dataa19,cout,result0,result1,result2,result3,result4,result5,result6,result7,result8,result9,result10,result11,result12,result13,result14,result15,result16,result17,result18,result19];
+			23 [DEVICE_FAMILY=ACEX1K,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,CONSTANT_CIN=0,width=8,USE_LPM_FOR_AHDL_OPERATORS=OFF] [cin,datab0,datab1,datab2,datab3,datab4,datab5,datab6,datab7,dataa0,dataa1,dataa2,dataa3,dataa4,dataa5,dataa6,dataa7,result0,result1,result2,result3,result4,result5,result6,result7];
+		}
+	}
+	altshift.tdf
+	{
+		altshift [DEPTH=0,WIDTH=4,USE_LPM_FOR_AHDL_OPERATORS] []
+		{
+			4 [DEPTH=0,WIDTH=2,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0,data1,result0,result1];
+			5 [DEPTH=0,WIDTH=1,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0,result0];
+			21 [DEPTH=0,WIDTH=9,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0,data1,data2,data3,data4,data5,data6,data7,data8,result0,result1,result2,result3,result4,result5,result6,result7,result8];
+			39 [DEPTH=0,WIDTH=20,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0,data1,data2,data3,data4,data5,data6,data7,data8,data9,data10,data11,data12,data13,data14,data15,data16,data17,data18,data19,result0,result1,result2,result3,result4,result5,result6,result7,result8,result9,result10,result11,result12,result13,result14,result15,result16,result17,result18,result19];
+			40 [DEPTH=0,WIDTH=16,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0,data1,data2,data3,data4,data5,data6,data7,data8,data9,data10,data11,data12,data13,data14,data15,result0,result1,result2,result3,result4,result5,result6,result7,result8,result9,result10,result11,result12,result13,result14,result15];
+			24 [DEPTH=0,WIDTH=8,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0,data1,data2,data3,data4,data5,data6,data7,result0,result1,result2,result3,result4,result5,result6,result7];
+		}
+	}
+	lpm_mult.tdf
+	{
+		lpm_mult [CARRY_CHAIN,DEVICE_FAMILY,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=1,USE_EAB=OFF,INPUT_B_IS_CONSTANT=NO,INPUT_A_IS_CONSTANT=NO,LATENCY=0,LPM_PIPELINE=0,LPM_REPRESENTATION=UNSIGNED,LPM_WIDTHS,LPM_WIDTHR=0,LPM_WIDTHP,LPM_WIDTHB,LPM_WIDTHA,USE_LPM_FOR_AHDL_OPERATORS] [aglobal.inc,lpm_add_sub.inc,multcore.inc,bypassff.inc,altshift.inc]
+		{
+			26 [CARRY_CHAIN=IGNORE,DEVICE_FAMILY=ACEX1K,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=1,USE_EAB=OFF,INPUT_B_IS_CONSTANT=NO,INPUT_A_IS_CONSTANT=NO,LATENCY=0,LPM_PIPELINE=0,LPM_REPRESENTATION=UNSIGNED,LPM_WIDTHS=1,LPM_WIDTHR=0,LPM_WIDTHP=16,LPM_WIDTHB=8,LPM_WIDTHA=8,USE_LPM_FOR_AHDL_OPERATORS=OFF] [DATAA0,DATAA1,DATAA2,DATAA3,DATAA4,DATAA5,DATAA6,DATAA7,DATAB0,DATAB1,DATAB2,DATAB3,DATAB4,DATAB5,DATAB6,DATAB7,RESULT0,RESULT1,RESULT2,RESULT3,RESULT4,RESULT5,RESULT6,RESULT7,RESULT8,RESULT9,RESULT10,RESULT11,RESULT12,RESULT13,RESULT14,RESULT15];
+		}
+	}
+	multcore.tdf
+	{
+		multcore [CARRY_CHAIN,DEVICE_FAMILY,OP_MODE=0,MAXIMIZE_SPEED=5,USE_EAB=OFF,ONE_INPUT_IS_CONSTANT=NO,LATENCY=0,LPM_REPRESENTATION=UNSIGNED,widthb,widtha,USE_LPM_FOR_AHDL_OPERATORS] [aglobal.inc,lpm_add_sub.inc,csa_add.inc,mpar_add.inc,muleabz.inc,mul_lfrg.inc,mul_boothc.inc]
+		{
+			27 [CARRY_CHAIN=IGNORE,DEVICE_FAMILY=ACEX1K,OP_MODE=0,MAXIMIZE_SPEED=5,USE_EAB=OFF,ONE_INPUT_IS_CONSTANT=NO,LATENCY=1,LPM_REPRESENTATION=UNSIGNED,widthb=8,widtha=8,USE_LPM_FOR_AHDL_OPERATORS=OFF] [datab0,datab1,datab2,datab3,datab4,datab5,datab6,datab7,dataa0,dataa1,dataa2,dataa3,dataa4,dataa5,dataa6,dataa7,result0,result1,result2,result3,result4,result5,result6,result7,result8,result9,result10,result11,result12,result13,result14,result15];
+		}
+	}
+	csa_add.tdf
+	{
+		csa_add [END_ADDER=0,width=4,size=6,USE_LPM_FOR_AHDL_OPERATORS] [csa_cell.inc,csa_add.inc,lpm_add_sub.inc]
+		{
+			28 [END_ADDER=1,width=8,size=16,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0_0,data0_1,data0_2,data0_3,data0_4,data0_5,data0_6,data0_7,data0_8,data0_9,data0_10,data0_11,data0_12,data0_13,data0_14,data0_15,data1_0,data1_1,data1_2,data1_3,data1_4,data1_5,data1_6,data1_7,data1_8,data1_9,data1_10,data1_11,data1_12,data1_13,data1_14,data1_15,data2_0,data2_1,data2_2,data2_3,data2_4,data2_5,data2_6,data2_7,data2_8,data2_9,data2_10,data2_11,data2_12,data2_13,data2_14,data2_15,data3_0,data3_1,data3_2,data3_3,data3_4,data3_5,data3_6,data3_7,data3_8,data3_9,data3_10,data3_11,data3_12,data3_13,data3_14,data3_15,data4_0,data4_1,data4_2,data4_3,data4_4,data4_5,data4_6,data4_7,data4_8,data4_9,data4_10,data4_11,data4_12,data4_13,data4_14,data4_15,data5_0,data5_1,data5_2,data5_3,data5_4,data5_5,data5_6,data5_7,data5_8,data5_9,data5_10,data5_11,data5_12,data5_13,data5_14,data5_15,data6_0,data6_1,data6_2,data6_3,data6_4,data6_5,data6_6,data6_7,data6_8,data6_9,data6_10,data6_11,data6_12,data6_13,data6_14,data6_15,data7_0,data7_1,data7_2,data7_3,data7_4,data7_5,data7_6,data7_7,data7_8,data7_9,data7_10,data7_11,data7_12,data7_13,data7_14,data7_15,result0,result1,result2,result3,result4,result5,result6,result7,result8,result9,result10,result11,result12,result13,result14,result15];
+			30 [END_ADDER=0,width=6,size=17,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0_0,data0_1,data0_2,data0_3,data0_4,data0_5,data0_6,data0_7,data0_8,data0_9,data0_10,data0_11,data0_12,data0_13,data0_14,data0_15,data0_16,data1_0,data1_1,data1_2,data1_3,data1_4,data1_5,data1_6,data1_7,data1_8,data1_9,data1_10,data1_11,data1_12,data1_13,data1_14,data1_15,data1_16,data2_0,data2_1,data2_2,data2_3,data2_4,data2_5,data2_6,data2_7,data2_8,data2_9,data2_10,data2_11,data2_12,data2_13,data2_14,data2_15,data2_16,data3_0,data3_1,data3_2,data3_3,data3_4,data3_5,data3_6,data3_7,data3_8,data3_9,data3_10,data3_11,data3_12,data3_13,data3_14,data3_15,data3_16,data4_0,data4_1,data4_2,data4_3,data4_4,data4_5,data4_6,data4_7,data4_8,data4_9,data4_10,data4_11,data4_12,data4_13,data4_14,data4_15,data4_16,data5_0,data5_1,data5_2,data5_3,data5_4,data5_5,data5_6,data5_7,data5_8,data5_9,data5_10,data5_11,data5_12,data5_13,data5_14,data5_15,data5_16,carry_out0,carry_out1,carry_out2,carry_out3,carry_out4,carry_out5,carry_out6,carry_out7,carry_out8,carry_out9,carry_out10,carry_out11,carry_out12,carry_out13,carry_out14,carry_out15,carry_out16,carry_out17,carry_out18,result0,result1,result2,result3,result4,result5,result6,result7,result8,result9,result10,result11,result12,result13,result14,result15,result16,result17,result18];
+			33 [END_ADDER=0,width=4,size=18,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0_0,data0_1,data0_2,data0_3,data0_4,data0_5,data0_6,data0_7,data0_8,data0_9,data0_10,data0_11,data0_12,data0_13,data0_14,data0_15,data0_16,data0_17,data1_0,data1_1,data1_2,data1_3,data1_4,data1_5,data1_6,data1_7,data1_8,data1_9,data1_10,data1_11,data1_12,data1_13,data1_14,data1_15,data1_16,data1_17,data2_0,data2_1,data2_2,data2_3,data2_4,data2_5,data2_6,data2_7,data2_8,data2_9,data2_10,data2_11,data2_12,data2_13,data2_14,data2_15,data2_16,data2_17,data3_0,data3_1,data3_2,data3_3,data3_4,data3_5,data3_6,data3_7,data3_8,data3_9,data3_10,data3_11,data3_12,data3_13,data3_14,data3_15,data3_16,data3_17,carry_out0,carry_out1,carry_out2,carry_out3,carry_out4,carry_out5,carry_out6,carry_out7,carry_out8,carry_out9,carry_out10,carry_out11,carry_out12,carry_out13,carry_out14,carry_out15,carry_out16,carry_out17,carry_out18,result0,result1,result2,result3,result4,result5,result6,result7,result8,result9,result10,result11,result12,result13,result14,result15,result16,result17,result18];
+			35 [END_ADDER=0,width=3,size=19,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0_0,data0_1,data0_2,data0_3,data0_4,data0_5,data0_6,data0_7,data0_8,data0_9,data0_10,data0_11,data0_12,data0_13,data0_14,data0_15,data0_16,data0_17,data0_18,data1_0,data1_1,data1_2,data1_3,data1_4,data1_5,data1_6,data1_7,data1_8,data1_9,data1_10,data1_11,data1_12,data1_13,data1_14,data1_15,data1_16,data1_17,data1_18,data2_0,data2_1,data2_2,data2_3,data2_4,data2_5,data2_6,data2_7,data2_8,data2_9,data2_10,data2_11,data2_12,data2_13,data2_14,data2_15,data2_16,data2_17,data2_18,carry_out0,carry_out1,carry_out2,carry_out3,carry_out4,carry_out5,carry_out6,carry_out7,carry_out8,carry_out9,carry_out10,carry_out11,carry_out12,carry_out13,carry_out14,carry_out15,carry_out16,carry_out17,carry_out18,result0,result1,result2,result3,result4,result5,result6,result7,result8,result9,result10,result11,result12,result13,result14,result15,result16,result17,result18];
+		}
+	}
+	csa_cell.tdf
+	{
+		csa_cell [SIZE=6,USE_LPM_FOR_AHDL_OPERATORS] []
+		{
+			29 [SIZE=16,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0_0,data0_1,data0_2,data0_3,data0_4,data0_5,data0_6,data0_7,data0_8,data0_9,data0_10,data0_11,data0_12,data0_13,data0_14,data0_15,data1_0,data1_1,data1_2,data1_3,data1_4,data1_5,data1_6,data1_7,data1_8,data1_9,data1_10,data1_11,data1_12,data1_13,data1_14,data1_15,data2_0,data2_1,data2_2,data2_3,data2_4,data2_5,data2_6,data2_7,data2_8,data2_9,data2_10,data2_11,data2_12,data2_13,data2_14,data2_15,carry_out0,carry_out1,carry_out2,carry_out3,carry_out4,carry_out5,carry_out6,carry_out7,carry_out8,carry_out9,carry_out10,carry_out11,carry_out12,carry_out13,carry_out14,carry_out15,sum_out0,sum_out1,sum_out2,sum_out3,sum_out4,sum_out5,sum_out6,sum_out7,sum_out8,sum_out9,sum_out10,sum_out11,sum_out12,sum_out13,sum_out14,sum_out15];
+			31 [SIZE=17,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0_0,data0_1,data0_2,data0_3,data0_4,data0_5,data0_6,data0_7,data0_8,data0_9,data0_10,data0_11,data0_12,data0_13,data0_14,data0_15,data0_16,data1_0,data1_1,data1_2,data1_3,data1_4,data1_5,data1_6,data1_7,data1_8,data1_9,data1_10,data1_11,data1_12,data1_13,data1_14,data1_15,data1_16,data2_0,data2_1,data2_2,data2_3,data2_4,data2_5,data2_6,data2_7,data2_8,data2_9,data2_10,data2_11,data2_12,data2_13,data2_14,data2_15,data2_16,carry_out0,carry_out1,carry_out2,carry_out3,carry_out4,carry_out5,carry_out6,carry_out7,carry_out8,carry_out9,carry_out10,carry_out11,carry_out12,carry_out13,carry_out14,carry_out15,carry_out16,sum_out0,sum_out1,sum_out2,sum_out3,sum_out4,sum_out5,sum_out6,sum_out7,sum_out8,sum_out9,sum_out10,sum_out11,sum_out12,sum_out13,sum_out14,sum_out15,sum_out16];
+			34 [SIZE=18,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0_0,data0_1,data0_2,data0_3,data0_4,data0_5,data0_6,data0_7,data0_8,data0_9,data0_10,data0_11,data0_12,data0_13,data0_14,data0_15,data0_16,data0_17,data1_0,data1_1,data1_2,data1_3,data1_4,data1_5,data1_6,data1_7,data1_8,data1_9,data1_10,data1_11,data1_12,data1_13,data1_14,data1_15,data1_16,data1_17,data2_0,data2_1,data2_2,data2_3,data2_4,data2_5,data2_6,data2_7,data2_8,data2_9,data2_10,data2_11,data2_12,data2_13,data2_14,data2_15,data2_16,data2_17,carry_out0,carry_out1,carry_out2,carry_out3,carry_out4,carry_out5,carry_out6,carry_out7,carry_out8,carry_out9,carry_out10,carry_out11,carry_out12,carry_out13,carry_out14,carry_out15,carry_out16,carry_out17,sum_out0,sum_out1,sum_out2,sum_out3,sum_out4,sum_out5,sum_out6,sum_out7,sum_out8,sum_out9,sum_out10,sum_out11,sum_out12,sum_out13,sum_out14,sum_out15,sum_out16,sum_out17];
+			36 [SIZE=19,USE_LPM_FOR_AHDL_OPERATORS=OFF] [data0_0,data0_1,data0_2,data0_3,data0_4,data0_5,data0_6,data0_7,data0_8,data0_9,data0_10,data0_11,data0_12,data0_13,data0_14,data0_15,data0_16,data0_17,data0_18,data1_0,data1_1,data1_2,data1_3,data1_4,data1_5,data1_6,data1_7,data1_8,data1_9,data1_10,data1_11,data1_12,data1_13,data1_14,data1_15,data1_16,data1_17,data1_18,data2_0,data2_1,data2_2,data2_3,data2_4,data2_5,data2_6,data2_7,data2_8,data2_9,data2_10,data2_11,data2_12,data2_13,data2_14,data2_15,data2_16,data2_17,data2_18,carry_out0,carry_out1,carry_out2,carry_out3,carry_out4,carry_out5,carry_out6,carry_out7,carry_out8,carry_out9,carry_out10,carry_out11,carry_out12,carry_out13,carry_out14,carry_out15,carry_out16,carry_out17,carry_out18,sum_out0,sum_out1,sum_out2,sum_out3,sum_out4,sum_out5,sum_out6,sum_out7,sum_out8,sum_out9,sum_out10,sum_out11,sum_out12,sum_out13,sum_out14,sum_out15,sum_out16,sum_out17,sum_out18];
 		}
 	}
 	top.gdf
@@ -265,24 +265,42 @@ TREE
 {
 	top::(0,0):(0): top.gdf
 	{
-		mux3:49:(0,0):(37): mux3.vhd;
-		mux3_2:48:(0,0):(34): mux3_2.vhd;
-		ir:47:(0,0):(27): ir.vhd;
-		ram:46:(0,0):(26): ram.vhd;
-		fen2:45:(0,0):(16): fen2.vhd;
-		convert:44:(0,0):(15): convert.vhd;
-		rom:43:(0,0):(14): rom.vhd;
-		pc:41:(0,0):(12): pc.vhd
+		counter::(0,0):(1): counter.vhd
 		{
-			lpm_add_sub:43:(24,13):(132): lpm_add_sub.tdf
+			lpm_add_sub:2:(23,11):(64): lpm_add_sub.tdf
 			{
-				addcore:23:(212,4):(58,adder): addcore.tdf;
-				altshift:24:(222,2):(89,result_ext_latency_ffs): altshift.tdf;
-				altshift:5:(224,2):(111,carry_ext_latency_ffs): altshift.tdf;
-				altshift:5:(226,2):(119,oflow_ext_latency_ffs): altshift.tdf;
+				addcore:3:(212,4):(40,adder): addcore.tdf;
+				altshift:4:(222,2):(53,result_ext_latency_ffs): altshift.tdf;
+				altshift:5:(224,2):(63,carry_ext_latency_ffs): altshift.tdf;
+				altshift:5:(226,2):(71,oflow_ext_latency_ffs): altshift.tdf;
 			}
 		}
-		psw:40:(0,0):(11): psw.vhd;
+		crom::(0,0):(2): crom.gdf
+		{
+			aa:53:(0,0):(1): aa.gdf
+			{
+				mmm:54:(0,0):(1): mmm.vhd;
+				mmm:54:(0,0):(8): mmm.vhd;
+				mmm:54:(0,0):(7): mmm.vhd;
+				mmm:54:(0,0):(6): mmm.vhd;
+				mmm:54:(0,0):(5): mmm.vhd;
+				mmm:54:(0,0):(4): mmm.vhd;
+			}
+			f3:55:(0,0):(2): f3.vhd;
+			f2:56:(0,0):(3): f2.vhd;
+			f1:57:(0,0):(4): f1.vhd;
+			mcommand:58:(0,0):(35): mcommand.vhd;
+			controm:59:(0,0):(39): controm.vhd;
+			addr:60:(0,0):(41): addr.vhd;
+		}
+		decoder::(0,0):(3): decoder.vhd;
+		ls273::(0,0):(7): ls273.vhd;
+		ls273::(0,0):(6): ls273.vhd;
+		ls273::(0,0):(5): ls273.vhd;
+		ls273::(0,0):(4): ls273.vhd;
+		ls273::(0,0):(13): ls273.vhd;
+		mux4::(0,0):(9): mux4.vhd;
+		mux4::(0,0):(8): mux4.vhd;
 		alu::(0,0):(10): alu.vhd
 		{
 			lpm_add_sub:19:(21,9):(467): lpm_add_sub.tdf
@@ -346,41 +364,23 @@ TREE
 				altshift:40:(291,3):(107,external_latency_ffs): altshift.tdf;
 			}
 		}
-		mux4::(0,0):(8): mux4.vhd;
-		mux4::(0,0):(9): mux4.vhd;
-		ls273::(0,0):(13): ls273.vhd;
-		ls273::(0,0):(4): ls273.vhd;
-		ls273::(0,0):(5): ls273.vhd;
-		ls273::(0,0):(6): ls273.vhd;
-		ls273::(0,0):(7): ls273.vhd;
-		decoder::(0,0):(3): decoder.vhd;
-		crom::(0,0):(2): crom.gdf
+		psw:40:(0,0):(11): psw.vhd;
+		pc:41:(0,0):(12): pc.vhd
 		{
-			aa:53:(0,0):(1): aa.gdf
+			lpm_add_sub:43:(24,13):(132): lpm_add_sub.tdf
 			{
-				mmm:54:(0,0):(1): mmm.vhd;
-				mmm:54:(0,0):(8): mmm.vhd;
-				mmm:54:(0,0):(7): mmm.vhd;
-				mmm:54:(0,0):(6): mmm.vhd;
-				mmm:54:(0,0):(5): mmm.vhd;
-				mmm:54:(0,0):(4): mmm.vhd;
-			}
-			f3:55:(0,0):(2): f3.vhd;
-			f2:56:(0,0):(3): f2.vhd;
-			f1:57:(0,0):(4): f1.vhd;
-			mcommand:58:(0,0):(35): mcommand.vhd;
-			controm:59:(0,0):(39): controm.vhd;
-			addr:60:(0,0):(41): addr.vhd;
-		}
-		counter::(0,0):(1): counter.vhd
-		{
-			lpm_add_sub:2:(23,11):(64): lpm_add_sub.tdf
-			{
-				addcore:3:(212,4):(40,adder): addcore.tdf;
-				altshift:4:(222,2):(53,result_ext_latency_ffs): altshift.tdf;
-				altshift:5:(224,2):(63,carry_ext_latency_ffs): altshift.tdf;
-				altshift:5:(226,2):(71,oflow_ext_latency_ffs): altshift.tdf;
+				addcore:23:(212,4):(58,adder): addcore.tdf;
+				altshift:24:(222,2):(89,result_ext_latency_ffs): altshift.tdf;
+				altshift:5:(224,2):(111,carry_ext_latency_ffs): altshift.tdf;
+				altshift:5:(226,2):(119,oflow_ext_latency_ffs): altshift.tdf;
 			}
 		}
+		rom:43:(0,0):(14): rom.vhd;
+		convert:44:(0,0):(15): convert.vhd;
+		fen2:45:(0,0):(16): fen2.vhd;
+		ram:46:(0,0):(26): ram.vhd;
+		ir:47:(0,0):(27): ir.vhd;
+		mux3_2:48:(0,0):(34): mux3_2.vhd;
+		mux3:49:(0,0):(37): mux3.vhd;
 	}
 }
